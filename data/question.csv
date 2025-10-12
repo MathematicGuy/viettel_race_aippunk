@@ -1,0 +1,313 @@
+Question,A,B,C,D
+"Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?",Lưu trữ dữ liệu trên máy chủ,Kết nối Internet và quản lý thiết bị từ xa,Cung cấp dịch vụ phân tích dữ liệu lớn,Thay thế hoàn toàn điện toán đám mây
+"Năm 2010, công nghệ nào thường được sử dụng trong kiểm soát ra vào ngôi nhà thông minh?",Bluetooth Low Energy,RFID và nhận dạng khuôn mặt/vân tay,Zigbee,Blockchain
+Bộ cảm biến trong nhà thông minh thực hiện chức năng gì và bộ truyền động có vai trò gì?,"Bộ cảm biến hiển thị dữ liệu, bộ truyền động thu thập dữ liệu","Bộ cảm biến lưu trữ dữ liệu, bộ truyền động hiển thị dữ liệu","Bộ cảm biến thu thập dữ liệu, bộ truyền động thực hiện lệnh từ máy chủ hoặc thiết bị điều khiển","Bộ cảm biến điều khiển thiết bị, bộ truyền động lưu trữ dữ liệu"
+Nội dung chính của bài báo nghiên cứu về IoT trong xây dựng nhà thông minh là gì?,Giới thiệu các ứng dụng cụ thể của điện toán đám mây,Phân tích lợi ích và chi phí triển khai hệ thống cảm biến,Phân loại và đánh giá nghiên cứu IoT ứng dụng nhà thông minh trong 10 năm qua,Trình bày chi tiết về công nghệ vi mạch trong IoT
+"Trong nghiên cứu, 229 bài báo được chia thành 4 lớp. Trung bình mỗi lớp có bao nhiêu bài?",45-50,55-60,70-80,90-100
+Học phần Bảo mật Web trang bị kiến thức về bộ rủi ro phổ biến nào?,OWASP Top 10,IEEE 802.11,ISO/IEC 27001,NIST Cybersecurity Framework
+"Trong học phần Cơ sở dữ liệu nâng cao, loại CSDL nào sau đây không được đề cập?",CSDL NoSQL,CSDL hướng đối tượng,CSDL bán cấu trúc XML,CSDL quan hệ truyền thống
+"Học phần bảo mật web, csdl dạy nội dung gì?",OWASP Top 10 / CSDL NoSQL,IEEE 802.11 / CSDL hướng đối tượng,DSA / CSDL bán cấu trúc XML,Toán cao cấp / CSDL quan hệ truyền thống
+Nhóm môn học trong tài liệu Public002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh vực nào?,Cơ khí – Điện tử,"Công nghệ thông tin (CSDL, mạng, bảo mật, dữ liệu lớn, IoT, học máy)",Kinh tế – Quản lý,Ngôn ngữ học
+Có 35 học phần được liệt kê trong đoạn tài liệu (từ số 47 đến 81). Trung bình mỗi trang mô tả bao nhiêu học phần (giả sử trải đều trên 7 trang)?,5,6,7,8
+Điểm BLEU được dùng để đánh giá chất lượng bản dịch trong nghiên cứu này là gì?,Một thuật toán dịch máy,Một loại dữ liệu song ngữ,Một phương pháp đánh giá tự động chất lượng dịch máy,Một hệ dịch mã nguồn mở
+Công cụ nào được nhóm tác giả sử dụng để huấn luyện các hệ dịch nơ ron?,Moses,OpenNMT,TensorFlow,Fairseq
+Điểm BLEU và công cụ huấn luyện hệ dịch nơ ron trong nghiên cứu này là gì?,Một thuật toán dịch máy / Moses,Một loại dữ liệu song ngữ / OpenNMT,Một phương pháp đánh giá tự động chất lượng dịch máy / TensorFlow,Một hệ dịch mã nguồn mở / Fairseq
+Nội dung chính của bài báo Public003 là gì?,So sánh dịch máy thống kê và dịch máy ví dụ,"Đề xuất phương pháp thích ứng miền mới cho dịch máy nơ ron Anh – Việt, tận dụng dữ liệu đơn ngữ ngoài miền để cải thiện chất lượng dịch",Phân tích dữ liệu song ngữ trong lĩnh vực pháp lý,Trình bày lý thuyết về RNN hai chiều
+"Theo kết quả thử nghiệm, hệ dịch Adapt_System cải thiện bao nhiêu điểm BLEU so với Baseline_G trong miền pháp lý?",0.84,1.37,1.5,2.21
+Công nghệ in bê tông 3D được thực hiện theo quy trình nào?,Gia công cắt gọt vật liệu,Đúc bê tông trong ván khuôn,Sản xuất bồi đắp bằng cách chồng lớp vật liệu từ mô hình CAD,Ép nén bê tông truyền thống
+Công nghệ nào được phát triển tại Đại học Loughborough (Anh)?,Contour Crafting,Concrete Printing,D-Shape,Emerging Objects
+"Công nghệ in bê tông 3D nào vừa cho phép kiểm soát tốt cấu trúc sản phẩm, vừa sử dụng bê tông cốt liệu sợi tổng hợp cường độ cao?",Contour Crafting,Concrete Printing,Concrete On-Site 3D Printing,FDM
+Nội dung chính của bài báo Public004 là gì?,Trình bày ứng dụng in 3D trong y tế,"Giới thiệu, phân tích ưu nhược điểm các công nghệ in bê tông 3D trong xây dựng, so sánh tính khả thi áp dụng ở Việt Nam",Mô tả chi tiết công thức chế tạo bê tông UHPC,Giới thiệu công nghệ CAD trong xây dựng
+"Trong tài liệu, ưu điểm của công nghệ Contour Crafting so với Concrete Printing là gì?",Độ mịn bề mặt sản phẩm tốt hơn,Khả năng chịu lực cao hơn,Chi phí rẻ hơn,Quy mô in lớn hơn
+OCR là viết tắt của gì trong bài báo này?,Optical Character Recognition,Optical Code Reader,Optical Computing Resource,Optical Capture Recognition
+Giải pháp thử nghiệm tại Học viện Ngân hàng được lựa chọn là gì?,Viettel OCR,FPT.AI Reader,Google Vision AI,Tesseract
+"Công nghệ nào vừa cho phép máy tính tự động nhận biết ký tự trên hình ảnh, vừa có khả năng đọc hiểu dữ liệu chữ viết tay và chữ in?",OCR,ICR,Faster R-CNN,TransformerOCR
+Nội dung chính của bài báo Public005 là gì?,Đánh giá chuyển đổi số tại ngân hàng thương mại,Giới thiệu công nghệ OCR và thử nghiệm FPT.AI Reader cho số hóa tài liệu tại Học viện Ngân hàng,Xây dựng hệ thống ERP cho giáo dục,Nghiên cứu ứng dụng AI trong tài chính
+"Trong thử nghiệm, tỷ lệ sai số theo đơn vị từ của FPT.AI Reader là bao nhiêu?",0.16,0.2,0.27,0.5
+"Luật nào quy định rõ nhiệm vụ, quyền hạn của các thiết chế quản trị đại học ở Việt Nam?",Luật Giáo dục 2015,Luật Giáo dục đại học sửa đổi số 34/2018,Luật Công nghệ thông tin 2016,Luật Khoa học và Công nghệ 2013
+"Theo bài báo, cơ quan nào có thẩm quyền cao nhất trong trường đại học?",Hội đồng trường,Ban giám hiệu,Bộ Giáo dục và Đào tạo,Hiệu trưởng
+"Ứng dụng công nghệ số trong quản trị đại học giúp vừa bao quát toàn bộ hoạt động của nhà trường kịp thời, vừa hỗ trợ ra quyết sách quản lý và điều hành hiệu quả.",Quản lý sinh viên,Quản trị đại học số,Quản lý cơ sở vật chất,Quản lý tuyển sinh
+Nội dung chính của bài báo Public006 là gì?,Trình bày ứng dụng CNTT trong giảng dạy trực tuyến,"Phân tích thực trạng và đề xuất giải pháp ứng dụng công nghệ số trong công tác quản trị đại học ở Việt Nam, hướng tới đại học số",Tổng quan về cách mạng công nghiệp 4.0,Nghiên cứu vai trò của AI trong giáo dục
+"Theo số liệu trong tài liệu, đến nay ngành giáo dục đã số hóa dữ liệu của khoảng bao nhiêu giáo viên và học sinh?","0,5 triệu giáo viên, 10 triệu học sinh","0,8 triệu giáo viên, 15 triệu học sinh","1,0 triệu giáo viên, 20 triệu học sinh","1,4 triệu giáo viên, 23 triệu học sinh"
+ISO 15189:2022 áp dụng cho đối tượng nào?,Các công ty công nghệ thông tin,Phòng xét nghiệm y tế,Bệnh viện tư nhân,Nhà sản xuất thiết bị y tế
+"Theo tiêu chuẩn, “khiếu nại” được định nghĩa như thế nào?",Ý kiến góp ý tích cực về hoạt động xét nghiệm,Thắc mắc của cơ quan quản lý,"Sự không hài lòng của cá nhân/tổ chức liên quan đến hoạt động hoặc kết quả xét nghiệm, nơi dự kiến có phản hồi",Báo cáo sự cố thiết bị
+"Trong các tiêu chuẩn ISO/IEC liên quan đến đo lường và đánh giá sự phù hợp, tiêu chuẩn nào vừa cung cấp từ vựng quốc tế về đo lường, vừa được sử dụng để xác định các thuật ngữ về độ chệch và khoảng tham chiếu sinh học?",ISO/IEC 17025,ISO/IEC Guide 99,ISO/IEC 17000,ISO 18113-1
+Nội dung chính của tiêu chuẩn ISO 15189:2022 là gì?,Quy định các yêu cầu về quản lý tài chính của bệnh viện,"Đưa ra yêu cầu về chất lượng và năng lực đối với phòng xét nghiệm y tế, bao gồm hệ thống quản lý, quy trình xét nghiệm và đánh giá công nhận",Chỉ áp dụng cho thử nghiệm lâm sàng thuốc,Hướng dẫn thiết kế thiết bị y tế
+"Theo tiêu chuẩn, “khoảng tham chiếu sinh học” thường được định nghĩa ở mức bao nhiêu phần trăm giá trị tập trung?",0.95,0.5,0.9,0.99
+Giám đốc phòng xét nghiệm theo ISO 15189:2022 có thể ủy quyền nhiệm vụ cho ai?,Bất kỳ cá nhân bên ngoài nào,"Nhân viên có trình độ và năng lực, được lập thành văn bản ủy quyền",Chỉ ban giám hiệu bệnh viện,Các cơ quan quản lý
+ISO 15189:2022 yêu cầu thiết lập và theo dõi chỉ số chất lượng nào dưới đây?,Tỷ lệ bác sĩ tham gia hội chẩn,Số lượng bệnh nhân nhập viện,"Số lượng mẫu bị từ chối, số lỗi khi nhận mẫu, số báo cáo kết quả sửa, tỷ lệ trả kết quả đúng hạn",Tỷ lệ nhân viên tham gia đào tạo
+"Khi lựa chọn, vận hành và bảo dưỡng thiết bị phòng xét nghiệm, yêu cầu nào sau đây là đúng theo tiêu chuẩn?","Thiết bị phải được vận hành bởi nhân viên đào tạo, được ủy quyền, có năng lực; được bảo trì theo hướng dẫn nhà sản xuất; có biện pháp ngăn điều chỉnh ngoài ý muốn; và thiết bị bị lỗi phải được dán nhãn “không hoạt động” cho đến khi xác minh chính xác","Thiết bị chỉ cần được vận hành theo hướng dẫn nhà sản xuất, không cần đào tạo hay dán nhãn khi lỗi",Thiết bị không cần bảo trì nếu không ảnh hưởng kết quả xét nghiệm,Nhân viên có thể điều chỉnh thiết bị bất cứ lúc nào nếu cần để đẩy nhanh công việc
+Nội dung chính của phần tiêu chuẩn trong tài liệu Public008 là gì?,Quy định quy trình khám chữa bệnh cho bệnh nhân,"Đưa ra yêu cầu về cơ cấu, quản trị, nhân lực, cơ sở vật chất, thiết bị, thuốc thử và quá trình xét nghiệm trong phòng xét nghiệm y tế",Mô tả chi tiết hệ thống tài chính của bệnh viện,Hướng dẫn xây dựng nhà máy y tế
+"Nếu phòng xét nghiệm có 500 mẫu xét nghiệm trong tháng, trong đó có 25 mẫu bị từ chối, tỷ lệ từ chối mẫu là bao nhiêu?",0.05,0.025,0.1,0.075
+Học phần Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin thuộc khối kiến thức nào?,Giáo dục đại cương,Tin học cơ sở,Công nghệ phần mềm,Hệ thống thông tin
+Học phần Nhập môn ngành CNTT trang bị cho sinh viên những kỹ năng nào ngoài kiến thức chuyên ngành?,Kỹ năng nghiên cứu khoa học nâng cao,Kỹ năng quản lý dự án phức tạp,"Kỹ năng mềm như làm việc nhóm, thuyết trình, tìm kiếm thông tin, phương pháp học đại học",Kỹ năng phân tích tài chính
+"Học phần nào vừa giúp sinh viên năm nhất làm quen với môi trường đại học và kiến thức cơ bản ngành CNTT, vừa rèn luyện các kỹ năng mềm và chuẩn mực đạo đức cần thiết để trở thành kỹ sư công nghệ thông tin?",Toán 1,Toán 2,Nhập môn ngành CNTT,Đại số và cấu trúc đại số
+Nội dung chính của tài liệu Public009 là gì?,Giới thiệu lịch sử phát triển ngành CNTT,"Mô tả vắn tắt nội dung và khối lượng các học phần bắt buộc, cơ sở và chuyên ngành trong chương trình đào tạo CNTT",Phân tích xu hướng việc làm CNTT,Đề xuất cải tiến phương pháp giảng dạy CNTT
+"Nếu một học phần có cấu trúc 3(2:1:6) thì số tiết lý thuyết, thực hành và tự học lần lượt là bao nhiêu?","3 LT, 3 TH, 6 tự học","2 LT, 2 TH, 4 tự học","2 LT, 1 TH, 6 tự học","3 LT, 0 TH, 6 tự học"
+"Theo tiêu chuẩn ISO 15189:2022, việc lưu giữ hồ sơ phòng xét nghiệm nhằm mục đích chính nào?",Đảm bảo nhân viên phòng xét nghiệm có đủ kỹ năng,Giảm chi phí vận hành,Truy xuất được kết quả xét nghiệm trong khoảng thời gian cần thiết hoặc theo quy định,Đình chỉ hoạt động của phòng xét nghiệm
+"Khi xảy ra sự không phù hợp, hành động đầu tiên mà phòng xét nghiệm phải thực hiện theo ISO 15189:2022 là gì?",Kiểm soát và khắc phục sự không phù hợp,Đình chỉ hoạt động của phòng xét nghiệm vô thời hạn,Giảm chi phí vận hành,Miễn trừ trách nhiệm cho nhân viên gây lỗi
+"Theo hướng dẫn về kiểm soát hồ sơ, phòng xét nghiệm phải đảm bảo điều gì khi sửa đổi hồ sơ?","Các sửa đổi phải có khả năng truy nguyên đến phiên bản trước hoặc các quan sát ban đầu, bao gồm ngày, giờ, nội dung thay đổi và nhân viên thực hiện","Chỉ cần lưu trữ phiên bản mới của hồ sơ, không cần lưu dữ liệu gốc","Chỉ cần lưu ngày và giờ của phiên bản mới, không cần thông tin về thay đổi",Không cần lưu hồ sơ nếu chỉ là sửa đổi nhỏ
+Nội dung chính của phần 8 trong tiêu chuẩn ISO 15189:2022 là gì?,Yêu cầu về cơ sở vật chất và thiết bị,Quy định về kỹ thuật xét nghiệm,"Yêu cầu hệ thống quản lý, bao gồm tài liệu, hồ sơ, kiểm soát rủi ro, cải tiến, đánh giá và xem xét",Quy định về đạo đức nghề nghiệp của nhân viên phòng xét nghiệm
+"Nếu phòng xét nghiệm thiết lập cấu trúc quản lý 5 mục tiêu và mỗi mục tiêu yêu cầu ít nhất 2 hành động cải tiến, tổng số hành động tối thiểu là bao nhiêu?",5,10,15,20
+Mạng GAN (Global Area Network) là gì?,Mạng cục bộ trong phạm vi nhỏ,Mạng diện rộng trong một quốc gia,"Mạng toàn cầu, kết hợp nhiều mạng con, ví dụ Internet",Mạng kết nối 2–3 máy tính
+Thành phần nào có chức năng giao tiếp giữa máy tính và đường truyền trong mạng máy tính?,Bộ định tuyến (Router),Vỉ mạng (Network Interface Card – NIC),Thiết bị đầu cuối (Terminal),Phần mềm ứng dụng
+Mạng máy tính được phân loại theo những tiêu chí nào và Internet ban đầu ra đời từ mục đích gì?,Mạng được phân loại theo quan hệ giữa các máy và theo quy mô địa lý; Internet ban đầu ra đời từ mục đích quân sự của Bộ Quốc phòng Mỹ,Mạng được phân loại theo tốc độ và dung lượng; Internet ban đầu ra đời để phục vụ thương mại điện tử,Mạng được phân loại theo số lượng người dùng và chi phí; Internet ban đầu ra đời để phục vụ cho các công ty công nghệ,Mạng được phân loại theo loại đường truyền và phần mềm; Internet ban đầu ra đời để phục vụ giáo dục phổ thôngComplete
+Nội dung chính của tài liệu Public011 là gì?,Giới thiệu lịch sử Internet toàn cầu,"Trình bày khái niệm, lịch sử phát triển, phân loại, thành phần, kiến trúc mạng máy tính và Internet",Hướng dẫn cài đặt phần mềm mạng,Phân tích mô hình OSI chi tiết
+"Nếu một mạng LAN có bán kính 500m và kết nối 200 máy tính trong một tòa nhà, thì mạng này thuộc loại nào?",LAN (Local Area Network),WAN (Wide Area Network),GAN (Global Area Network),MAN (Metropolitan Area Network)
+Hệ điều hành có nhiệm vụ gì?,Chỉ lưu trữ dữ liệu cho máy tính,"Quản lý tài nguyên, điều khiển thiết bị, quản lý chương trình và cung cấp dịch vụ cho người dùng",Tạo ra phần cứng mới,Truyền dữ liệu qua mạng
+"Theo tài liệu, ký hiệu đại diện * trong tên tệp có ý nghĩa gì?",Đại diện cho một ký tự bất kỳ,Đại diện cho số bất kỳ,Đại diện cho một chuỗi ký tự bất kỳ,Đại diện cho phần mở rộng bắt buộc
+Hệ điều hành có những nhiệm vụ chính nào và phiên bản Windows nào cho phép đặt tên tệp dài tới 255 ký tự?,"Quản lý tài nguyên, điều khiển thiết bị, quản lý chương trình, giao tiếp với người dùng; Windows 95",Chỉ quản lý bộ nhớ và CPU; Windows 3.0 AUTOEXEC.BAT,Chỉ khởi động máy và tắt máy; Windows NT 4.0,Quản lý thiết bị ngoại vi nhưng không quản lý tệp; Windows XP
+Nội dung chính của tài liệu Public012 là gì?,Giới thiệu lịch sử phát triển phần cứng,"Trình bày khái niệm, quản lý tệp, hệ lệnh, hệ điều hành Windows (từ MS-DOS, Windows 95 đến Windows XP)",Hướng dẫn cài đặt phần mềm diệt virus,Phân tích mô hình mạng OSI
+"Nếu Windows XP quản lý cho phép đặt tên tập tin dài tối đa 255 ký tự, còn MS-DOS chỉ cho phép tối đa 8 ký tự, thì Windows XP dài hơn bao nhiêu ký tự?",120 ký tự,200 ký tự,247 ký tự,300 ký tự
+Thế hệ máy tính điện tử nào sử dụng bóng đèn điện tử chân không?,Thế hệ 1 (1950–1958),Thế hệ 2 (1958–1964),Thế hệ 3 (1965–1974),Thế hệ 4 (1974–nay)
+Thuật ngữ “Tin học” (Informatics) lần đầu tiên được đề xuất bởi ai?,Philippe Dreyfus,Karl Steinbuch,Walter F. Bauer,Alan Turing
+Thông tin khác dữ liệu ở điểm nào và quá trình xử lý thông tin theo máy tính gồm những bước nào?,"Thông tin có ý nghĩa, dữ liệu là sự kiện thô; xử lý gồm Input – Process – Output",Thông tin và dữ liệu giống nhau; xử lý chỉ có Output,"Dữ liệu có ý nghĩa, thông tin không có; xử lý chỉ có Input",Thông tin chỉ là dữ liệu lưu trữ; xử lý không cần qua các bước
+Nội dung chính của tài liệu Public013 là gì?,Trình bày chi tiết về mạng máy tính,"Giới thiệu các khái niệm cơ bản về dữ liệu, thông tin, tri thức; lịch sử phát triển máy tính; khái niệm tin học, CNTT và ICT",Hướng dẫn cài đặt phần mềm,Phân tích chi tiết hệ điều hành Windows
+"Nếu một máy tính thế hệ 2 có tốc độ trung bình 50.000 phép tính/giây, thì nó nhanh gấp bao nhiêu lần so với máy thế hệ 1 tốc độ trung bình 1.000 phép tính/giây?",25 lần,30 lần,50 lần,100 lần
+Bit là viết tắt của từ gì?,Binary digiT,Basic information type,Binary integration tool,Base information token
+"Trong hệ đếm thập lục phân, ký tự “F” biểu diễn giá trị thập phân nào?",12,14,15,16
+"Trong máy tính, mọi dữ liệu được biểu diễn dưới dạng gì và đơn vị thông tin nhỏ nhất là gì?",Dưới dạng chữ cái; đơn vị nhỏ nhất là byte,Dưới dạng nhị phân (chuỗi bit); đơn vị nhỏ nhất là bit,Dưới dạng số thập phân; đơn vị nhỏ nhất là ký tự,Dưới dạng tín hiệu tương tự; đơn vị nhỏ nhất là từ
+Nội dung chính của tài liệu Public014 là gì?,Giới thiệu mạng máy tính,"Trình bày biểu diễn dữ liệu trong máy tính: các hệ đếm, số nguyên, số thực, dữ liệu ký tự, số hóa tín hiệu và tính toán số học",Giới thiệu hệ điều hành Windows,Hướng dẫn lập trình Pascal
+"Nếu dùng 8 bit để biểu diễn số nguyên không dấu, giá trị lớn nhất có thể biểu diễn là bao nhiêu?",128,254,255,256
+Khối nào trong CPU có nhiệm vụ thực hiện các phép tính số học và logic?,Khối điều khiển (CU),Khối số học và logic (ALU),Tập thanh ghi,Bộ nhớ ngoài
+Bộ nhớ nào lưu trữ chương trình hệ thống và không bị mất dữ liệu khi tắt máy?,ROM,RAM,Cache,Thanh ghi
+CPU gồm những bộ phận chính nào và bộ nhớ chính của máy tính được chia thành những loại nào?,"Khối điều khiển, bộ nhớ ngoài, bàn phím; chỉ RAM","Khối điều khiển, khối tính toán số học – logic, các thanh ghi; ROM và RAM","ALU, ổ đĩa cứng, USB; chỉ ROM","Bo mạch chủ, cache, màn hình; DVD và CD"
+Nội dung chính của tài liệu Public015 là gì?,Trình bày chi tiết lịch sử phát triển máy tính,"Giới thiệu cấu trúc và chức năng CPU, các loại bộ nhớ, thiết bị vào-ra và hệ thống bus trong máy tính",Hướng dẫn cài đặt phần mềm hệ thống,Phân tích hệ điều hành Windows
+"Nếu một CPU có 36 bit địa chỉ, dung lượng tối đa của bộ nhớ chính mà nó quản lý được là bao nhiêu?",64 MB,64 KB,64 GB,64 TB
+Tiêu chuẩn TCVN 9395:2012 áp dụng cho loại cọc nào?,Cọc đóng bê tông cốt thép có đường kính nhỏ hơn 60 cm,Cọc khoan nhồi bê tông cốt thép có đường kính ≥ 60 cm (trừ công trình địa chất đặc biệt),Cọc thép ống nhồi bê tông,Tất cả các loại cọc dùng trong xây dựng
+Dung dịch khoan bentonite có vai trò chính gì trong thi công cọc khoan nhồi?,"Giữ ổn định thành hố khoan, ngăn sụt lở và đưa mùn khoan ra ngoài",Tăng khả năng chịu lực của bê tông,Làm phụ gia thay thế xi măng,Giảm độ nhớt của bê tông
+"Theo TCVN 9395:2012, tiêu chuẩn này áp dụng cho loại cọc nào và từ đường kính bao nhiêu trở lên?","Cọc ép, từ 20 cm","Cọc khoan nhồi, từ 30 cm","Cọc thép, từ 25 cm","Cọc gỗ, từ 40 cm"
+Nội dung chính của tiêu chuẩn TCVN 9395:2012 là gì?,Quy định thiết kế kết cấu móng,Hướng dẫn phương pháp thí nghiệm tải trọng cọc,"Quy định về thi công, kiểm tra chất lượng, nghiệm thu và an toàn lao động trong xây dựng cọc khoan nhồi",Chỉ quy định về yêu cầu an toàn trong công tác khoan
+"Nếu trong quá trình khoan, cao độ dung dịch khoan phải luôn cao hơn mực nước ngầm ít nhất 1,5 m, giả sử mực nước ngầm ở -10 m thì cao độ dung dịch khoan tối thiểu phải đạt bao nhiêu?","-11,5 m","-8,5 m","-6,0 m","-5,0 m"
+"Theo TCVN 5574:2018, tính toán kết cấu bê tông và bê tông cốt thép cần được thực hiện dựa trên những trạng thái giới hạn nào?",Chỉ trạng thái giới hạn thứ nhất,Trạng thái giới hạn thứ nhất và trạng thái giới hạn thứ hai,Chỉ trạng thái giới hạn thứ hai,Không yêu cầu xét trạng thái giới hạn
+Các loại bê tông nào được phép sử dụng khi thiết kế kết cấu theo TCVN 5574:2018?,Bê tông nặng,Bê tông hạt nhỏ,"Bê tông nhẹ, bê tông tổ ong",Bê tông tự ứng suất
+"Theo TCVN 9379:2012, tính toán kết cấu bê tông và bê tông cốt thép cần được thực hiện theo những trạng thái giới hạn nào và phải đảm bảo điều gì trong suốt thời hạn sử dụng công trình?",Trạng thái giới hạn thứ nhất và thứ hai; đảm bảo độ tin cậy của công trình,Chỉ trạng thái giới hạn thứ nhất; đảm bảo hình thành vết nứt nhỏ,Trạng thái giới hạn thứ hai và tải trọng tiêu chuẩn; đảm bảo không có biến dạng,Trạng thái giới hạn về biến dạng; đảm bảo không xuất hiện ứng suất trước
+Nội dung chính của tiêu chuẩn TCVN 5574:2018 là gì?,Quy định về phương pháp thí nghiệm vật liệu bê tông,"Nguyên tắc thiết kế, tính toán độ bền, ổn định, biến dạng, nứt và quy định về vật liệu cho kết cấu bê tông, bê tông cốt thép",Chỉ quy định về cấu kiện bê tông dự ứng lực,Hướng dẫn thi công và nghiệm thu công trình bê tông
+"Nếu một dầm bê tông cốt thép có nhịp 6 m, theo TCVN 5574:2018 độ võng tối đa cho phép là 1/150 nhịp, giá trị võng lớn nhất cho phép là bao nhiêu?",20 mm,30 mm,40 mm,50 mm
+Tiêu chuẩn TCVN 5574:2018 áp dụng cho những loại bê tông nào?,Bê tông nặng,Bê tông hạt nhỏ,"Bê tông nhẹ, bê tông tổ ong",Bê tông tự ứng suất
+Tiêu chuẩn này không áp dụng để thiết kế loại kết cấu nào sau đây?,Kết cấu nhà và công trình chịu nhiệt độ từ -70°C đến +50°C,Kết cấu bê tông cốt thép nhà dân dụng thông thường,"Kết cấu liên hợp thép – bê tông, bê tông cốt sợi, công trình thủy công, cầu…",Các công trình không xâm thực thông thường
+"Theo TCVN 9379:2012, tính toán kết cấu bê tông và bê tông cốt thép cần được tiến hành theo những trạng thái giới hạn nào và phải đảm bảo điều gì trong suốt thời hạn sử dụng công trình?",Trạng thái giới hạn thứ nhất và thứ hai; đảm bảo độ tin cậy của công trình,Chỉ trạng thái giới hạn thứ nhất; đảm bảo không xuất hiện vết nứt,Trạng thái giới hạn thứ hai; đảm bảo công trình không có biến dạng,"Trạng thái giới hạn ổn định vị trí; đảm bảo không trượt, không lật"
+Nội dung chính của phần yêu cầu chung đối với kết cấu bê tông và bê tông cốt thép trong TCVN 5574:2018 là gì?,Hướng dẫn chi tiết về phương pháp thí nghiệm cường độ bê tông,"Quy định các yêu cầu về an toàn, điều kiện sử dụng, độ bền lâu, yêu cầu cấu tạo và tính toán",Chỉ quy định về cốt thép dự ứng lực,Các yêu cầu bảo trì công trình sau khi hoàn thành
+"Nếu một cấu kiện bê tông làm việc trong môi trường xâm thực, theo TCVN 5574:2018, cần đảm bảo thêm yêu cầu gì ngoài an toàn và sử dụng bình thường?",Không cần bổ sung yêu cầu nào,Giảm kích thước tiết diện để tiết kiệm vật liệu,Yêu cầu về độ bền lâu và bảo vệ chống xâm thực,Chỉ cần tăng cường số lượng cốt thép
+Hệ thống chống sét theo TCVN 9385:2012 bao gồm mấy phần chính?,2,3,4,5
+Bộ phận nào trong hệ thống chống sét có nhiệm vụ thu sét trực tiếp?,"Hệ thống thu sét (kim thu sét, dây dẫn trên mái…)",Hệ thống nối đất,Hệ thống dây dẫn sét,Hệ thống cân bằng điện thế
+Quốc gia nào là nước đầu tiên công bố Kế hoạch chiến lược trí tuệ nhân tạo quốc gia và vào năm nào?,"Trung Quốc, năm 2017","Mỹ, năm 2016","Pháp, năm 2018","Nhật Bản, năm 2019"
+Nội dung chính của TCVN 9385:2012 là gì?,Quy định về tính toán tải trọng gió,"Quy định thiết kế, thi công, kiểm tra, bảo trì hệ thống chống sét cho công trình",Chỉ hướng dẫn cách lắp đặt kim thu sét,Hướng dẫn vận hành thiết bị điện cao thế
+"Một công trình cao 30 m cần bảo vệ chống sét trực tiếp. Theo bán kính bảo vệ của kim thu sét (r = 1,5h), bán kính bảo vệ tối đa là bao nhiêu?",30 m,40 m,45 m,45 m
+Chiều dày màng khô của lớp phủ chống cháy được xác định bằng cách nào?,Quan sát trực quan sau khi phủ,Đo trực tiếp trên mẫu thử nghiệm bằng dụng cụ cảm ứng điện từ hoặc dòng điện xoáy,Dùng cân xác định khối lượng riêng,So sánh với mẫu chuẩn
+Loại đầu đo nhiệt nào được ưu tiên sử dụng trong thử nghiệm cấu kiện thép?,Loại “J” trần không bọc,Loại “N” bọc nhựa,"Loại “T”, “N”, “K”, “J” có vỏ bọc thép không gỉ cách nhiệt bằng sợi khoáng",Loại dây dẫn thường bọc nhựa PVC
+"Theo quy định, chiều dày màng khô của vật liệu bảo vệ được đo bằng nguyên tắc nào và loại đầu đo nhiệt nào được ưu tiên sử dụng khi thử nghiệm trên cấu kiện thép?",Nguyên tắc cơ học; đầu đo nhiệt loại J,Nguyên tắc quang học; đầu đo nhiệt loại N,Nguyên tắc cảm ứng điện từ hoặc dòng điện xoáy; đầu đo nhiệt loại T trong vỏ thép không gỉ cách nhiệt,Nguyên tắc thủy lực; đầu đo nhiệt loại K không cần cách nhiệt
+Nội dung chính của tài liệu là gì?,Giới thiệu thiết bị thử nhiệt trong công nghiệp luyện kim,"Hướng dẫn quy trình đo chiều dày, lắp đặt đầu đo nhiệt và thử nghiệm khả năng chịu lửa của vật liệu chống cháy cho cấu kiện thép",Quy chuẩn thiết kế hệ thống điện,Tiêu chuẩn quản lý an toàn phòng cháy chữa cháy tại công trường
+"Theo quy định, cần bao nhiêu phép đo chiều dày tối thiểu trên dầm chịu tải?",24 phép đo,50 phép đo,88 phép đo,100 phép đo
+Bộ mã chuẩn nào đã được chọn cho tiếng Việt trong CNTT?,ASCII,Unicode,TCVN 6909,UTF-16
+"Trong xử lý ngôn ngữ, bài toán nào có mục tiêu chuyển văn bản thành tiếng nói?",Nhận dạng tiếng nói (speech recognition),Trích chọn thông tin (information extraction),Tổng hợp tiếng nói (speech synthesis),Phát hiện tri thức (knowledge discovery)
+"Khi đo chiều dày màng khô của vật liệu bảo vệ, phòng thử nghiệm sử dụng nguyên tắc nào và tối thiểu đường kính vỏ bọc của đầu đo nhiệt ưu tiên là bao nhiêu?","Nguyên tắc cơ học; đường kính vỏ bọc tối thiểu 0,5 mm","Nguyên tắc quang học; đường kính vỏ bọc tối thiểu 1,0 mm","Nguyên tắc cảm ứng điện từ hoặc dòng điện xoáy; đường kính vỏ bọc tối thiểu 1,5 mm","Nguyên tắc thủy lực; đường kính vỏ bọc tối thiểu 2,0 mm"
+Nội dung chính của tài liệu Public021 là gì?,Giới thiệu lịch sử phát triển CNTT ở Việt Nam,"Trình bày khái niệm, tình hình nghiên cứu, thách thức và hướng phát triển của xử lý tiếng Việt trong CNTT",Đề xuất các thuật toán xử lý ngôn ngữ mới,Phân tích hệ thống mạng viễn thông
+"Theo đánh giá, hiện có bao nhiêu phần trăm dữ liệu không cấu trúc trong tổng lượng dữ liệu của loài người?",0.5,0.7,0.8,0.9
+Tiêu chuẩn TCVN xxxx:202x được xây dựng dựa trên tiêu chuẩn quốc tế nào?,EN 13501-1,ISO 834-10,ISO 1716,IEC 584-1
+Chiều dày lớp bảo vệ chịu lửa được định nghĩa như thế nào?,Tổng chiều dày của hệ đỡ và lớp phủ bảo vệ,Độ dày phần bề mặt cấu kiện thép tiếp xúc với lửa,"Chiều dày khô của lớp phủ hoặc tổng các lớp trong hệ bảo vệ (không tính sơn lót, sơn phủ, hệ đỡ)",Độ dày phần thép lõi bên trong
+"Theo tiêu chuẩn, các thử nghiệm chịu lửa được áp dụng cho những loại tiết diện thép nào và không áp dụng cho loại nào?",Áp dụng cho thanh/que đặc; không áp dụng cho tiết diện rỗng nhồi bê tông,Áp dụng cho tiết diện có lỗ hở; không áp dụng cho tiết diện chữ I,"Áp dụng cho tiết diện chữ I, H, C, T, rỗng; không áp dụng cho thanh/que đặc hoặc tiết diện rỗng nhồi bê tông",Áp dụng cho tất cả tiết diện thép; không có ngoại lệ
+Nội dung chính của tiêu chuẩn TCVN xxxx:202x là gì?,Hướng dẫn thiết kế cấu kiện thép chịu lực,Quy định phương pháp thử nghiệm để đánh giá hiệu quả của hệ bọc bảo vệ chịu lửa cho cấu kiện thép trong công trình,Tiêu chuẩn tính toán kết cấu bê tông cốt thép,Hướng dẫn bảo trì lớp sơn chống cháy
+"Theo quy định, mẫu thử nghiệm dầm chịu tải phải chịu tải trọng bằng bao nhiêu phần trăm sức kháng mô men thiết kế?",0.3,0.5,0.6,0.8
+Chiều dày vật liệu bọc bảo vệ dạng bản hoặc tấm được phép sai lệch tối đa bao nhiêu % so với giá trị trung bình?,0.1,0.15,0.2,0.3
+"Đối với lớp phủ dạng phản ứng, độ dày trung bình được xác định như thế nào?",Đo tổng chiều dày lớp sơn phủ,Lấy giá trị lớn nhất trong các phép đo,"Tính từ tổng chiều dày trừ đi lớp sơn lót, sau đó áp dụng các quy tắc dung sai phần trăm",Chỉ đo tại 3 điểm cố định
+Hệ điều hành có những nhiệm vụ chính nào và phiên bản Windows nào cho phép đặt tên tệp dài tới 255 ký tự?,"Quản lý tài nguyên, điều khiển thiết bị, quản lý chương trình, giao tiếp với người dùng; Windows 95",Chỉ quản lý bộ nhớ và CPU; Windows 3.0,Chỉ khởi động máy và tắt máy; Windows NT 4.0,Quản lý thiết bị ngoại vi nhưng không quản lý tệp; Windows XP
+Nội dung chính của tài liệu Public023 là gì?,Quy định về kết cấu thép trong thiết kế nhà cao tầng,"Hướng dẫn quy trình xác định chiều dày, khối lượng riêng, lựa chọn và lắp đặt mẫu thử nghiệm đối với hệ bảo vệ chịu lửa",Tiêu chuẩn thi công và nghiệm thu sơn công nghiệp,Hướng dẫn bảo dưỡng lớp phủ sau thi công
+Khối lượng riêng của vật liệu bảo vệ dạng thụ động được phép sai lệch tối đa bao nhiêu % so với giá trị trung bình?,0.1,0.12,0.15,0.2
+"Theo tài liệu, thực phẩm được định nghĩa là gì?",Những món ăn truyền thống của một địa phương,"Hỗn hợp các chất hóa học có nguồn gốc từ thực vật và động vật, được con người sử dụng qua đường tiêu hóa nhằm mục đích dinh dưỡng",Các sản phẩm công nghiệp chế biến từ sữa và ngũ cốc,Các loại đồ uống có gas và rượu bia
+Thực phẩm giàu protein thường có trong nhóm nguyên liệu nào?,"Các loại củ giàu tinh bột như khoai, sắn","Rau xanh, trái cây tươi","Nguyên liệu động vật (thịt, thủy sản) và một số loại đậu, nấm",Dầu thực vật và bơ
+Thực phẩm là gì? Thực phẩm chức năng dùng chủ yếu để làm gì?,"Chỉ là đồ uống, chỉ giải khát","Hỗn hợp các chất hóa học cung cấp dinh dưỡng, dùng chủ yếu để phòng và hỗ trợ điều trị bệnh","Là thuốc, chữa bệnh thay thế",Chỉ tăng năng lượng
+Nội dung chính của phần “Khái quát về thực phẩm và công nghệ thực phẩm” là gì?,"Trình bày khái niệm, phân loại, mục đích sử dụng, các chỉ tiêu chất lượng của thực phẩm và mối quan tâm của người tiêu dùng",Hướng dẫn chi tiết quy trình sản xuất bia và sữa,Phân tích giá trị kinh tế của ngành thực phẩm,Giới thiệu lịch sử ngành công nghệ thực phẩm
+"Nếu một người tiêu dùng mua 100g bánh mì (giàu glucid ~50%) và 100g cá (giàu protein ~20%), thì lượng glucid và protein người đó nạp vào lần lượt là bao nhiêu gam?",40g glucid và 10g protein,60g glucid và 30g protein,50g glucid và 20g protein,70g glucid và 25g protein
+Chiếu xạ thực phẩm được định nghĩa là gì?,Quá trình xử lý thực phẩm bằng nhiệt độ cao,Quá trình sử dụng tia bức xạ điện từ hoặc dòng electron tác động lên thực phẩm để gây biến đổi có lợi,Phương pháp sử dụng hóa chất bảo quản thực phẩm,Quá trình sử dụng khí nén trong công nghiệp thực phẩm
+Tia bức xạ nào hiện nay được sử dụng phổ biến trong công nghiệp thực phẩm?,Tia X,Tia beta,Tia gamma,Tia tử ngoại
+Chiếu xạ thực phẩm về mặt cơ sở khoa học là gì? Và mục đích công nghệ chủ yếu hiện nay của chiếu xạ thực phẩm là gì?,"Là quá trình dùng sóng siêu âm khử trùng thực phẩm, chủ yếu để tăng mùi vị","Là quá trình dùng hóa chất khử trùng thực phẩm, chủ yếu để tạo màu sắc","Là quá trình lên men thực phẩm, chủ yếu để tăng giá trị dinh dưỡng","Là quá trình làm lạnh đông thực phẩm, chủ yếu để giảm chi phí"
+Nội dung chính của phần “Chiếu xạ trong công nghiệp thực phẩm” là gì?,"Trình bày cơ sở khoa học, mục đích công nghệ, biến đổi vật lý – hóa học – sinh học của nguyên liệu, và ứng dụng chiếu xạ trong bảo quản, chế biến thực phẩm",Chỉ phân tích vai trò của tia gamma trong công nghiệp,Trình bày lịch sử phát minh chiếu xạ ở châu Âu,So sánh chiếu xạ với các phương pháp thanh trùng khác
+"Nếu một loại trái cây được xử lý bằng liều chiếu xạ 2 kGy, trong khi mức 1 kGy không làm mất vitamin C còn mức 2–4 kGy làm giảm mạnh vitamin C, thì loại trái cây đó có nguy cơ bị giảm giá trị dinh dưỡng như thế nào?",Không thay đổi giá trị dinh dưỡng,Bị hỏng ngay lập tức,Giảm mạnh hàm lượng vitamin C,Mất toàn bộ khoáng chất và protein
+Xơ dệt được phân loại theo nguồn gốc thành mấy nhóm chính?,1 nhóm,2 nhóm: xơ tự nhiên và xơ hóa học,3 nhóm,4 nhóm
+Thành phần chính của xơ len là gì?,Xenlulozơ,Tơ tằm (Fibroin),Keratin (chiếm khoảng 90%),Polyester
+Vật liệu dệt là gì? Và chúng được phân loại chủ yếu dựa theo tiêu chí nào?,Là ngành sản xuất quần áo; phân loại theo mục đích sử dụng,Là ngành nghiên cứu may mặc; phân loại theo màu sắc và hình dạng,Là ngành công nghiệp bao bì; phân loại theo kích thước và độ bền,Là ngành dệt len tơ tằm; phân loại theo nguồn gốc địa lý
+Nội dung chính của chương 1 trong tài liệu là gì?,Giới thiệu lịch sử ngành dệt may,"Trình bày khái niệm, phân loại và tính chất cơ bản của xơ, sợi và sản phẩm dệt",Phương pháp gia công vải dệt kim,Quy trình nhuộm và in vải
+Nếu một sợi có chiều dài 1000 m và khối lượng 20 g thì chỉ số Tex của sợi đó bằng bao nhiêu?,10 Tex,15 Tex,20 Tex,25 Tex
+Thành phần chính của xơ bông là gì?,Lignin,Xenlulozơ (trên 90%),Keratin,Tinh bột
+Nhiệt độ chuyển mềm của len thường nằm trong khoảng nào?,50–70°C,80–90°C,100–110°C,150–170°C
+Xenlulô là gì và vải sợi gốc xenlulô có ưu điểm gì?,"Xenlulô là protein của động vật, vải sợi xenlulô chủ yếu giữ nhiệt vào mùa đông","Xenlulô là hợp chất vô cơ, vải sợi xenlulô chủ yếu chống cháy","Xenlulô là este hóa học nhân tạo, vải sợi xenlulô không thấm nước","Xenlulô là hợp chất từ dầu mỏ, vải sợi xenlulô không hút ẩm"
+Nội dung chính của tài liệu Public027 là gì?,Giới thiệu công nghệ dệt kim hiện đại,"Trình bày chi tiết thành phần hóa học, tính chất cơ lý, hóa học và ứng dụng của các loại xơ tự nhiên (bông, len, tơ tằm, amiăng)",Hướng dẫn quy trình nhuộm và in hoa vải,Các phương pháp sản xuất sợi tổng hợp
+"Nếu sợi bông có độ ẩm hoàn toàn khô là 8 g, khi hút ẩm đạt khối lượng 8,8 g thì độ ẩm tương đối của sợi là bao nhiêu?",0.05,0.08,0.1,0.12
+Ai là những nhà khoa học được ghi nhận phát minh ra transistor lưỡng cực vào năm 1947?,"Nikola Tesla, Thomas Edison, Alexander Bell","Albert Einstein, Niels Bohr, Max Planck","John Bardeen, William Shockley, Walter Brattain","James Clerk Maxwell, Michael Faraday, Enrico Fermi"
+Transistor NPN có các cực được sắp xếp như thế nào?,"Emitter–P, Base–N, Collector–P","Emitter–N, Base–P, Collector–N","Emitter–P, Base–P, Collector–N","Emitter–N, Base–N, Collector–P"
+Transistor được tạo thành từ mấy lớp bán dẫn và ba người nào được ghi nhận là những nhà phát minh ra nó?,"Transistor được tạo từ ba lớp bán dẫn và do John Bardeen, William Shockley và Walter Brattain phát minh","Transistor được tạo từ bốn lớp bán dẫn và do John Bardeen, William Shockley và Nikola Tesla phát minh",Transistor được tạo từ ba lớp bán dẫn và do Thomas Edison phát minh,Transistor được tạo từ một lớp bán dẫn và do Albert Einstein phát minh
+Nội dung chính của tài liệu Public028 là gì?,Giới thiệu vi mạch số học ALU,"Trình bày cấu tạo, ký hiệu, nguyên lý hoạt động của transistor lưỡng cực (BJT) và ứng dụng của nó",Phân tích vi mạch logic số,Hướng dẫn chế tạo diode bán dẫn
+"Nếu bộ phát (Emitter) bị pha tạp nặng, Base pha tạp nhẹ và Collector pha tạp vừa phải, thì vùng nghèo kiệt sẽ mở rộng nhiều hơn về phía nào?",Emitter,Collector,Base,Không thay đổi
+Vật liệu nào phổ biến nhất được sử dụng làm chất bán dẫn cơ bản?,Silicon (Si),Germanium (Ge),Gallium Arsenide (GaAs),Antimon (Sb)
+Quá trình thêm tạp chất vào chất bán dẫn để cải thiện tính dẫn điện gọi là gì?,Ion hóa,Doping,Khuếch tán,Tái hợp
+Chất bán dẫn tinh khiết là gì và hiện tượng pha tạp (doping) có tác dụng gì?,"Là vật liệu như silicon, germanium có rất ít electron tự do; doping làm thay đổi độ dẫn điện bằng cách tạo thêm electron hoặc lỗ trống",Là chất cách điện hoàn toàn; doping làm nó thành chất siêu dẫn,Là vật liệu chỉ có lỗ trống; doping làm giảm điện trở về 0,Là vật liệu dẫn điện mạnh; doping làm tăng độ bền cơ học
+Nội dung chính của tài liệu Public029 là gì?,Trình bày nguyên lý hoạt động của transistor BJT,"Giới thiệu khái niệm chất bán dẫn, phân loại (P-type, N-type), cơ chế dẫn điện, hiện tượng dòng điện và mối nối P–N",Phân tích mạch điện xoay chiều,Giới thiệu công nghệ chế tạo vi mạch
+"Nếu một tinh thể silicon có tỷ lệ doping là 1 nguyên tử tạp chất trên 10 triệu nguyên tử Si, thì khi thêm 100 nguyên tử tạp chất, số nguyên tử Si xấp xỉ bao nhiêu?",1 triệu,5 triệu,1 tỉ (10⁹),10 nghìn
+Đơn vị đo điện dung của tụ điện là gì?,Farad (F),Volt (V),Coulomb (C),Ohm (Ω)
+Hằng số điện môi ε₀ trong chân không có giá trị bao nhiêu?,"9,81 × 10⁻³ N/kg","8,854 × 10⁻¹² F/m","6,67 × 10⁻¹¹ Nm²/kg²","1,6 × 10⁻¹⁹ C"
+Tụ điện là gì và điện dung của tụ được tính theo công thức nào?,Tụ điện là linh kiện thụ động có khả năng tích trữ năng lượng điện dưới dạng điện tích; điện dung C = Q/V,Tụ điện là linh kiện tích trữ năng lượng cơ học; điện dung C = I/V,Tụ điện là linh kiện thụ động chỉ dẫn dòng điện DC; điện dung C = Q·V,Tụ điện là pin sạc; điện dung C = V²/Q
+Nội dung chính của tài liệu Public030 là gì?,Giới thiệu nguyên lý diode bán dẫn,"Trình bày khái niệm, cấu tạo, nguyên lý hoạt động, tham số chính, công thức tính và ứng dụng của tụ điện",Phân tích mạch logic số,Hướng dẫn chế tạo transistor
+"Một tụ điện phẳng có A = 10 m², d = 5 m, điện môi là không khí (εr = 1). Hãy tính điện dung C.","1,77 × 10⁻¹² F","8,85 × 10⁻¹² F","8,85 × 10⁻¹¹ F","1,77 × 10⁻¹¹ F = 17,7 pF"
+Đơn vị đo điện trở là gì?,Ohm (Ω),Volt (V),Ampere (A),Watt (W)
+Ký hiệu điện trở theo tiêu chuẩn IEC có dạng nào?,Đường ngoằn ngoèo (zigzag),Hình chữ nhật (rectangular box),Hình tam giác,Hình tròn
+Điện trở là gì và tại sao được gọi là linh kiện thụ động?,Là linh kiện điện tử chủ động tạo ra năng lượng trong mạch,"Là linh kiện điện tử thụ động, gây ra trở kháng làm cản trở dòng điện mà không tạo ra năng lượng",Là linh kiện điện tử dùng để tăng dòng điện trong mạch,Là linh kiện điện tử chỉ dùng trong mạch AC
+Nội dung chính của tài liệu Public031 là gì?,Giới thiệu về mạch tích hợp IC,"Trình bày khái niệm, đơn vị, ký hiệu, cấu tạo, ý nghĩa, công thức tính và cách mắc nối tiếp của điện trở trong mạch điện",Giới thiệu về transistor BJT,Giới thiệu về diode bán dẫn
+"Một mạch nối tiếp gồm R1 = 2Ω, R2 = 4Ω, R3 = 6Ω, dòng điện I = 4A. Hãy tính điện áp toàn mạch.",24V,36V,48V,60V
+Nguồn điện nào thường tạo ra điện áp một chiều (DC)?,Pin và máy phát DC,Máy biến áp,Máy phát xoay chiều,Ổn áp xoay chiều
+Định luật Ohm được phát biểu như thế nào?,Dòng điện tỉ lệ thuận với điện trở và tỉ lệ nghịch với điện áp,Dòng điện tỉ lệ thuận với điện áp và tỉ lệ nghịch với điện trở,Điện áp tỉ lệ thuận với dòng điện và điện trở,Công suất tỉ lệ nghịch với điện áp
+Dòng điện một chiều (DC) là gì và định luật Ohm liên quan như thế nào?,"Là dòng điện thay đổi liên tục theo hai hướng, tỉ lệ thuận với điện áp","Là dòng điện chảy liên tục theo một hướng, dòng điện tỷ lệ thuận với điện áp và tỉ lệ nghịch với điện trở","Là dòng điện thay đổi tuần hoàn theo sóng sin, không tuân theo định luật Ohm",Là dòng điện chỉ xuất hiện trong các mạch xoay chiều AC
+Nội dung chính của tài liệu Public032 là gì?,Trình bày nguyên lý transistor BJT,"Giới thiệu khái niệm, định luật Ohm, dòng điện một chiều, dòng điện xoay chiều, dạng sóng và ứng dụng của dòng điện",Trình bày chi tiết về tụ điện,Hướng dẫn chế tạo diode
+Một mạch có điện áp 12V và điện trở 6Ω. Hãy tính dòng điện chạy qua mạch theo định luật Ohm.,2A,4A,6A,12A
+Ai là người phát minh ra pin điện đầu tiên vào năm 1800?,Michael Faraday,Alessandro Volta,Benjamin Franklin,Thomas Edison
+Dòng điện tử trong thực tế chảy theo chiều nào?,Từ dương sang âm,Theo cả hai chiều,Từ âm sang dương,Không xác định được
+Nguồn gốc dòng điện và hai giả thuyết về chiều dòng điện là gì?,"Dòng điện được phát hiện lần đầu bởi Thomas Edison, electron chảy từ dương sang âm","Dòng điện xuất phát từ chuyển động của electron giữa nguyên tử, có hai giả thuyết: dòng quy ước (từ dương sang âm) và dòng điện tử (từ âm sang dương)","Dòng điện bắt nguồn từ pin của Volta, electron chảy từ âm sang dương theo quy ước","Dòng điện chỉ có ở máy phát AC, electron chảy theo sóng sin"
+Nội dung chính của phần “Giới thiệu về điện” trong tài liệu Public033 là gì?,Lịch sử các phát minh trong lĩnh vực điện,"Khái niệm nguyên tử, electron tự do, sự hình thành dòng điện và ba đặc tính cơ bản của điện",Các định luật về từ trường,Các ứng dụng hiện đại của điện
+"Nếu một dầm dây dẫn có dòng điện 2000 mA chạy qua, giá trị này tương ứng với bao nhiêu ampe?","0,2 A","0,02 A",2 A,20 A
+Photodiode hoạt động hiệu quả nhất khi được phân cực như thế nào?,Phân cực nghịch,Phân cực thuận,Không cần phân cực,Phân cực xoay chiều
+Ai là người đầu tiên đề xuất ý tưởng về phototransistor?,Michael Faraday,Alessandro Volta,William Shockley,Thomas Edison
+Photodiode hoạt động như thế nào và khác gì với phototransistor?,"Photodiode chỉ chuyển ánh sáng thành dòng điện, còn phototransistor vừa chuyển ánh sáng vừa khuếch đại dòng điện nhờ transistor","Photodiode khuếch đại dòng điện ánh sáng, còn phototransistor chỉ phát hiện ánh sáng",Photodiode và phototransistor đều khuếch đại dòng điện giống nhau,"Photodiode hoạt động tuyến tính, còn phototransistor không phản ứng với ánh sáng"
+Nội dung chính của tài liệu “Linh kiện quang điện tử” là gì?,Lịch sử phát triển của ngành quang điện tử,"Giới thiệu photodiode, phototransistor, optocoupler: cấu tạo, nguyên lý, ứng dụng",Các phương pháp sản xuất linh kiện bán dẫn,Hướng dẫn thực hành đo lường quang điện tử
+Một photodiode PIN cho dòng điện 1 µA trong điều kiện chiếu sáng phòng. Một phototransistor cùng điều kiện có dòng lớn hơn khoảng bao nhiêu lần?,2 lần,10 lần,50 lần,100 lần
+MAE loss còn có tên khác là gì,L1 loss,L2 loss,Hinge loss,Negative-log loss
+Điều gì xảy ra nếu learning rate quá nhỏ,Thuật toán hoạt động bình thường,Hàm số không hội tụ,Hàm số hội tụ rất chậm,Hàm số hội tụ rất nhanh
+"Trong bối cảnh linear regression đơn biến, mô hình được biểu diễn ra sao và mục tiêu của bài toán khi được mô hình hóa là gì?","Đường thẳng y = ax + b.
+Cực đại hóa cost function","Đường thẳng y = ax + b.
+Cực tiểu hóa cost function","Đường cong y = ax^2 + b.
+Cực đại hóa cost function","Đường cong y = ax^2 + b.
+Cực tiểu hóa cost function"
+Yếu tố nào giúp mô hình hóa bài toán linear regression,Mô hình (model) và hàm chi phí (cost function),Mô hình (model),Hàm chi phí (cost function),Biến đầu ra (output)
+Một trình tối ưu linear regression bỗng dưng ghi nhận cost function tăng. Đâu là hành động hợp lý trong các hành động dưới ở lượt chạy tiếp theo?,Thay đổi cost function,Không làm gì cả,Tăng learning rate,Giảm learning rate
+Đâu không phải một ứng dụng của Image segmentation được đề cập trong tài liệu?,Xe tự hành,Chẩn đoán hình ảnh,Nhận diện chó mèo,Quản lý ra vào ở bãi đỗ xe
+Mạng U-Net có mấy phần chính?,Ba,Hai,Bốn,Một
+Có bao nhiêu loại bài toán segmentation và đó là những loại nào?,Hai. Meaning segmentation và object segmentation,"Ba. Semantic segmentation, syntax segmentation và instance segmentation",Hai. Semantic segmentation và instance segmentation,Hai. Subjective segmentation và objective segmentation
+Nhận định nào dưới đây không chính xác với mạng U-Net trong bài toán Image segmentation?,Loss function là MSE để tính toán khoảng cách giữa hai ảnh,Có cơ chế kết nối các lớp có cùng kích thước để tránh gradient vanishing,Mục đích của decoder là để khôi phục kích thước gốc của ảnh,Hàm pooling được sử dụng chủ yếu là max pooling
+"Xác định padding (p) và stride (s) khi tiến hành transposed convolution với input 4x4, kernel 3x3 để cho ra output 9x9","p = 0, s = 1","p = 1, s = 2","p = 0, s = 2","p = 1, s = 1"
+"Trong ví dụ ở đầu tài liệu, đâu không phải là một mô tả ảnh được giới thiệu?","""Người đàn ông áo đen chơi guitar""","""Công nhân xây dựng mặc áo bảo hộ cam đang làm việc trên đường""","""Hai bé gái đang chơi đồ chơi""","""Một người đàn ông mặc vest dùng máy tính"""
+Mô hình skip-gram ban đầu có bao nhiêu lớp ẩn (hidden layer)?,Một,Hai,Bốn,Năm
+Co-occurrence matrix có tính chất đối xứng gì và kích thước của ma trận này là bao nhiêu (với V là kích thước từ điển)?,Đối xứng chéo. 2V x V,Đối xứng dọc. V x V,Đối xứng chéo. V x V,Đối xứng dọc. 2V x V
+Khẳng định nào dưới đây không đúng với bối cảnh bài toán?,Hướng giải quyết là sử dụng mô hình thời gian để dự hoàn thiện mô tả ảnh,Phương pháp one-hot encoding cho word embedding vẫn còn hiệu quả,Bước text preprocessing sẽ thay chữ in hoa bằng chữ in thường,Loss function là categorical cross-entropy
+Vector nào sau đây không thuộc về one-hot encoding?,"[0, 0, 1, 0]","[1, 0, 1, 1]","[1, 0, 0, 0]","[0, 1, 0, 0]"
+Đâu không phải một dạng RNN?,One to one,Two to one,Many to one,Many to many
+Sinh mô tả ảnh thuộc vào dạng RNN nào?,One to many,Many to many,Many to one,One to one
+Câu output của seq2seq sẽ có thêm mấy token và đó là những token nào?,"Ba. <START>, <END> và <SEQ>","Bốn. <START>, <END>, <START_PARA> và <END_PARA>",Một. <START>,"Hai. <START>, <END>"
+"Trong bối cảnh dịch máy, đâu là cách hiểu ""sản phẩm trung gian"" phù hợp với seq2seq?",Đặc trưng của những từ gần cuối câu,Tổng hợp tần suất các từ trong câu input,Tổng trọng số các embedding của từ trong câu input,Ngữ nghĩa của câu đầu vào
+Khẳng định nào dưới đây là đúng với cơ chế attention?,"Không có attention, mô hình vẫn nhớ được đầy đủ thông tin được đưa vào ban đầu",Attention sử dụng ánh xạ key-value làm cơ sở duy nhất để hoạt động,Attention giúp hình dung tốt hơn cách hoạt động của mô hình,Có duy nhất một hàm để tính attention score
+Đâu không phải là một ứng dụng của GAN được nêu trong phần đầu tiên của văn bản Public039?,Tăng độ phân giải ảnh,"""Dịch ảnh"" (image-to-image translation)",Chỉnh sửa ảnh mặt người,Sinh mô tả ảnh
+GAN là viết tắt của?,Generative Adversarial Network,Graphic Adversarial Network,Graphic Artificial Network,Generative Artifical Network
+"GAN gồm bao nhiêu thành phần mạng và tên gọi của chúng, theo đúng thuật ngữ, là?",Hai. Generator và Judge,"Ba. Generator, Audience và Critic",Hai. Generator và Discriminator,Một. Artist
+Tóm tắt cách hoạt động của GAN?,"Generator sẽ sinh ảnh, Discriminator sẽ chấm điểm bức ảnh dựa trên kho ảnh.","Generator sẽ sinh ảnh giả, Discriminator sẽ chọn ra ảnh thật giữa ảnh giả và một ảnh thật (nhưng không biết là thật). Hai mô hình sẽ đối đầu nhau","Generator sẽ sinh ảnh, Discriminator cũng sinh ảnh. Hệ thống chọn một bức ảnh giống với chúng và trả về để hai mô hình cả thiện","Generator sẽ sinh ảnh, Discriminator sẽ quyết định cách cập nhật Generator"
+Đâu là một ví dụ được coi là tương đồng với cách thức huấn luyện của GAN?,Huấn luyện chơi cờ,Giải một mê cung,Thí nghiệm của Pavlov,
+Khác biệt về kiến trúc của DCGAN và GAN?,DCGAN ít lớp ẩn hơn GAN,"DCGAN sử dụng mạng tích chập, GAN sử dụng mạng neural thường",DCGAN thay đổi mục tiêu của Discriminator và Generator trong GAN,Không có khác biệt
+Input của Generator là?,Vector không,Vector một,Vector ngẫu nhiên,Tensor 3 kênh
+Output tương ứng với CIFAR-10 và Fashion-MNIST là?,32 x 32 x 3 và 28 x 28 x 1,32 x 32 x 1 và 28 x 28 x 3,28 x 28 x 1 và 32 x 32 x 3,28 x 28 x 3 và 32 x 32 x 1
+Điểm chung giữa DCGAN và Conditional GAN là?,Đều sử dụng mạng tích chập,Đều có hai mạng Generator và Discriminator,Vai trò của Generator và Discriminator là như nhau ở cả hai hệ thống,Tất cả các khẳng định đã nêu
+"Đâu là yếu tố tạo nên ""Conditional"" trong Conditional GAN?","Generator sinh ảnh nửa chừng rồi đi qua một kiểm tra điều kiện, nếu không đạt thì thay đổi ảnh",Generator sẽ nhận vào điều kiện của ảnh và phải sinh ảnh khớp với điều kiện,Discriminator chỉ phân biệt ảnh theo các điều kiện nhất định,"Discriminator được biết điều kiện của ảnh, sẽ đánh giá ảnh của Generator theo điều kiện đó"
+Logistic regression có đầu ra là gì?,Giá trị thực,Giá trị nhị phân,Giá trị nguyên dương,Giá trị phức
+Đâu là công thức của sigmoid?,1/exp(-z),exp(z),1/(1 + exp(-z)),1 - 1/(1 + exp(z))
+Loss function biến thiên ra sao khi output y_i lần lượt là 1 và 0?,Đều đơn điệu giảm,Đều đơn điệu tăng,Đơn điệu tăng và đơn điệu giảm,Đơn điệu giảm và đơn điệu tăng
+Điểm giống nhau cơ bản của logistic regression và linear regression là gì,Đưa ra kết quả dựa trên tổ hợp tuyến tính các đặc trưng đầu vào,Dự đoán bằng tổng trọng số các đặc trưng đầu vào,Sử dụng chung một loss function,Đều bắt buộc phải giải bằng gradient descent
+"Theo nguyên lý xác suất đã nêu, đâu không phải là một khẳng định hợp lý?",Sự kiện có 70% xác suất sẽ chắc chắn hơn sự kiện có 50% xác suất,"Tổng xác suất của sự kiện ""tôi là nam"" và ""tôi là nữ"" là 100%",Xác suất tôi đi về sẽ gặp trời mưa là 150%,"Với một đồng xu cân đối đồng chất, xác suất ra mặt ngửa và mặt sấp là như nhau"
+Mô hình neural network lấy cảm hứng từ?,Cơ chế thụ cảm của con người,Hoạt động của nơ-ron trong hệ thần kinh,Khả năng tư duy của con người,Khả năng điều khiển cơ thể của các loài động vật
+"Neural network bắt chước toàn bộ cơ chế hoạt động của hệ thần kinh, đúng hay sai?",Sai,Đúng,,
+Ký hiệu phổ biến cho số đặc trưng trong một điểm dữ liệu và số điểm dữ liệu lần lượt là?,N và M,N và D,D và M,D và N
+Bài toán về toán tử bit nào là minh chứng cho việc cần xây dựng nhiều hơn một lớp ẩn?,AND,OR,XOR,NOT
+Vì sao lại nên dùng hàm kích hoạt phi tuyến (non-linear activation)?,"Vì nếu mô hình phức tạp hơn, kết quả chắc chắn sẽ tốt hơn",Vì tổ hợp của các lớp ẩn và hàm kích hoạt tuyến tính tương đương một lớp tuyến tính,"Vì đây là xu hướng, thói quen của cộng đồng",Vì nó hiệu quả trên thực tế dù chưa có lời giải thích xác đáng
+Hệ màu RGB biểu diễn tất cả các màu khả kiến dưới dạng tổ hợp của ba màu gì?,"Đỏ, xanh lục, xanh lam","Đỏ, vàng, xanh lam","Xanh lục, cam, tím","Vàng, xanh biển, tím đỏ"
+Tensor được chuyên dùng để mô tả dữ liệu theo mấy chiều,Một,Hai,Nhiều hơn hai,
+Một pixel của ảnh xám có thể nhận giá trị tối thiểu và tối đa lần lượt là?,0 và 127,-127 và 127,0 và 255,0 và 1048576
+Phép tích chập (convolution) gồm ba yếu tố chính là kernel và hai thành phần nào?,Strike và patting,Stride và padding,Strike và padding,Stride và patting
+"Đâu là giá trị của pixel ảnh xám ứng với pixel ảnh RGB (100, 10, 1)? Biết rằng công thức quy đổi là p = 0.299 * r + 0.587 * g + 0.114 * b (kết quả làm tròn tới hàng đơn vị)",36,35,37,34
+Đâu là vấn đề mà CNN giải quyết tốt hơn so với thiết kế mạng truyền thống?,Lưu trữ tham số,Xử lý dữ liệu hai chiều,Thời gian tính toán,Cả ba vấn đề đã nêu
+Pooling layer được thiết kế để?,"Giảm kích thước dữ liệu, bất luận mất mát thông tin",Giảm chiều nhưng vẫn giữ lại thông tin,Tăng kích thước dữ liệu,Sinh ra giá trị trung gian dựa trên một vùng của dữ liệu
+Pooling layer của VGG16 có kích thước ra sao và hàm pool là?,"2 x 2, avg","3 x 3, max","2 x 2, max","3 x 3, avg"
+Tổng quát một CNN sẽ gồm hai phần chính nào sau đây?,Các lớp tích chập và các lớp truyền thống,Các kernel tích chập và hàm pool,Các lớp tích chập giảm kích thước và các lớp tích chập tăng kích thước,Các thông số padding và stride
+"Kết quả average pooling của hình vuông gồm 4 giá trị 15, 20, 30, 45 là?",30,27.5,25,32.5
+Điểm chung của Transfer learning và data augmentation là gì,Tận dụng mô hình có sẵn,Áp dụng cho tình trạng khan hiếm dữ liệu,Chi phí đắt đỏ,"Không có điểm chung, là hai phương án độc lập rời rạc"
+Đâu không phải là một hình thức data augmentation cho ảnh?,Cắt và phóng to (crop and resize),Lật ảnh (flip),Xoay ảnh (rotate),Chuyển ảnh xám
+"Khi tiến hành phân lớp với nhiều hơn hai lớp, có bao nhiêu chiến lược tiếp cận? Hình thức của chúng là?",Hai. Một model phân M lớp và M model phân biệt từng lớp,Một. Một model phân M lớp,Một. M model phân biệt từng lớp,Không thể tiến hành
+"Trường hợp nào sau đây được đề xuất sử dụng Finetuning hơn là Feature extractor?
+I. Dữ liệu lớn, khác dữ liệu pretrain
+II. Dữ liệu nhỏ, khác dữ liệu pretrain
+III. Dữ liệu nhỏ, giống dữ liệu pretrain
+IV. Dữ liệu lớn, giống dữ liệu pretrain",I,II và III,I và IV,IV
+Đâu không phải là khẳng định đúng giữa Finetuning và Feature extractor,Finetuning hiệu quả thấp hơn feature extractor,Finetuning chỉ phù hợp khi có bộ dữ liệu đủ lớn,Feature extractor phù hợp khi dữ liệu thích nghi tương đối giống với dữ liệu của mô hình pretrained,Finetuning cần nhiều tài nguyên để tiến hành hơn so với feature extractor
+Lợi ích chính của vectorization là gì,Tiết kiệm thời gian,Tiết kiệm bộ nhớ,Giảm overfitting,Giảm underfitting
+Giá trị p trong dropout thể hiện điều gì?,Tỉ lệ giữ node của layer,Xác suất giữ một layer,Tỉ lệ bỏ node của layer,Xác suất bỏ một layer
+Khái niệm tiếng Việt cho bias và variance là gì?,"Phương sai, độ lệch chuẩn","Độ lệch, độ lệch chuẩn","Độ lệch, phương sai","Độ lệch chuẩn, phương sai"
+Đâu là mục tiêu chính của các phương pháp trong tài liệu Public046?,Tăng thời gian chạy,Tránh các hiện tượng như overfitting và underfitting,Tăng khả năng khái quát hóa của mô hình,Cả ba mục tiêu
+Một thuật toán gradient descent lấy ra 32 dữ liệu điểm mỗi lần tính đạo hàm thì thuộc loại gradient descent nào?,Batch GD,Mini-batch GD,Stochastic GD,Không phải loại GD nào nêu trên
+Input của bài toán object detection là?,Âm thanh,Hình ảnh,Văn bản,Hỗn hợp
+Vấn đề chính của R-CNN là?,Thời gian infer lâu,Thời gian train lâu,Cả hai vấn đề đã nêu,Không phải hai vấn đề đã nêu
+IoU phụ thuộc vào hai toán tử tập hợp nào và công thức là gì?,Intersection và Union. I/U,Intersection và Negation. I/(I + N),Negation và Union. (U + N)/N,Intersection và Union. U/(U + I)
+Cốt lõi của các cách tiếp cận bài toán object detection là?,Hồi quy,Region proposal,Phân cụm,Phân lớp
+ROI pooling với ảnh 10 x 10 và output 4 x 4 sẽ chia ảnh gốc thành mấy phân vùng,1,2,3,4
+Bộ dữ liệu được sử dụng có bao nhiêu ảnh?,1750,1024,2048,3500
+Mô hình được sử dụng để huấn luyện là?,YOLOv5,YOLOv4,YOLO-TinyV5,YOLO-Tinyv4
+Có bao nhiêu phương pháp đã được dùng để tăng cường dữ liệu và gồm những thao tác nào?,"Hai. Thu nhỏ, phóng to","Ba. Thu phóng, tăng sáng, xoay","Hai. Thêm nhiễu, tăng sáng",Một. Lật
+Cách tiếp cận đã nêu trong bài có tiến hành đọc biển số hay không?,Không,Có,,
+Phân lớp của bài toán này là?,Image segmentation,Object segmentation,Object detection,Image classification
+Khái niệm được dùng để đại diện tập xác định của một biến là?,Kiểu dữ liệu,Tên dữ liệu,Loại dữ liệu,Lớp dữ liệu
+Thành phần nào sau đây không thuộc phạm vi quản lý của biến?,Kiểu dữ liệu,Tên biến,Giá trị biến,Địa chỉ lưu biến
+Tên kiểu dữ liệu của ký tự ASCII và ký tự Unicode lần lượt là?,char và wchar,char_t và wchar_t,char và wchar_t,char_t và wchar
+Đâu không phải khẳng định đúng về thuật toán?,"Thuật toán phải rõ ràng, không nhập nhằng",Thuật toán không được chạy vô hạn,"Thuật toán phải được thiết kế đặc thù, chuyên sâu thay vì tổng quát","Thuật toán nên dễ hiểu, dễ cài đặt"
+Phương trình toán học 3x + 4y + 5z = 6 có mấy biến?,Ba,Hai,Một,Bốn
+"Điền vào chỗ trống: nếu hàm số f(x) bị ... bởi hằng số C nhân với g(x), ta nói f(x) có độ phức tạp O(g(x))",Chặn dưới ,Chặn trên,Chặn trên và dưới,Lớn hơn
+"Theo nguyên tắc tổng, f1(x) + f2(x) có độ phức tạp là?","O(max(g1(x), g2(x))","O(min(g1(x), g2(x))",O(g1(x) + g2(x)),O(|g1(x) - g2(x)|)
+Độ phức tạp tuyến tính và giai thừa lần lượt có ký hiệu là?,O(1) và O(n),O(logn) và O(n!),O(n) và O(n!),O(1) và O(logn)
+Bước đầu tiên của mỗi quá trình tiếp cận bài toán là?,Tìm cấu trúc dữ liệu phù hợp,Lựa chọn thuật toán,Xác định yêu cầu bài toán ,Xác định ngôn ngữ và trình dịch
+Hai thuật toán được tiến hành kế tiếp nhau lần lượt có độ phức tạp O(n) và O(n^2). Độ phức tạp của chương trình là?,O(n),O(n^2),O(n^2 + n),O(n x n^2)
+"Trong bốn khái niệm dưới, khái niệm nào không thuộc về thuật toán sinh?",Cấu hình khởi đầu,Cấu hình kết thúc,Thuật toán chuyển cấu hình tất định,Cấu hình tối ưu
+Nội dung của chương không bao gồm bài toán nào?,Bài toán liệt kê,Bài toán đếm,Bài toán tồn tại,Bài toán đặc thù
+Số hoán vị của một bộ độ dài N là bao nhiêu và giá trị tương ứng khi N = 3 là?,"N!, 6","N^N, 27","N^2, 9","N, 3"
+Đâu là cốt lõi của thuật toán đệ quy?,Bài toán lớn được chia thành các bài toán nhỏ lồng nhau,Bài toán lớn có lời giải đóng,Bài toán lớn được chia thành các bài toán nhỏ có cùng dạng,Bài toán không thể giải trong thời gian đa thức
+"Bài toán liệt kê xâu nhị phân độ dài 6 phải trải qua bao nhiêu cấu hình, nếu biết số cấu hình cho độ dài n là 2^n?",2^5,2^6,2^7,2^12
+Đâu không phải một ví dụ duyệt được thực hiện bởi quay lui?,Duyệt xâu nhị phân,Duyệt tập con,Duyệt hoán vị,Duyệt từ đầu đến cuối mảng
+"Trong bài toán N quân hậu, quân hậu ở hàng thứ i phải thỏa mãn điều gì?",Không trùng cột với các quân hậu còn lại,Không cùng đường chéo xuôi với các quân hậu còn lại,Không cùng đường chéo ngược với các quân hậu còn lại,Cả ba tiêu chí trên
+Thủ tục tiền xử lý và thủ tục chạy quay lui được gọi trong main() lần lượt là?,Prep() và Run(1),Init() và Run(1),Init() và Try(1),Prep() và Try(1)
+"Đâu không phải một bước trong quay lui?
+1. Duyệt một phần các khả năng của biến
+2. Đặt biến là một giá trị hợp lệ
+3. Di chuyển đến biến tiếp theo nếu còn",Bước 1,Bước 2,Bước 3,Bước 1 và 3
+Nếu duyệt mọi tập con K phần tử có thể thực hiện bằng quay lui thì ta có thể dùng quay lui để duyệt một số tập con K phần tử hay không?,Không,Có,Tùy tình huống,
+"Điều kiện của ""sắp xếp"" là?",Trật tự của đối tượng,Đối tượng phải là số,Số lượng đối tượng nhỏ,Cấu hình máy mạnh
+"Có thể nói, ""sắp xếp là sân sau của quá trình tìm kiếm"" hay không?",Không,Có,,
+Cho biết số lượng thuật toán sắp xếp đơn giản được trình bày và tên của chúng?,"Ba. Selection sort, insertion sort, bubble sort","Hai. Quick sort, merge sort","Hai. Selection sort, insertion sort","Ba. Insertion sort, bubble sort, radix sort"
+Độ phức tạp nhỏ nhất của Insertion Sort là?,O(N^2),O(N),O(NlogN),O(sqrt(N))
+Vì sao Selection Sort có độ phức tạp O(N^2),Vì thuật toán chạy nhiều hơn một vòng for,Vì thuật toán chạy hai vòng for lồng nhau,Vì thuật toán có hai vòng for tuyến tính lồng nhau,Vì người đề xuất phát biểu vậy
+Hành động chính của Bubble Sort là?,Tráo đổi đầu và cuối,Tráo đổi hai phần tử kề nhau,Tráo đổi từ giữa mảng ra,Tráo đổi min và max
+Đâu không phải một cách chọn khóa (pivot) điển hình trong Quick Sort,Dùng phần tử đầu,Dùng phần tử thứ ba,Dùng phần tử giữa,Dùng phần tử cuối
+"Trong heap, chỉ số node con trái và phải của node x lần lượt là? (node gốc có chỉ số 0)","2i, 2i + 1","2i, 2i + 2","2i + 1, 2i + 2","2i, 3i"
+Đâu là cấu trúc heap ta nên dùng nếu muốn sắp xếp mảng giảm dần?,Min-heap,Max-heap,Avg-heap,Mean-heap
+Đâu là điểm chung giữa Merge Sort và Quick Sort? Chọn một đáp án,Độ phức tạp trung bình O(N^2),"Ở mỗi bước chia nhỏ, luôn đảm bảo hai mảng con cùng độ dài",Sử dụng tư tưởng chia để trị,Đều là các thuật toán sắp xếp ổn định (bảo toàn thứ tự xuất hiện các phần tử bằng nhau)
+Đâu không phải thuật toán tìm kiếm được nêu trong tài liệu Public055?,Tìm kiếm tuyến tính,Tìm kiếm nhị phân,Tìm kiếm heurestic,Tìm kiếm nội suy
+Thuật toán đơn giản nhất trong bốn thuật toán được nêu là?,Tìm kiếm nhị phân,Tìm kiếm nội suy,Tìm kiếm Jumping,Tìm kiếm tuyến tính
+Kết quả trả về của tìm kiếm khi thấy và không thấy lần lượt là?,1 và 0,1 và -1,Chỉ số phần tử cần tìm và -1,Chỉ số phần tử cần tìm và 0
+Nhận định nào sau đây không đúng,Tìm kiếm Jumping rồi sẽ quay về tìm kiếm tuyến tính ở một bước nào đó,Tìm kiếm nội suy không hề giống tìm kiếm nhị phân,Tìm kiếm nhị phân tiến hành giảm kích thước khoảng đang tìm đi một nửa sau mỗi bước,Tìm kiếm tuyến tính là thuật toán tổng quát nhất
+"Biết tìm kiếm nhị phân luôn hoàn thành trong logN bước, cho biết mảng đã sắp xếp gồm 2^8 phần tử sẽ cần bao nhiêu bước?",8,7,9,6
+Đâu không phải thao tác phổ biến trên linked list?,Đảo node,Duyệt node,Nhân đôi node,Loại node
+Một node của linked list có mấy trường?,Hai,Ba,Bốn,Một
+Tên của thao tác cập nhật node và tìm node lần lượt là?,Find và update,Search và display,Find và display,Search và update
+Đâu không phải là đặc điểm của linked list?,"Tại một phần tử, có thể chuyển đến phần tử trước nó",Một phần tử có hai trường: thông tin và con trỏ đến phần tử kế tiếp,Giải quyết bất cập về việc cấp phát bộ nhớ của mảng (array),Là một kiểu dữ liệu trừu tượng (ADT - abstract data type)
+"Muốn cập nhật trong linked list phần tử thứ 5 với giá trị 7, ta cần nhập vào khi gọi update() thứ tự giá trị nào cho pos và val?",4 7,5 7,7 5,7 4
+Đâu không phải một loại đồ thị trong phân loại cấp dưới?,Đơn đồ thị,Đa đồ thị,Lưỡng đồ thị,Giả đồ thị (pseudograph)
+Đồ thị được tạo thành bằng cách bổ sung một đỉnh nối với mọi đỉnh của đồ thị C_n được ký hiệu là?,W_n,K_n,S_n,C'_n
+Tên gọi riêng cho đỉnh bậc 0 và đỉnh bậc 1 trong đồ thị vô hướng là?,"Đỉnh cô đơn, đỉnh lẻ","Đỉnh cô lập, đỉnh treo","Đỉnh cô đơn, đỉnh treo","Đỉnh cô lập, đỉnh lẻ"
+Đâu không phải tên của một cách biểu diễn đồ thị?,Ma trận kề,Danh sách đỉnh,Danh sách cạnh,Danh sách kề
+Đồ thị bánh xe là đồ thị tròn Cn được thêm vào n cạnh. Vậy số cạnh của đồ thị bánh xe là?,2n - 1,n^2,2n,n^2 + 1
+Đâu là một tên gọi khác của kiểm thử chức năng?,Kiểm thử hộp màu,Kiểm thử hộp đen,Kiểm thử hộp trắng,Kiểm thử hộp xám
+Tập S biểu diễn hành vi như thế nào?,Được nêu trong đặc tả,Được bao hàm trong mã nguồn,Được đem ra kiểm nghiệm,Mọi hành vi có thể
+"Các hành vi ""được đặc tả"" và ""được kiểm thử"" được định nghĩa thuộc tập nào?",T và T,P và S,T và P,S và T
+"So sánh kiểm thử hộp trắng và kiểm thử hộp đen, phương pháp nào ưu việt hơn?",Kiểm thử hộp trắng,Kiểm thử hộp đen,Không phương pháp nào ưu việt hơn,
+"Theo mô hình biểu đồ Venn, thiết kế kiểm chứng nên rơi vào miền nào nhiều nhất?",Miền 1,Miền 4,Miền 3,Miền 7
+Kiểm thử tích hợp tập trung vào vấn đề gì?,Hoạt động của một module,Hoạt động tương hỗ giữa các module,Hoạt động theo đặc tả,Hoạt động theo yêu cầu người dùng
+Đâu không phải là một hình thức giao diện giữa nhiều module?,Module A gọi hàm ở module B,Module A nằm trong module B,Module A gửi thông tin cho module B,Module A dùng chung bộ nhớ với module B
+"Ngoài hai cách ghép module thông dụng là top down, bottom up thì còn mấy phương pháp và tên của chúng là?","Ba. Leftward, upward, waterfall",Một. Bigbang,"Hai. Bigbang, sandwich",Không còn phương pháp nào
+Nội dung nào không được đề cập?,Khái niệm kiểm thử tích hợp,Hình thức kiểm thử tích hợp theo cấu trúc module,Các loại giao diện giữa các module,So sánh kiểm thử tích hợp với kiểm thử hồi quy
+"Đoạn code ngắn sau thể hiện loại giao diện nào?
+float pi() { return 3.14; } void main() { std::cout << pi(); }",Procedure call,Shared memory,Message passing,Inheritance
+Toàn bộ chương sẽ đi qua bao nhiêu ví dụ?,Một,Hai,Ba,Bốn
+"Có tất cả bao nhiêu cách để đi đến nút ""Not A Triangle"" trong bài toán Tam giác, theo tài liệu?",Bảy,Sáu,Năm,Tám
+Phân bố loại đối tượng nào là một vấn đề của bài toán Ngày kế tiếp; việc xác định đối tượng này có phụ thuộc vào đối tượng khác không?,Ngày 31. Có,Tháng nhuận âm lịch. Có,Năm nhuận. Không,Ngày 30. Không
+Đâu không phải một yếu tố khiến bài toán Tam giác phổ biến?,"Hệ thống đặc tả đầy đủ đơn giản, dễ liệt kê",Hàm ý yêu cầu nghiêm ngặt về bảo toàn đặc tả,"Hàm ý người kiểm thử cần đặt ra những trường hợp ""không tầm thường"" (ví dụ input không hợp lệ phải trả về kết quả gì)","Cài đặt dài dòng, rất nhiều if else"
+"Output của bài toán tam giác với bộ ba số (3, 4, 5) là?",Equilateral,Isosceles,Scalene,Not A Triangle

@@ -1,0 +1,46 @@
+# Core
+numpy>=1.23.2
+pandas>=1.2.4
+python-dotenv>=1.0.1
+PyYAML>=5.1
+ujson>=2.0.0
+tqdm>=4.27
+python-dateutil>=2.8.2
+pytz>=2020.1
+
+# Web and Data Processing
+beautifulsoup4>=4.9.0
+markdown>=3.0.0
+Pillow>=8.0.0  # PIL
+
+# Vector Database and Search
+pymilvus[model]>=2.6.2
+
+# NLP and Embeddings
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+
+# LangChain
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-huggingface>=0.0.1
+
+# Pydantic
+pydantic>=2.0.0
+
+# Additional Dependencies
+protobuf>=5.27.2
+grpcio>=1.66.2
+safetensors>=0.4.3
+huggingface-hub>=0.34.0
+
+# For BM25
+rank-bm25>=0.2.2
+huggingface_hub[hf_xet]
+pymilvus[milvus_lite]
+milvus
+mineru[core]
+bitsandbytes>=0.39.0
+
+# CLIP
+git+https://github.com/openai/CLIP.git

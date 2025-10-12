@@ -1,0 +1,7 @@
+result/
+!result/mineru
+test_data
+volumns
+embedEtcd.yaml
+user.yaml
+output_unstructured.md
