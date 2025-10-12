@@ -5,7 +5,7 @@ import torch
 import clip
 from sentence_transformers import SentenceTransformer
 
-from core.pipeline import create_hybrid_pipeline
+from core.hybrid_collection_pipeline import create_hybrid_pipeline
 from models.image_encoder import MultimodalImageEncoder
 from models.llm_utils import load_llm
 from retrieval.retrieval_qa import get_relevant_documents, prompt, MCQInput

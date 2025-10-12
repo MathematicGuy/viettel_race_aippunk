@@ -53,3 +53,6 @@ def create_hybrid_pipeline(markdown_dir: str, image_base_dir: str,
         return all_entities, search_engine
 
     return process_documents, search_engine
+
+
+

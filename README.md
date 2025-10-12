@@ -1,5 +1,4 @@
-## Prequisites: Create Local Vector Database (Milvus)
-
+## Prequisites: Create Local Vector Database (Run command below 1 only, after this just activate Milvus container within Docker)
 0. Download [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 **Windows:**

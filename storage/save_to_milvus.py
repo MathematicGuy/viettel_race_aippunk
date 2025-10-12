@@ -1,4 +1,4 @@
-from core.pipeline import create_hybrid_pipeline
+from core.hybrid_collection_pipeline import create_hybrid_pipeline
 # Get file names
 import os
 from pathlib import Path

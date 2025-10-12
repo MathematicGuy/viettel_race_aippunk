@@ -39,35 +39,35 @@ for key in [
     print(f"{key} = {os.getenv(key)}")
 
 
-# def process_pdf(file_name):
-#     input_path = os.path.join(PATH, file_name)
-#     result = subprocess.run([
-#         "mineru",
-#         "-p", input_path,
-#         "-o", OUTPUT_PATH,
-#         "--disable-visualization",
-#         "--disable-intermediate"
-#     ], capture_output=True, text=True)
+def process_pdf(file_name):
+    input_path = os.path.join(PATH, file_name)
+    result = subprocess.run([
+        "mineru",
+        "-p", input_path,
+        "-o", OUTPUT_PATH,
+        "--disable-visualization",
+        "--disable-intermediate"
+    ], capture_output=True, text=True)
 
-#     if result.returncode == 0:
-#         return f"✅ Success: {file_name}"
-#     else:
-#         return f"❌ Failed: {file_name}\n{result.stderr}"
+    if result.returncode == 0:
+        return f"✅ Success: {file_name}"
+    else:
+        return f"❌ Failed: {file_name}\n{result.stderr}"
 
 
-# # Run in parallel
-# from concurrent.futures import ThreadPoolExecutor, as_completed
+# Run in parallel
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 file_names = [f for f in os.listdir(PATH) if f.lower().endswith(".pdf")]
 print(file_names)
 
-# with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-#     futures = [executor.submit(process_pdf, f) for f in file_names]
-#     for future in as_completed(futures):
-#         print(future.result())
-#         print()
+with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    futures = [executor.submit(process_pdf, f) for f in file_names]
+    for future in as_completed(futures):
+        print(future.result())
+        print()
 
-# file_names = os.listdir(PATH) # [file_name.pdf,...]
+file_names = os.listdir(PATH) # [file_name.pdf,...]
 
 for file_name in file_names:
     file_name = file_name.replace('.pdf', '')

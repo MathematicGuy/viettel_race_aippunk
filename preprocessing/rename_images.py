@@ -117,7 +117,7 @@ if __name__ == "__main__":
     # try:
     #     script_dir = os.path.dirname(os.path.abspath(__file__))
     # except NameError:
-    #     script_dir = os.getcwd() #
+    #     script_dir = os.getcwd() #~
 
     PATH = 'private-test-output'
     out_dir = os.path.join(PATH)
