@@ -99,8 +99,7 @@ def process_public_directory(public_dir):
         if temp_dir.exists():
             shutil.rmtree(temp_dir)
 
-# Các hàm process_all_directories và __main__ giữ nguyên như cũ
-# ... (phần code còn lại của bạn) ...
+
 def process_all_directories(root_dir):
     """
     Process all PublicXXX directories in the root directory
@@ -112,15 +111,16 @@ def process_all_directories(root_dir):
         if public_dir.is_dir():
             process_public_directory(public_dir)
 
+
 if __name__ == "__main__":
-    # Get the directory where this script is located
-    try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-    except NameError:
-        script_dir = os.getcwd() # Dành cho môi trường interactive như Jupyter
+    # Get absolute path (current path)
+    # try:
+    #     script_dir = os.path.dirname(os.path.abspath(__file__))
+    # except NameError:
+    #     script_dir = os.getcwd() #
 
     PATH = 'private-test-output'
-    out_dir = os.path.join(script_dir, PATH)
+    out_dir = os.path.join(PATH)
 
     if os.path.exists(out_dir):
         print(f"Bắt đầu xử lý ảnh trong {out_dir}")

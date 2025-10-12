@@ -1,5 +1,30 @@
-## Directory Structure
+## Prequisites: Create Local Vector Database (Milvus)
 
+0. Download [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/)
+
+**Windows:**
+1. Open Docker Desktop in administrator mode by right-clicking and selecting Run as administrator.
+2. Download the installation script and save it as standalone.bat.
+```sh
+Invoke-WebRequest https://raw.githubusercontent.com/milvus-io/milvus/refs/heads/master/scripts/standalone_embed.bat -OutFile standalone.bat
+```
+3. Run the downloaded script to start Milvus as a Docker container.
+```sh
+standalone.bat start
+```
+
+
+**Linux:**
+1. Download the installation script
+```sh
+curl -sfL https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh -o standalone_embed.sh
+```
+2. Start the Docker container
+```sh
+bash standalone_embed.sh start
+```
+
+## Directory Structure
 ```
 app/
 ├── main.py                    # Main entry point

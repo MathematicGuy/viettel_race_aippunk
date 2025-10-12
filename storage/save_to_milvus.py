@@ -1,20 +1,23 @@
-# Get file names
 from core.pipeline import create_hybrid_pipeline
+# Get file names
 import os
 from pathlib import Path
 import torch
 import clip
 from sentence_transformers import SentenceTransformer
-from core.pipeline import create_hybrid_pipeline
 from models.image_encoder import MultimodalImageEncoder
 from storage.milvus_store import MilvusHybridStore
 from retrieval.search_engine import HybridSearchEngine
 
 
+print('BEGIN SAVE DATA TO LOCAL MILVUS DB')
 # Configuration
 IMAGE_BASE_DIR = 'private_test_output/images'
-MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
-MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
+# MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
+# MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
+MILVUS_URI = "http://localhost:19530"
+MILVUS_TOKEN = "root:Milvus"
+
 PATH = "private_test_output/"
 
 
