@@ -1,13 +1,14 @@
 import re
 import subprocess
-import os, shutil, sys
+import os
 
 #? Config MinerU
 print('BEGIN PDF PREPROCESSING: COVERT PDF to MARKDOWN')
 PATH = "private-test-input/"
-OUTPUT_PATH = "private-test-input/"
+OUTPUT_PATH = "private-test-output/"
 # PATH = "public-test-input/"
 # OUTPUT_PATH = "public-test-output/"
+
 MAX_WORKERS = 3  # Adjust based on your VRAM and CPU
 
 # ==== Device & Precision ====
@@ -58,17 +59,19 @@ def process_pdf(file_name):
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 file_names = [f for f in os.listdir(PATH) if f.lower().endswith(".pdf")]
+print(file_names)
 
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     futures = [executor.submit(process_pdf, f) for f in file_names]
     for future in as_completed(futures):
         print(future.result())
+        print()
 
 file_names = os.listdir(PATH) # [file_name.pdf,...]
 
 for file_name in file_names:
     file_name = file_name.replace('.pdf', '')
-    file_path = f'private_test_output/{file_name}/auto/'
+    file_path = f'private_test_output/{file_name}/auto'
 
     with open(f'{file_path}/{file_name}.md', 'r', encoding='utf-8') as f:
         content = f.read()

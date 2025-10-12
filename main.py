@@ -5,12 +5,13 @@ import torch
 import clip
 from sentence_transformers import SentenceTransformer
 
-from .pipeline import create_hybrid_pipeline
-from .image_encoder import MultimodalImageEncoder
-from .llm_utils import load_llm
-from .retrieval_qa import get_relevant_documents, prompt, MCQInput
-from .milvus_store import MilvusHybridStore
-from .search_engine import HybridSearchEngine
+from core.pipeline import create_hybrid_pipeline
+from models.image_encoder import MultimodalImageEncoder
+from models.llm_utils import load_llm
+from retrieval.retrieval_qa import get_relevant_documents, prompt, MCQInput
+from storage.milvus_store import MilvusHybridStore
+from retrieval.search_engine import HybridSearchEngine
+from utils.write_answers import write_answers_to_file
 
 # Device
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -29,43 +30,16 @@ image_encoder = MultimodalImageEncoder(clip_model, clip_preprocess)
 # LLM
 llm = load_llm()
 
+
+
 def main():
     # Configuration
     IMAGE_BASE_DIR = 'private_test_output/images'
     MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
     MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
 
-    # Get file names
-    PATH = "private_test_output/"
-    file_names = [f for f in os.listdir(PATH) if f.lower().endswith(".pdf")]
-    file_names = [f[:-4] for f in file_names]
-	
-    for file_name in file_names:
-        MARKDOWN_DIR = f'IMAGE_BASE_DIR\\{file_name}'
-        process_docs, search_engine = create_hybrid_pipeline(
-            MARKDOWN_DIR, IMAGE_BASE_DIR, MILVUS_URI, MILVUS_TOKEN, text_model, image_encoder
-        )
-
-        # Xử lý documents
-        markdown_files = list(Path(MARKDOWN_DIR).glob("*.md"))
-        print(markdown_files)
-        entities, search_engine = process_docs(markdown_files)
-
-        # Test search for this file
-        print(f"\n{'='*60}")
-        print(f"TEST HYBRID SEARCH for {file_name}")
-        print(f"{'='*60}")
-
-        # Text search
-        text_results = search_engine.hybrid_search(
-            query_text="Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?",
-            limit=5
-        )
-        print(f"Text search results: {len(text_results)}")
-        for i, result in enumerate(text_results[:3]):
-            print(f"  {i+1}. Score: {result['distance']:.4f}")
-            print(f"     Content: {result['entity']['content']}...")
-            print(f"     Type: {result['entity']['metadata']['entity_type']}")
+    store = MilvusHybridStore(MILVUS_URI, MILVUS_TOKEN)
+    search_engine = HybridSearchEngine(store, text_model, image_encoder)
 
     # After processing all, load questions and answer
     csv_path = "question.csv"
@@ -104,6 +78,8 @@ def main():
             answers.append(answer)
         else:
             print("No match found")
+
+    write_answers_to_file(answers)
 
 if __name__ == "__main__":
     main()

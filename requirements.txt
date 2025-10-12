@@ -20,8 +20,13 @@ pymilvus[model]>=2.6.2
 transformers>=4.36.0
 sentence-transformers>=2.2.0
 
+# Pytorch (required for transformers, CLIP, and ML operations)
+torch --index-url https://download.pytorch.org/whl/cu128
+torchvision --index-url https://download.pytorch.org/whl/cu128
+
 # LangChain
 langchain>=0.1.0
+langchain-core>=0.1.0
 langchain-text-splitters>=0.0.1
 langchain-huggingface>=0.0.1
 
@@ -42,5 +47,5 @@ milvus
 mineru[core]
 bitsandbytes>=0.39.0
 
-# CLIP
+# CLIP (OpenAI's CLIP model)
 git+https://github.com/openai/CLIP.git

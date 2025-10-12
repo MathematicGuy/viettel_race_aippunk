@@ -1,0 +1,85 @@
+## Directory Structure
+
+```
+app/
+├── main.py                    # Main entry point
+├── requirements.txt           # Python dependencies
+├── *.sh                       # Shell scripts (run_chooser_answer.sh, run_extract.sh, standalone_embed.sh)
+│
+├── config/                    # Configuration files
+│   ├── user.yaml
+│   ├── embedEtcd.yaml
+│   └── zilliz-cloud-Free-01-username-password.txt
+│
+├── core/                      # Core pipeline functionality
+│   ├── __init__.py
+│   └── pipeline.py           # Hybrid search pipeline creation
+│
+├── models/                    # ML models and encoders
+│   ├── __init__.py
+│   ├── llm_utils.py          # LLM loading and configuration
+│   └── image_encoder.py      # CLIP-based image encoder
+│
+├── processors/                # Data processors
+│   ├── __init__.py
+│   ├── markdown_processor.py # Markdown extraction
+│   └── entity_processors.py  # Text and image entity processing
+│
+├── preprocessing/             # PDF and file preprocessing
+│   ├── __init__.py
+│   ├── pdf_preprocessing.py
+│   ├── rename_images.py
+│   └── reorganize_directories.py
+│
+├── retrieval/                 # Search and retrieval components
+│   ├── __init__.py
+│   ├── search_engine.py      # Hybrid search engine
+│   └── retrieval_qa.py       # QA retrieval and prompts
+│
+├── storage/                   # Vector database storage
+│   ├── __init__.py
+│   └── milvus_store.py       # Milvus hybrid store
+│
+├── utils/                     # Utility functions
+│   ├── __init__.py
+│   └── combine_markdown.py   # Markdown combination utilities
+│
+└── data/                      # Data files
+    ├── answer_task_qa.csv
+    ├── question.csv
+    ├── validate_data.py
+    └── validate_task_qa.csv
+```
+
+## Module Descriptions
+
+### `config/`
+Contains all configuration files including YAML configs and credentials.
+
+### `core/`
+Contains the main pipeline logic that orchestrates the entire hybrid search workflow.
+
+### `models/`
+Manages ML models:
+- **llm_utils.py**: LLM loading with quantization for efficient inference
+- **image_encoder.py**: CLIP-based multimodal image and text encoding
+
+### `processors/`
+Data processing modules:
+- **markdown_processor.py**: Extracts text, tables, and images from markdown files
+- **entity_processors.py**: Creates text and image entities for embedding
+
+### `preprocessing/`
+PDF and file preprocessing utilities for data preparation.
+
+### `retrieval/`
+Search and QA components:
+- **search_engine.py**: Hybrid search combining dense, sparse, and multimodal vectors
+- **retrieval_qa.py**: Document retrieval and MCQ prompting
+
+### `storage/`
+Vector database integration:
+- **milvus_store.py**: Milvus collection creation and entity insertion
+
+### `utils/`
+General utility functions for tasks like markdown file combination.

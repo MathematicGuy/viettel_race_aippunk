@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# Run the main Python script
-python preprocessing.pdf_preprocessing.py
+# Convert pdf -> .md using MinerU
+python preprocessing/pdf_preprocessing.py
 
-python preprocessing.reorganize_directories.py
+# remove redundant file leaving only images/ and file.md
+python preprocessing/reorganize_directories.py
 
-python preprocessing.rename_images.py
+# remove watermark images and rename useful images
+python preprocessing/rename_images.py
+
+# save all data from private-test-output to Milvus vectordb
+python storage/save_to_milvus.py
