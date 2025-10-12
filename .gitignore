@@ -1,6 +1,6 @@
 config/*
 data/out/*
-volumes
+volumes/*
 data/in
 data/out
 *.yaml
