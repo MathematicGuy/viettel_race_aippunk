@@ -15,7 +15,7 @@ from utils.write_answers import write_answers_to_file
 
 # Device
 device = "cuda" if torch.cuda.is_available() else "cpu"
-
+print(device)
 # ===== MODEL INITIALIZATION =====
 # Text embedding model
 text_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-mpnet-base-v2').to(device)
@@ -30,19 +30,19 @@ image_encoder = MultimodalImageEncoder(clip_model, clip_preprocess)
 # LLM
 llm = load_llm()
 
-
-
 def main():
     # Configuration
-    IMAGE_BASE_DIR = 'private_test_output/images'
-    MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
-    MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
+    PATH = "private-test-input/"
+    MILVUS_URI = "http://localhost:19530"
+    MILVUS_TOKEN = "root:Milvus"
+    # MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
+    # MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
 
     store = MilvusHybridStore(MILVUS_URI, MILVUS_TOKEN)
     search_engine = HybridSearchEngine(store, text_model, image_encoder)
 
     # After processing all, load questions and answer
-    csv_path = "question.csv"
+    csv_path = f"{PATH}/question.csv"
     df = pd.read_csv(csv_path)
 
     # Extract each row into a list of MCQInput objects
@@ -61,7 +61,7 @@ def main():
 
     answers = []
     # Process first 5 for demo
-    for i, mcq in enumerate(mcq_list):
+    for i, mcq in enumerate(mcq_list[:5]):
         print(f"Processing question {i+1}: {mcq.question}")
         # Retrieval
         retrieved_context = get_relevant_documents(search_engine, mcq.question)
