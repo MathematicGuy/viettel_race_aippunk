@@ -3,9 +3,12 @@ import subprocess
 import os, shutil, sys
 
 #? Config MinerU
-PATH = "private_test_input/"
-OUTPUT_PATH = "private_test_output"
-MAX_WORKERS = 4  # Adjust based on your VRAM and CPU
+print('BEGIN PDF PREPROCESSING: COVERT PDF to MARKDOWN')
+PATH = "private-test-input/"
+OUTPUT_PATH = "private-test-input/"
+# PATH = "public-test-input/"
+# OUTPUT_PATH = "public-test-output/"
+MAX_WORKERS = 3  # Adjust based on your VRAM and CPU
 
 # ==== Device & Precision ====
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"

@@ -2,6 +2,8 @@ import os
 import shutil
 from pathlib import Path
 
+print('BEGIN ORGANIZING DIRECTORY')
+
 def reorganize_directory(root_dir):
     """
     Reorganize directories by moving clean_*.md to main.md and images folder up one level,
@@ -47,8 +49,9 @@ def reorganize_directory(root_dir):
 
 if __name__ == "__main__":
     # Get the directory where this script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    out_dir = os.path.join(script_dir, 'out')
+    PATH = 'private-test-output'
+    out_dir = os.path.join(PATH)
+    print(out_dir)
 
     if os.path.exists(out_dir):
         print(f"Starting reorganization of {out_dir}")

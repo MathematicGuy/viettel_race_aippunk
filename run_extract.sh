@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Run the main Python script
-python pdf_preprocessing.py
+python preprocessing.pdf_preprocessing.py
 
-python reorganize_directories.py
+python preprocessing.reorganize_directories.py
 
-python rename_images.py
+python preprocessing.rename_images.py

@@ -3,6 +3,8 @@ import re
 import shutil
 from pathlib import Path
 
+print('BEGIN RENAMING FILE')
+
 def process_public_directory(public_dir):
     """
     Xử lý thư mục PublicXXX để đổi tên ảnh, cập nhật tham chiếu trong main.md,
@@ -22,10 +24,10 @@ def process_public_directory(public_dir):
 
     # Tìm tất cả các tham chiếu ảnh trong nội dung markdown
     image_refs = re.findall(r'!\[.*?\]\(([^)]+)\)', content)
-    
+
     # Chỉ lọc các file ảnh trong thư mục images
     image_refs = [
-        ref for ref in image_refs if ref.startswith('images/') and 
+        ref for ref in image_refs if ref.startswith('images/') and
         ref.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))
     ]
 
@@ -41,14 +43,14 @@ def process_public_directory(public_dir):
         if not old_path.exists():
             print(f"  Cảnh báo: {old_ref} không tồn tại, bỏ qua")
             continue
-            
+
         ext = os.path.splitext(old_ref)[1]
         new_filename = f"image{i}{ext}"
         new_ref = f"images/{new_filename}"
-        
+
         # Thêm vào bản đồ kept_images_map
         kept_images_map[old_ref] = new_ref
-        
+
         # Cập nhật nội dung markdown ngay lập tức để thay thế các tham chiếu
         # Điều này an toàn hơn việc replace hàng loạt sau này
         if old_ref != new_ref:
@@ -82,11 +84,11 @@ def process_public_directory(public_dir):
                 item.unlink()
             elif item.is_dir():
                 shutil.rmtree(item)
-        
+
         # 5. Di chuyển các ảnh đã đổi tên từ temp về lại images
         for item in temp_dir.glob('*'):
             shutil.move(str(item), str(images_dir / item.name))
-        
+
         # 6. Ghi lại nội dung main.md đã được cập nhật
         with open(main_md, 'w', encoding='utf-8') as f:
             f.write(updated_content)
@@ -104,7 +106,7 @@ def process_all_directories(root_dir):
     Process all PublicXXX directories in the root directory
     """
     root_path = Path(root_dir)
-    
+
     # Iterate through all PublicXXX directories
     for public_dir in sorted(root_path.glob('Public*')):
         if public_dir.is_dir():
@@ -116,9 +118,10 @@ if __name__ == "__main__":
         script_dir = os.path.dirname(os.path.abspath(__file__))
     except NameError:
         script_dir = os.getcwd() # Dành cho môi trường interactive như Jupyter
-        
-    out_dir = os.path.join(script_dir, 'out')
-    
+
+    PATH = 'private-test-output'
+    out_dir = os.path.join(script_dir, PATH)
+
     if os.path.exists(out_dir):
         print(f"Bắt đầu xử lý ảnh trong {out_dir}")
         process_all_directories(out_dir)

@@ -39,7 +39,7 @@ def main():
     PATH = "private_test_output/"
     file_names = [f for f in os.listdir(PATH) if f.lower().endswith(".pdf")]
     file_names = [f[:-4] for f in file_names]
-
+	
     for file_name in file_names:
         MARKDOWN_DIR = f'IMAGE_BASE_DIR\\{file_name}'
         process_docs, search_engine = create_hybrid_pipeline(
