@@ -111,3 +111,18 @@ General utility functions for tasks like markdown file combination.
 
 ## Milvus GUI
 Run this in web: `http://127.0.0.1:9091/webui/` where 'http://127.0.0.1' is your local host address with 9091 as Milvus GUI default port.
+
+
+### Export ENV KEY
+"""
+Debugging FastAPI:
+uvicorn app.py:app --reload
+
+MacOS:
+export TOGETHER_API_KEY="YOUR_API_KEY"
+
+Windows:
+$env:CEREBRAS_API_KEY = "your_key"
+$env:QDRANT_URL = "your_url"
+$env:QDRANT_API_KEY = "your_key"
+"""
