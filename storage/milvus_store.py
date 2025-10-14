@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 class MilvusHybridStore:
     """Milvus store tối ưu cho hybrid search"""
 
-    def __init__(self, uri, token, collection_name="hybrid_rag_collection"):
+    def __init__(self, uri, token, collection_name="hybrid_rag_collection2"):
         self.client = MilvusClient(uri=uri, token=token)
         self.collection_name = collection_name
         self.text_dense_dim = 768  # paraphrase-multilingual-mpnet-base-v2
@@ -13,8 +13,10 @@ class MilvusHybridStore:
 
     def create_hybrid_collection(self):
         """Tạo collection cho hybrid search"""
-        # if self.client.has_collection(self.collection_name):
-        #     self.client.drop_collection(self.collection_name)
+        if self.client.has_collection(self.collection_name):
+            print(f"Collection '{self.collection_name}' đã tồn tại. Đang xóa...")
+            self.client.drop_collection(self.collection_name)
+            print(f"Đã xóa collection cũ!")
 
         schema = self.client.create_schema(
             auto_id=True,

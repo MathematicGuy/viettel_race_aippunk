@@ -11,7 +11,7 @@ from models.llm_utils import load_llm
 from retrieval.retrieval_qa import get_relevant_documents, prompt, MCQInput
 from storage.milvus_store import MilvusHybridStore
 from retrieval.search_engine import HybridSearchEngine
-from utils.write_answers import write_answers_to_file
+from utils.write_answers import write_answers_to_file, write_extract_to_file
 
 # Device
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -30,9 +30,11 @@ image_encoder = MultimodalImageEncoder(clip_model, clip_preprocess)
 # LLM
 llm = load_llm()
 
+
 def main():
     # Configuration
-    PATH = "private-test-input/"
+    INPUT_PATH = "private-test-input"
+    OUTPUT_PATH = "private-test-output"
     # MILVUS_URI = "http://localhost:19530"
     # MILVUS_TOKEN = "root:Milvus"
     MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
@@ -42,10 +44,11 @@ def main():
     search_engine = HybridSearchEngine(store, text_model, image_encoder)
 
     # After processing all, load questions and answer
-    csv_path = f"{PATH}/question.csv"
+    csv_path = f"{INPUT_PATH}/question.csv"
     df = pd.read_csv(csv_path)
 
-    # Extract each row into a list of MCQInput objects
+
+# Extract each row into a list of MCQInput objects
     mcq_list = []
     for _, row in df.iterrows():
         mcq = MCQInput(
@@ -61,7 +64,7 @@ def main():
 
     answers = []
     # Process first 5 for demo
-    for i, mcq in enumerate(mcq_list[:5]):
+    for i, mcq in enumerate(mcq_list[:1]):
         print(f"Processing question {i+1}: {mcq.question}")
         # Retrieval
         retrieved_context = get_relevant_documents(search_engine, mcq.question)
@@ -79,7 +82,9 @@ def main():
         else:
             print("No match found")
 
+    write_extract_to_file(OUTPUT_PATH)
     write_answers_to_file(answers)
+
 
 if __name__ == "__main__":
     main()
