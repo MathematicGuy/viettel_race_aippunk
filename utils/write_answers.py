@@ -1,7 +1,5 @@
-
-
 def write_answers_to_file(answers):
-    with open('answer.md', 'w') as f:
+    with open('data/answer.md', 'w') as f:
         f.write("### TASK QA\n")
         f.write("num_correct,answers\n")
         for answer in answers:

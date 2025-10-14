@@ -33,10 +33,10 @@ llm = load_llm()
 def main():
     # Configuration
     PATH = "private-test-input/"
-    MILVUS_URI = "http://localhost:19530"
-    MILVUS_TOKEN = "root:Milvus"
-    # MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
-    # MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
+    # MILVUS_URI = "http://localhost:19530"
+    # MILVUS_TOKEN = "root:Milvus"
+    MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
+    MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
 
     store = MilvusHybridStore(MILVUS_URI, MILVUS_TOKEN)
     search_engine = HybridSearchEngine(store, text_model, image_encoder)

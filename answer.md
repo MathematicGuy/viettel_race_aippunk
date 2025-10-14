@@ -1,5 +1,7 @@
 ### TASK QA
 num_correct,answers
 1,B
+1,B
 1,C
-1,D
+1,C
+1,B

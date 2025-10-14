@@ -4,7 +4,9 @@ from langchain_huggingface import HuggingFacePipeline
 
 
 def load_llm():
-    MODEL_PATH = "Qwen/Qwen2.5-3B-Instruct"
+    # MODEL_PATH = "Qwen/Qwen2.5-3B-Instruct"
+    MODEL_PATH = "google/gemma-3-1b-it"
+
 
 
     bnb_config = BitsAndBytesConfig(
@@ -30,12 +32,12 @@ def load_llm():
 
     # Create high-throughput inference pipeline
     generation_pipeline = pipeline(
-        "text-generation",
+        "question-answering",
         model=model,
         tokenizer=tokenizer,
         max_new_tokens=256,
-        temperature=0.7,
-        top_p=0.9,
+        temperature=0.4,
+        top_p=0.8,
         repetition_penalty=1.1,
     )
 
