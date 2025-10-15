@@ -12,7 +12,7 @@ from retrieval.search_engine import HybridSearchEngine
 
 print('BEGIN SAVE DATA TO LOCAL MILVUS DB')
 # Configuration
-IMAGE_BASE_DIR = 'private_test_output/images'
+
 MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
 MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
 # MILVUS_URI = "http://localhost:19530"
@@ -32,24 +32,19 @@ text_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-
 
 
 def save_to_milvus(IMAGE_BASE_DIR, MILVUS_URI, MILVUS_TOKEN):
-	file_names = [d for d in os.listdir(PATH) if os.path.isdir(os.path.join(PATH, d))]
+    file_names = [d for d in os.listdir(PATH) if os.path.isdir(os.path.join(PATH, d))]
 
-	for file_name in file_names:
-		MARKDOWN_DIR = os.path.join(PATH, file_name)
-		process_docs, search_engine = create_hybrid_pipeline(
-			MARKDOWN_DIR, IMAGE_BASE_DIR, MILVUS_URI, MILVUS_TOKEN, text_model, image_encoder
-		)
+    for file_name in file_names:
+        MARKDOWN_DIR = f'{PATH}\\{file_name}'
+        print(MARKDOWN_DIR)
+        process_docs, search_engine = create_hybrid_pipeline(
+            MARKDOWN_DIR, IMAGE_BASE_DIR, MILVUS_URI, MILVUS_TOKEN, text_model, image_encoder
+        )
 
-		# Xử lý documents
-		markdown_files = list(Path(MARKDOWN_DIR).glob("*.md"))
-		print(markdown_files)
-		entities, search_engine = process_docs(markdown_files) # type: ignore
-
-		# Test search for this file
-		print(f"\n{'='*60}")
-		print(f"TEST HYBRID SEARCH for {file_name}")
-		print(f"{'='*60}")
-
+        # Xử lý documents
+        markdown_files = list(Path(MARKDOWN_DIR).glob("*.md"))
+        print(markdown_files)
+        entities, search_engine = process_docs(markdown_files) # type: ignore
 
 # Text search
 if __name__ == '__main__':

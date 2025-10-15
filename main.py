@@ -12,6 +12,8 @@ from retrieval.retrieval_qa import get_relevant_documents, prompt, MCQInput
 from storage.milvus_store import MilvusHybridStore
 from retrieval.search_engine import HybridSearchEngine
 from utils.write_answers import write_answers_to_file, write_extract_to_file
+# set DEBUG logging for pymilvus
+import logging
 
 # Device
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -39,7 +41,8 @@ def main():
     # MILVUS_TOKEN = "root:Milvus"
     MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
     MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
-
+    
+    logging.getLogger("pymilvus").setLevel(logging.DEBUG)
     store = MilvusHybridStore(MILVUS_URI, MILVUS_TOKEN)
     search_engine = HybridSearchEngine(store, text_model, image_encoder)
 
@@ -48,7 +51,7 @@ def main():
     df = pd.read_csv(csv_path)
 
 
-# Extract each row into a list of MCQInput objects
+    # Extract each row into a list of MCQInput objects
     mcq_list = []
     for _, row in df.iterrows():
         mcq = MCQInput(
