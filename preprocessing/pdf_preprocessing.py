@@ -1,6 +1,8 @@
 import re
 import subprocess
 import os
+# Run in parallel
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 #? Config MinerU
 print('BEGIN PDF PREPROCESSING: COVERT PDF to MARKDOWN')
@@ -38,7 +40,6 @@ for key in [
 ]:
     print(f"{key} = {os.getenv(key)}")
 
-
 def process_pdf(file_name):
     input_path = os.path.join(PATH, file_name)
     result = subprocess.run([
@@ -55,8 +56,6 @@ def process_pdf(file_name):
         return f"❌ Failed: {file_name}\n{result.stderr}"
 
 
-# Run in parallel
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 file_names = [f for f in os.listdir(PATH) if f.lower().endswith(".pdf")]
 print(file_names)
@@ -69,6 +68,7 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
 
 file_names = os.listdir(PATH) # [file_name.pdf,...]
 
+# Clean unwanted tables
 for file_name in file_names:
     file_name = file_name.replace('.pdf', '')
     file_path = f'private-test-output/{file_name}/auto'

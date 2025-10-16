@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 class MilvusHybridStore:
     """Milvus store tối ưu cho hybrid search"""
 
-    def __init__(self, uri, token, collection_name="hybrid_rag_collection_2"):
+    def __init__(self, uri, token, collection_name="create_hybrid_pipeline_2"):
         self.client = MilvusClient(uri=uri, token=token)
         self.collection_name = collection_name
         self.text_dense_dim = 768  # paraphrase-multilingual-mpnet-base-v2

@@ -1,28 +1,40 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
-def check_similarity(question_csv_path, validate_csv_path):
-	scores = 0
-	# Load the CSV files
-	question_df = pd.read_csv(question_csv_path)
-	print(len(question_df))
-	validate_df = pd.read_csv(validate_csv_path)
+def check_similarity(folder_path, question_csv_path, validate_csv_path):
+    overall_scores = 0
+    multiple_choice_score = 0
+    single_choice_score = 0
 
-	# Assume the text to compare is in the first column or specify if needed
-	# For simplicity, assume each row has a 'text' column or use the first column
-	for index in range(len(question_df)):
-		question_texts = question_df.iloc[index]['answer']
-		validate_texts = validate_df.iloc[index]['answer']
+    # Load the CSV files
+    question_df = pd.read_csv(question_csv_path)
+    print(len(question_df))
+    validate_df = pd.read_csv(validate_csv_path)
 
-		if question_texts == validate_texts:
-			scores += 1
-			print(index, question_texts, ' | ', validate_texts, '✅')
-		else:
-			print(index, question_texts, ' | ', validate_texts, '❌')
-		# 	print(index, 'Prediction', question_texts, 'Grounth True:',validate_texts, '\n')
+    # Assume the text to compare is in the first column or specify if needed
+    # For simplicity, assume each row has a 'text' column or use the first column
+    with open(f'{folder_path}/validate.md', 'w') as f:
+        f.write(f"# Validation Result\n")
 
-	# Return the similarity matrix or process as needed
-	return scores
+    for index in range(len(question_df)):
+        question_texts = question_df.iloc[index]['answers']
+        validate_texts = validate_df.iloc[index]['answers']
 
-print(check_similarity('answer_task_qa.csv', 'validate_task_qa.csv'))
+        with open(f'{folder_path}/validate.md', 'a', encoding='utf-8') as f:
+            if question_texts == validate_texts:
+                overall_scores += 1
+                # Check if multiple choice (contains comma)
+                if ',' in str(validate_texts):
+                    multiple_choice_score += 1
+                else:
+                    single_choice_score += 1
+                f.write(f"{index}. {question_texts} | {validate_texts} ✅\n")
+            else:
+                f.write(f"{index}. {question_texts} | {validate_texts} ❌\n")
+
+
+    # Return the similarity matrix or process as needed
+    return overall_scores, multiple_choice_score, single_choice_score
+
+
+folder_path = 'answer2'
+print('Total Score:', check_similarity(folder_path, f'{folder_path}\\answer.csv', f'{folder_path}\\answer-validate.csv'))

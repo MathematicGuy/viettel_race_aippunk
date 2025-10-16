@@ -19,7 +19,7 @@ def load_llm():
     validate_hf_token()
     MODEL_PATH = "Qwen/Qwen2.5-3B-Instruct"
     # MODEL_PATH = "google/gemma-3-1b-it"
-    
+
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,     # Nested quantization → less VRAM
@@ -47,7 +47,7 @@ def load_llm():
         model=model,
         tokenizer=tokenizer,
         max_new_tokens=256,
-        temperature=0.4,
+        temperature=0.7,
         top_p=0.8,
         repetition_penalty=1.1,
     )
