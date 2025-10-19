@@ -43,10 +43,14 @@ def configure_logging(level=logging.INFO, log_file=None):
     # Remove existing handlers to avoid duplicates
     for handler in logger.handlers[:]:
         logger.removeHandler(handler)
-    # Create console handler and set level
+    # Create console handler with UTF-8 encoding for Vietnamese support
     console_handler = logging.StreamHandler()
     console_handler.setLevel(level)
     console_handler.setFormatter(formatter)
+    # Force UTF-8 encoding for console output
+    if hasattr(console_handler, 'stream'):
+        import io
+        console_handler.stream = io.TextIOWrapper(console_handler.stream.buffer, encoding='utf-8')
     logger.addHandler(console_handler)
 
     # Add file handler if log_file is specified
@@ -58,8 +62,8 @@ def configure_logging(level=logging.INFO, log_file=None):
             if log_dir and not os.path.exists(log_dir):
                 os.makedirs(log_dir)
 
-            # Create file handler and set level
-            file_handler = logging.FileHandler(log_file)
+            # Create file handler with UTF-8 encoding for Vietnamese support
+            file_handler = logging.FileHandler(log_file, encoding='utf-8')
             file_handler.setLevel(level)
             file_handler.setFormatter(formatter)
             logger.addHandler(file_handler)
@@ -125,11 +129,11 @@ class AgenticRAG:
 
         Args:
             vector_stores: List of vector store configurations. Each dict should contain:
-							- 'store': MilvusStore instance
-							- 'name': Tool name (string)
-							- 'description': Tool description (string)
-							- 'k': Optional retrieval count (defaults to config)
-							- 'ranker_weights': Optional ranker weights (defaults to config)
+                            - 'store': MilvusStore instance
+                            - 'name': Tool name (string)
+                            - 'description': Tool description (string)
+                            - 'k': Optional retrieval count (defaults to config)
+                            - 'ranker_weights': Optional ranker weights (defaults to config)
             vector_store: Single MilvusStore instance for backward compatibility
             model_name: Name of the model to use (defaults to config.get("model", "text_generation"))
             temperature: Temperature for the model (default: 0)
@@ -1001,25 +1005,47 @@ class AgenticRAG:
         logger.info(f"[trace] run_mcq result: {final_message.content[:200]}...")
         return final_message.content
 
-    def run_mcq_csv(self, csv_path: Union[str, os.PathLike]) -> List[Dict[str, Any]]:
+    def run_mcq_csv(self, csv_path: Union[str, os.PathLike], start_row: int = 0, end_row: Optional[int] = None) -> List[Dict[str, Any]]:
         """
         Batch-run MCQ questions from a CSV file with columns: Question, A, B, C, D.
-        Returns a list of dicts: {"question": ..., "A": ..., ..., "response": ...}
+
+        Args:
+            csv_path: Path to the CSV file
+            start_row: Starting row index (0-based, default: 0 = first row)
+            end_row: Ending row index (exclusive, default: None = all rows)
+
+        Returns:
+            List of dicts: {"question": ..., "A": ..., ..., "response": ...}
+
+        Example:
+            agent.run_mcq_csv("questions.csv", start_row=0, end_row=1)  # Process only first row
+            agent.run_mcq_csv("questions.csv", start_row=5, end_row=10)  # Process rows 5-9
         """
         rows: List[Dict[str, Any]] = []
         with open(csv_path, newline='', encoding='utf-8') as f:
             reader = csv.DictReader(f)
-            for row in reader:
+            for i, row in enumerate(reader):
+                # Skip rows before start_row
+                if i < start_row:
+                    continue
+                # Stop at end_row
+                if end_row is not None and i >= end_row:
+                    break
+
                 q = row.get("Question", "")
                 options = {k: row.get(k, "") for k in ["A", "B", "C", "D"]}
                 try:
                     # Reset thread per row
                     self.update_thread_id()
                     response = self.run_mcq(q, options)
+                    print(response)
                 except Exception as e:
                     response = f"Error: {e}"
                 rows.append({"question": q, **options, "response": response})
+
+        logger.info(f"Processed {len(rows)} rows (from row {start_row} to {end_row or 'end'})")
         return rows
+
 
     def run(self, query: str) -> str:
         """

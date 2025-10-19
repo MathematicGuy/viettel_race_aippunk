@@ -1,0 +1,12 @@
+
+================================================================================
+Question 1: Một người nghe thấy hai âm có tần số lần lượt là 440 Hz và 442 Hz phát ra cùng lúc. Hiện tượng gì xảy ra và số nhịp đập trong 1 giây là bao nhiêu?
+================================================================================
+
+Rationale:
+Hiện tượng beats (giao thoa) xảy ra khi hai âm có tần số gần nhau. Số nhịp đập là hiệu số giữa hai tần số. Đáp án A đúng về hiện tượng và số nhịp.
+
+Final Answer:
+A
+
+================================================================================

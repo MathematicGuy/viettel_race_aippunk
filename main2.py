@@ -17,6 +17,7 @@ import re
 import logging
 from pathlib import Path
 from pprint import pprint
+from typing import Optional
 
 # Configure logging
 logging.basicConfig(
@@ -31,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from src.milvus_store import MilvusStore
 from src.config import ConfigLoader
 from src.agent import AgenticRAG
+from utils.write_answers import write_answers_to_file, write_extract_to_file
 
 
 def initialize_components():
@@ -107,13 +109,28 @@ def parse_agent_response(response: str) -> dict:
     # Remove thinking section from response
     remainder = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL).strip()
 
-    # Extract rationale
-    rationale_match = re.search(r"Rationale:(.*?)(?:Final Answer:|$)", remainder, re.DOTALL)
+    # Extract rationale - look for "Rationale:" or any content before final answer
+    rationale_match = re.search(r"Rationale:(.*?)(?:Final Answer:|💬|$)", remainder, re.DOTALL | re.IGNORECASE)
     rationale_text = rationale_match.group(1).strip() if rationale_match else ""
 
-    # Extract final answer
-    final_match = re.search(r"Final Answer:\s*(.*)", remainder)
-    final_answer = final_match.group(1).strip() if final_match else ""
+    # Extract final answer - look for single letter A, B, C, or D
+    # Try multiple patterns to handle different formats
+    final_answer = ""
+
+    # Pattern 1: "Final Answer: X" format
+    final_match = re.search(r"Final Answer:\s*([A-D])\s*(?:\n|$)", remainder, re.IGNORECASE)
+    if final_match:
+        final_answer = final_match.group(1).strip()
+    else:
+        # Pattern 2: Look for isolated letter at end
+        isolated_letter = re.search(r"(?:^|\n)\s*([A-D])\s*(?:\n|$)", remainder[-50:], re.MULTILINE)
+        if isolated_letter:
+            final_answer = isolated_letter.group(1).strip()
+        else:
+            # Pattern 3: Last occurrence of A, B, C, or D
+            all_letters = re.findall(r"\b([A-D])\b", remainder)
+            if all_letters:
+                final_answer = all_letters[-1]
 
     return {
         "thinking": thinking_text,
@@ -156,7 +173,9 @@ def print_result(result: dict, verbose: bool = True):
     print(f"{'='*80}\n")
 
 
-def process_csv_file(agent: AgenticRAG, csv_path: str, output_verbose: bool = True) -> list:
+
+
+def process_csv_file(agent: AgenticRAG, csv_path: str, output_verbose: bool = True, start_row: int = 0, end_row: Optional[int] = None) -> list:
     """
     Process a CSV file with questions and generate AI agent responses.
 
@@ -175,7 +194,8 @@ def process_csv_file(agent: AgenticRAG, csv_path: str, output_verbose: bool = Tr
         return []
 
     # Run agent on CSV
-    results = agent.run_mcq_csv(csv_path)
+    results = agent.run_mcq_csv(csv_path, start_row=start_row, end_row=end_row)
+    # Limit results if specified
 
     logger.info(f"Processing complete! Total results: {len(results)}")
 
@@ -220,6 +240,32 @@ def save_results_to_file(results: list, output_path: str = "results.txt"):
     logger.info(f"Results saved to {output_path}")
 
 
+def extract_answers_from_results(results: list) -> list:
+    """
+    Extract final answers from agent results.
+
+    Args:
+        results: List of results from agent
+
+    Returns:
+        list: List of final answers extracted from agent responses
+    """
+    answers = []
+    for result in results:
+        response = result.get("response", "")
+        parsed = parse_agent_response(response)
+        final_answer = parsed.get("final_answer", "")
+
+        if final_answer:
+            answers.append(final_answer)
+        else:
+            # Fallback to default if no answer found
+            answers.append("C")
+            logger.warning(f"No final answer found for question: {result.get('question', '')}")
+
+    return answers
+
+
 def main():
     """Main execution function."""
     try:
@@ -227,11 +273,30 @@ def main():
         agent, config = initialize_components()
 
         # Process test CSV
-        csv_path = "test.csv"
+        csv_path = "Public_test_input/question.csv"
         results = process_csv_file(agent, csv_path, output_verbose=True)
 
         # Save results to file
         save_results_to_file(results, output_path="agent_results.txt")
+
+        # Extract final answers from results
+        answers = extract_answers_from_results(results)
+        logger.info(f"Extracted {len(answers)} answers")
+        print(f"\n{'='*80}")
+        print(f"📋 Extracted Answers: {answers}")
+        print(f"{'='*80}\n")
+
+        # Clear answer.md file and write extracted content first
+        output_folder = "Public_test_output"
+        if os.path.exists(output_folder):
+            write_extract_to_file(output_folder)
+            logger.info(f"Extracted markdown files from {output_folder} to answer.md")
+        else:
+            logger.warning(f"Output folder not found: {output_folder}")
+
+        # Append answers to answer.md using write_answers_to_file
+        write_answers_to_file(answers)
+        logger.info("Answers saved to answer.md")
 
         logger.info("Processing complete!")
         return results

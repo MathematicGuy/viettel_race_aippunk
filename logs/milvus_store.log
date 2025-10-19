@@ -1,0 +1,235 @@
+2025-10-19 08:53:27,344 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 08:54:51,316 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 08:56:02,629 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 08:56:25,517 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 08:57:22,043 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 08:57:31,919 - storage.milvus_store - INFO - Database 'gil' does not exist.
+2025-10-19 08:57:31,928 - storage.milvus_store - INFO - Database 'gil' created successfully.
+2025-10-19 08:57:38,685 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:57:38,702 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:57:45,483 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:57:45,499 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:57:51,733 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:57:51,741 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:57:58,404 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:57:58,416 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:05,386 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:05,397 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:11,782 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:11,791 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:18,150 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:18,167 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:24,143 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:24,153 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:30,194 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:30,204 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:37,406 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:37,418 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:44,133 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:44,145 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:50,981 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:50,986 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:58:57,084 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:58:57,094 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:02,859 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:02,869 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:10,792 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:10,805 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:17,764 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:17,770 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:25,103 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:25,112 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:31,236 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:31,241 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:38,290 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:38,300 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:46,011 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:46,022 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:52,283 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:52,292 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 08:59:58,762 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 08:59:58,772 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:05,293 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:05,303 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:12,000 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:12,008 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:20,257 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:20,264 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:27,359 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:27,369 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:34,614 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:34,624 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:40,856 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:40,867 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:48,071 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:48,087 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:00:55,153 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:00:55,163 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:02,218 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:02,229 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:08,388 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:08,399 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:15,332 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:15,345 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:21,975 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:21,980 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:30,143 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:30,159 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:37,265 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:37,268 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:43,982 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:43,991 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:51,532 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:51,539 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:01:58,619 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:01:58,627 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:05,386 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:05,397 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:12,912 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:12,923 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:19,868 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:19,878 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:27,215 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:27,224 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:34,925 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:34,930 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:43,205 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:43,226 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:50,403 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:50,413 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:02:58,275 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:02:58,286 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:03:05,974 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:03:05,982 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:03:14,175 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:03:14,186 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:03:22,373 - storage.milvus_store - ERROR - Error adding documents: <PartitionKeyException: (code=1, message=the specified partition key field {namespace} not exist)>
+2025-10-19 09:16:05,455 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:16:14,561 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:18:41,604 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:18:50,326 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:18:50,336 - storage.milvus_store - INFO - Collection 'multimodal_rag' already exists. Deleting...
+2025-10-19 09:18:50,434 - storage.milvus_store - INFO - Successfully dropped old collection 'multimodal_rag'
+2025-10-19 09:18:59,611 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 09:18:59,626 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:18:59,674 - storage.milvus_store - INFO - Collection 'multimodal_rag' already exists. Deleting...
+2025-10-19 09:18:59,769 - storage.milvus_store - INFO - Successfully dropped old collection 'multimodal_rag'
+2025-10-19 09:22:36,687 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:22:44,756 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:22:53,331 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 09:22:53,341 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:23:02,278 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 09:23:02,288 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:23:11,238 - storage.milvus_store - INFO - Successfully added 53 documents
+2025-10-19 09:23:11,253 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:23:31,200 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:23:38,954 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:23:47,418 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 09:23:47,433 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:23:52,693 - storage.milvus_store - INFO - Collection 'multimodal_rag' exists. Dropping before creating new one...
+2025-10-19 09:23:52,796 - storage.milvus_store - INFO - Successfully dropped collection 'multimodal_rag'
+2025-10-19 09:23:56,301 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 09:23:56,315 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:24:02,099 - storage.milvus_store - INFO - Collection 'multimodal_rag' exists. Dropping before creating new one...
+2025-10-19 09:24:02,192 - storage.milvus_store - INFO - Successfully dropped collection 'multimodal_rag'
+2025-10-19 09:24:05,657 - storage.milvus_store - INFO - Successfully added 53 documents
+2025-10-19 09:24:05,660 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:29:37,180 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:29:45,454 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:30:21,098 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:30:30,236 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:31:07,224 - storage.milvus_store - INFO - Successfully added 2206 documents
+2025-10-19 09:50:19,457 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:51:13,659 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:53:40,745 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:53:41,941 - src.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:53:51,654 - src.milvus_store - INFO - [MilvusStore] Built filter expr: namespace == "viettel"
+2025-10-19 09:53:51,654 - src.milvus_store - INFO - [MilvusStore] as_retriever expr=namespace == "viettel", k=3, fetch_k=12
+2025-10-19 09:59:16,127 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 09:59:17,239 - src.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 09:59:26,664 - src.milvus_store - INFO - [MilvusStore] Built filter expr: namespace == "viettel"
+2025-10-19 09:59:26,664 - src.milvus_store - INFO - [MilvusStore] as_retriever expr=namespace == "viettel", k=3, fetch_k=12
+2025-10-19 10:09:21,554 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:09:22,599 - src.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:09:31,466 - src.milvus_store - INFO - [MilvusStore] Built filter expr: namespace == "viettel"
+2025-10-19 10:09:31,467 - src.milvus_store - INFO - [MilvusStore] as_retriever expr=namespace == "viettel", k=3, fetch_k=12
+2025-10-19 10:13:33,938 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:13:42,591 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:13:49,310 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 10:13:49,321 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:13:56,494 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 10:13:56,508 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:14:13,243 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:14:21,838 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:14:27,489 - storage.milvus_store - INFO - Collection 'multimodal_rag' exists. Dropping before creating new one...
+2025-10-19 10:14:27,548 - storage.milvus_store - INFO - Successfully dropped collection 'multimodal_rag'
+2025-10-19 10:14:30,702 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 10:14:30,716 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:14:37,346 - storage.milvus_store - INFO - Collection 'multimodal_rag' exists. Dropping before creating new one...
+2025-10-19 10:14:37,445 - storage.milvus_store - INFO - Successfully dropped collection 'multimodal_rag'
+2025-10-19 10:23:14,666 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:23:23,407 - storage.milvus_store - INFO - Database 'gil' already exists.
+2025-10-19 10:23:28,949 - storage.milvus_store - INFO - Collection 'multimodal_rag' exists. Dropping before creating new one...
+2025-10-19 10:23:29,009 - storage.milvus_store - INFO - Successfully dropped collection 'multimodal_rag'
+2025-10-19 10:23:32,275 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 10:23:33,133 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 10:23:34,435 - storage.milvus_store - INFO - Successfully added 53 documents
+2025-10-19 10:23:35,279 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 10:23:36,354 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 10:23:36,978 - storage.milvus_store - INFO - Successfully added 21 documents
+2025-10-19 10:23:38,280 - storage.milvus_store - INFO - Successfully added 51 documents
+2025-10-19 10:23:38,900 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 10:23:39,322 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 10:23:39,742 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 10:23:41,247 - storage.milvus_store - INFO - Successfully added 58 documents
+2025-10-19 10:23:42,300 - storage.milvus_store - INFO - Successfully added 40 documents
+2025-10-19 10:23:42,916 - storage.milvus_store - INFO - Successfully added 16 documents
+2025-10-19 10:23:43,343 - storage.milvus_store - INFO - Successfully added 15 documents
+2025-10-19 10:23:44,187 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 10:23:45,684 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 10:23:46,740 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 10:23:47,147 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 10:23:47,782 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 10:23:48,630 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 10:23:49,260 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 10:23:50,109 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 10:23:50,955 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 10:23:52,664 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 10:23:54,571 - storage.milvus_store - INFO - Successfully added 79 documents
+2025-10-19 10:23:56,472 - storage.milvus_store - INFO - Successfully added 74 documents
+2025-10-19 10:23:57,531 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 10:23:58,363 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 10:24:00,069 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 10:24:00,898 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 10:24:01,973 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 10:24:02,589 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 10:24:04,301 - storage.milvus_store - INFO - Successfully added 71 documents
+2025-10-19 10:24:05,359 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 10:24:06,844 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 10:24:07,458 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 10:24:08,749 - storage.milvus_store - INFO - Successfully added 55 documents
+2025-10-19 10:24:10,027 - storage.milvus_store - INFO - Successfully added 50 documents
+2025-10-19 10:24:10,844 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 10:24:11,695 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 10:24:12,775 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 10:24:14,037 - storage.milvus_store - INFO - Successfully added 48 documents
+2025-10-19 10:24:14,864 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 10:24:16,790 - storage.milvus_store - INFO - Successfully added 76 documents
+2025-10-19 10:24:19,118 - storage.milvus_store - INFO - Successfully added 94 documents
+2025-10-19 10:24:20,395 - storage.milvus_store - INFO - Successfully added 47 documents
+2025-10-19 10:24:22,079 - storage.milvus_store - INFO - Successfully added 63 documents
+2025-10-19 10:24:24,205 - storage.milvus_store - INFO - Successfully added 90 documents
+2025-10-19 10:24:26,956 - storage.milvus_store - INFO - Successfully added 114 documents
+2025-10-19 10:24:29,916 - storage.milvus_store - INFO - Successfully added 126 documents
+2025-10-19 10:27:31,399 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:29:39,452 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:29:48,109 - storage.milvus_store - INFO - Connecting to local Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 10:29:48,109 - storage.milvus_store - INFO - Connecting to in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com:19530
+2025-10-19 10:29:58,288 - storage.milvus_store - ERROR - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com:19530, illegal connection params or server unavailable)>
+2025-10-19 10:30:35,807 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:30:45,200 - storage.milvus_store - INFO - Connecting to local Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 10:30:45,200 - storage.milvus_store - INFO - Connecting to in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com:19530
+2025-10-19 10:30:55,248 - storage.milvus_store - ERROR - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com:19530, illegal connection params or server unavailable)>
+2025-10-19 10:33:00,337 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 10:33:10,358 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 10:33:12,454 - storage.milvus_store - INFO - Database 'gil' does not exist.

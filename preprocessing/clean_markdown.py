@@ -101,13 +101,13 @@ def process_markdown_comments(text):
 if __name__ == "__main__":
     # Get the directory where this script is located
     # PATH = 'private-test-output'
-    PATH = 'Public_test_input'
+    PATH = 'Public_test_output'
     out_dir = os.path.join(PATH)
     print(out_dir)
 
     if os.path.exists(out_dir):
-        print(f"Starting reorganization of {out_dir}")
+        print(f"Starting fixing markdown Header of {out_dir}")
         clean_markdown(out_dir)
-        print("Reorganization completed!")
+        print("Fixing Markdown Header completed!")
     else:
         print(f"Error: Directory not found: {out_dir}")

@@ -1,3 +1,3 @@
-from .milvus_store import MilvusHybridStore
+from .milvus_store import MilvusStore
 
-__all__ = ['MilvusHybridStore']
+__all__ = ['MilvusStore']

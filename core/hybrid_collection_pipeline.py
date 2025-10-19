@@ -34,7 +34,12 @@ Usage:
 
 import logging
 from pathlib import Path
+import sys
 from typing import List, Tuple, Callable, Any
+
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+print('Core Path:', project_root)
 
 from processors.markdown_processor import MarkdownProcessor
 from processors.entity_processors import TextEntityProcessor, ImageEntityProcessor
@@ -212,6 +217,10 @@ def _convert_entities_to_documents(entities: List[Any]) -> List[Document]:
                 metadata = getattr(entity, 'metadata', {})
 
             if content:
+                # Ensure namespace field exists in metadata (required for partition_key_field)
+                if 'namespace' not in metadata:
+                    metadata['namespace'] = 'viettel'  # Add default namespace
+
                 doc = Document(page_content=content, metadata=metadata)
                 documents.append(doc)
 

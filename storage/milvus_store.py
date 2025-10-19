@@ -267,7 +267,8 @@ class MilvusStore:
         collection_name: str = None,
         embed_model: str = None,
         drop_old: bool = False,
-        namespace: str = None
+        namespace: str = None,
+        token: str = None
     ):
         """
         Initialize the MilvusStore.
@@ -279,11 +280,12 @@ class MilvusStore:
             embed_model: Embedding model to use (defaults to config.get("model", "embeddings"))
             drop_old: Whether to drop the existing collection if it exists
             namespace: Default namespace to use for documents (defaults to config.get("database", "namespace"))
+            token: Authentication token for remote Milvus (optional)
 
         """
-        # Local Milvus connection only
+        # Milvus connection (supports local and remote)
         self.uri = uri or config.get("database", "uri", default="http://localhost:19530")
-        self.token = None
+        self.token = token or config.get("database", "token", default=None)
         self.db_name = db_name or config.get("database", "name", default="gil")
         self.collection_name = collection_name or config.get("database", "collection_name", default="multimodal_rag")
         self.embed_model = embed_model or config.get("model", "embeddings", default="sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
@@ -303,12 +305,38 @@ class MilvusStore:
 
     def _connect_to_milvus(self) -> None:
         """
-        Connect to Milvus server
+        Connect to Milvus server (supports both local and remote connections)
         """
-        # Local Milvus connection
-        host = self.uri.split("://")[1].split(":")[0]
-        port = int(self.uri.split(":")[-1])
-        connections.connect(host=host, port=port)
+        try:
+            # Check if this is a remote connection (contains token)
+            if self.token:
+                logger.info(f"Connecting to remote Milvus at {self.uri}")
+                connections.connect(uri=self.uri, token=self.token)
+            else:
+                # Local Milvus connection - parse host and port
+                logger.info(f"Connecting to local Milvus at {self.uri}")
+                # Extract host and port from URI like http://localhost:19530
+                if "://" in self.uri:
+                    scheme, rest = self.uri.split("://", 1)
+                    if ":" in rest:
+                        host, port_str = rest.rsplit(":", 1)  # Use rsplit to handle domains with colons
+                        try:
+                            port = int(port_str)
+                        except ValueError:
+                            logger.warning(f"Could not parse port from {port_str}, using default 19530")
+                            port = 19530
+                    else:
+                        host = rest
+                        port = 19530
+                else:
+                    host = self.uri
+                    port = 19530
+
+                logger.info(f"Connecting to {host}:{port}")
+                connections.connect(host=host, port=port)
+        except Exception as e:
+            logger.error(f"Failed to connect to Milvus: {e}")
+            raise
 
     def _initialize_vector_store(self, drop_old: bool = False) -> None:
         """
@@ -340,6 +368,7 @@ class MilvusStore:
     def _create_vector_store(self, drop_old: bool = False) -> Milvus:
         """
         Create and configure a vector store.
+        Always drops the existing collection before creating a new one.
 
         Args:
             drop_old: Whether to drop the existing collection if it exists
@@ -352,8 +381,20 @@ class MilvusStore:
             "db_name": self.db_name
         }
 
-        # Local only; no token
+        # Always ensure the collection is dropped before creating a new one
+        try:
+            db.using_database(self.db_name)
+            collections = utility.list_collections()
+            if self.collection_name in collections:
+                logger.info(f"Collection '{self.collection_name}' exists. Dropping before creating new one...")
+                collection = Collection(name=self.collection_name)
+                collection.drop()
+                logger.info(f"Successfully dropped collection '{self.collection_name}'")
+        except MilvusException as e:
+            logger.warning(f"Could not drop existing collection: {e}")
 
+
+        # Local only; no token
         # Create and return vector store
         return Milvus(
             embedding_function=self.embeddings_model,

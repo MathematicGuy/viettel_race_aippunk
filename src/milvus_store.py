@@ -59,10 +59,14 @@ def configure_logging(level=logging.INFO, log_file=None):
     for handler in logger.handlers[:]:
         logger.removeHandler(handler)
 
-    # Create console handler and set level
+    # Create console handler with UTF-8 encoding for Vietnamese support
     console_handler = logging.StreamHandler()
     console_handler.setLevel(level)
     console_handler.setFormatter(formatter)
+    # Force UTF-8 encoding for console output
+    if hasattr(console_handler, 'stream'):
+        import io
+        console_handler.stream = io.TextIOWrapper(console_handler.stream.buffer, encoding='utf-8')
     logger.addHandler(console_handler)
 
     # Add file handler if log_file is specified
@@ -73,8 +77,8 @@ def configure_logging(level=logging.INFO, log_file=None):
             if log_dir and not os.path.exists(log_dir):
                 os.makedirs(log_dir)
 
-            # Create file handler and set level
-            file_handler = logging.FileHandler(log_file)
+            # Create file handler with UTF-8 encoding for Vietnamese support
+            file_handler = logging.FileHandler(log_file, encoding='utf-8')
             file_handler.setLevel(level)
             file_handler.setFormatter(formatter)
             logger.addHandler(file_handler)
@@ -364,7 +368,7 @@ class MilvusStore:
             drop_old=drop_old,
             collection_name=self.collection_name,
             auto_id=True,
-            partition_key_field="namespace"
+            # partition_key_field="namespace"
         )
 
     def add_documents(self, documents: List[Document]) -> List[str]:

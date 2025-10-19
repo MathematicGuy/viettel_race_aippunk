@@ -15,4 +15,4 @@ python preprocessing/rename_images.py
 python preprocessing/clean_markdown.py
 
 # save all data from private-test-output to Milvus vectordb
-# python preprocessing/save_to_milvus.py
+python preprocessing/save_to_milvus.py

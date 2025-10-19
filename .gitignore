@@ -14,4 +14,5 @@ test/pages
 test/mineru_lora_finetuned
 private-test-input
 private-test-output
-flash-installation
+flash-installation/helper_comfyUI_accel
+flash-installation/lib_flashattention
