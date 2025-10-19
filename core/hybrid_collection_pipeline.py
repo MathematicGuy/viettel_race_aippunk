@@ -100,10 +100,11 @@ def create_hybrid_pipeline(markdown_dir: str, image_base_dir: str,
     # Initialize Milvus store
     store = MilvusStore(
         uri=uri,
+        token=token,
         db_name="gil",
-        collection_name="multimodal_rag",
+        # collection_name="multimodal_rag2",
         embed_model="sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-        drop_old=False
+        drop_old=True
     )
 
     # Initialize search engine

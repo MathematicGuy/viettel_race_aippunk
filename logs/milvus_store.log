@@ -233,3 +233,121 @@
 2025-10-19 10:33:00,337 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
 2025-10-19 10:33:10,358 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
 2025-10-19 10:33:12,454 - storage.milvus_store - INFO - Database 'gil' does not exist.
+2025-10-19 11:24:19,251 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 11:24:28,790 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 11:24:31,561 - storage.milvus_store - INFO - Database 'gil' does not exist.
+2025-10-19 11:35:19,743 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 11:35:28,915 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 11:35:30,369 - storage.milvus_store - INFO - Remote Milvus detected (token provided). Skipping database creation.
+2025-10-19 11:35:30,369 - storage.milvus_store - INFO - Using pre-created database: 'gil'
+2025-10-19 11:35:36,542 - storage.milvus_store - INFO - Creating vector store with remote connection (Zilliz Cloud)
+2025-10-19 11:35:47,811 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 11:35:49,078 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 11:35:51,385 - storage.milvus_store - INFO - Successfully added 53 documents
+2025-10-19 11:35:52,744 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 11:35:54,615 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 11:35:55,846 - storage.milvus_store - INFO - Successfully added 21 documents
+2025-10-19 11:35:58,339 - storage.milvus_store - INFO - Successfully added 51 documents
+2025-10-19 11:35:59,510 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 11:36:00,268 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 11:36:01,202 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 11:36:03,861 - storage.milvus_store - INFO - Successfully added 58 documents
+2025-10-19 11:36:05,945 - storage.milvus_store - INFO - Successfully added 40 documents
+2025-10-19 11:36:06,905 - storage.milvus_store - INFO - Successfully added 16 documents
+2025-10-19 11:36:07,924 - storage.milvus_store - INFO - Successfully added 15 documents
+2025-10-19 11:36:09,573 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 11:36:12,268 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 11:36:14,222 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 11:36:14,962 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 11:36:15,806 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:36:17,591 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 11:36:18,417 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 11:36:19,745 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 11:36:21,436 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 11:36:24,311 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 11:36:27,862 - storage.milvus_store - INFO - Successfully added 79 documents
+2025-10-19 11:36:30,985 - storage.milvus_store - INFO - Successfully added 74 documents
+2025-10-19 11:36:32,894 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 11:36:34,433 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 11:36:37,545 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 11:36:39,559 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 11:36:41,454 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 11:36:42,481 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:36:45,364 - storage.milvus_store - INFO - Successfully added 71 documents
+2025-10-19 11:36:46,903 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 11:36:49,236 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 11:36:50,402 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:36:52,852 - storage.milvus_store - INFO - Successfully added 55 documents
+2025-10-19 11:36:55,212 - storage.milvus_store - INFO - Successfully added 50 documents
+2025-10-19 11:36:56,434 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 11:36:58,124 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 11:37:00,211 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 11:37:02,405 - storage.milvus_store - INFO - Successfully added 48 documents
+2025-10-19 11:37:03,555 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 11:37:06,530 - storage.milvus_store - INFO - Successfully added 76 documents
+2025-10-19 11:37:10,071 - storage.milvus_store - INFO - Successfully added 94 documents
+2025-10-19 11:37:12,456 - storage.milvus_store - INFO - Successfully added 47 documents
+2025-10-19 11:37:15,018 - storage.milvus_store - INFO - Successfully added 63 documents
+2025-10-19 11:37:18,748 - storage.milvus_store - INFO - Successfully added 90 documents
+2025-10-19 11:37:23,048 - storage.milvus_store - INFO - Successfully added 114 documents
+2025-10-19 11:37:27,439 - storage.milvus_store - INFO - Successfully added 126 documents
+2025-10-19 11:47:46,500 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 11:47:55,050 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 11:47:56,560 - storage.milvus_store - INFO - Remote Milvus detected (token provided). Skipping database creation.
+2025-10-19 11:47:56,560 - storage.milvus_store - INFO - Using pre-created database: 'gil'
+2025-10-19 11:48:02,583 - storage.milvus_store - INFO - Creating vector store with remote connection (Zilliz Cloud)
+2025-10-19 11:48:20,890 - storage.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-19 11:48:29,508 - storage.milvus_store - INFO - Connecting to remote Milvus at https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com
+2025-10-19 11:48:30,843 - storage.milvus_store - INFO - Remote Milvus detected (token provided). Skipping database creation.
+2025-10-19 11:48:30,843 - storage.milvus_store - INFO - Using pre-created database: 'gil'
+2025-10-19 11:48:37,323 - storage.milvus_store - INFO - Creating vector store with remote connection (Zilliz Cloud)
+2025-10-19 11:48:49,751 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 11:48:51,008 - storage.milvus_store - INFO - Successfully added 27 documents
+2025-10-19 11:48:53,291 - storage.milvus_store - INFO - Successfully added 53 documents
+2025-10-19 11:48:54,530 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 11:48:56,271 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 11:48:57,423 - storage.milvus_store - INFO - Successfully added 21 documents
+2025-10-19 11:48:59,532 - storage.milvus_store - INFO - Successfully added 51 documents
+2025-10-19 11:49:00,738 - storage.milvus_store - INFO - Successfully added 20 documents
+2025-10-19 11:49:01,445 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 11:49:02,210 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 11:49:04,693 - storage.milvus_store - INFO - Successfully added 58 documents
+2025-10-19 11:49:06,549 - storage.milvus_store - INFO - Successfully added 40 documents
+2025-10-19 11:49:07,357 - storage.milvus_store - INFO - Successfully added 16 documents
+2025-10-19 11:49:08,192 - storage.milvus_store - INFO - Successfully added 15 documents
+2025-10-19 11:49:09,754 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 11:49:12,514 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 11:49:14,416 - storage.milvus_store - INFO - Successfully added 41 documents
+2025-10-19 11:49:15,112 - storage.milvus_store - INFO - Successfully added 10 documents
+2025-10-19 11:49:15,951 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:49:17,564 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 11:49:18,356 - storage.milvus_store - INFO - Successfully added 14 documents
+2025-10-19 11:49:19,637 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 11:49:21,152 - storage.milvus_store - INFO - Successfully added 32 documents
+2025-10-19 11:49:23,929 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 11:49:27,151 - storage.milvus_store - INFO - Successfully added 79 documents
+2025-10-19 11:49:30,621 - storage.milvus_store - INFO - Successfully added 74 documents
+2025-10-19 11:49:32,650 - storage.milvus_store - INFO - Successfully added 36 documents
+2025-10-19 11:49:34,306 - storage.milvus_store - INFO - Successfully added 28 documents
+2025-10-19 11:49:37,174 - storage.milvus_store - INFO - Successfully added 68 documents
+2025-10-19 11:49:38,831 - storage.milvus_store - INFO - Successfully added 31 documents
+2025-10-19 11:49:40,962 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 11:49:41,988 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:49:45,047 - storage.milvus_store - INFO - Successfully added 71 documents
+2025-10-19 11:49:46,687 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 11:49:50,030 - storage.milvus_store - INFO - Successfully added 57 documents
+2025-10-19 11:49:51,261 - storage.milvus_store - INFO - Successfully added 18 documents
+2025-10-19 11:49:53,692 - storage.milvus_store - INFO - Successfully added 55 documents
+2025-10-19 11:49:59,423 - storage.milvus_store - INFO - Successfully added 50 documents
+2025-10-19 11:50:04,457 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 11:50:13,852 - storage.milvus_store - INFO - Successfully added 35 documents
+2025-10-19 11:50:19,540 - storage.milvus_store - INFO - Successfully added 44 documents
+2025-10-19 11:50:28,079 - storage.milvus_store - INFO - Successfully added 48 documents
+2025-10-19 11:50:32,044 - storage.milvus_store - INFO - Successfully added 26 documents
+2025-10-19 11:50:42,991 - storage.milvus_store - INFO - Successfully added 76 documents
+2025-10-19 11:50:56,115 - storage.milvus_store - INFO - Successfully added 94 documents
+2025-10-19 11:51:04,346 - storage.milvus_store - INFO - Successfully added 47 documents
+2025-10-19 11:51:11,387 - storage.milvus_store - INFO - Successfully added 63 documents
+2025-10-19 11:51:23,774 - storage.milvus_store - INFO - Successfully added 90 documents
+2025-10-19 11:51:32,957 - storage.milvus_store - INFO - Successfully added 114 documents
+2025-10-19 11:51:41,323 - storage.milvus_store - INFO - Successfully added 126 documents

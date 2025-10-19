@@ -25,7 +25,7 @@ import logging
 from typing import List, Dict, Any, Optional, Union
 
 # Import configuration
-from src.config import config
+from src.config import config # config return from config.py
 
 # Import vector store libraries
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -357,9 +357,7 @@ class MilvusStore:
         }
 
         # Local only; no token
-
-        # Create and return vector store
-        return Milvus(
+        milvus_store =  Milvus(
             embedding_function=self.embeddings_model,
             connection_args=connection_args,
             builtin_function=BM25BuiltInFunction(),
@@ -368,8 +366,11 @@ class MilvusStore:
             drop_old=drop_old,
             collection_name=self.collection_name,
             auto_id=True,
-            # partition_key_field="namespace"
         )
+        print(f"CREATE MilvusDb:\n{milvus_store}")
+
+        # Create and return vector store
+        return milvus_store
 
     def add_documents(self, documents: List[Document]) -> List[str]:
         """

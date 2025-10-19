@@ -63,6 +63,7 @@ class ConfigLoader:
         if yaml_path.exists():
             print('yaml_path:', yaml_path)
             with open(yaml_path, 'r', encoding='utf-8') as file:
+                print('CONFIG:\n', yaml.safe_load(file))
                 self._config = yaml.safe_load(file)
         else:
             raise FileNotFoundError(f"Configuration file not found: {yaml_path}")
@@ -215,11 +216,11 @@ class ConfigLoader:
         )
 
         return PdfPipelineOptions(
-            images_scale=image_scale,
-            generate_picture_images=True,
-            do_picture_description=True,
-            picture_description_options=picture_desc_api_option,
-            enable_remote_services=True,
+			images_scale=image_scale,
+			generate_picture_images=True,
+			do_picture_description=True,
+			picture_description_options=picture_desc_api_option,
+			enable_remote_services=True,
         )
 
 # Create a default configuration instance

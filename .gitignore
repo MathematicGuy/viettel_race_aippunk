@@ -7,11 +7,7 @@ data/out
 *.yaml
 standalone_embed.sh
 **/__pycache__/
-test/training1
-test/training2
 private-test-input/*
-test/pages
-test/mineru_lora_finetuned
 private-test-input
 private-test-output
 flash-installation/helper_comfyUI_accel

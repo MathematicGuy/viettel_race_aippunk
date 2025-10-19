@@ -250,7 +250,6 @@ class AgenticRAG:
         )
         # Create the graph
         self.graph = self._build_graph()
-
         logger.info(f"AgenticRAG initialized with model: {self.model_name} and {len(self.vector_stores)} vector store(s)")
 
     def add_vector_store(self, store: MilvusStore, name: str, description: str,

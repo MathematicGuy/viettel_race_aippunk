@@ -342,10 +342,21 @@ class MilvusStore:
         """
         Initialize the vector store database.
 
+        For remote connections (Zilliz Cloud), skip database creation as it's pre-created.
+        For local connections, create the database if it doesn't exist.
+
         Args:
             drop_old: Whether to drop the existing database if it exists
         """
         try:
+            # Skip database management for remote connections (Zilliz Cloud)
+            if self.token:
+                logger.info(f"Remote Milvus detected (token provided). Skipping database creation.")
+                logger.info(f"Using pre-created database: '{self.db_name}'")
+                db.using_database(self.db_name)
+                return
+
+            # For local connections, manage database
             existing_databases = db.list_database()
             if self.db_name in existing_databases:
                 logger.info(f"Database '{self.db_name}' already exists.")
@@ -363,12 +374,12 @@ class MilvusStore:
                 db.create_database(self.db_name)
                 logger.info(f"Database '{self.db_name}' created successfully.")
         except MilvusException as e:
-            logger.error(f"An error occurred: {e}")
+            logger.error(f"An error occurred during vector store initialization: {e}")
 
     def _create_vector_store(self, drop_old: bool = False) -> Milvus:
         """
         Create and configure a vector store.
-        Always drops the existing collection before creating a new one.
+        Supports both local and remote (Zilliz Cloud) connections.
 
         Args:
             drop_old: Whether to drop the existing collection if it exists
@@ -376,25 +387,19 @@ class MilvusStore:
         Returns:
             Milvus: Configured vector store
         """
+        # Build connection args for both local and remote
         connection_args = {
             "uri": self.uri,
             "db_name": self.db_name
         }
 
-        # Always ensure the collection is dropped before creating a new one
-        try:
-            db.using_database(self.db_name)
-            collections = utility.list_collections()
-            if self.collection_name in collections:
-                logger.info(f"Collection '{self.collection_name}' exists. Dropping before creating new one...")
-                collection = Collection(name=self.collection_name)
-                collection.drop()
-                logger.info(f"Successfully dropped collection '{self.collection_name}'")
-        except MilvusException as e:
-            logger.warning(f"Could not drop existing collection: {e}")
+        # Add token for remote connections (Zilliz Cloud)
+        if self.token:
+            connection_args["token"] = self.token
+            logger.info(f"Creating vector store with remote connection (Zilliz Cloud)")
+        else:
+            logger.info(f"Creating vector store with local connection")
 
-
-        # Local only; no token
         # Create and return vector store
         return Milvus(
             embedding_function=self.embeddings_model,
