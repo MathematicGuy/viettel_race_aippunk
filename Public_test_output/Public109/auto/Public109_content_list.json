@@ -1,0 +1,482 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/4250d17fe7cf71a16542f6d26b297c2f708f9a9ff0582e3df0766fb27360cd15.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 109</td></tr><tr><td rowspan=1 colspan=1>RNN-BASED RECSYS MODELS</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            58,
+            885,
+            124
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Tầm quan trọng của việc khai thác thông tin tuần tự trong dữ liệu người dùng ",
+        "text_level": 1,
+        "bbox": [
+            110,
+            148,
+            884,
+            195
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hệ gợi ý tuần tự là một trong những hướng nghiên cứu quan trọng trong lĩnh vực hệ gợi ý, tập trung vào việc khai thác thông tin từ chuỗi hành vi của người dùng để dự đoán hành động tiếp theo. Khác với các hệ gợi ý truyền thống chỉ dựa trên thông tin tĩnh, như lịch sử tương tác tổng quát hoặc các thuộc tính người dùng, hệ gợi ý tuần tự tận dụng các thay đổi động trong sở thích và hành vi người dùng theo thời gian. ",
+        "bbox": [
+            117,
+            205,
+            882,
+            337
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nhờ sự phát triển của học sâu, các phương pháp hiện đại như GRU4Rec, SASRec và BERT4Rec đã cải thiện đáng kể khả năng khai thác thông tin tuần tự: ",
+        "bbox": [
+            117,
+            342,
+            878,
+            384
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GRU4Rec: Giúp mã hóa chuỗi sự kiện tuần tự, nhưng còn hạn chế trong việc xử lý chuỗi dài. ",
+        "bbox": [
+            117,
+            388,
+            880,
+            430
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "- SASRec: Loại bỏ hạn chế của RNN bằng cách sử dụng self-attention để nắm bắt các mối quan hệ giữa các sự kiện mà không bị giới hạn bởi khoảng cách. ",
+        "bbox": [
+            117,
+            432,
+            880,
+            476
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "BERT4Rec: Mở rộng SASRec với khả năng khai thác ngữ cảnh hai chiều, tối ưu hóa thông tin từ cả phía trước và phía sau trong chuỗi. ",
+        "bbox": [
+            117,
+            478,
+            878,
+            520
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Việc áp dụng các phương pháp này đã mở ra khả năng gợi ý chính xác và hiệu quả hơn, đặc biệt trong các môi trường thực tế như thương mại điện tử, nơi hành vi người dùng thay đổi nhanh chóng và có tính cá nhân hóa cao. ",
+        "bbox": [
+            117,
+            525,
+            880,
+            589
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/78651d96fcf7eac5c49284b8ac7775b2c7fbe0ded2eaf93c3938aaa84befca27.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 109</td></tr><tr><td rowspan=1 colspan=1>RNN-BASED RECSYS MODELS</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            57,
+            885,
+            126
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Cấu trúc GRU ",
+        "text_level": 1,
+        "bbox": [
+            110,
+            170,
+            292,
+            192
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Để xử lý vấn đề gradient biến mất hoặc bùng nổ khi chuỗi trở nên quá dài, các biến thể như GRU (Gated Recurrent Unit) và LSTM (Long Short-Term Memory) đã được giới thiệu. Chúng sử dụng các cổng kiểm soát (gates) để điều chỉnh dòng thông tin trong quá trình lan truyền ngược. ",
+        "bbox": [
+            115,
+            200,
+            882,
+            290
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "GRU sử dụng hai cổng chính, gồm cổng cập nhật $\\left( \\mathrm { z _ { t } } \\right)$ và cổng xoá bỏ (rt), để kiểm soát dòng thông tin trong quá trình cập nhật trạng thái ẩn. Công thức cập nhật trạng thái trong GRU được định nghĩa như sau: ",
+        "bbox": [
+            115,
+            293,
+            882,
+            360
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Cổng cập nhật: ",
+        "bbox": [
+            147,
+            363,
+            324,
+            385
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e9762ab73c0767fa3cc590177b75c82bc1aa330c15e5c5ccdc7e10685cc4ddfc.jpg",
+        "text": "$$\nz _ { t } = \\sigma ( W _ { z } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { z } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            376,
+            386,
+            652,
+            409
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cổng này xác định tỷ lệ thông tin từ trạng thái cũ $\\mathrm { h } _ { \\mathrm { t } - 1 }$ cần giữ lại để sử dụng trong trạng thái hiện tại. ",
+        "bbox": [
+            117,
+            443,
+            882,
+            486
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Cổng xóa bỏ: ",
+        "bbox": [
+            147,
+            491,
+            309,
+            511
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5f57fa187104a60c4eb7fdb6582333ec6cd8f83c5575d36a2b56506c192b5d42.jpg",
+        "text": "$$\nr _ { t } = \\sigma ( W _ { r } \\cdot [ h _ { t - 1 } , x _ { t } ] + b _ { r } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            376,
+            513,
+            650,
+            536
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cổng xoá bỏ kiểm soát mức độ ảnh hưởng của trạng thái trước đó $\\mathrm { h } _ { \\mathrm { t } - 1 }$ khi tạo trạng thái mới. ",
+        "bbox": [
+            117,
+            545,
+            882,
+            588
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Trạng thái ứng viên: ",
+        "bbox": [
+            147,
+            594,
+            374,
+            613
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9f4bbc43dc6b585927f8dcfa5d1a1b4ac76d569ee50d9c8fbc77e7f68793aa2b.jpg",
+        "text": "$$\n\\tilde { h } _ { t } = t a n h ( W _ { h } \\cdot [ r _ { t } \\odot h _ { t - 1 } , x _ { t } ] + b _ { h } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            615,
+            712,
+            639
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trạng thái ứng viên $\\widetilde { h } _ { t }$ là biểu diễn trung gian, chịu tác động bởi cổng xoá bỏ $r _ { t }$ và thông tin đầu vào $x _ { t }$ . ",
+        "bbox": [
+            115,
+            649,
+            882,
+            694
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trạng thái ẩn cuối cùng: ",
+        "bbox": [
+            149,
+            697,
+            413,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c352fa002372ea1172bde14a0584d3df17cfe1d480d60a98b63bfa0762fc8761.jpg",
+        "text": "$$\nh _ { t } = z _ { t } \\odot h _ { t - 1 } + ( 1 - z _ { t } ) \\odot \\tilde { h } _ { t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            720,
+            672,
+            747
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trạng thái cuối cùng $h _ { t }$ là sự kết hợp giữa trạng thái trước đó ℎ??−1 (được điều chỉnh bởi $z _ { t }$ ) và trạng thái ứng viên $\\widetilde { h } _ { t }$ . ",
+        "bbox": [
+            117,
+            753,
+            882,
+            801
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/b25fa8af7b5af0f39b205541352bd3414497ba33b3a4c64742d397b53ca6479b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 109</td></tr><tr><td rowspan=1 colspan=1>RNN-BASED RECSYS MODELS</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            121,
+            58,
+            887,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/18a8f8d5de1a79107102581c065d63546151c79b21b7760799119a380eedf027.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            332,
+            135,
+            714,
+            369
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ở đây: ",
+        "bbox": [
+            163,
+            374,
+            245,
+            394
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\bigcirc$ $x _ { t }$ là đầu vào tại thời điểm $t$ (ví dụ: embedding của sản phẩm).   \n$\\bigcirc$ $h _ { t - 1 }$ là trạng thái ẩn tại thời điểm trước đó.   \n$\\bigcirc$ $\\sigma$ là hàm sigmoid, còn tanh làm hàm kích hoạt phi tuyến.   \n$\\bigcirc$ $W _ { z } , W _ { r } , W _ { h }$ là các trọng số cần học.   \n$\\bigcirc$ $b _ { z } , b _ { r } , b _ { h }$ là bias. ",
+        "bbox": [
+            208,
+            397,
+            836,
+            507
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "- Dự đoán đầu ra: Dựa trên trạng thái ẩn $h _ { t }$ , GRU dự đoán phần tử tiếp theo trong chuỗi thông qua một lớp softmax: ",
+        "bbox": [
+            119,
+            510,
+            882,
+            551
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3074ece91b787d5b1b49f7ec83124e2febd9071916b0f470e8a542b0e2fdb392.jpg",
+        "text": "$$\ny _ { t } = s o f t m a x ( W _ { y } \\cdot h _ { t } + b _ { y } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            557,
+            643,
+            580
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hàm mất mát thường được sử dụng là cross-entropy giữa phân phối dự đoán yt và nhãn thực $\\mathrm { y _ { t } ^ { * } }$ . ",
+        "bbox": [
+            117,
+            586,
+            880,
+            629
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/e34cdefd3a7226f40dd65deb5c22b818cd5d0190cda7ef9170949f5e1a0a7667.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 109</td></tr><tr><td rowspan=1 colspan=1>RNN-BASED RECSYS MODELS</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            121,
+            58,
+            887,
+            126
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. GRU4Rec ",
+        "text_level": 1,
+        "bbox": [
+            109,
+            142,
+            247,
+            161
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cấu trúc mạng sử dụng trong GRU4Rec được tổ chức theo các tầng sau: ",
+        "bbox": [
+            163,
+            173,
+            852,
+            195
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tầng đầu vào (Input Layer): Nhận chuỗi nhấp chuột của người dùng. ",
+        "bbox": [
+            157,
+            198,
+            831,
+            219
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "- Tầng nhúng (Embedding Layer): Biểu diễn sản phẩm dưới dạng vector nhúng và có thể áp dụng dropout để giảm overfitting. ",
+        "bbox": [
+            119,
+            222,
+            882,
+            263
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tầng hồi tiếp (Recurrent Layer - GRU): Mô hình hóa thông tin tuần tự dựa trên GRU. ",
+        "bbox": [
+            117,
+            266,
+            884,
+            306
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "- Tầng fully connected: Hợp nhất thông tin từ trạng thái ẩn của GRU. ",
+        "bbox": [
+            141,
+            309,
+            820,
+            330
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "- Tầng đầu ra (Output Layer): Có thể sử dụng hàm softmax hoặc linear để dự đoán sản phẩm tiếp theo. ",
+        "bbox": [
+            122,
+            332,
+            880,
+            374
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/c1364a626d87523ecde2d9d41f4dd495646bcb5f9c9d40c42d1fe30bca4acb5a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            332,
+            385,
+            722,
+            852
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Kiến trúc tổng quát của mạng sử dụng trong GRU4Rec, bao gồm các tầng xử lý từ đầu vào đến đầu ra ",
+        "bbox": [
+            115,
+            862,
+            880,
+            904
+        ],
+        "page_idx": 3
+    }
+]

@@ -49,8 +49,11 @@ def reorganize_directory(root_dir):
 
 if __name__ == "__main__":
     # Get the directory where this script is located
-    PATH = 'private-test-output'
-    out_dir = os.path.join(PATH)
+    # PATH = 'private-test-output'
+    PATH = 'Public_test_input'
+    OUTPUT_PATH = 'Public_test_output'
+
+    out_dir = os.path.join(OUTPUT_PATH)
     print(out_dir)
 
     if os.path.exists(out_dir):

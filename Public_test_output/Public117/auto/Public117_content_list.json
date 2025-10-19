@@ -1,0 +1,692 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/00c671530250f796609702c6fd7fcea8d6955ac8117c7df8e650c549571eae11.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 117</td></tr><tr><td rowspan=1 colspan=1>ON TAP VE xAC SUAT</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Random variables ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            123,
+            400,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một biến ngẫu nhiên (random variable) x là một đại lượng dùng để đo những đại lượng không xác định. Biến này có thể ký hiệu kết quả/đầu ra (outcome) của một thí nghiệm (ví dụ như tung đồng xu) hoặc một đại lượng biến đổi trong tự nhiên (ví dụ như nhiệt độ trong ngày). Nếu chúng ta quan sát rất nhiều đầu ra $\\{ \\mathrm { x } \\underline { { \\mathrm { i } } } \\} \\_ { - } \\{ \\mathrm { i } { = } 1 \\} \\wedge \\mathrm { I }$ của các thí nghiệm này, ta có thể nhận được những giá trị khác nhau ở mỗi thí nghiệm. Tuy nhiên, sẽ có những giá trị xảy ra nhiều lần hơn những giá trị khác. Thông tin về đầu ra được đo bởi phân phối xác suất (probability distribution) $\\mathfrak { p } ( \\mathbf { x } )$ của biến ngẫu nhiên. ",
+        "bbox": [
+            163,
+            156,
+            880,
+            345
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một biến ngẫu nhiên có thể là rời rạc (discrete) hoặc liên tục (continuous). Một biến ngẫu nhiên rời rạc sẽ lấy giá trị trong một tập hợp cho trước. Ví dụ tung đồng xu thì có hai khả năng là head và tail (tên gọi này bắt nguồn từ đồng xu Mỹ, một mặt có hình mặt người, được gọi là head, trái ngược với mặt này được gọi là mặt tail, cách gọi này hay hơn cách gọi xấp ngửa vì ta không có quy định rõ ràng thế nào là xấp ngay ngửa). Tập các giá trị này có thể là có thứ tự (khi tung xúc xắc) hoặc không có thứ tự (unordered), ví dụ khi đầu ra là các giá trị nắng, mưa, bão, etc. Mỗi đầu ra có một giá trị xác suất tương ứng với nó. Các giá trị xác suất này không âm và có tổng bằng một: ",
+        "bbox": [
+            163,
+            366,
+            877,
+            577
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "if x is discrete: ",
+        "bbox": [
+            164,
+            583,
+            305,
+            602
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b5c81277015d4edb23b7e7467ccd3418eb1074f5a6e45edcc36d31fc5ec5d54c.jpg",
+        "text": "$$\n\\begin{array} { r } { \\sum _ { - } \\mathbf { x p } ( \\mathbf { x } ) = 1 } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            431,
+            606,
+            561,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Biến ngẫu nhiên liên tục lấy các giá trị là tập con của các số thực. Những giá trị này có thể là hữu hạn, ví dụ thời gian làm bài của mỗi thí sinh trong một bài thi 180 phút, hoặc vô hạn, ví dụ thời gian để chiếc xe bus tiếp theo tới. Không như biến ngẫu nhiên rời rạc, xác suất để đầu ra bằng chính xác một giá trị nào đó, theo lý thuyết, là bằng 0. Thay vào đó, ta có thể hình dung xác suất để đầu ra nằm trong một khoảng giá trị nào đó; và việc này được mô tả bởi hàm mật độ xác suất (probability density function - pdf). Hàm mật độ xác suất luôn cho giá trị dương, và tích phân của nó trên toàn miền possible outcome phải bằng 1. ",
+        "bbox": [
+            163,
+            630,
+            885,
+            820
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "if x is continuous: ",
+        "bbox": [
+            164,
+            825,
+            334,
+            844
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/79ca440d7d8044f9e9a32f4d46e0613267e60d03b48795955e44ae24436a2e8a.jpg",
+        "text": "$$\n\\int \\mathbf { p } ( \\mathbf { x } ) \\mathrm { d } \\mathbf { x } = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            845,
+            559,
+            869
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Để giảm thiểu ký hiệu, hàm mật độ xác suất của một biến ngẫu nhiên liên tục x cũng được ký hiệu là p(x). ",
+        "bbox": [
+            163,
+            872,
+            885,
+            915
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/99b9e7a4369f1ab84a63e87b149805e23f41c92204f357931ccb2f08991e730a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 117</td></tr><tr><td rowspan=1 colspan=1>ON TaP VE xAc SUAT</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Chú ý: Nếu x là biến ngẫu nhiên rời rạc, p(x) luôn luôn nhỏ hơn hoặc bằng 1. Trong khi đó, nếu x là biến ngẫu nhiên liên tục, p(x) có thể nhận giá trị dương bất kỳ, điều này vẫn đảm bảo là tích phân của hàm mật độ xác suất theo toàn bộ giá trị có thể có của x bằng 1. Với biến ngẫu nhiên rời rạc, p(x) được hiểu là mật độ xác suất tại x. ",
+        "bbox": [
+            163,
+            134,
+            885,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Joint probability ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            269,
+            384,
+            289
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Xét hai biến ngẫu nhiên x và y. Nếu ta quan sát rất nhiều cặp đầu ra của x và y, thì có những tổ hợp hai đầu ra xảy ra thường xuyên hơn những tổ hợp khác. Thông tin này được biểu diễn bằng một phân phối được gọi là joint probability của x và y, và được viết là p(x, y). Dấu phẩy trong p(x, y) có thể đọc là và, vậy $\\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } )$ là xác suất của x và y. x và y có thể là hai biến ngẫu nhiên rời rạc, liên tục, hoặc một rời rạc, một liên tục. Luôn nhớ rằng tổng các xác suất trên mọi cặp giá trị có thể xảy ra (x, y) bằng 1. ",
+        "bbox": [
+            163,
+            302,
+            887,
+            452
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "both are discrete: $\\begin{array} { r l } { { } } & { { } \\sum _ { - } \\{ \\mathrm { x } , \\mathrm { y } \\} ~ \\mathrm { p } ( \\mathrm { x } , \\mathrm { y } ) = 1 } \\\\ { { } } & { { } \\mathrm { s } : ~ \\iint _ { \\mathbb { P } } ( \\mathrm { x } , \\mathrm { y } ) \\mathrm { d } \\mathrm { x } ~ \\mathrm { d } \\mathrm { y } = 1 } \\end{array}$   \nboth are continuou   \nx is discrete, y is continuous: $\\begin{array} { r } { \\sum _ { - } \\mathbf { x } \\int \\mathbf { p } ( \\mathbf { x } , \\mathbf { y } ) \\mathrm { d } \\mathbf { y } = \\int \\left( \\sum _ { - } \\mathbf { x } \\mathbf { p } ( \\mathbf { x } , \\mathbf { y } ) \\right) \\mathrm { d } \\mathbf { y } = 1 } \\end{array}$ Thông thường, chúng ta sẽ làm việc với các bài toán $\\dot { \\mathbf { O } }$ đó joint probability xác định trên nhiều hơn 2 biến ngẫu nhiên. Chẳng hạn, $\\mathsf { p } ( \\mathrm { x } , \\mathrm { y } , \\mathrm { z } )$ thể hiện joint probability của 3 biến ngẫu nhiên x, y và z. Khi có nhiều biến ngẫu nhiên, ta có thể viết chúng dưới dạng vector. Ta có thể viết $\\mathfrak { p } ( \\mathbf { x } )$ để thể hiện joint probability của biến ngẫu nhiên nhiều chiều $\\mathrm { \\bf x } = [ \\mathrm { x } 1 , \\mathrm { x } 2 , . . . , \\mathrm { x n } ] ^ { \\wedge } \\mathrm { T } .$ Khi có nhiều tập các biến ngẫu nhiên, ví dụ x và y, ta có thể viết $\\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } )$ để thể hiện joint probability của tất cả các thành phần trong hai biến ngẫu nhiên nhiều chiều này. ",
+        "bbox": [
+            163,
+            454,
+            885,
+            697
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3. Marginalization ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            726,
+            378,
+            745
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nếu biết joint probability của nhiều biến ngẫu nhiên, ta cũng có thể xác định được phân bố xác suất của từng biến bằng cách lấy tổng (rời rạc) hoặc tích phân (liên tục) theo tất cả các biến còn lại: ",
+        "bbox": [
+            163,
+            760,
+            885,
+            823
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathsf { p } ( \\mathbf { x } ) = \\sum \\_ { \\mathbf { y } } \\mathsf { p } ( \\mathbf { x } , \\mathbf { y } ) } \\end{array}$ (3) $\\begin{array} { r } { \\mathsf { p } ( \\mathsf { y } ) = \\sum _ { - } \\mathbf { x } \\mathsf { p } ( \\mathbf { x } , \\mathsf { y } ) } \\end{array}$ (4) Và với biến liên tục: $\\mathsf { p } ( \\mathbf { x } ) = \\int \\mathsf { p } ( \\mathbf { x } , \\mathbf { y } ) \\mathrm { d } \\mathbf { y }$ (5) ",
+        "bbox": [
+            161,
+            827,
+            393,
+            923
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/5d824fba998af0a796a44593d362e19d58d9ed51e685022cab0d38046d0c9c2c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 117</td></tr><tr><td rowspan=1 colspan=1>ON TaP VE xAC SUAT</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            890,
+            98
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { p } ( \\mathsf { y } ) = \\boldsymbol { \\int } \\mathsf { p } ( \\mathbf { x } , \\mathsf { y } ) \\mathrm { d } \\mathbf { x }$ (6) ",
+        "bbox": [
+            163,
+            112,
+            389,
+            136
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Với nhiều biến hơn, chẳng hạn 4 biến rời rạc x, y, z, w: ",
+        "bbox": [
+            163,
+            138,
+            692,
+            160
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6690099f4fb9bed51466f68e8bd174caa9b90fe81544687c0899ecda2b4fda43.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathrm { p ( x ) } = \\sum _ { \\mathrm { - } } \\{ \\mathrm { y , z , w } \\} \\ \\mathrm { p ( x , y , z , w ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            163,
+            455,
+            186
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/30054864a6ea2f40dba6d50d2d758dee6836709a2c85d6b3a489e59bc162d0d9.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathrm { p } ( \\mathrm { x } , \\mathrm { y } ) = \\sum _ { - } \\{ \\mathrm { z } , \\mathrm { w } \\} \\ \\mathrm { p } ( \\mathrm { x } , \\mathrm { y } , \\mathrm { z } , \\mathrm { w } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            163,
+            190,
+            460,
+            210
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Từ đây trở đi, nếu không nói gì thêm, tôi sẽ dùng ký hiệu ∑ để chỉ chung cho cả hai loại biến. Nếu biến ngẫu nhiên là liên tục, bạn đọc ngầm hiểu rằng dấu $\\sum$ cần được thay bằng dấu tích phân ∫, biến lấy vi phân chính là biến được viết dưới dấu ∑. ",
+        "bbox": [
+            163,
+            213,
+            885,
+            296
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4. Conditional probability ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            326,
+            453,
+            346
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Xác suất có điều kiện (conditional probability) của một biến ngẫu nhiên x biết rằng biến ngẫu nhiên y có giá trị ${ \\boldsymbol { \\mathrm { y } } } ^ { * }$ được ký hiệu là $\\mathsf { p } ( \\mathbf { x } \\mid \\mathbf { y } = \\mathbf { y } ^ { * } )$ . Conditional probability $\\mathsf { p } ( \\mathrm { x } \\mid \\mathrm { y } = \\mathrm { y } ^ { \\ast } )$ có th $\\acute { \\hat { \\mathbf { e } } }$ được tính dựa trên joint probability $\\mathrm { p } ( \\mathrm { x } , \\mathrm { y } )$ . ",
+        "bbox": [
+            163,
+            359,
+            887,
+            445
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\mathsf { p } ( \\mathbf { x } \\mid \\mathbf { y } = \\mathbf { y } ^ { * } ) = \\mathsf { p } ( \\mathbf { x } , \\mathbf { y } = \\mathbf { y } ^ { * } ) / \\sum \\mathbf { x } \\mathsf { p } ( \\mathbf { x } , \\mathbf { y } = \\mathbf { y } ^ { * } ) = \\mathsf { p } ( \\mathbf { x } , \\mathbf { y } = \\mathbf { y } ^ { * } ) / \\mathsf { p } ( \\mathbf { y } = \\mathbf { y } ^ { * } ) } \\end{array}$ ) (9) ",
+        "bbox": [
+            156,
+            448,
+            884,
+            491
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Thông thường, viết gọn: $\\operatorname { p } ( \\mathbf { x } \\mid \\mathbf { y } ) = \\operatorname { p } ( \\mathbf { x } , \\mathbf { y } ) / \\operatorname { p } ( \\mathbf { y } )$ ",
+        "bbox": [
+            166,
+            494,
+            621,
+            516
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Tương tự: $\\mathfrak { p } ( \\mathrm { y } \\mid \\mathrm { x } ) = \\mathfrak { p } ( \\mathrm { y } , \\mathrm { x } ) / \\mathfrak { p } ( \\mathrm { x } )$ ",
+        "bbox": [
+            168,
+            520,
+            482,
+            541
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bba529682b76fc869fe99db90118364def994f1e58d7a8c3d9f052b49169c63c.jpg",
+        "text": "$$\n\\mathtt { p ( x , y ) } = \\mathtt { p ( x \\mid y ) } \\mathtt { p ( y ) } = \\mathtt { p ( y \\mid x ) } \\mathtt { p ( x ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            545,
+            598,
+            565
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Khi có nhiều hơn hai biến: ",
+        "bbox": [
+            164,
+            567,
+            420,
+            589
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/656da4bb7d6dd6d062c1db60fad4aeeb7f9ea13dfda62cc06b06fa5be034dd09.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } , \\mathrm { z } , \\mathrm { w } ) = \\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } , \\mathrm { z } \\mid \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { w } ) \\quad ( 1 2 ) } \\\\ & { = \\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } \\mid \\mathrm { z } , \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { z } , \\mathrm { w } ) = \\mathfrak { p } ( \\mathrm { x } , \\mathrm { y } \\mid \\mathrm { z } , \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { z } \\mid \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { w } ) } \\\\ & { = \\mathfrak { p } ( \\mathrm { x } \\mid \\mathrm { y } , \\mathrm { z } , \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { y } \\mid \\mathrm { z } , \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { z } \\mid \\mathrm { w } ) \\mathfrak { p } ( \\mathrm { w } ) \\quad ( 1 4 ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            591,
+            650,
+            665
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "5. Quy tắc Bayes ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            669,
+            359,
+            691
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2dd9b35b022ee20c1442c674a5d18bab1396739dd4564134c76c0cdd4cde659e.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathrm { T i r } \\left( 1 1 \\right) : \\mathrm { p ( y \\mid x ) p ( x ) } = \\mathrm { p ( x \\mid y ) p ( y ) } \\Rightarrow \\mathrm { p ( y \\mid x ) } = \\mathrm { p ( x \\mid y ) p ( y ) / p ( x ) } } \\\\ & { = \\mathrm { p ( x \\mid y ) p ( y ) } / \\sum \\mathrm { y p ( x , y ) } \\quad \\mathrm { ( 1 6 ) } } \\\\ & { = \\mathrm { p ( x \\mid y ) p ( y ) } / \\sum \\mathrm { y p ( x \\mid y ) p ( y ) } \\quad \\mathrm { ( 1 7 ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            157,
+            694,
+            798,
+            782
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ba công thức (15)–(17) thường được gọi là Quy tắc Bayes (Bayes’ rule). ",
+        "bbox": [
+            157,
+            780,
+            850,
+            801
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6. Independence ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            808,
+            356,
+            828
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nếu x và y độc lập: $\\mathsf { p } ( \\mathbf { x } \\mid \\mathbf { y } ) = \\mathsf { p } ( \\mathbf { x } )$ (18), $\\mathsf { p } ( \\boldsymbol { \\mathrm { y } } \\mid \\boldsymbol { \\mathrm { x } } ) = \\mathsf { p } ( \\boldsymbol { \\mathrm { y } } )$ Khi đó: $\\mathtt { p ( x , y ) } = \\mathtt { p ( x ) } \\mathtt { p ( y ) }$ (20) ",
+        "bbox": [
+            163,
+            842,
+            709,
+            889
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7. Kỳ vọng ",
+        "bbox": [
+            164,
+            896,
+            302,
+            916
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/50a2d17d8d17583d80d647526c6affd3ed6e202d03104c71b96f84828dd89302.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 117</td></tr><tr><td rowspan=1 colspan=1>ON TaP VE xAC SUAT</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Kỳ vọng (expectation) của một biến ngẫu nhiên: ",
+        "bbox": [
+            163,
+            114,
+            625,
+            136
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { r } { \\operatorname { E } [ \\mathbf { x } ] = \\sum _ { - } ^ { } \\mathbf { x } \\mathbf { x } \\mathbf { p } ( \\mathbf { x } ) } \\end{array}$ nếu x rời rạc (21)   \n$\\operatorname { E } [ \\mathbf { x } ] = \\int \\mathbf { x } \\ \\mathbf { p } ( \\mathbf { x } ) \\ \\mathrm { d } \\mathbf { x }$ nếu x liên tục (22)   \nVới hàm $\\begin{array} { r } { \\mathrm { f ( . ) } { \\mathrm { : ~ E [ f ( x ) ] } } = \\sum _ { - } { \\mathrm { ~ x ~ f ( x ) ~ p ( x ) ~ } } } \\end{array}$ (23)   \nVới joint probability: $\\begin{array} { r } { \\mathrm { E } [ \\mathrm { f } ( \\mathrm { x } , \\mathrm { y } ) ] = \\sum _ { - } \\{ \\mathrm { x } , \\mathrm { y } \\} \\ \\mathrm { f } ( \\mathrm { x } , \\mathrm { y } ) \\ \\mathrm { p } ( \\mathrm { x } , \\mathrm { y } ) } \\end{array}$ Ba quy tắc:   \n$\\operatorname { E } [ { \\mathfrak { a } } ] = { \\mathfrak { a } }$ (25)   \n$\\operatorname { E } [ { \\mathfrak { a } } \\mathbf { x } ] = \\mathbf { a } \\operatorname { E } [ \\mathbf { x }$ (26); $\\operatorname { E } [ \\mathbf { f } ( \\mathbf { x } ) + \\mathbf { g } ( \\mathbf { x } ) ] = \\operatorname { E } [ \\mathbf { f } ( \\mathbf { x } ) ] + \\operatorname { E } [ \\mathbf { g } ( \\mathbf { x } ) ]$ Nếu x, y độc lập: $\\operatorname { E } [ \\operatorname { f } ( \\mathbf { x } ) \\ \\mathbf { g } ( \\mathbf { y } ) ] = \\operatorname { E } [ \\operatorname { f } ( \\mathbf { x } ) ] \\operatorname { E } [ \\mathbf { g } ( \\mathbf { y } ) ]$ (28) ",
+        "bbox": [
+            161,
+            138,
+            709,
+            333
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8. Một vài phân phối thường gặp ",
+        "bbox": [
+            163,
+            339,
+            524,
+            361
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8.1 Bernoulli distribution ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            376,
+            435,
+            395
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Bernoulli distribution: $\\mathbf { x } \\in \\{ 0 , 1 \\}$ , tham $\\mathrm { s } \\acute { 0 } \\lambda \\in [ 0 , 1 ]$ là xác suất để $\\mathbf { x } { = } 1$ ",
+        "bbox": [
+            161,
+            399,
+            830,
+            420
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "${ \\mathrm { p } } ( { \\mathrm { x } } { = } 1 ) { = } \\lambda , \\quad { \\mathrm { p } } ( { \\mathrm { x } } { = } 0 ) { = } 1 - \\lambda$ Viết gọn: $\\mathrm { p ( x ) } = \\lambda \\mathrm { \\hat { x } } \\left( 1 - \\lambda \\right) \\mathrm { \\hat { \\Omega } } \\{ 1 - \\mathrm { x } \\}$ Ký hiệu: $\\mathsf { p } ( \\mathrm { x } ) = \\mathrm { B e r n } \\_ \\mathrm { x } [ \\lambda ]$ (30) ",
+        "bbox": [
+            161,
+            425,
+            514,
+            496
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8.2 Categorical distribution ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            503,
+            457,
+            523
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Categorical distribution với K lớp, tham $\\mathrm { s } \\mathring { \\hat { 0 } } \\lambda = [ \\lambda 1 , . . . , \\lambda \\mathrm { K } ] , \\sum _ { - } \\mathrm { k } \\lambda \\mathrm { k } = 1 .$ ",
+        "bbox": [
+            164,
+            526,
+            850,
+            548
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { p } ( \\mathbf { x } = \\mathbf { k } ) = \\lambda \\big \\mathrm { ~ k ~ }$ ; viết gọn: $\\mathsf { p } ( \\mathrm { x } ) = \\mathrm { C a t \\_ x } [ \\lambda ]$ Biểu diễn one-hot: $\\mathrm { x } \\in \\{ \\mathrm { e l } , . . . , \\mathrm { e K } \\}$ ${ \\mathrm { p } } ( \\mathbf { x } = { \\mathbf { e } } \\bot ) = \\prod  \\mathrm { ~ \\{ j = 1 \\} ~ \\cdot K ~ \\land ~ j ~ \\land ~ j \\} } = \\lambda { \\mathrm { ~ \\bf ~ k ~ } }$ ",
+        "bbox": [
+            161,
+            553,
+            568,
+            624
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8.3 Univariate normal distribution ",
+        "text_level": 1,
+        "bbox": [
+            161,
+            630,
+            529,
+            649
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { p } ( \\mathrm { x } ) = 1 / \\sqrt { ( 2 \\pi \\sigma ^ { \\wedge } 2 ) \\cdot \\exp ( - { \\left( \\mathrm { x } - \\mu \\right) ^ { \\wedge } } 2 / ( 2 \\sigma ^ { \\wedge } 2 ) ) }$ (3 Ký hiệu: $\\mathtt { p } ( \\mathrm { x } ) = \\mathrm { N o r m \\_ x } [ \\mu , \\sigma ^ { \\wedge } 2 ]$ ",
+        "bbox": [
+            161,
+            652,
+            643,
+            700
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8.4 Multivariate normal distribution   \n$\\mathrm { p ( x ) } = 1 / \\left( ( 2 \\pi ) ^ { \\wedge } \\{ \\mathrm { D } / 2 \\} \\right.$ |Σ|^{1/2}) · exp(−1/2 (x−μ)^T Σ^{−1} (x−μ))   \nKý hiệu: $\\mathtt { p ( x ) } = \\mathtt { N o r m \\_ x [ \\mu , \\Sigma ] }$ ",
+        "bbox": [
+            159,
+            707,
+            816,
+            777
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "8.5 Beta distribution ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            785,
+            386,
+            804
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { p ( \\boldsymbol { \\lambda } ) } = \\Gamma ( \\alpha + \\beta ) / \\left( \\Gamma ( \\alpha ) \\Gamma ( \\beta ) \\right) \\cdot \\lambda \\wedge \\{ \\alpha - 1 \\} \\ ( 1 - \\lambda ) ^ { \\wedge } \\{ \\beta - 1 \\}$ (34) Trong đó $\\Gamma ( \\mathrm { z } ) = \\int \\_ 0 \\land _ { \\infty } { \\mathrm { t } } \\land \\{ \\mathrm { z }  - 1 \\} \\ \\exp ( - \\mathrm { t } )$ dt, và $\\Gamma [ z ] = ( z - 1 ) !$ nếu $\\mathbf { Z }$ là số tự nhiên. ",
+        "bbox": [
+            161,
+            806,
+            889,
+            874
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ký hiệu: $\\mathsf { p } ( \\lambda ) = \\mathbf { B e t a } \\_ \\lambda [ \\mathsf { a } , \\mathsf { \\beta } ]$ ",
+        "bbox": [
+            164,
+            878,
+            440,
+            900
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/edad9a3f7f9a4261c4fd4c29531aaa489820dd436e98c8d9bd5cb879fdfb1946.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 117</td></tr><tr><td rowspan=1 colspan=1>ON TaP VE xAC SUAT</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.6 Dirichlet distribution ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            116,
+            428,
+            135
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "p(λ1, …, λK) = Γ(∑_{k=1}^K α_k) / ∏_{k=1}^K Γ(α_k) · ∏_{k=1}^K   \n$\\lambda \\stackrel { \\mathrm { \\scriptsize ~ k } ^ { \\wedge } } { - } \\stackrel { \\textstyle \\left\\{ { \\mathfrak { a } \\stackrel { \\mathrm { \\scriptsize ~ k } ^ { - 1 } } { \\mathfrak { a } } } \\right\\} }$ (35)   \nKý hiệu: $\\mathrm { p } ( \\mathbb { A } 1 , . . . , \\mathbb { A } \\mathrm { K } ) = \\mathrm { D i r } _ { - } \\{ \\lambda 1 , . . . , \\lambda \\mathrm { K } \\} [ \\alpha 1 , . . . , \\alpha \\mathrm { K } ]$ ",
+        "bbox": [
+            163,
+            138,
+            887,
+            209
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "9. Thảo luận ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            213,
+            319,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Về Xác suất thống kê, còn rất nhiều điều cần lưu ý. Tạm thời, phần này ôn tập lại các kiến thức xác suất cơ bản để phục vụ cho các bài viết tiếp theo. Khi nào có phần nào cần nhắc lại, sẽ tiếp tục ôn tập bổ sung. ",
+        "bbox": [
+            163,
+            247,
+            884,
+            312
+        ],
+        "page_idx": 4
+    }
+]

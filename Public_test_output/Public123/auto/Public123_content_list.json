@@ -1,0 +1,647 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/7aded8d2950fed952f3725a6bfa20fc8fd10f478adad2cbb1a34bbd2c67340d5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MANG TICH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Giới thiệu tích chập ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            123,
+            415,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tích chập là một khái niệm trong xử lý tín hiệu số nhằm biến đổi thông tin đầu vào thông qua một phép tích chập với bộ lọc để trả về đầu ra là một tín hiệu mới. Tín hiệu này sẽ làm giảm những đặc trưng mà bộ lọc không quan tâm và chỉ giữ những đặc trưng chính. ",
+        "bbox": [
+            163,
+            156,
+            885,
+            241
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tích chập thông dụng nhất là tích chập 2 chiều được áp dụng trên ma trận đầu vào và ma trận bộ lọc 2 chiều. Phép tích chập của một ma trận $\\dot { \\mathbf { X } } \\in \\mathbb { R } ^ { W _ { 1 } \\times \\check { H } _ { 1 } }$ với một bộ lọc (receptive field) $\\mathbf { F } \\in \\mathbb { R } ^ { F \\times F }$ là một ma trận $\\mathbf { Y } \\in \\mathbb { R } ^ { W _ { 2 } \\times H _ { 2 } }$ ",
+        "bbox": [
+            163,
+            244,
+            885,
+            334
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Trong một mạng nơ ron tích chập, các tầng (layer) liền sau lấy đầu vào từ tầng liền trước nó. Do đó để hạn chế lỗi trong thiết $\\mathrm { k } \\acute { \\mathrm { e } }$ mạng nơ ron chúng ta cần xác định kích thước đầu ra ở mỗi tầng. Điều đó có nghĩa là dựa vào kích thước ma trận đầu vào (W1, H1), kích thước bộ lọc (F,F) và bước nhảy S để xác định kích thước ma trận đầu ra (W2, H2)   \nXét quá trình trượt trên chiều W1 của ma trận đầu vào. ",
+        "bbox": [
+            163,
+            339,
+            887,
+            470
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/7f0e588cdc5d1af26250d6d02591f6d23eb8b7bab8bb38e883e428d59579b5da.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            171,
+            483,
+            885,
+            695
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hình 1: Quá trình trượt theo chiều rộng w1. Mỗi dòng tương ứng với một bước. Mỗi bước chúng ta dịch sang phải một khoảng s đơn vị cho tới khi đi hết w1 ô. Nếu bước cuối cùng bị dư thì chúng ta sẽ lát (padding) thêm để mở rộng ma trận sao cho quá trình tích chập không bị dư ô. ",
+        "bbox": [
+            163,
+            724,
+            889,
+            808
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Giả sử quá trình này sẽ dừng sau w2 bước. Tại bước đầu tiên ta đi được đến vị trí thứ F . Sau mỗi bước liền sau sẽ tăng so với vị trí liền trước là S. Như vậy đến bước thứ i quá trình trượt sẽ đi đến vị trí $\\mathrm { F } + ( \\mathrm { i } { - } 1 ) \\mathrm { S }$ . Suy ra tại bước cuối cùng w2 ma trận sẽ đi đến vị trí $\\mathrm { F } + ( \\mathrm { W } 2 \\mathrm { - } 1 ) \\mathrm { S }$ . Đây là vị trí lớn nhất gần với vị trí cuối cùng là w1 . Trong trường hợp lý tưởng thì $\\mathrm { F } + ( \\mathrm { W } 2 $ - 1)S. Từ đó ta suy ra: ",
+        "bbox": [
+            163,
+            812,
+            885,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/54a405dc63d5037dd90ddddf9936c4797ea3d9475f80d0638a7999e6169add60.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MaNG TiCH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            114,
+            887,
+            156
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f57221162ef4b30d83448bee0853b7bc18a155b4f7ab31c8989ce624114c3f98.jpg",
+        "text": "$$\nW _ { 2 } = \\frac { W _ { 1 } - F } { S } + 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            166,
+            636,
+            213
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Khi vị trí cuối cùng không trùng với w1 thì số bước w2 sẽ được lấy phần nguyên: ",
+        "bbox": [
+            163,
+            231,
+            885,
+            273
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a4fdf9bba0dd36811eb3d0a32d274de76d88c5b1aa5c8fabc2fa052aae87ab9d.jpg",
+        "text": "$$\nW _ { 2 } = \\qquad \\frac { W _ { 1 } - F } { S } + 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            381,
+            280,
+            672,
+            327
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Chúng ta luôn có thể tạo ra đẳng thức (1) nhờ thêm phần đường viền (padding) tại các cạnh của ảnh với độ rộng viền là P sao cho phép chia cho S là chia hết. Khi đó: ",
+        "bbox": [
+            163,
+            338,
+            887,
+            401
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/82a00efeb4f9cc4581690c58484db2e83eee9a7961773cd187d1f1c103b44de0.jpg",
+        "text": "$$\nW _ { 2 } = \\frac { W _ { 1 } + 2 P - F } { S } + 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            460,
+            408,
+            665,
+            441
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/98d1d2b0234ce07bc983bd776c7fa218595417e07b5b391d734f6690823b2f5f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            218,
+            467,
+            900,
+            513
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hình 2: Thêm padding kích thước P vào $2 1 { \\dot { \\hat { \\mathbf { e } } } }$ chiều rộng (W1) Hoàn toàn tương tự ta cũng có công thức ứng với chiều cao: ",
+        "bbox": [
+            163,
+            524,
+            754,
+            572
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cdab643359b674923ed99ff3b9ebf42846ce4c5ccf9c91b54f62ffbc7ac21680.jpg",
+        "text": "$$\nH _ { 2 } = \\frac { H _ { 1 } + 2 P - F } { S } + 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            381,
+            579,
+            665,
+            627
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Mạng nơ ron tích chập (mạng CNN) ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            663,
+            581,
+            684
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1 Các Thuật ngữ ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            699,
+            368,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Do bài này khá nhiều thuật ngữ chuyên biệt trong mạng CNN nên để dễ hiểu hơn cho bạn đọc tôi sẽ diễn giải trước khái niệm. ",
+        "bbox": [
+            163,
+            723,
+            885,
+            764
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Đơn vị (Unit): Là giá trị của một điểm nằm trên ma trận khối ở mỗi tầng của mạng CNN. ",
+        "bbox": [
+            163,
+            768,
+            885,
+            809
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Vùng nhận thức (Receptive Field): Là một vùng ảnh trên khối ma trận đầu vào mà bộ lọc sẽ nhân tích chập để ánh xạ tới một đơn vị trên layer tiếp theo. ",
+        "bbox": [
+            163,
+            814,
+            884,
+            876
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/36a530dc334c83fe2e49282c49a1cc2f392ebfdd89a79e4609ff238e23766900.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MANG TICH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "- Vùng địa phương (Local region): Theo một nghĩa nào đó sẽ bao hàm cả vùng nhận thức. Là một vùng ảnh cụ thể nằm trên khối ma trận ở các tầng (layer) của mạng CNN. ",
+        "bbox": [
+            163,
+            116,
+            885,
+            178
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "- Bản đồ đặc trưng (Feature Map): Là ma trận đầu ra khi áp dụng phép tích chập giữa bộ lọc với các vùng nhận thức theo phương di chuyển từ trái qua phải và từ trên xuống dưới. ",
+        "bbox": [
+            164,
+            181,
+            884,
+            244
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Bản đồ kích hoạt (Activation Map): Là output của bản đồ đặc trưng CNN khi áp dụng thêm hàm activation để tạo tính phi tuyến. ",
+        "bbox": [
+            164,
+            248,
+            884,
+            290
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2 Kiến trúc chung của mạng neural tích chập ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            298,
+            653,
+            318
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Tích chập được ứng dụng phổ biến trong lĩnh vực thị giác máy tính. Thông qua các phép tích chập, các đặc trưng chính từ ảnh được trích xuất và truyền vào các tầng tích chập (layer convolution). Mỗi một tầng tích chập sẽ bao gồm nhiều đơn vị mà kết quả ở mỗi đơn vị là một phép biến đổi tích chập từ layer trước đó thông qua phép nhân tích chập với bộ lọc. ",
+        "bbox": [
+            163,
+            321,
+            885,
+            427
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Về cơ bản thiết $\\mathrm { k } \\acute { \\mathrm { e } }$ của một mạng nơ ron tích chập 2 chiều có dạng như sau: ",
+        "bbox": [
+            163,
+            429,
+            875,
+            452
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "INPUT $_ - >$ [[CONV $_ - >$ RELU]\\*N $_ - >$ POOL?]\\*M $_ - >$ [FC $_ - >$ RELU]\\*K ->FC",
+        "bbox": [
+            164,
+            456,
+            880,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Trong đó: ",
+        "bbox": [
+            164,
+            502,
+            260,
+            521
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• INPUT: Tầng đầu vào   \n• CONV: Tầng tích chập   \n• RELU: Tầng kích hoạt. Thông qua hàm kích hoạt (activation function), thường là ReLU hoặc LeakyReLU để kích hoạt phi tuyến POOL: Tầng tổng hợp, thông thường là Max pooling hoặc có thể là Average pooling dùng để giảm chiều của ma trận đầu vào. FC: Tầng kết nối hoàn toàn. Thông thường tầng này nằm ở sau cùng và kết nối với các đơn vị đại diện cho nhóm phân loại. ",
+        "bbox": [
+            193,
+            527,
+            885,
+            699
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Các kí hiệu []N, []M hoặc []\\*K ám chỉ các khối bên trong [] có thể lặp lại nhiều lần liên tiếp nhau. M, K là số lần lặp lại. Kí hiệu $\\mathrm { . > }$ đại diện cho các tầng liền kề nhau mà tầng đứng trước sẽ làm đầu vào cho tầng đứng sau. Dấu ? sau POOL để thể hiện tầng POOL có thể có hoặc không sau các khối tích chập. ",
+        "bbox": [
+            163,
+            703,
+            885,
+            808
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Như vậy ta có thể thấy một mạng nơ ron tích chập về cơ bản có 3 quá trình khác nhau: ",
+        "bbox": [
+            164,
+            812,
+            884,
+            852
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Quá trình tích chập (convolution): Thông qua các tích chập giữa ma trận đầu vào với bộ lọc để tạo thành các đơn vị trong một tầng mới. Quá trình này có thể diễn ra liên tục ở phần đầu của mạng và thường sử dụng kèm với hàm kích hoạt ReLU. Mục tiêu của tầng này là trích suất đặc trưng hai chiều. ",
+        "bbox": [
+            194,
+            859,
+            884,
+            934
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/6125575786bd7a180c7b22792ff40253723269ba52ac45b1fad2b7117532d717.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MaNG TiCH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            220,
+            115,
+            882,
+            155
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Quá trình tổng hợp (max pooling): Các tầng càng về sau khi trích xuất đặc trưng sẽ cần số lượng tham số lớn do chiều sâu được qui định bởi số lượng các kênh ở các tầng sau thường tăng tiến theo cấp số nhân. Điều đó làm tăng số lượng tham số và khối lượng tính toán trong mạng nơ ron. Do đó để giảm tải tính toán chúng ta sẽ cần giảm kích thước các chiều của khối ma trận đầu vào hoặc giảm số đơn vị của tầng. Vì mỗi một đơn vị sẽ là kết quả đại diện của việc áp dụng 1 bộ lọc để tìm ra một đặc trưng cụ thể nên việc giảm số đơn vị sẽ không khả thi. Giảm kích thước khối ma trận đầu vào thông qua việc tìm ra 1 giá trị đại diện cho mỗi một vùng không gian mà bộ lọc đi qua sẽ không làm thay đổi các đường nét chính của bức ảnh nhưng lại giảm được kích thước của ảnh. Do đó quá trình giảm chiều ma trận được áp dụng. Quá trình này gọi là tổng hợp nhằm mục đích giảm kích thước dài, rộng. ",
+        "bbox": [
+            193,
+            157,
+            885,
+            452
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Quá trình kết nối hoàn toàn (fully connected): Sau khi đã giảm kích thước đến một mức độ hợp lý, ma trận cần được trải phẳng (flatten) thành một vector và sử dụng các kết nối hoàn toàn giữa các tầng. Quá trình này sẽ diễn ra cuối mạng CNN và sử dụng hàm kích hoạt là ReLU. Tầng kết nối hoàn toàn cuối cùng (fully connected layer) sẽ có số lượng đơn vị bằng với số classes và áp dụng hàm kích hoạt là softmax nhằm mục đích tính phân phối xác xuất. ",
+        "bbox": [
+            194,
+            454,
+            885,
+            600
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. Tính chất của mạng nơ ron tích chập ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            609,
+            588,
+            629
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tính kết nối trượt: Khác với các mạng nơ ron thông thường, mạng nơ ron tích chập không kết nối tới toàn bộ hình ảnh mà chỉ kết nối tới từng vùng địa phương (local region) hoặc vùng nhận thức (receptive field) có kích thước bằng kích thước bộ lọc của hình ảnh đó. Các bộ lọc sẽ trượt theo chiều của ảnh từ trái qua phải và từ trên xuống dưới đồng thời tính toán các giá trị tích chập và điền vào bản đồ kích hoạt (activation map) hoặc bản đồ đặc trưng (feature map). ",
+        "bbox": [
+            163,
+            643,
+            887,
+            792
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/32c52493af45cf675a66d741c43736f1a028415eb26ef7187ac5a537c3e6c101.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MaNG TICH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/b16795bd6a10a531a7707bfd0f7d60d7c83edb0158912f4ac4fc7deb629d9d1c.jpg",
+        "image_caption": [
+            "Hinh5:Quátrintrtvatin tichchpcamt blokichtuocxtrnnkétitibnichhoat，Sourceub "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            411,
+            124,
+            719,
+            374
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Các khối nơ ron 3D: Không giống như những mạng nơ ron thông thường khi cấu trúc ở mỗi tầng là một ma trận 2D (batch size x số đơn vị ở mỗi tầng). Các kết quả ở mỗi tầng của một mạng nơ ron là một khối 3D được sắp xếp một cách hợp lý theo 3 chiều rộng (width), cao (height), sâu (depth). Trong đó các chiều rộng và cao được tính toán theo công thức tích chập mục 1.1. Giá trị chiều rộng và cao của một tầng phụ thuộc vào kích thước của bộ lọc, kích thước của tầng trước, kích thước mở rộng (padding) và bước trượt bộ lọc (stride). Tuy nhiên chiều sâu lại hoàn toàn không phụ thuộc vào những tham số này mà nó bằng với số bộ lọc trong tầng đó. Quá trình tính bản đồ kích hoạt dựa trên một bộ lọc sẽ tạo ra một ma trận 2D. Như vậy khi áp dụng cho d bộ lọc khác nhau, mỗi bộ lọc có tác dụng trích suất một dạng đặc trưng trên mạng nơ ron, ta sẽ thu được d ma trận 2D có cùng kích thước mà mỗi ma trận là một bản đồ đặc trưng. Khi sắp xếp chồng chất các ma trận này theo chiều sâu kết quả đầu ra là một khối nơ ron 3D. Thông thường đối với xử lý ảnh thì tầng đầu vào có depth $= 3$ (số kênh) nếu các bức ảnh đang để ở dạng màu gồm 3 kênh RBG. Bên dưới là một cấu trúc mạng nơ ron điển hình có dạng khối. ",
+        "bbox": [
+            163,
+            426,
+            885,
+            782
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/6ba17b9b5f1256a90a6ce7bde1e2d3b8472a506c576437eb9cb1e570edddbedc.jpg",
+        "image_caption": [
+            "Hinh 6: Cáu trúc các khói no ron 3D mang Alexnet, Source: mdpi.com "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            154,
+            39,
+            892,
+            280
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tính chia sẻ kết nối và kết nối cục bộ: Chúng ta đã biết quá trình biến đổi trong mạng tích chập sẽ kết nối các khối nơ ron 3D. Tuy nhiên các đơn vị sẽ không kết nối tới toàn bộ khối 3D trước đó theo chiều rộng và cao mà chúng sẽ chọn ra các vùng địa phương (hoặc vùng nhận thức) có kích thước bằng với bộ lọc. Các vùng địa phương sẽ được chia sẻ chung một bộ siêu tham số có tác dụng nhận thức đặc trưng của bộ lọc. Các kết nối cục bộ không chỉ diễn ra theo chiều rộng và cao mà kết nối sẽ mở rộng hoàn toàn theo chiều sâu. Như vậy số tham số trong một tầng sẽ là FxFxD ( F, D lần lượt là kích thước bộ lọc và chiều depth). ",
+        "bbox": [
+            163,
+            327,
+            885,
+            519
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Mỗi bộ lọc sẽ có khả năng trích xuất một đặc trưng nào đó như đã giải thích ở mục 1. Do đó khi đi qua toàn bộ các vùng địa phương của khối nơ ron 3D, các đặc trưng được trích xuất sẽ hiển thị trên tầng mới. ",
+        "bbox": [
+            163,
+            521,
+            884,
+            584
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/bd840ab2ae27723877193cc66107aa3304ef73e0abb52134f9abcce40c9aab04.jpg",
+        "image_caption": [
+            "Hinh 7: Két nói cuc bo, Source: cs231n-stanford "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            352,
+            596,
+            746,
+            788
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tính tổng hợp: Ở các tầng tích chập gần cuối số tham số sẽ cực kì lớn do sự gia tăng của chiều sâu và thông thường sẽ theo cấp số nhân. Như vậy nếu không có một cơ chế kiểm soát sự gia tăng tham số, chi phí tính toán sẽ cực kì lớn và vượt quá khả năng của một số máy tính cấu hình yếu. Một cách tự nhiên là chúng ta sẽ giảm kích thước các chiều rộng và cao bằng kỹ 6 thuật giảm mẫu (down sampling) mà vẫn giữ nguyên được các đặc trưng của khối. Theo đó những bộ lọc được di chuyển trên bản đồ đặc trưng và tính trung bình (average pooling) hoặc giá trị lớn nhất (max pooling) của các phần tử trong vùng nhận thức. Trước đây các tính trung bình được áp dụng nhiều nhưng các mô hình hiện đại đã thay thế bằng giá trị lơn nhất do tốc độ tính max nhanh hơn so với trung bình. ",
+        "bbox": [
+            163,
+            815,
+            885,
+            939
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/6024016baa43a3ff4675fd4c3e0ea22db2a6d836f9c7c798e30f91fa85a14c5d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 123</td></tr><tr><td rowspan=1 colspan=1>LY THUYÉT VE MaNG TiCH CHAP</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            114,
+            885,
+            241
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/664d441787102c20b2be3a8e9162bbfcc7eab94151835623d19da68094dc3df1.jpg",
+        "image_caption": [
+            "Hinh 8: Quá trinh tong hop, Source: cs231n -stanford "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            336,
+            270,
+            820,
+            538
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Độ phức tạp phát hiện hình ảnh tăng dần: Ở tầng đầu tiên, hình ảnh mà chúng ta có chỉ là những giá trị pixels. Sau khi đi qua tầng thứ 2 máy tính sẽ nhận diện được các hình dạng cạnh, rìa và các đường nét đơn giản được gọi là đặc trưng bậc thấp (low level). Càng ở những tầng tích chập về sau càng có khả năng phát hiện các đường nét phức tạp, đã rõ ràng hình thù và thậm chí là cấu thành vật thể, đây được gọi là những đặc trưng bậc cao (high level). Máy tính sẽ học từ tầng cuối cùng để nhận diện nhãn của hình ảnh. ",
+        "bbox": [
+            163,
+            572,
+            885,
+            741
+        ],
+        "page_idx": 6
+    }
+]

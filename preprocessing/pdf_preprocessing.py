@@ -6,10 +6,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 #? Config MinerU
 print('BEGIN PDF PREPROCESSING: COVERT PDF to MARKDOWN')
-PATH = "private-test-input/"
-OUTPUT_PATH = "private-test-output/"
-# PATH = "public-test-input/"
-# OUTPUT_PATH = "public-test-output/"
+# PATH = "private-test-input/"
+# OUTPUT_PATH = "private-test-output/"
+PATH = 'Public_test_input'
+OUTPUT_PATH = 'Public_test_output'
+
 
 MAX_WORKERS = 3  # Adjust based on your VRAM and CPU
 
@@ -72,7 +73,7 @@ file_names = os.listdir(PATH) # [file_name.pdf,...]
 for file_name in file_names:
     file_name = file_name.replace('.pdf', '')
     file_path = f'private-test-output/{file_name}/auto'
-
+	
     with open(f'{file_path}/{file_name}.md', 'r', encoding='utf-8') as f:
         content = f.read()
 

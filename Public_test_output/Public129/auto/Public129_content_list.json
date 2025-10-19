@@ -1,0 +1,2964 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/7cbcc0c25213c44b9ddeb4df82cc732789727260a3f41804b6e3ac2d669fa657.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      1</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm về lực ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            166,
+            318,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Có thể phân các loại lực thành hai nhóm: (1) Lực do có tiếp xúc (lực đàn hồi của lò xo, lực căng dây, lực đàn hồi ở các điểm tiếp xúc giữa các vật…) (2) Lực của một trường lực (lực hấp dẫn, lực tĩnh điện, lực từ) ",
+        "bbox": [
+            116,
+            194,
+            906,
+            252
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/23a75f8b5581cd3435115a37ee1679fac70b260dae47ba9a58d68dcd3b781374.jpg",
+        "image_caption": [
+            "Hình 5.1: a, b, c lực do có tiếp xúc; d, e, f lực của một trường "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            241,
+            261,
+            799,
+            467
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Bản chất vectơ của lực: Lực là đại lượng vectơ nên khi tìm lực cần chú ý đến điểm đặt, phương, chiều và độ lớn của lực. Khi tổng hợp các lực, cần chú ý qui tắc cộng vectơ. ",
+        "bbox": [
+            112,
+            510,
+            905,
+            549
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hình 5.2 minh họa 2 lực tác dụng vào móc của lực $\\mathrm { k } \\acute { \\mathrm { e } }$ theo 2 cách khác nhau: 2 lực cùng phương và 2 lực vuông góc với nhau. Khi tác dụng dọc theo trục lò xo, lực $\\mathrm { F } _ { 1 }$ và $\\mathrm { F } _ { 2 }$ lần lượt làm lò xo giãn ra 1cm và 2cm (hình 5.2 a,b). Nhưng hai lực này tác dụng vuông góc với nhau thì lò xo giãn ra 2,24cm (hình 5.2d). ",
+        "bbox": [
+            114,
+            555,
+            905,
+            632
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/95fb0e8514946e40aede9167be352128ac9c045c9c6451187de39a5488da44ba.jpg",
+        "image_caption": [
+            "Hình 5.2: Các lực tác dụng lên lực $k \\acute { e } .$ : $a .$ . lực $F _ { I }$ ; $b .$ . lực $F _ { 2 }$ ; c. 2 lực $F _ { I }$ và $F _ { 2 }$ cùng phương chiều; d. 2 lực $F _ { I }$ và $F _ { 2 }$ vuông góc với nhau. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            261,
+            637,
+            828,
+            843
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/25db7c96c0854ca916b7736f0ff419d669f526f53bfa5357a44b2114119025e1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE     V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyèn dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Định luật Newton thứ nhất và các hệ qui chiếu quán tính ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            164,
+            709,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.2.1 Định luật Newton thứ nhất: ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            193,
+            413,
+            213
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nếu một vật không tương tác với các vật khác thì ta có thể xác định một hệ qui chiếu trong đó vật có gia tốc bằng 0. ",
+        "bbox": [
+            111,
+            219,
+            905,
+            258
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba61833970893a64742a25ff159d10321bf3d57148ca5104dd833875c9dd1bd6.jpg",
+        "image_caption": [
+            "Hình 5.3: Miếng nhựa đặt trên đệm khí. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            418,
+            273,
+            640,
+            361
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "${ \\bf 5 . 2 . 2 H \\hat { e } }$ qui chiếu quán tính ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            401,
+            370,
+            422
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Một hệ qui chiếu mà định luật Newton thứ nhất được thỏa mãn gọi là hệ qui chiếu quán tính. ",
+        "bbox": [
+            109,
+            428,
+            905,
+            467
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Một dạng phát biểu khác của định luật Newton thứ nhất: ",
+        "bbox": [
+            151,
+            472,
+            629,
+            493
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Khi không có ngoại lực tác dụng và được quan sát từ một hệ qui chiếu quán tính, một vật đứng yên sẽ vẫn đứng yên và một vật chuyển động sẽ tiếp tục chuyển động với vận tốc không đổi (tức là chuyển động với tốc độ không đổi theo một đường thẳng). ",
+        "bbox": [
+            114,
+            501,
+            905,
+            558
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ như khi xét một miếng nhựa tròn đặt trên bàn đệm khí, và bàn này đặt trên mặt đất thì miếng nhựa này không tương tác với vật nào khác theo phương ngang nên gia tốc của nó theo phương ngang bằng không. Nếu bàn đệm khí này được đặt trên một con tàu chuyển động thẳng đều thì ta cũng quan sát được hiện tượng tương tự. Tuy nhiên, nếu tàu chuyển động có gia tốc thì hệ qui chiếu gắn với tàu không còn là hệ qui chiếu quán tính nữa. Một người đứng trên tàu sẽ thấy miếng nhựa chuyển động có gia tốc. Hệ qui chiếu gắn với tàu là hệ qui chiếu phi quán tính. Mặc dầu vậy, một người quan sát đứng yên trên mặt đất vẫn thấy miếng nhựa chuyển động thẳng đều. ",
+        "bbox": [
+            114,
+            564,
+            905,
+            717
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Một hệ qui chiếu chuyển động với vận tốc không đổi đối với các ngôi sao ở rất xa là một xấp xỉ tốt nhất cho một hệ qui chiếu quán tính. Trong nhiều trường hợp, Trái Đất cũng có thể xem là một hệ qui chiếu quán tính. ",
+        "bbox": [
+            114,
+            722,
+            905,
+            780
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Khoảng trước năm 1600 thì người ta cho rằng trạng thái tự nhiên của vật chất là trạng thái nghỉ (đứng yên). Galileo là người đầu tiên đưa ra cách nhìn nhận mới về chuyển động và trạng thái tự nhiên của vật chất. Theo ông thì “Vận tốc mà ta truyền cho một vật chuyển động sẽ được bảo toàn nếu các nguyên nhân bên ngoài làm chậm chuyển động bị loại bỏ”. Lúc đó vật không tìm về “trạng thái nghỉ bản chất” nữa. ",
+        "bbox": [
+            112,
+            786,
+            905,
+            882
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/f574d36f57c5b3a7d34238ab2c25ae1c1e78b493e53a339225f0a49bb4ec2cfd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE     ✔</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "dụng lên vật đó. c) Cả (a) và (b) đều đúng. d) Cả (a) và (b) đều sai. ",
+        "bbox": [
+            114,
+            140,
+            686,
+            161
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            235,
+            140,
+            905,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/40edb60f8660a5fb215dbee147f541279f4b36812c6300183e0a4137717eee79.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.2.3 Cách phát biểu khác của định luật Newton thứ nhất ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            164,
+            630,
+            185
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Nếu không có ngoại lực tác dụng và được quan sát từ một hệ qui chiếu quán tính thì một vật đứng yên sẽ đứng yên và một vật chuyển động sẽ tiếp tục chuyển động với vận tốc không đổi (tức là chuyển động thẳng đều). ",
+        "bbox": [
+            114,
+            191,
+            906,
+            250
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Nói cách khác, nếu không có lực tác dụng lên vật thì gia tốc của vật bằng không. Bất kỳ vật cô lập nào cũng đứng yên hoặc chuyển động thẳng đều. Khuynh hướng chống lại sự thay đổi vận tốc của một vật được gọi là quán tính. ",
+        "bbox": [
+            114,
+            255,
+            905,
+            313
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.2.4 Định nghĩa lực ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            320,
+            297,
+            340
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Lực là nguyên nhân làm thay đổi chuyển động của một vật ",
+        "bbox": [
+            151,
+            345,
+            647,
+            366
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            378,
+            264,
+            401
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.3.1 Định nghĩa khối lượng ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            409,
+            367,
+            429
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng là một thuộc tính của vật xác định mức độ chống lại sự thay đổi vận tốc của nó. Đơn vị của khối lượng trong hệ đo lường quốc tế là kilôgram (kg). Các thí nghiệm đã cho thấy, dưới tác dụng của một lực cho trước thì vật có khối lượng càng lớn sẽ thu được gia tốc càng nhỏ. Giả sử cho cùng một lực tác dụng lên hai vật có khối lượng lần lượt là m1 và m2 và hai vật lần lượt thu được các gia $\\vec { a _ { \\mathrm { ~ 1 ~ } } }$ ??à $\\vec { a _ { \\mathrm { ~ } } _ { 2 } }$ . Tỷ số hai khối lượng của hai vật này được định nghĩa bằng nghịch đảo của tỷ số hai độ lớn của hai gia tốc tương ứng: ",
+        "bbox": [
+            114,
+            434,
+            905,
+            550
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a0b69f2a3efef09273808722a6eaad3e4eca73d7f615bc8aba3ba32e3bce3c98.jpg",
+        "text": "$$\n\\frac { m _ { 1 } } { m _ { 2 } } \\equiv \\frac { \\pmb { a } _ { 2 } } { \\pmb { a } _ { 1 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            565,
+            490,
+            598
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Các kết quả thí nghiệm cho thấy: Với một lực cho trước tác dụng lên vật, độ lớn gia tốc mà vật thu được tỷ lệ nghịch với khối lượng của vật. ",
+        "bbox": [
+            114,
+            608,
+            903,
+            647
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng là thuộc tính cố hữu của một vật, không phụ thuộc vào môi trường xung quanh vật và phương pháp được dùng để đo lường nó. Khối lượng là đại lượng vô hướng. Khối lượng tuân theo các phép tính số học thông thường. ",
+        "bbox": [
+            114,
+            656,
+            903,
+            714
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng và trọng lượng: ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            722,
+            392,
+            742
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng và trọng lượng (weight) là hai đại lượng khác nhau. Trọng lượng là độ lớn của lực hấp dẫn tác dụng lên vật. Trọng lượng có thể thay đổi tùy theo vị trí của vật. ",
+        "bbox": [
+            114,
+            747,
+            903,
+            786
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ: ",
+        "bbox": [
+            151,
+            794,
+            205,
+            811
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• wearth = 180 lb; $\\mathbf { W } _ { \\mathrm { m o o n } } \\sim 3 0 \\mathrm { ~ l t }$ b • mearth = 2 kg; mmoon = 2 kg ",
+        "bbox": [
+            151,
+            819,
+            418,
+            859
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Định luật Newton thứ hai ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            875,
+            403,
+            895
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khi xem xét từ một hệ quy chiếu quán tính, gia tốc của một vật tỉ lệ thuận trực tiếp với ",
+        "bbox": [
+            142,
+            901,
+            895,
+            922
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/bc52defa7c9828f1baa5e79d05928f6b2f850818c911566ae185ba0896fe791a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE     V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            942,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "lực tổng hợp tác dụng lên vật và tỉ lệ nghịch với khối lượng của nó. ",
+        "bbox": [
+            112,
+            140,
+            692,
+            161
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lực là nguyên nhân của các thay đổi trong chuyển động, được đo thông qua gia tốc. ",
+        "bbox": [
+            142,
+            166,
+            862,
+            188
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cần lưu ý là một vật có thể chuyển động mà không cần có lực tác dụng. Không được diễn giải rằng lực là nguyên nhân của chuyển động. ",
+        "bbox": [
+            112,
+            208,
+            900,
+            250
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Về mặt đại số thì: ",
+        "bbox": [
+            150,
+            253,
+            302,
+            275
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0b620c23499024e3d59ecc265015a5a763f40dbce02213db3d049413864c2ac1.jpg",
+        "text": "$$\n\\vec { \\mathsf { a } } \\propto \\frac { \\sum \\vec { \\mathsf { F } } } { m } {  } \\sum \\vec { \\mathsf { F } } = m \\vec { \\mathsf { a } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            362,
+            287,
+            553,
+            332
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "ở đây, hệ số tỉ lệ được chọn bằng 1 và các tốc độ chuyển động của các vật phải nhỏ hơn nhiều so với tốc độ ánh sáng. Trong đó, $\\sum \\limits _ { i = 1 } ^ { \\sum \\vec { F } }$ là lực tổng hợp, là tổng vectơ của tất cả các lực tác dụng lên vật (còn gọi là lực toàn phần). ",
+        "bbox": [
+            114,
+            358,
+            905,
+            426
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Định luật Newton thứ 2 cũng có thể được biểu diễn theo các thành phần: ",
+        "bbox": [
+            143,
+            430,
+            764,
+            452
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d1fdc6a04e3f256420996dd07eca1f3a359966ba08c033fa183a5b05f718a122.jpg",
+        "text": "$$\n\\begin{array} { l } { \\Sigma F _ { x } = m \\bar { \\alpha } _ { x } } \\\\ { \\Sigma F _ { y } = m \\bar { \\alpha } _ { y } } \\\\ { \\Sigma F _ { z } = m \\bar { \\alpha } _ { z } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            230,
+            458,
+            331,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý: ma không phải là một lực. ",
+        "bbox": [
+            150,
+            542,
+            442,
+            563
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Tổng tất cả các lực bằng tích của khối lượng của vật với gia tốc của nó. ",
+        "bbox": [
+            147,
+            566,
+            753,
+            588
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Đơn vị của lực: Trong SI, đơn vị của lực là newton (N) ",
+        "bbox": [
+            151,
+            594,
+            627,
+            614
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5bc022028bf497da418cb80d2d116f388f450795110dac64524af3092961bc7e.jpg",
+        "text": "$$\n1 { \\mathrm { N } } = 1 \\ { \\mathrm { k g } } { \\cdot } { \\mathrm { m } } \\ / s ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            621,
+            323,
+            642
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Theo hệ đơn vị của Mỹ thì đơn vị của lực là pound (lb). ",
+        "bbox": [
+            151,
+            648,
+            625,
+            669
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• 1 lb = 1 slug·ft / s2 ",
+        "bbox": [
+            151,
+            676,
+            334,
+            696
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Quy đổi đơn vị: $1 \\mathrm { N } \\sim \\%$ lb ",
+        "bbox": [
+            150,
+            702,
+            383,
+            723
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 5.2: Một vật chuyển động không gia tốc. Hãy chọn phát biểu không đúng trong các phát biểu sau:a) Chỉ có một lực tác dụng lên vật đó. b) Không có lực nào tác dụng lên vật. c) Nhiều lực tác dụng lên vật nhưng các lực này triệt tiêu lẫn nhau. ",
+        "bbox": [
+            114,
+            731,
+            906,
+            790
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/124dc95f06749da11fc7f68791c2662b867ce153d8e9d5d74887d777f6729a3c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            120,
+            790,
+            900,
+            811
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 5.3: Khi đẩy một vật từ trạng thái nghỉ trượt qua một mặt sàn không ma sát với lực không đổi trong khoảng thời gian Δt, kết quả vật thu được tốc độ v. Sau đó, lặp lại thí nghiệm trên với lực đẩy lớn hơn 2 lần. Hỏi để đạt được vận tốc cuối cùng như thí nghiệm trên thì thời gian đẩy vật là?a) 4Δt; b) 2 Δt; c) Δt; d) Δt. ",
+        "bbox": [
+            112,
+            813,
+            905,
+            888
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/c9939699eb26da76417857ee5d355395d4fde1eae8919e47e43798ed10208032.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      1</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyèn dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lực hấp dẫn và khối lượng ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            138,
+            419,
+            162
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lực hấp dẫn $\\vec { \\mathsf { F } } _ { g }$ là lực mà Trái đất tác dụng lên một vật. Lực này hướng về tâm của Trái đất, và độ lớn của nó được gọi là trọng lượng của vật. ",
+        "bbox": [
+            114,
+            169,
+            898,
+            213
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Theo định luật Newton thứ 2 thì: ",
+        "bbox": [
+            151,
+            219,
+            429,
+            238
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d411e53fdc7c506f2ce412a1ecc4d233003d1b568a8e9c0a2a3d8e4718f84bd1.jpg",
+        "text": "$$\n{ \\vec { \\mathsf { F } } } _ { g } = m { \\vec { \\mathsf { g } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            253,
+            473,
+            279
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Do đó, trọng lượng của vật: ",
+        "bbox": [
+            150,
+            290,
+            385,
+            310
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/2312e4b8b7e3867996f6aed1554cd27104efa80c93527c972620b09607cc7449.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aea85c054a1b40bd0f29f5c5b1dce4f112c6030587e0a0b31d65c1b33aac6a84.jpg",
+        "text": "$$\nF _ { g } = m g\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            174,
+            473,
+            196
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Nói thêm về trọng lượng: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            209,
+            372,
+            229
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Do trọng lượng phụ thuộc vào gia tốc trọng trường (g) nên nó sẽ thay đổi theo vị trí. ",
+        "bbox": [
+            148,
+            234,
+            862,
+            256
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Càng lên cao thì g và trọng lượng càng giảm. • Điều này cũng áp dụng được cho các hành tinh khác, nhưng g thay đổi theo hành tinh nên trọng lượng cũng thay đổi từ hành tinh này sang hành tinh khác. ",
+        "bbox": [
+            150,
+            263,
+            901,
+            323
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trọng lượng không phải là thuộc tính cố hữu của vật. Trọng lượng là thuộc tính của một hệ các vật: vật và Trái đất. Về đơn vị thì kg không phải là đơn vị của trọng lượng. Công thức 1kg=2,2lb là công thức tương đương và chỉ đúng trên mặt đất. ",
+        "bbox": [
+            117,
+            328,
+            905,
+            387
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Khối lượng hấp dẫn và khối lượng quán tính: ",
+        "text_level": 1,
+        "bbox": [
+            160,
+            391,
+            562,
+            414
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trong các định luật của Newton, khối lượng là khối lượng quán tính và đo bằng sự cản trở đối với sự thay đổi chuyển động của vật. Còn trong công thức (5.6) khối lượng m cho biết lực hấp dẫn giữa vật và Trái Đất. Các thí nghiệm cho thấy khối lượng quán tính và khối lượng hấp dẫn có cùng giá trị. ",
+        "bbox": [
+            114,
+            417,
+            906,
+            496
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 5.4: Giả sử rằng bạn đang gọi một cuộc điện thoại liên hành tinh với bạn của bạn ở trên Mặt Trăng. Người bạn đó kể rằng anh ta mới thắng được 1 Newton vàng trong một cuộc thi. Anh ta khuyên bạn nên tham dự cuộc thi đó phiên bản Trái Đất và nếu chiến thắng cũng được 1 Newton vàng. Hỏi nếu điều đó xảy ra, ai sẽ giàu hơn?, a) Bạn sẽ giàu hơn; b) Bạn của bạn giàu hơn; c) Cả 2 giàu bằng nhau. ",
+        "bbox": [
+            114,
+            503,
+            906,
+            601
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Định luật Newton thứ 3 ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            617,
+            383,
+            638
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Nếu hai vật tương tác với nhau, lực $\\vec { \\mathsf { F } } _ { 1 2 }$ do vật 1 tác dụng lên vật 2 bằng về độ lớn nhưng ngược chiều với lực $\\vec { \\mathsf { F } } _ { 2 1 }$ do vật 2 tác dụng lên vật 1. ",
+        "bbox": [
+            114,
+            647,
+            905,
+            694
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a2312d10ceca54007e2a88a953bef3320d4192eb6ca197f746e412f2cf8c74df.jpg",
+        "text": "$$\n\\vec { \\pmb { { \\mathsf { F } } } } _ { 1 2 } = - \\vec { \\pmb { { \\mathsf { F } } } } _ { 2 1 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            712,
+            480,
+            738
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý về ký hiệu: $\\vec { \\mathsf { F } } _ { \\mathsf { A B } }$ là lực do A tác dụng lên B. ",
+        "bbox": [
+            148,
+            750,
+            566,
+            772
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Một cách phát biểu khác của định luật: ",
+        "bbox": [
+            148,
+            781,
+            483,
+            801
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lực tác dụng và lực phản tác dụng (phản lực) bằng nhau về độ lớn nhưng ngược chiều. ",
+        "bbox": [
+            114,
+            808,
+            612,
+            847
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/609b75ae7122c8e3edd0f9d8d25470ae9d6fadecdcf5c6207bc1aaa757ecf253.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            633,
+            779,
+            859,
+            936
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Một trong hai lực là lực tác dụng, lực kia là phản lực. Lực và phản lực phải tác dụng lên hai vật khác nhau và cùng loại với nhau. ",
+        "bbox": [
+            151,
+            854,
+            612,
+            931
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/8c860bbfaa8dd815b722ce4024425d75a64f794b99273794ea44813d0cafcbd6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ 1 về lực – phản lực: Ở hình 5.5, hai vật tác dụng vào nhau bởi các lực có độ lớn bằng nhau nhưng ngược chiều nhau. ",
+        "bbox": [
+            114,
+            138,
+            617,
+            198
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/5bba424b1b451de53c6e6eb7f8275739aca3a6ba265a7ee668786486b9c80a3e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ 2 về lực – phảnlực: Trong hình 5.6a ở trên, lực pháp tuy $\\mathrm { \\hat { e } n ^ { 1 } }$ (normal force) do mặt bàn tác dụng lên màn hình $\\vec { \\boldsymbol { \\mathsf { m } } } = \\vec { \\boldsymbol { \\mathsf { F } } } _ { \\mathrm { t m } } ,$ ) là phản lực của lực tác dụng của màn hình lên mặt bàn ( $\\vec { \\mathsf { F } } _ { \\mathsf { m t } } ^ { \\mathrm { ~ ~ } } ,$ ",
+        "bbox": [
+            114,
+            164,
+            901,
+            233
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/11da91f46e4909d693e9ea8fb5b1b62fcdc7dbf29b9ffc3479617ee515b9372a.jpg",
+        "image_caption": [
+            "Hình 5.6: Các lực tác dụng lên một màn hình máy tính được đặt nằm yên trên một mặt bàn "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            168,
+            242,
+            761,
+            492
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Lực tác dụng của Trái đất lên màn hình ( $\\vec { \\mathsf { F } } _ { \\mathfrak { g } } = \\vec { \\mathsf { F } } _ { \\mathsf { E m } } .$ ) có độ lớn bằng với lực mà màn hình tác dụng lên Trái đất $( \\vec { \\pmb { { \\mathsf { F } } } } _ { \\mathsf { m E } } )$ ) nhưng ngược chiều. ",
+        "bbox": [
+            114,
+            550,
+            905,
+            599
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Khi giải toán bằng cách vận dụng các định luật của Newton, ta có thể vẽ các lực tác dụng lên vật như trong hình b (còn gọi là sơ đồ lực). Một cách khác là ta có thể vẽ sơ đồ lực trong đó sử dụng mô hình chất điểm cho vật, ta được một sơ $\\mathtt { d } \\overset { \\mathtt { \\backslash } } { \\mathtt { d } }$ như trong hình c (gọi là free-body diagram). ",
+        "bbox": [
+            114,
+            608,
+            905,
+            685
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Khi vẽ các sơ đồ, cần lưu ý là chỉ vẽ những lực tác dụng lên vật đang xét (kể cả các lực do trường lực gây ra). Các lực tác dụng lên vật xem như là tác dụng lên chất điểm thay thế cho vật. Sơ đồ này giúp ta tách các lực tác dụng lên vật đang xét mà bỏ qua các lực khác khi phân tích. ",
+        "bbox": [
+            114,
+            690,
+            905,
+            767
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 5.5: i) Nếu một con ruồi va chạm vào kính chắn gió của một chiếc xe buýt đang chạy rất nhanh, thì lực nào sau đây lớn hơn? a) của con ruồi tác dụng vào xe, b)của xe buýt tác dụng vào ruồi, c)2 vật tác dụng các lực bằng nhau. ",
+        "bbox": [
+            112,
+            776,
+            906,
+            834
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "ii) Vật nào có gia tốc lớn hơn? a) Con ruồi, b) Xe buýt, c) 2 vật có gia tốc bằng nhau. ",
+        "bbox": [
+            114,
+            834,
+            838,
+            854
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/7107e2359068ee704ad56fcca9c6994d268dad74508c8758c6fb31dfb4dbd033.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"1\" rowspan=\"2\">Ai</td><td colspan=\"1\" rowspan=\"1\">VIETTEL AI RACE    V</td><td colspan=\"1\" rowspan=\"1\">TD129</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Các dinh luàt vè chuyén dòng</td><td colspan=\"1\" rowspan=\"1\">Làn ban hành: 1</td></tr><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Các mô hình phân tích sử dụng định luật 2 Newton ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            165,
+            651,
+            188
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Trong phần này, ta thảo luận về hai mô hình phân tích để giải toán trong đó vật cân bằng hoặc chịu tác dụng của các lực không đổi. Để giải các bài toán ta đơn giản hóa mô hình bằng các giả định sau: ",
+        "bbox": [
+            114,
+            191,
+            906,
+            251
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Các vật có thể được mô hình hóa thành các chất điểm (particle).   \n• Chỉ quan tâm đến các ngoại lực tác dụng lên vật (có thể bỏ qua phản lực – vì phản lực tác dụng lên vật khác).   \n• Tạm thời bỏ qua ma sát ở các bề mặt.   \nKhối lượng của các sợi dây là không đáng $\\mathrm { k } \\mathring { \\mathrm { e } }$ : Lực của dây tác dụng lên vật hướng ra xa vật và song song với dây. Khi dây được buộc vào vật và kéo vật đi thì độ lớn của lực này là lực căng dây ",
+        "bbox": [
+            150,
+            256,
+            905,
+            395
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Hạt ở trạng thái cân bằng ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            401,
+            531,
+            422
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Nếu gia tốc của một vật (xem là một chất điểm) bằng không, vật được gọi là ở trạng thái cân bằng. Mô hình này gọi là mô hình chất điểm $\\dot { \\mathbf { O } }$ trạng thái cân bằng. Về mặt toán học, lực tổng hợp tác dụng lên vật bằng không: ",
+        "bbox": [
+            114,
+            426,
+            707,
+            505
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b10efcd3ffe14bead0ca5641fbfdd582fb500bb7f132297e64ea7a1e51633c07.jpg",
+        "text": "$$\n\\sum \\vec { \\mathbf { F } } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            518,
+            472,
+            544
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "hay $\\sum F _ { x } = 0$ và $\\sum F _ { y } = 0$ ",
+        "bbox": [
+            114,
+            554,
+            346,
+            580
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ về cân bằng: một cái đèn được treo bằng một dây xích nhẹ (hình 5.7). Các lực tác dụng lên đèn $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m }$ : ",
+        "bbox": [
+            112,
+            603,
+            702,
+            643
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/d1bbbd7ea149853bd25edfe0b533ebb506fe29ceca9a514f4797d68cbd231e36.jpg",
+        "image_caption": [
+            "Hình 5.7: Một chiếc đèn được treo trên trần nhà nhờ sợi xích. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            715,
+            429,
+            885,
+            623
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Lực hấp dẫn hướng xuống dưới • Lực căng của dây xích hướng lên trên. ",
+        "bbox": [
+            150,
+            650,
+            500,
+            691
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng điều kiện cân bằng, ta được ",
+        "bbox": [
+            148,
+            695,
+            467,
+            717
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3ee498bc6bc9cd91b882325395110d0bb6b131157ea80fe5d773b32ea827dcc4.jpg",
+        "text": "$$\n\\sum F _ { y } = 0  T - F _ { g } = 0  T = F _ { g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            726,
+            562,
+            757
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Hạt dưới tác dụng của một lực tổng hợp ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            757,
+            656,
+            779
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Nếu một vật được mô hình hóa như một chất điểm chịu một gia tốc, phải có lực tổng hợp khác không tác dụng lên nó. Mô hình dùng trong trường hợp này là mô hình chất điểm dưới tác dụng của một lực tổng hợp. Ta giải bài toán theo các bước sau: ",
+        "bbox": [
+            112,
+            797,
+            906,
+            857
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Vẽ sơ đồ lực. • Viết định luật 2 Newton: $\\sum { \\vec { F } } = m { \\overset {  } { . } }$ • Xét theo các phương x, y. ",
+        "bbox": [
+            150,
+            862,
+            482,
+            934
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/bd111e64989a352e2d3955d2d570fd0528c8b3649fcea0f5efac8ee30d95bf9c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Một người kéo một cái thùng như hình 5.8 a. Các lực tác dụng lên thùng: lực căng dây T , trọng lực $\\mathsf { \\Pi } _ { \\mathsf { S } _ { g } }$ , và phản lực pháp tuyến n tác dụng bởi sàn nhà. ",
+        "bbox": [
+            114,
+            140,
+            901,
+            181
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/2c48a698421a85f1d09018095c37c94528704a7e2785dd458e2c8812fa6bd055.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE 1</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng định luật 2 Newton theo các phương x, y: ",
+        "bbox": [
+            148,
+            165,
+            581,
+            185
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\sum F _ { x } = T = m \\pmb { a } _ { x }$ ${ \\sum F _ { y } = n - F _ { g } = 0 \\to n = F _ { g } }$ ",
+        "bbox": [
+            161,
+            190,
+            392,
+            251
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình theo các ẩn. ",
+        "bbox": [
+            150,
+            258,
+            434,
+            279
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Nếu lực căng dây là không đổi thì gia tốc $a$ là hằng số, ta có thể áp dụng các phương trình động học $\\tt d \\hat { e } \\ m \\hat { o }$ tả đầy đủ hơn về chuyển động của thùng. ",
+        "bbox": [
+            114,
+            284,
+            681,
+            343
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý $\\nu \\dot { \\hat { e } }$ phản lực pháp tuyến n : ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            348,
+            442,
+            369
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Lực pháp tuyến không phải là luôn bằng trọng lực tác dụng lên vật. Ví dụ như trong hình bên cạnh thì ",
+        "bbox": [
+            117,
+            375,
+            679,
+            414
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/df720ed88a36d84b73721372d10170202941fe6f26ba6875f8fde9e33fec823e.jpg",
+        "text": "$$\n\\sum F _ { y } = n - F _ { g } - F = 0 \\ { \\mathrm { n } } { \\hat { \\mathrm { e } } } { \\mathrm { n } } \\colon \\ n = m g + F\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            420,
+            491,
+            445
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Nó cũng có thể nhỏ hơn trọng lực. ",
+        "bbox": [
+            151,
+            454,
+            439,
+            474
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Gợi ý để giải toán: Áp dụng các định luật Newton ",
+        "bbox": [
+            173,
+            481,
+            622,
+            502
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa: ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            507,
+            316,
+            527
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Vẽ một sơ đồ • Chọn hệ tọa độ thích hợp cho mỗi vật ",
+        "bbox": [
+            173,
+            534,
+            517,
+            575
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Phân loại: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            583,
+            267,
+            602
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Mô hình chất điểm cân bằng: $\\sum \\vec { \\mathbf { F } } = 0$ • Mô hình chất điểm chịu tác dụng của lực tổng hợp: $\\sum \\vec { \\mathbf { F } } = m \\vec { \\mathbf { a } }$ ",
+        "bbox": [
+            174,
+            609,
+            723,
+            660
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Phân tích: ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            670,
+            267,
+            689
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Vẽ sơ đồ lực cho mỗi vật • Chỉ vẽ các lực tác dụng lên vật • Tìm các thành phần theo các trục tọa độ Bảo đảm rằng các đơn vị là nhất quán • Áp dụng các phương trình thích hợp dưới dạng thành phần • Giải phương trình để tìm các ẩn số 2025-09- ",
+        "bbox": [
+            173,
+            695,
+            537,
+            776
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            173,
+            804,
+            696,
+            844
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Hoàn thành bài giải ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            852,
+            354,
+            871
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Kiểm tra các kết quả xem có phù hợp với sơ đồ lực không • Kiểm tra các giá trị đặc biệt ",
+        "bbox": [
+            173,
+            877,
+            689,
+            917
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/2f0063c9e1ce701f876ec8d442e2c722ac315239b1210df247127343aa040a58.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            715,
+            162,
+            905,
+            266
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/96500b549642709ce0d71cca2902bfff3d58f07049b0d3acc68cdefcde318f67.jpg",
+        "image_caption": [
+            "Hình 5.8: Một cái hộp được kéo trên mặt sàn không ma sát. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            738,
+            315,
+            908,
+            469
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "images/a57bda12f84bfc679195abedd5c878d3d64191777bd66640e50ba0915d5a598c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 5.2: đèn giao thông ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            159,
+            464,
+            179
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Một hộp đèn giao thông có trọng lượng $1 2 2 \\mathrm { { N } }$ được treo trên một sợi dây buộc vào hai sợi dây khác như hình 5.10a. Các sợi dây phía trên không chắc bằng dây thẳng đứng nên sẽ bị dứt nếu lực căng lớn hơn 100 N. Hỏi hộp đèn có đứng yên được không hay là một trong các sợi dây sẽ bị đứt. ",
+        "bbox": [
+            171,
+            185,
+            901,
+            224
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "images/ee44f98acd8454dc3f93c0f5327f604da859f8d0952a803257d7f89d19f667f2.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            171,
+            164,
+            897,
+            204
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/96e11e7a1067faae21391df096063260eda27b2837b1f39f6557c5501b1c2728.jpg",
+        "image_caption": [
+            "Hình 5.10: Đèn giao thông được treo nhờ các sợi dây cáp "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            171,
+            209,
+            774,
+            481
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Giải ",
+        "bbox": [
+            173,
+            518,
+            217,
+            537
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa. Hộp đèn giao thông   \nGiả thiết là các sợi dây không bị đứt   \nKhông có cái gì chuyển động   \nPhân loại. Bài toán như là một bài toán về cân bằng   \nKhông có chuyển động, vậy gia tốc bằng không   \nMô hình chất điểm cân bằng ",
+        "bbox": [
+            171,
+            531,
+            620,
+            698
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Phân tích. ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            704,
+            267,
+            723
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Vẽ sơ đồ các lực tác dụng lên hộp đèn ",
+        "bbox": [
+            173,
+            729,
+            500,
+            751
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Vẽ sơ đồ lực tác dụng lên nút buộc ở vị trí các dây nối với nhau: Nút buộc là điểm phù hợp để chọn vì mọi lực ta quan tâm tác dụng dọc theo các đường dây sẽ đi đến nút buộc. ",
+        "bbox": [
+            173,
+            756,
+            905,
+            813
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng các phương trình cân bằng cho nút buộc ",
+        "bbox": [
+            173,
+            818,
+            598,
+            839
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Với hộp đèn, ta có: ",
+        "bbox": [
+            171,
+            845,
+            339,
+            864
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0589f8d19566c0b747d3b2a3c1759a7cc7d967ffa207b4350ed91393320f6255.jpg",
+        "text": "$$\n\\sum F _ { y } = 0 \\to T _ { 3 } - F _ { g } = 0 \\mathrm { ~ h a y ~ } T _ { 3 } = F _ { g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            876,
+            482,
+            901
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Với nút buộc: ",
+        "bbox": [
+            174,
+            907,
+            292,
+            926
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "table",
+        "img_path": "images/096da59d14656d2e3422885c9f776a0bcd9553f97f9ee3346eab4b041dec39ee.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE     1</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e8465d8c40c4bd0af0e020e8a8e36480383ccaf0ed016b974187ab8aec1ea7cd.jpg",
+        "text": "$$\n\\sum F _ { x } = - T _ { 1 } { \\cos } \\theta _ { 1 } + T _ { 2 } { \\cos } \\theta _ { 2 } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            143,
+            442,
+            167
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d4392676e5c1fb4908cc2250e1dcfe3923667d5934244b5ec35e64cda05658f6.jpg",
+        "text": "$$\n\\sum F _ { y } = T _ { 1 } \\mathsf { s i n } \\theta _ { 1 } + T _ { 2 } \\mathsf { s i n } \\theta _ { 2 } - F _ { g } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            176,
+            455,
+            202
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/b54c77ff216020bfaa006f555fb5515e8b21a85bfb8d0ab14994df21e058303d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Giải các phương trình, ta được: ",
+        "bbox": [
+            173,
+            165,
+            439,
+            185
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/152253311b83713d2e610b46b851cbe8f0b23d2cf1d5474981913c5bfe69359e.jpg",
+        "text": "$$\n\\begin{array} { l } { { T _ { 1 } = \\displaystyle \\frac { 1 2 2 \\mathsf { N } } { \\mathsf { s i n } 3 7 , 0 ^ { \\circ } + \\mathsf { c o s } 3 7 , 0 ^ { \\circ } \\mathsf { t a n } 5 3 , 0 ^ { \\circ } } = 7 3 , 4 \\mathsf { N } } } \\\\ { { \\ } } \\\\ { { T _ { \\phantom { \\circ } 2 } = ( 7 3 , 4 \\mathsf { N } ) \\displaystyle \\left( \\displaystyle \\frac { \\mathsf { c o s } 3 7 , 0 ^ { \\circ } } { \\mathsf { c o s } 5 3 , 0 ^ { \\circ } } \\right) = 9 7 , 4 \\mathsf { N } } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            150,
+            190,
+            553,
+            301
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 5.3: Mặt phẳng nghiêng ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            335,
+            508,
+            358
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Một chiếc xe khối lượng m đỗ trên một đường dốc nghiêng có đóng băng như trong hình 5.11a. ",
+        "bbox": [
+            173,
+            362,
+            892,
+            401
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(A) Tìm gia tốc của xe, giả thiết mặt đường không có ma sát ",
+        "bbox": [
+            173,
+            406,
+            483,
+            446
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "bbox": [
+            173,
+            454,
+            222,
+            472
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa: dùng hình 5.11a để khái niệm hóa tình huống của bài toán. Từ kinh nghiệm hằng ngày, ta biết rằng một chiếc xe trên dốc nghiêng sẽ chuyển động nhanh dần xuống dưới. ",
+        "bbox": [
+            173,
+            479,
+            486,
+            594
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Phân loại: đây là chất điểm dưới tác dụng của lực tổng hợp do xe chuyển động có gia tốc. ",
+        "bbox": [
+            173,
+            599,
+            485,
+            659
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Phân tích: Các lực tác dụng vào vật: ",
+        "bbox": [
+            176,
+            666,
+            483,
+            685
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/d9f4e08c7b313a5bd7f1bfd001a230969503780ddc3531938e0f6e38c37b0e59.jpg",
+        "image_caption": [
+            "Hình 5.11: Một chiếc xe hơi trên mặt phẳng nghiêng không ma sát "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            496,
+            401,
+            946,
+            646
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Phản lực vuông góc với mặt nghiêng. ",
+        "bbox": [
+            173,
+            693,
+            486,
+            731
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Trọng lực hướng thẳng đứng xuống dưới. ",
+        "bbox": [
+            174,
+            736,
+            526,
+            757
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Chọn hệ trục tọa độ với x dọc theo mặt nghiêng và y vuông góc với mặt nghiêng. ",
+        "bbox": [
+            169,
+            779,
+            869,
+            800
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Thay trọng lực bởi các thành phần của nó (theo x và y). ",
+        "bbox": [
+            174,
+            805,
+            650,
+            827
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm chuyển động dưới tác dụng của lực tổng hợp theo phương x và chất điểm cân bằng theo phương y. ",
+        "bbox": [
+            168,
+            830,
+            903,
+            872
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2df5157c20b087e789fb1e256d76d7831b71a9c02ef3fd39ca03adb02b962c0f.jpg",
+        "text": "$$\n\\begin{array} { l } { { \\sum F _ { x } = m g \\sin \\theta = m a _ { x } } } \\\\ { { \\sum F _ { y } = n - m g \\cos \\theta = 0 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            877,
+            379,
+            963
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/10153d7c354522aec4547b83bf1d0905a197a9646aec05b0063da346df6882cc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      1</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Giải phương trình thứ nhất, ta được $\\mathfrak { a } _ { x } = \\mathfrak { g }$ sin ",
+        "bbox": [
+            171,
+            141,
+            578,
+            162
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/da79afac84204a887cc8a70541d565de025f27009da4b4919ac5ddf4eb24eca7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(B) Giả sử xe được thả từ trạng thái nghỉ từ đỉnh dốc và khoảng cách từ cản trước của xe đến chân dốc là d. Xe phải mất bao lâu để cản trước của nó chạm chân dốc và tốc độ của xe lúc đến chân dốc. ",
+        "bbox": [
+            171,
+            165,
+            905,
+            222
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            231,
+            222,
+            248
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Đây là nội dung liên quan đến phần động học. Dùng gia tốc tìm được ở câu a để thay vào các phương trình động học. Từ đó tìm được: ",
+        "bbox": [
+            169,
+            253,
+            900,
+            294
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fe75366ca8f6c1622de2f6e054252aff752448f47c6aa6076bbae59714982f5c.jpg",
+        "text": "$$\nt = { \\sqrt { \\frac { 2 d } { g \\sin \\theta } } } \\ { \\mathrm { \\ v { \\dot { a } } } } \\ V _ { x f } = { \\sqrt { 2 g d \\sin \\theta } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            299,
+            449,
+            348
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "images/2dca0595187884be2471d7c2d00f921e55c4dcc908b811318f87d8f1d63141cf.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Trường hợp có nhiều vật: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            188,
+            383,
+            208
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Khi có hai hay nhiều vật kết nối với nhau hoặc tiếp xúc nhau, có thể áp dụng các định luật Newton cho hệ như một vật tổng thể hay từng vật riêng rẽ. Ta có thể chọn một cách để giải bài toán và dùng cách khác để kiểm tra lại kết quả. ",
+        "bbox": [
+            112,
+            213,
+            906,
+            271
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Các lực ma sát ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            272,
+            299,
+            291
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Khi một vật chuyển động trên bề mặt hoặc xuyên qua một môi trường nhớt thì sẽ xuất hiện sức cản chuyển động. Đó là do các tương tác giữa vật và môi trường quanh nó. Sức cản này được gọi là lực ma sát. ",
+        "bbox": [
+            114,
+            297,
+            558,
+            392
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "5.8.1 Lực ma sát nghỉ (tĩnh) ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            401,
+            366,
+            420
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lực ma sát nghỉ giữ cho vật không chuyển động. Chừng nào vật chưa chuyển động thì lực ma sát nghỉ đúng bằng lực tác động từ bên ngoài $f _ { \\mathrm { s } } = \\mathrm { F }$ ",
+        "bbox": [
+            114,
+            428,
+            557,
+            484
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Nếu F tăng thì fs tăng và ngược lại. ",
+        "bbox": [
+            151,
+            491,
+            446,
+            511
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Gọi $\\mu _ { s }$ là hệ số ma sát nghỉ thì $f _ { s } \\leq \\mu _ { s } n$ ",
+        "bbox": [
+            148,
+            518,
+            490,
+            540
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "• Lưu ý: dấu bằng xảy ra khi các mặt bắt đầu trượt lên nhau. ",
+        "bbox": [
+            151,
+            545,
+            555,
+            584
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "5.8.2 Lực ma sát trượt (động) ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            593,
+            382,
+            612
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/9b01b5f8b129fcf73c4274ddf63289f13485b2fdd2c654ca3e394eacce8ca330.jpg",
+        "image_caption": [
+            "Hình 5.14: Kéo một vật bắt đầu chuyển động khi thắng được lực ma sát nghỉ. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            589,
+            271,
+            870,
+            593
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lực ma sát trượt tác dụng khi vật chuyển động. ",
+        "bbox": [
+            148,
+            618,
+            552,
+            638
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Hệ số ma sát trượt $\\mu _ { k }$ có thể thay đổi theo tốc độ của vật, tuy nhiên, ta bỏ qua sự thay đổi này. ",
+        "bbox": [
+            114,
+            643,
+            553,
+            684
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "img_path": "images/20b6f8dd16b591d49a1b611c4c324783727b9ea0b1219a6bbb2df2c9309b07c1.jpg",
+        "text": "$$\nf _ { k } = \\mu _ { k } n\n$$",
+        "text_format": "latex",
+        "bbox": [
+            148,
+            690,
+            228,
+            710
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Khảo sát lực ma sát: Để khảo sát, ta tăng dần độ lớn của ngoại lực F và ghi lại giá trị của lực ma sát. Chú ý thời điểm vật bắt đầu trượt. Đồ thị biểu diễn quan hệ giữa lực ma sát và ngoại lực cho trên hình 5.16c. ",
+        "bbox": [
+            114,
+            715,
+            905,
+            773
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            782,
+            214,
+            801
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "• Các phương trình này chỉ quan tâm đến độ lớn của các lực, chúng không phải là phương trình vec-tơ.   \nVới ma sát nghỉ $( f _ { s } )$ , dấu bằng chỉ đúng khi vật sắp chuyển động, các bề mặt sắp trượt lên nhau. Nếu các bề mặt chưa trượt lên nhau thì dùng dấu nhỏ hơn   \n• Hệ số ma sát phụ thuộc vào các mặt tiếp xúc.   \n• Lực ma sát nghỉ (tĩnh) thường lớn hơn lực ma sát trượt (động). ",
+        "bbox": [
+            150,
+            808,
+            901,
+            926
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "images/3f6be9b57cec1a11ceab3dc0e5b40421380724d35b89b8de69148d2970c3e739.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "• Hướng của lực ma sát ngược với hướng của chuyển động và song song với các mặt tiếp xúc. • $\\mathrm { H } \\hat { \\mathrm { e } }$ số ma sát hầu như không phụ thuộc vào diện tích mặt tiếp xúc. ",
+        "bbox": [
+            150,
+            142,
+            892,
+            202
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "images/9f3b06fda4d2485b655afffa89ff9a85c6fbcfb083d9ff12af4952ce83555d40.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "5.8.3 Ma sát trong các bài toán dùng các định luật Newton ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            166,
+            642,
+            186
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Ma sát là một lực, do đó chỉ cần thêm nó vào trong các định luật Newton. ",
+        "bbox": [
+            145,
+            191,
+            769,
+            212
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Các qui tắc về ma sát cho phép ta xác định hướng và độ lớn của lực ma sát. ",
+        "bbox": [
+            114,
+            217,
+            598,
+            256
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 5.6: thí nghiệm xác định s và k ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            265,
+            584,
+            285
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Một khối hộp đang nằm trên một mặt nghiêng như hình 5.15. Nâng dần góc nghiêng cho đến khi hộp bắt đầu trượt. Chứng tỏ rằng có thể tìm được hệ số ma sát nghỉ $\\mu _ { \\mathrm { s } }$ theo góc tới hạn . ",
+        "bbox": [
+            173,
+            290,
+            602,
+            368
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            376,
+            222,
+            393
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa: Tưởng tượng rằng khối hộp có xu hướng trược xuống dưới do tác dụng của trọng lực. Hộp trượt xuống nên ma sát sẽ hướng lên phía trên. ",
+        "bbox": [
+            173,
+            401,
+            602,
+            459
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Phân loại: Khối hộp chịu tác dụng của nhiều lực khác nhau, tuy nhiên, nó chưa trượt xuống dốc nên đây là bài toán chất điểm cân bằng. ",
+        "bbox": [
+            173,
+            464,
+            602,
+            523
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/e48012c315711cf229fd30fa6a52506aed501d29443100b95fa32972ab1236e1.jpg",
+        "image_caption": [
+            "Hình 5.15: Một khối hộp trượt trên một mặt phẳng nghiêng có ma sát "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            629,
+            232,
+            906,
+            400
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Phân tích: Sơ đồ lực trên hình 5.15 cho thấy các lực tác dụng vào hộp gồm: trọng lực mg , phản lực n và lực ma sát nghỉ $\\vec { \\pmb { \\mathsf { f } } } _ { s }$ . Chọn trục $x$ dọc theo mặt nghiêng và y vuông góc với mặt nghiêng. ",
+        "bbox": [
+            173,
+            529,
+            906,
+            594
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5378a618fcd212adaf5085b0813be941f77ff03d7f5d36596fe1e3765607f693.jpg",
+        "text": "$$\n\\begin{array} { c } { { \\sum F _ { x } = m g \\mathbf { s } \\mathsf { i } \\mathsf { n } \\theta - \\pmb { f } _ { s } = 0 } } \\\\ { { \\sum F _ { y } = n - m g \\cos \\theta = 0 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            599,
+            382,
+            661
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình ta có $\\pmb { f _ { s } } = m g \\mathsf { s i n } \\theta = n$ tan ",
+        "bbox": [
+            173,
+            684,
+            583,
+            704
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Với góc nghiêng tới hạn $\\theta _ { \\mathrm { c } }$ thì lực ma sát nghỉ bằng $f _ { s } = \\mu _ { s } n$ nên $\\mu _ { s } = \\mathsf { t a n } \\theta _ { c }$ . ",
+        "bbox": [
+            171,
+            713,
+            831,
+            736
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Hoàn tất: Khi hộp bắt đầu trượt thì $\\theta \\geq \\theta _ { \\mathrm { c } }$ . Hộp trượt có gia tốc xuống dưới thì lực ma sát trượt $\\pmb { f } _ { k } = \\mu _ { k } \\pmb { n }$ . Tuy nhiên, nếu giảm góc q thì vật cũng có thể trượt xuống, nếu vật trượt thẳng đều thì $\\mu _ { k } = \\mathsf { t a n } \\theta _ { c } ^ { \\prime }$ với ${ \\theta _ { c } } ^ { \\prime } < \\theta _ { c }$ ",
+        "bbox": [
+            173,
+            760,
+            898,
+            827
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý: Với bố trí thí nghiệm như trên thì ta có thể xác định hệ số ma sát bằng thực nghiệm: $\\mu = \\tan \\theta$ ",
+        "bbox": [
+            171,
+            849,
+            885,
+            892
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "• Với $\\mu _ { s }$ , sử dụng góc nghiêng khi khối hộp bắt đầu trượt.   \n• Với $\\mu _ { k }$ , sử dụng góc nghiêng khi mà khối hộp trượt xuống với tốc độ không đổi. ",
+        "bbox": [
+            173,
+            896,
+            877,
+            939
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/c519abc7f19ea8aafc187f446a817cf171bf8abaf8c82de6a36ca6eadff37519.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE     V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 5.7: Một quả bóng khúc côn cầu đang trượt ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            159,
+            684,
+            180
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "images/4e9c2b7795d6e9972cfa0ce0554dd066fa296582ed5fae7c81651a72b24937ac.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Một quả bóng khúc côn cầu trượt trên mặt băng với tốc độ ban đầu là ${ 2 0 , 0 } \\mathrm { m } / \\mathrm { s }$ . Quả bóng trượt được $1 1 5 ~ \\mathrm { m }$ trước khi dừng lại. Hãy xác định hệ số ma sát trượt giữa quả bóng và băng. ",
+        "bbox": [
+            171,
+            164,
+            905,
+            223
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            231,
+            222,
+            248
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa: Giả sử quả bóng chuyển động sang phải như hình 5.16. Lực ma sát trượt tác dụng về bên phải và làm quả bóng chuyển động chậm lại cho đến khi dừng hẳn. ",
+        "bbox": [
+            173,
+            256,
+            553,
+            332
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Phân loại: Các lực tác dụng lên quả bóng như trong hình 5.16, nhưng bài toán lại cho các biến số về động học. Do đó, có thể phân loại bài toán bằng nhiều cách khác nhau. Theo phương thẳng đứng, đây là bài toán chất điểm cân bằng (tổng lực tác dụng lên vật bằng 0). Theo phương ngang, là bài toán chất điểm có gia tốc không đổi. ",
+        "bbox": [
+            173,
+            339,
+            553,
+            491
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/f741b59c80cf616b641dbc6716c63161eff6cede68285b2e2e4029b48a7ad6f4.jpg",
+        "image_caption": [
+            "Hình 5.16: quả khúc con cầu trượt có ma sát trên mặt băng "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            589,
+            237,
+            892,
+            407
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Phân tích: Vẽ sơ đồ lực tác dụng lên vật, lưu ý đến lực ma sát (ngược chiều chuyển động, song song với mặt tiếp xúc). ",
+        "bbox": [
+            173,
+            512,
+            893,
+            553
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm chịu tác dụng của lực tổng hợp theo phương x: ",
+        "bbox": [
+            169,
+            558,
+            808,
+            579
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7f09d562b5d3755050c86b8f48a2e71840da146e83b596af6a22e359aaebf064.jpg",
+        "text": "$$\n\\sum F _ { x } = - f _ { k } = m \\pmb { a } _ { x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            584,
+            320,
+            611
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm cân bằng theo phương y: ",
+        "bbox": [
+            173,
+            617,
+            625,
+            640
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/82ef00f8bdb8ad355099d8647e030d2affa1b173c6277c4b1cb78243cc1a8903.jpg",
+        "text": "$$\n\\sum F _ { y } = n - m g = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            643,
+            334,
+            671
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình, với định nghĩa lực ma sát trượt, ta được: ",
+        "bbox": [
+            173,
+            679,
+            704,
+            699
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "img_path": "images/25dbdd003da7632397801104702b64fee15a28f493040c3a1012f6cf9ab960be.jpg",
+        "text": "$$\n\\mathsf { a } _ { x } = - \\mu _ { k } \\mathsf { g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            708,
+            261,
+            727
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Sau khi tìm được gia tốc, áp dụng mô hình động học, ta tìm được ",
+        "bbox": [
+            174,
+            734,
+            725,
+            756
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Hoàn tất: Lưu ý rằng $\\mu _ { k }$ không có thứ nguyên và có giá trị bé, không đổi với một vật trượt trên mặt băng. ",
+        "bbox": [
+            166,
+            834,
+            900,
+            875
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 5.8: Gia tốc của hai vật nối với nhau khi có ma sát ",
+        "bbox": [
+            173,
+            905,
+            741,
+            928
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "images/14f211142c4676bf5f92c1125e59535047d7af2849f8c96bcf426c84d4743d87.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            942,
+            125
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Một khối hộp có khối lượng m2 nằm trên một mặt ngang, nhám được nối với một quả cầu khối lượng m1 bằng một sợi dây nhẹ vắt qua một ròng rọc nhẹ, không ma sát như trong hình 5.20a. Tác dụng vào khối hộp một lực có độ lớn $F$ hợp với phương ngang một góc  và khối hộp chuyển động sang phải. $\\mathrm { H } \\hat { \\mathbf { e } }$ số ma sát trượt giữa khối hộp và mặt ngang là $\\mu _ { k }$ Tìm độ lớn của gia tốc của hai vật. ",
+        "bbox": [
+            171,
+            138,
+            906,
+            239
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "images/a0fc4d913c1ade2a5dff69e6ba43df3397edd1f8db8064281c38ca86bea6afae.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/5b5b3c55a2ff77f25ca89f11fc1633f5bf77ad4720e2b3e22452bdcfe0c948aa.jpg",
+        "image_caption": [
+            "Hình 5.17: hệ 2 vật nối nhau khi có ma sát. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            292,
+            164,
+            787,
+            330
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "bbox": [
+            173,
+            367,
+            222,
+            386
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa: Hình dung xem chuyện gì xảy ra khi tác dụng lực F vào khối hộp. Giả sử lực đủ lớn hơn lực ma sát nghỉ nhưng không đủ lớn để nhất hộp lên, hộp sẽ trượt sang phải và quả cầu được kéo lên. ",
+        "bbox": [
+            173,
+            397,
+            905,
+            454
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Phân loại: Bài toán này là bài toán hai chất điểm dưới tác dụng của lực tổng hợp. Vì khối hộp không bị nhấc lên nên theo phương thẳng đứng, khối hộp được xem là chất điểm cân bằng. ",
+        "bbox": [
+            173,
+            459,
+            905,
+            518
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Phân tích: Vẽ sơ đồ lực cho từng vật (hình 5.17b và 5.17c). ",
+        "bbox": [
+            173,
+            525,
+            684,
+            546
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm chịu tác dụng của lực tổng hợp cho khối hộp theo phương ngang: ",
+        "bbox": [
+            173,
+            550,
+            906,
+            590
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e097f77ffe4d20035786bfb7410e5c7622a98e1fa00673be791a47ce8f1106ff.jpg",
+        "text": "$$\n\\sum F _ { x } = F { \\cos \\theta } - f _ { k } - T = m _ { 2 } \\bar { \\alpha } _ { x } = m _ { 2 } \\bar { \\alpha }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            597,
+            483,
+            622
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm cân bằng cho khối hộp theo phương thẳng đứng ",
+        "bbox": [
+            169,
+            630,
+            821,
+            651
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d9834a68c2ae105a661d3cbb426ea3be674c1eb3080bfa10c5384f6cbae7964b.jpg",
+        "text": "$$\n{ \\sum } F _ { y } = \\eta + F { \\sin } \\Theta - m _ { 2 } g = 0 \\ ( 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            656,
+            437,
+            683
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng mô hình chất điểm chịu tác dụng của lực tổng hợp cho quả cầu theo phương thẳng đứng: ",
+        "bbox": [
+            173,
+            689,
+            900,
+            729
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c4e38899e983963d86f4ddc73ce7c0d473491f169cee8f0f3e0d785ec6019558.jpg",
+        "text": "$$\n{ \\sum } F _ { y } = T - { m _ { 1 } } g = { m _ { 1 } } { \\partial _ { y } } = { m _ { 1 } } a \\left( 3 \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            736,
+            450,
+            761
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình, ta tìm được: ",
+        "bbox": [
+            176,
+            770,
+            465,
+            790
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "img_path": "images/033aafd0092ad4012907f1b46f2ff9d78a5f2ac49fdafcaa828bcc0871be89c5.jpg",
+        "text": "$$\na = \\frac { F \\left( \\cos \\theta + \\mu _ { k } \\ : \\sin \\theta \\right) - \\left( m _ { 1 } + \\mu _ { k } m _ { 2 } \\right) g } { \\displaystyle m _ { 1 } + m _ { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            794,
+            504,
+            843
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Hoàn tất: Gia tốc của khối hộp có thể hướng sang phải hoặc trái tùy theo dấu của tử số trong phương trình (4). Nếu vận tốc của khối hộp hướng sang trái thì phải đổi dấu của $f _ { k }$ trong (1). Trong trường hợp đó, chỉ cần đổi hai dấu cộng $( + )$ trong tử số của (4) ",
+        "bbox": [
+            173,
+            863,
+            905,
+            924
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/2b6c33cf6aa729438c002500fcc7ed7dcf91789b446a208de7a4214691a28935.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD129</td></tr><tr><td rowspan=1 colspan=1>Các dinh luàt vè chuyén dòng</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "thành dấu trừ (–).ss ",
+        "bbox": [
+            171,
+            140,
+            343,
+            161
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "images/572d86350bf8b0f3e8a20d39c09b32b9cb08c7ec4b50a74091f0f621d0a920a3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD129</td></tr><tr><td>Các dinh luàt vè chuyén dòng</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 27
+    }
+]

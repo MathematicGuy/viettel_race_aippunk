@@ -1,0 +1,389 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/991906866e2ed4da752b112d777e2f5fc5a2657f030064a5137f74516b132d7f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 121</td></tr><tr><td rowspan=1 colspan=1>PHUONG PHAP VA MOT SO DO DODÁNH GIA CAC Mo HiNH PHAN LoPDA NHAN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Phương pháp đánh giá các mô hình phân lớp đa nhãn ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            140,
+            719,
+            159
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Để đánh giá các mô hình phân lớp đa nhãn MLL, khóa luận đã sử dụng phương pháp $\\mathrm { k }$ -fold cross validation tập dữ liệu ban đầu được chia ngẫu nhiên thành k tập con (fold) có kích thước xấp xỉ nhau S1, S2 … Sk. Quá trình học và kiểm tra được thực hiện tại k lần. Tại lần lặp thứ i, Si là tập dữ liệu kiểm tra, các tập còn lại hợp thành dữ liệu huấn luyện. Có nghĩa là, đầu tiên chạy được thực hiện trên tập S2, S3 … Sk, sau đó test trên tập S1; tiếp tục quá trình dạy được thực hiện trên tập S1, S3, S4 … Sk, sau đó test trên tập S2; và cứ tiếp tục như thế. ",
+        "bbox": [
+            163,
+            172,
+            885,
+            352
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ, ${ \\mathrm { k } } = 1 0$ , thì phương pháp $\\mathrm { k \\Omega }$ -fold cross validation được minh họa như hình dưới: ",
+        "bbox": [
+            163,
+            364,
+            884,
+            409
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/6ebd7adaabae30039eab20cae7afca40bb18e2c41dd0afd7eb08b3be8db19561.jpg",
+        "table_caption": [
+            "Bảng minh họa phương pháp k-fold cross validation "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>K=1</td></tr><tr><td rowspan=1 colspan=1>K=2</td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>K=10</td></tr></table>",
+        "bbox": [
+            129,
+            484,
+            922,
+            711
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/6f0249e120d9d664f28c88817840f4e09b2b0b25e0635bc2eaa1198232d2770b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            161,
+            748,
+            551,
+            839
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/028746b4931294be30a5b1f3b40cff3cf80627d9366ee6b4c8effd72256c3062.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 121</td></tr><tr><td rowspan=1 colspan=1>PHUONG PHAP VA MOT SO DO DODÁNH GIA CAC Mo HiNH PHAN LoPDA NHAN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2. Một số độ đo để đánh giá mô hình phân lớp đa nhãn ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            131,
+            704,
+            153
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá kết quả phương pháp phân lớp đa nhãn có sự khác biệt với đơn nhãn. Khóa luận đánh giá các phương pháp phân lớp đa nhãn dựa trên một số độ đo sau: Hamming Loss [15], One-error [15], Coverage [15], Ranking Loss [15], Average Precision, Mean Average Precision. ",
+        "bbox": [
+            163,
+            166,
+            885,
+            255
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cho một tập $\\mathrm { \\bf S } = \\{ ( \\mathrm { x } 1 , \\mathrm { Y } 1 ) \\dots ( \\mathrm { x n } , \\mathrm { Y } \\mathrm { n } ) \\}$ của n ví dụ kiểm tra. Cho $\\mathrm { Y } ^ { * } \\mathrm { i } = \\mathrm { h }$ (xi) là tập hợp nhãn dự đoán cho kiểm tra xi, khi Yi là tập nhãn cho xi. ",
+        "bbox": [
+            163,
+            264,
+            885,
+            308
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hamming Loss: độ mất mát dữ liệu, được tính như sau: ",
+        "bbox": [
+            221,
+            347,
+            721,
+            369
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2847d6ade26540f483ce46138dd05291f9ff9460269eb953451248e72d02af69.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathrm { ~ ; ~ } ( \\mathbf { h } ) = \\frac { 1 } { n } \\sum _ { i = 1 } ^ { n } \\frac { 1 } { Q } \\sum _ { q = 1 } ^ { Q } ( \\delta ( q \\epsilon Y * _ { i } \\textit { } A q \\notin ) Y i ) + \\delta \\left( \\mathbf { q } \\notin Y * _ { i } \\textit { } A q \\epsilon Y i \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            231,
+            390,
+            937,
+            427
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trong đó, ?? là một hàm mà đầu ra là 1 nếu một nội dung đúng và 0 trong trường hợp ngược lại. Nhỏ hơn giá trị của hloss (h), thực thi tốt hơn. Trong trường hợp lí tưởng, hloss $( \\mathrm { h } ) = 0$ . ",
+        "bbox": [
+            163,
+            451,
+            887,
+            519
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "One-error: đánh giá lỗi cho nhãn xếp hạng đầu: ",
+        "bbox": [
+            221,
+            562,
+            653,
+            584
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dc28217236fab3959b8f593356d4e62d74b29b393badaa692a038113823b46ff.jpg",
+        "text": "$$\no n e _ { - } e r r o r { _ { S } } _ { ( f ) } = \\frac 1 n \\sum _ { i = 1 } ^ { n } \\delta ( [ \\arg \\operatorname* { m a x } _ { y \\in \\gamma } f ( x _ { i } , y ) ] \\notin Y i )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            590,
+            821,
+            662
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Giá trị nhỏ hơn one_err (f), thực thi tốt hơn. Chú ý, vấn đề phân loại cho đơn nhãn, một lỗi chính là phân loại lỗi thường. ",
+        "bbox": [
+            163,
+            688,
+            884,
+            735
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Coverage: Để đánh giá hiệu suất của một hệ thống cho tất cả các nhãn của một mẫu (đếm số lượng tất cả các nhãn). Coverage được định nghĩa như khoảng cách trung bình cho tất cả các nhãn thích hợp được gán cho một ví dụ thử nghiệm: ",
+        "bbox": [
+            163,
+            779,
+            885,
+            869
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/76351710342b61ac856b03b4e07b798e559516e9106e3b938ee2e1044f37a992.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 121</td></tr><tr><td rowspan=1 colspan=1>PHUONG PHAP VA MOT SO DO DODÁNH GIA CAC Mo HiNH PHAN LoPDA NHAN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            894,
+            116
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5516f470940145273e46279a933a5185b743afd340906e75a9b35d7a483e2aad.jpg",
+        "text": "$$\nc o v e r a g e s _ { s } ( f ) = \\frac { 1 } { n } { \\sum _ { i = 1 } ^ { n } \\operatorname* { m a x } _ { y \\in \\Upsilon \\mathrm { i } } { r a n k _ { f } ( x _ { i } , y ) } } - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            262,
+            134,
+            779,
+            204
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ranking Loss: Tính phân bố trung bình của các cặp nhãn: ",
+        "bbox": [
+            223,
+            232,
+            741,
+            254
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b24330c62483c1e35e772cd7c0e9ec7ab2154b2d8dc3f4f3b12f3d44f05ff604.jpg",
+        "text": "$$\n\\begin{array} { r }  \\mathfrak { s } \\left( \\mathbf { f } \\right) = \\frac { 1 } { n } { \\sum _ { i = 1 } ^ { n } } \\frac { 1 } { | Y _ { i } | | \\overline { { Y _ { t } } } | } \\mid \\left\\{ ( y _ { 1 } , y _ { 2 } ) \\in \\begin{array} { l l } { Y _ { i } X \\overline { { Y _ { t } } } | \\textup { f } ( \\mathbf { x } _ { \\mathrm { i } } , \\mathbf { y } _ { 1 } ) \\leq \\mathbf { f } \\left( \\mathbf { x } _ { 1 } , \\mathbf { y } _ { 2 } \\right) \\right\\} } \\end{array} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            225,
+            280,
+            910,
+            321
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Với $\\bar { Y _ { \\iota } }$ là phần bù của tập nhãn $\\mathrm { Y _ { i } }$ . Giá trị của rloss (f) càng nhỏ thì càng tốt. ",
+        "bbox": [
+            163,
+            339,
+            887,
+            385
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Average Precision: độ chính xác trung bình của $\\mathrm { P } @ \\mathrm { K }$ tại các mức K có đối tượng đúng. Gọi I (K) là hàm xác định đối tượng $\\dot { \\mathbf { O } }$ vị trí hạng K nếu đúng $\\mathrm { I } ( \\mathrm { K } ) = 1$ và ngược lại $\\mathrm { I } ( \\mathrm { K } ) = 0$ , khi đó: ",
+        "bbox": [
+            163,
+            435,
+            885,
+            502
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b8dc36863720a4795cacd7dba71a5ce6c99445531e5ce59165cd2672b6c548c.jpg",
+        "text": "$$\n{ \\mathrm { A P } } = { \\frac { \\sum _ { K = 1 } ^ { n } P @ K X I ( K ) } { \\sum _ { j = 1 } ^ { n } I ( j ) } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            540,
+            648,
+            596
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Với n là số đối tượng được xét, $\\mathrm { P } @ \\mathrm { K }$ là độ chính xác của K đối tượng đầu bảng xếp hạng. Xác định số đối tượng đúng ở K vị trí đầu tiên của xếp hạng và gọi là Match@K và ta có ",
+        "bbox": [
+            163,
+            627,
+            885,
+            695
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Mean Average Precision: Độ chính xác trung bình trên N xếp hạng. (N truy vấn, mỗi truy vấn có một thứ tự xếp hạng kết quả tương ứng). ",
+        "bbox": [
+            161,
+            790,
+            884,
+            834
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dbb3182dd826f4b256f7c35b63803de2d97f95fe1094f8124842ea4cd37e4ed7.jpg",
+        "text": "$$\n\\mathrm { M A P } = { \\frac { \\sum _ { i = 1 } ^ { N } A P i } { N } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            430,
+            855,
+            623,
+            906
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/9ce67474d72228515cafe19fcf8f148305e9c096b378caefe8d43adb6bd71ef7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 121</td></tr><tr><td rowspan=1 colspan=1>PHUONG PHÁP VA MOT SO DO DODÁNH GIA CAC Mo HiNH PHAN LoPDA NHAN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Xét ví dụ: ",
+        "bbox": [
+            223,
+            133,
+            315,
+            150
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Giả sử có có 5 đối tượng được xếp hạng tương ứng là: c, a, e, b, d Một xếp hạng của đối tượng cần đánh giá là: c, a, e, d, b ",
+        "bbox": [
+            223,
+            171,
+            811,
+            235
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khi đó, $^ { \\circ } ( \\underline { { \\omega } } 1 = 1 / 1 , \\mathrm { P } @ 2 = 2 / 2 , \\mathrm { P } @ 3 = 3 / 3 , \\mathrm { P } @ 4 = 3 / 4 , \\mathrm { P } @ 5 = 3 / 5 .$ ",
+        "bbox": [
+            221,
+            254,
+            820,
+            275
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3e7e127d2b0e5bfa3f1cfc5dbf932bc2ba5403c4e109f37672a9f60509607a5a.jpg",
+        "text": "$$\n\\begin{array} { l } { { \\displaystyle \\mathrm { A P } = ( \\frac 1 1 + \\frac 2 2 + \\frac { 3 } { 3 } ) } } \\\\ { { \\mathrm { M A P } = \\ \\frac { 1 } { 3 } ( \\frac 1 { 1 } + \\frac { 2 } { 2 } + \\ \\frac { 3 } { 3 } ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            307,
+            658,
+            412
+        ],
+        "page_idx": 3
+    }
+]

@@ -1,0 +1,12 @@
+2025-10-18 19:11:29,101 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-18 19:21:51,188 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-18 19:21:53,922 - src.milvus_store - INFO - Database 'gil' does not exist.
+2025-10-18 19:21:53,925 - src.milvus_store - INFO - Database 'gil' created successfully.
+2025-10-18 19:27:46,188 - src.milvus_store - INFO - Successfully added 298 documents
+2025-10-18 19:40:05,536 - src.milvus_store - INFO - Database 'gil' already exists.
+2025-10-18 19:40:05,649 - src.milvus_store - INFO - Collection 'doc_2_db' đã bị xoá khỏi database 'gil'.
+2025-10-18 19:45:40,868 - src.milvus_store - INFO - Successfully added 297 documents
+2025-10-18 21:07:48,043 - src.milvus_store - INFO - Logging to file: logs\milvus_store.log
+2025-10-18 21:07:50,652 - src.milvus_store - INFO - Database 'gil' already exists.
+2025-10-18 21:08:15,426 - src.milvus_store - INFO - [MilvusStore] Built filter expr: namespace == "viettel"
+2025-10-18 21:08:15,427 - src.milvus_store - INFO - [MilvusStore] as_retriever expr=namespace == "viettel", k=3, fetch_k=12

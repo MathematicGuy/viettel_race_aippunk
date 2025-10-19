@@ -1,0 +1,679 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/64db5d3775a12596f61940b970f2a98c14373a216358c06f5081acab165c3fd0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VASU&#x27; HiNH THANHCUa MO HiNH &#x27;I TRANSFORMER</td><td rowspan=1 colspan=1>ıLàn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Định nghĩa: ",
+        "text_level": 1,
+        "bbox": [
+            119,
+            149,
+            263,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Attention là một kĩ thuật được sử dụng trong các mạng neural, kỹ thuật này được sử dụng trong các mô hình thực hiện các task như dịch máy hay ngôn ngữ tự nhiên. BERT và GPT là $2 \\mathrm { m } \\hat { \\mathrm { o } }$ hình điển hình có sử dụng Attention. Attention là thành phần chính tạo nên sự đình đám của mô hình Transformer, mô hình này chính là sự đột phá trong các bài toán xử lý của NLP so với các mạng neural hồi quy. Vậy Attention là gì mà tại sao nó lại là sự khác biệt đến vậy, hãy cũng tôi đi tìm hiểu trong bài viêt ngày hôm nay với tiêu đề “Attention và sự hình thành của mô hình Transformer” ",
+        "bbox": [
+            115,
+            172,
+            873,
+            344
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Động lực cho sự phát triển của Attention ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            376,
+            554,
+            398
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.1. Recurrent Neural Network (RNN) và sự hạn chế đáng kể ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            423,
+            734,
+            444
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.1.1. Ý tưởng cốt lõi của RNN ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            455,
+            426,
+            476
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Con người chúng ta không thể bắt đầu suy nghĩ của mình tại tất cả các thời điểm, cũng giống như việc bạn đang đọc bài viết này, bạn hiểu mỗi chữ ở đây dựa vào các chữ mà bạn đã đọc và hiểu trước đó, chứ không phải đọc xong là quên chữ đó đi rồi đến lúc gặp thì lại phải đọc và tiếp thu lại. Giống như trong bài toán của chúng ta. Các mô hình mạng nơ-ron truyền thống lại không thể làm được việc trên. Vì vậy mạng nơ-ron hồi quy (RNN) được sinh ra để giải quyết việc đó. Mạng này chứa các vòng lặp bên trong cho phép nó lưu lại các thông tin đã nhận được. RNN là một thuật toán quan trọng trong xử lý thông tin dạng chuỗi hay nói cách khác là dạng xử lý tuần tự. ",
+        "bbox": [
+            115,
+            486,
+            882,
+            684
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/0897239c6f01a088f6109714a59698edc2ad9d029ebf065c450e658090708b4c.jpg",
+        "image_caption": [
+            "Cäu trúc co bán cúa RNN "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            126,
+            719,
+            764,
+            871
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/6b7bc4e10e62f4cfa41f0ce5b160a17158e6878eebdf051706c5eb1aff54c69f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VA SU&#x27; HINH THANHCUA MO HiNHTRANSFORMER</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vậy như nào là xử lý tuần tự - Xử lý tuần tự là mỗi block sẽ lấy thông tin của block trước và input hiện tại làm đầu vào ",
+        "bbox": [
+            117,
+            146,
+            853,
+            190
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tai mǒi buóc t, giá tri kích hoat $a ^ { t }$ và đäu ra $y ^ { t }$ duoc biéu diěn nhu sau: ",
+        "bbox": [
+            206,
+            191,
+            788,
+            210
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cf72b33be2c2f148db1b46191ee59a4527bdc265338e97e7f4caac6a7faa8344.jpg",
+        "text": "$$\na ^ { t } = g _ { 1 } . ( W _ { a a } . a ^ { t - 1 } + W _ { a x } . x ^ { t } + b _ { a } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            227,
+            702,
+            249
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ta có thé viét gon lai nhu sau: ",
+        "bbox": [
+            206,
+            271,
+            450,
+            288
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c8130de6ef95f8d7745a78fa92c2ce4f2697c9801ce844b7c4d807bd16a59430.jpg",
+        "text": "$$\n\\begin{array} { c } { { a ^ { t } = g _ { 1 } . ( \\left( W _ { a a } W _ { a x } \\right) \\left( \\begin{array} { c } { { a ^ { t - 1 } } } \\\\ { { x ^ { t } } } \\end{array} \\right) + b _ { a } ) } } \\\\ { { { } } } \\\\ { { a ^ { t } = g _ { 1 } . ( W \\left( \\begin{array} { c } { { a ^ { t - 1 } } } \\\\ { { x ^ { t } } } \\end{array} \\right) + b _ { a } ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            303,
+            700,
+            403
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tùr vói $a ^ { t }$ ta có còng thúrc tính dau ra tuong úng $y ^ { t }$ ",
+        "bbox": [
+            206,
+            419,
+            626,
+            438
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/683e051ff087ba330b0fdef19d84ee09073fefd7dcd272afa2895f9d511b4772.jpg",
+        "text": "$$\ny ^ { t } = g _ { 2 } . ( W _ { y a } . a ^ { t } + b _ { y } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            452,
+            455,
+            648,
+            478
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/bcf99559e005166c44ba8094742246dc061dfabe2f19bb95cfcb47faf5cce033.jpg",
+        "image_caption": [
+            "Cau trúc mot block trong RNN "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            147,
+            497,
+            855,
+            758
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2.1.2. Ưu điểm và nhược điểm của RNN ",
+        "bbox": [
+            115,
+            814,
+            521,
+            835
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/6d76502cdde983b3efea1f2a51447277ca0ac93e8adcb37d13d7e5a07910f30b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VASU&#x27; HINH THANHCUA MO HiNHTRANSFORMER</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/fa3509b1d4f1d80bb69ab63ddd3c92a653131159d2c0f280f37b4c06ad18c3fc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Uu diém</td><td rowspan=1 colspan=1>Nhurgc diém</td></tr><tr><td rowspan=1 colspan=1>Khà nǎng xú ly cácchuǒi dàu vào có do dàikhác nhau</td><td rowspan=1 colspan=1>Tính toán khá chàm</td></tr><tr><td rowspan=1 colspan=1>Kich cō mò hinh khòngbi tǎng len theo kíchthuóc dàu vào</td><td rowspan=1 colspan=1>Khó truy càp lai thòng tin dā di qua ó mòt khoángthòi gian dài truóc dó - hay còn goi là bi quènthòng tin khi gǎp nhièu thòng tin mói</td></tr><tr><td rowspan=1 colspan=1>dung thòng tin truóc do</td><td rowspan=1 colspan=1>Quá trinh tính toán có súr Phai thuc hien tuàn tur nen khòng tàn dung triet děduoc khá nǎng tính toán song song cúa GPU</td></tr><tr><td rowspan=1 colspan=1>Trong só duoc chia sétrong suót qua trinh hoc</td><td rowspan=1 colspan=1>Vanishing gradient</td></tr></table>",
+        "bbox": [
+            115,
+            233,
+            880,
+            709
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2. Vấn đề gặp phải của Long Short Term Memory (LSTM) ",
+        "text_level": 1,
+        "bbox": [
+            119,
+            730,
+            732,
+            751
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2.1 Ý tưởng cốt lõi của LSTM (Long short term memory) ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            762,
+            715,
+            783
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "LSTM là một dạng đặc biệt của RNN, nó có khả năng học các thông tin ở xa. Về cơ bản thì LSTM và RNN không khác nhau là mấy nhưng LSTM có cải tiển một số phép tính trong 1 hidden state và nó đã hiểu quả. Hiệu quả như nào thì chúng ta hãy cũng đọc tiếp nhé! ",
+        "bbox": [
+            117,
+            794,
+            877,
+            881
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/5402582d8ddd52eaeb533966ec01c0e8a08b8c9dd3ed132d6accbfb3d70f150e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VASU HiNH THANHCUA MO HiNH&#x27;TRANSFORMER</td><td rowspan=1 colspan=1>ıLàn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            120
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cấu trúc của LSTM không khác gì RNN, nhưng sự cải tiến ở đây năm ở phần tính toán trong từng hidden state như sau: Thay vì chỉ có một tầng mạng nơ-ron, LSTM thiết kế với 4 tầng mạng nơ-ron tương tác với nhau một các rất đặc biệt. ",
+        "bbox": [
+            117,
+            147,
+            880,
+            212
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Dưới đây là 2 hình ảnh biểu diễn sự khác nhau giữa RNN và LSTM ",
+        "bbox": [
+            117,
+            236,
+            763,
+            259
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/1c7e7b6f998785d8aac9ff205cba1180327c1d5f9e5dbea25243e1fd067ce2c0.jpg",
+        "image_caption": [
+            "RNN with tanh function "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            134,
+            268,
+            865,
+            467
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/1662e6b16b22971a6cd956d12ece3a057122a7f38e7a2076366304dbbf7252da.jpg",
+        "image_caption": [
+            "LSTM with tanh and sigmoid functions "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            137,
+            516,
+            858,
+            713
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Chìa khóa để giúp LSTM có thể truyền tải thông tin giữa các hidden state một các xuyên suốt chính là cell state (hình dưới): ",
+        "bbox": [
+            117,
+            759,
+            858,
+            802
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/ff5770a3d827e5daabe76b92e1760c554dd411d865a212e5e9a53660e64bd8d4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VA SU&#x27; HiNH THANHCUa MO HiNH TRANSFORMER</td><td rowspan=1 colspan=1>ıLàn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/98b62afcb31103b71c39f49664694ced74a6fbcf5175cb88a0605b47618b27a5.jpg",
+        "image_caption": [
+            "LSTM cell state "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            132,
+            154,
+            870,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Đầu ra là hàm sigmoid chứa các giá trị từ 0 đến 1. ",
+        "bbox": [
+            117,
+            634,
+            591,
+            657
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Nếu forget gate có giá trị bằng 0, LSTM sẽ \"quên\" trạng thái được lưu trữ trong đơn vị tương ứng của trạng thái cell trước đó. ",
+        "bbox": [
+            117,
+            681,
+            872,
+            725
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Nếu cổng quên có giá trị bằng 1, LSTM sẽ chủ yếu ghi nhớ giá trị tương ứng ở trạng thái được lưu trữ. ",
+        "bbox": [
+            117,
+            749,
+            868,
+            793
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dee861ade0e3a70e00da48b6ce7da24fe37737e64d79fee7ab95e676497e1e93.jpg",
+        "text": "$$\n\\Gamma _ { f } ^ { \\left. t \\right. } = \\sigma ( \\mathbf { W } _ { f } [ \\mathbf { a } ^ { \\left. t - 1 \\right. } , \\mathbf { x } ^ { \\left. t \\right. } ] + \\mathbf { b } _ { f } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            825,
+            631,
+            852
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Candidate value $\\tilde { \\mathbf { c } } ^ { ( t ) }$ ",
+        "bbox": [
+            126,
+            889,
+            284,
+            906
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/8823826b1e15906809b1560bd9fd4068c1fb87760f2210ba9f77756fc375045f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VA SU&#x27; HiNH THANHCUa MO HiNH TRANSFORMER</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Chứa thông tin có thể được lưu trữ từ time step hiện tại. ",
+        "bbox": [
+            117,
+            147,
+            647,
+            170
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bc3e04714a6cb603546f64818aa5773258a7d1e81a9af79d4008fc5411e0493c.jpg",
+        "text": "$$\n\\tilde { \\mathbf { c } } ^ { ( t ) } = \\operatorname { t a n h } \\left( \\mathbf { W } _ { c } [ \\mathbf { a } ^ { ( t - 1 ) } , \\mathbf { x } ^ { ( t ) } ] + \\mathbf { b } _ { c } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            200,
+            667,
+            235
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Update gate $\\mathbf { { r } } _ { i }$ ",
+        "bbox": [
+            122,
+            272,
+            262,
+            291
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Quyět dinh xem phan thòng tin nào cúa $\\tilde { \\mathbf { c } } ^ { ( t ) }$ có the thèm vào $\\mathbf { c } ^ { ( t ) }$ ",
+        "bbox": [
+            117,
+            321,
+            667,
+            342
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7fb5b5e570185b8f6b02bf1691a2449548c145ea04c0e9b585cf8d03103cd5b5.jpg",
+        "text": "$$\n\\mathbf { \\Gamma } _ { i } ^ { \\left. t \\right. } = \\sigma ( \\mathbf { W } _ { i } [ a ^ { \\left. t - 1 \\right. } , \\mathbf { x } ^ { \\left. t \\right. } ] + \\mathbf { b } _ { i } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            359,
+            613,
+            385
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Cell state c(tci) ",
+        "text_level": 1,
+        "bbox": [
+            121,
+            419,
+            258,
+            441
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Là bộ nhớ trong của LSTM. Cell state như 1 băng tải truyền các thông tin cần thiết xuyết suất cả quá trình, qua các nút mạng và chỉ tương tác tuyển tính 1 chút. Vì vậy thông tin có thể tuyền đi thông suốt mà không bị thay đổi. ",
+        "bbox": [
+            115,
+            470,
+            855,
+            537
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/01915725139b028d1eed616a9aea92a17d273a07e802cf7c4236aed89c521987.jpg",
+        "text": "$$\n\\mathbf { c } ^ { \\left. t \\right. } = \\mathbf { \\Gamma } _ { f } ^ { \\left. t \\right. } * \\mathbf { c } ^ { \\left. t - 1 \\right. } + \\mathbf { \\Gamma } _ { i } ^ { \\left. t \\right. } * \\tilde { \\mathbf { c } } ^ { \\left. t \\right. }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            565,
+            631,
+            594
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/5b89ef108fd2d9144f00cdc9ce93ece5c3c0917bf5b9379748ccbb3da54331cf.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 113</td></tr><tr><td rowspan=1 colspan=1>ATTENTION VA SU&#x27; HiNH THANHCUa MO HiNH &#x27;I TRANSFORMER</td><td rowspan=1 colspan=1>ıLàn ban hành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            40,
+            857,
+            118
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Output gate $\\mathbf { \\delta T } _ { o }$ ",
+        "text_level": 1,
+        "bbox": [
+            131,
+            154,
+            263,
+            172
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Cong diěeu chinh luong thòng tin däu ra cúa cell hièn tai và luong thòng tin truyěn tói trang thái tiép theo. ",
+        "bbox": [
+            132,
+            195,
+            778,
+            233
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/19c24377b21ce7c03e45314b4c847522bef698a89ac0b1cad237c47ad4e9a9b9.jpg",
+        "text": "$$\n\\mathbf { \\Gamma } _ { o } ^ { \\left\\{ t \\right\\} } = \\sigma ( \\mathbf { W } _ { o } [ \\mathbf { a } ^ { \\left\\{ t - 1 \\right\\} } , \\mathbf { x } ^ { \\left\\{ t \\right\\} } ] + \\mathbf { b } _ { o } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            249,
+            601,
+            273
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hidden state $\\mathbf { a } ^ { ( t ) }$ ",
+        "bbox": [
+            131,
+            291,
+            275,
+            309
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Dugc sú dung dě xác dinh ba cǒng $( \\mathbf { T } f , \\mathbf { T } u , \\mathbf { T } _ { o } )$ cua time step tiép theo. ",
+        "bbox": [
+            131,
+            330,
+            710,
+            349
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0639550cb2f1ca35ee470442855722e3e7c1a5569acf398df04bcecd28a94814.jpg",
+        "text": "$$\n\\mathbf { a } ^ { ( t ) } = \\Gamma _ { o } ^ { ( t ) } * \\operatorname { t a n h } ( \\mathbf { c } ^ { ( t ) } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            365,
+            564,
+            388
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Prediction $\\mathbf { y } _ { p r e d } ^ { ( t ) }$ ",
+        "bbox": [
+            131,
+            404,
+            268,
+            428
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Du doán trong truòng hop sú' dung này là phân loai, vì vày ban sě sú' dung softmax. ",
+        "bbox": [
+            127,
+            445,
+            793,
+            466
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ae0f53afa71fd3d0ba92c5e9a277844d4e4fff9e5f89ae104b62ff18df95ca08.jpg",
+        "text": "$$\n\\mathbf { y } _ { p r e d } ^ { \\left. t \\right. } = \\mathrm { s o f t m a x } ( \\mathbf { W } _ { y } \\mathbf { a } ^ { \\left. t \\right. } + \\mathbf { b } _ { y } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            481,
+            601,
+            507
+        ],
+        "page_idx": 6
+    }
+]

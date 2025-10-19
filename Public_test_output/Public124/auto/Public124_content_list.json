@@ -1,0 +1,1169 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/bfbd1d7b75c5960a2cba8218aa357d40e9015888488d05c7d31d86bcc0b6278b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU&#x27; TRONG XU&#x27; LY NGON NGUTU&#x27;NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. GIỚI THIỆU ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            137,
+            351,
+            160
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xử lý ngôn ngữ tự nhiên là một lĩnh vực nghiên cứu của trí tuệ nhân tạo nhằm xây dựng một hệ thống xử lý cho máy tính, làm cho máy tính có thể hiểu được ngôn ngữ của con người gồm cả ngôn ngữ nói và viết. Không chỉ với một ngôn ngữ của một dân tộc, của một quốc gia mà máy tính có thể hiểu được ngôn ngữ của tất cả các dân tộc, các quốc gia trên thế giới. Nhờ đó, mọi người trên thế giới dựa vào máy tính cũng có thể hiểu và giao tiếp được với nhau mà không cần học, hiểu ngôn ngữ của nhau,... Và hơn thế nữa, máy tính có thể phân tích, tổng hợp ngôn ngữ để đưa ra tri thức cho con người một cách nhanh chóng và chính xác. Nhất là khi các dữ liệu liên quan đến ngôn ngữ đang dần trở nên là kiểu dữ liệu chính của con người. ",
+        "bbox": [
+            163,
+            174,
+            885,
+            384
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xử lý ngôn ngữ tự nhiên nhằm mục đích: Phân tích, nhận biết, tổng hợp ngôn ngữ tự nhiên. Là cơ sở chính để hiểu ngôn ngữ, dịch ngôn ngữ, xử lý tiếng nói, xử lý văn bản,... Để xử lý ngôn ngữ tự nhiên bằng máy tính, trên thế giới người ta đã cho ra đời một ngành học mới được kết hợp giữa hai ngành máy tính và ngôn ngữ học, được gọi là ngôn ngữ học máy tính. Trong tương lai máy tính sử dụng ngôn ngữ tự nhiên để giao tiếp giữa người và máy, máy có khả năng hiểu được ngôn ngữ tự nhiên của con người và trả lời các câu hỏi của con người. Thậm chí máy sẽ dịch được các ngôn ngữ tự nhiên từ một ngôn ngữ này sang một một ngôn ngữ khác một cách nhanh chóng và chính xác. ",
+        "bbox": [
+            163,
+            388,
+            885,
+            598
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Với một hệ thống xử lý ngôn ngữ tự nhiên, đầu vào của một hệ thống có thể là một hoặc nhiều câu dưới dạng tiếng nói hay văn bản. Các dữ liệu liên quan đến ngôn ngữ viết (văn bản) và nói (tiếng nói) đang dần trở nên kiểu dữ liệu chính con người có và lưu trữ dưới dạng điện tử. Đặc điểm chính của các kiểu dữ liệu này là không có cấu trúc hoặc nửa cấu trúc và chúng không thể lưu trữ trong các khuôn dạng cố định như các bảng biểu. Theo đánh giá của công ty Oracle, hiện có đến $80 \\%$ dữ liệu không cấu trúc trong lượng dữ liệu của loài người đang có [Oracle Text]. Với sự ra đời và phổ biến của Internet, của sách báo điện tử, của máy tính cá nhân, của viễn thông, của thiết bị âm thanh, … người người ai cũng có thể tạo ra dữ liệu văn bản hay tiếng nói. Vấn đề là làm sao ta có thể xử lý chúng, tức chuyển chúng từ các dạng ta chưa hiểu được thành các dạng ta có thể hiểu và giải thích được, tức là ta có thể tìm ra thông tin, tri thức hữu ích cho mình [1]. ",
+        "bbox": [
+            163,
+            602,
+            885,
+            876
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. CÁC BƯỚC XỬ LÝ VĂN BẢN ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            881,
+            534,
+            903
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/aa799ca530e0fca0ec490b3862eb8014ef140fe087bdbad83b1c3cc9251dbd91.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Quá trình xử lý văn bản hay quá trình phân tích và kiểm tra tính chính xác của một văn bản là một vấn đề khá phức tạp, trải qua nhiều bước khác nhau. Ở mỗi bước xử lý đòi hỏi người nghiên cứu phải có một nền tảng kiến thức vững vàng về ngôn ngữ cũng như nhiều kiến thức bổ trợ khác mới có thể xử lý tốt được. Quá trình này có thể được chia thành các bước sau. ",
+        "bbox": [
+            163,
+            131,
+            885,
+            256
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Tiền xử lý văn bản: Sẽ xử lý sơ bộ văn bản đầu vào (làm sạch văn bản) bằng cách xóa bỏ những ký tự, những mã điều khiển, những vùng không cần thiết cho việc xử lý và phân rã nó ra thành các câu là đơn vị cơ sở của một văn bản. Phân tích hình thái: phân tích câu thành một bảng các từ (hay cụm từ) riêng biệt, đồng thời kèm theo tất cả các thông tin về từ đó, như là: Từ loại, phạm trù ngữ pháp, các biến cách của từ, tiền tố, hậu tố của từ (nếu có). Trong trường hợp gặp từ mới, hệ thống sẽ để nguyên và đánh dấu một từ loại đặc biệt để chuyển sang phần xử lý tên riêng hay từ mới. Phân tích cứu pháp: Phân tích một câu thành những thành phần văn phạm có liên quan với nhau và được thể hiện thành cây cú pháp. Khi nhập câu, ta phải phân thành các thành phần như chủ ngữ, vị ngữ; gán vai trò chủ từ, đối từ của động từ chính, bổ nghĩa,.. Phân tích ngữ nghĩa: là kiểm tra ý nghĩa của câu có mâu thuẫn với ý nghĩa của đoạn hay không. Dựa trên mối liên hệ logic về nghĩa giữa các cụm từ trong câu và mối liên hệ giữa các câu trong đoạn, hệ thống sẽ xác định được một phần ý nghĩa của câu trong ngữ cảnh của đoạn. Tích hợp văn bản: Ngữ nghĩa của một câu riêng biệt có thể phụ thuộc vào những câu đứng trước, đồng thời nó cũng có thể ảnh hưởng đến các câu phía sau. Phân tích thực nghĩa: phân tích nhằm xác định ý nghĩa câu dựa trên mối liên hệ của câu với hiện thực. Ý nghĩa thực tế của câu phụ thuộc   \nrất nhiều vào ý tứ của người nói và ngữ cảnh diễn ra lời nói. ",
+        "bbox": [
+            193,
+            283,
+            885,
+            819
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3. HƯỚNG TIẾP CẬN VỚI BÀI TOÁN TÁCH TỪ ",
+        "bbox": [
+            163,
+            824,
+            712,
+            847
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/ae5d8a205b1af48afdac62c97cfe8380ac9cdfc22b62abd454859fa06f3c2d81.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Các nhà nghiên cứu đã đề xuất một số hướng tiếp cận để giải quyết bài toán tách từ. Nhìn chung, các hướng tiếp cận đó được chia thành 2 hướng: tiếp cận dựa trên từ và tiếp cận dựa trên ký tự từ[2]. ",
+        "bbox": [
+            163,
+            130,
+            885,
+            194
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hướng tiếp cận dựa trên từ với mục tiêu tách được các từ hoàn chỉnh trong câu. Hướng tiếp cận này được chia thành 3 nhóm: dựa trên thống kê (statistics-based), dựa trên từ điển (dictionary-based) và kết hợp nhiều phương pháp (hydrid-based). ",
+        "bbox": [
+            164,
+            199,
+            884,
+            282
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hướng tiếp cận dựa vào thống kê cần phải dựa vào thông tin thống kê như từ hay tần số ký tự, hay xác suất cùng xuất hiện trong một tệp dữ liệu cơ sở. Do đó, tính hiệu quả của các giải pháp này chủ yếu dựa vào dữ liệu huấn luyện cụ thể được sử dụng. Tác giả Đinh Điền [7] đã xây dựng ngữ liệu huấn luyện riêng (khoảng 10Mb) dựa vào các tài nguyên, tin tức và sách điện tử trên Internet, bộ dữ liệu này khá nhỏ và không toàn diện tức là không bao quát nhiều lĩnh vực, nhiều chủ đề. ",
+        "bbox": [
+            164,
+            286,
+            885,
+            433
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hướng tiếp cận dựa trên từ điển: Ý tưởng của hướng tiếp cận này là những cụm từ được tách ra từ văn bản phải được so khớp với các từ trong từ điển. Từ điển sử dụng để so khớp thì lại có 2 loại: từ điển hoàn chỉnh (full word/pharse) và từ điển thành phần (component). Trong từ điển hoàn chỉnh thì chia thành 3 loại: so khớp dài nhất (longest match), so khớp ngắn nhất (shortest match) và so khớp kết hợp (overlap). Hướng tiếp cận này có đặc điểm là đơn giản, dễ hiểu tuy nhiên hiệu quả mang lại chưa được cao. Lý do là bởi nó chưa xử lý được nhiều trường hợp nhập nhằng cũng như khả năng phát hiện từ mới trong văn bản chưa cao. Hiện nay, hướng tiếp cận so khớp cực đại được xem là phương pháp quan trọng và có hiệu quả nhất trong hướng tiếp cận từ điển. ",
+        "bbox": [
+            164,
+            437,
+            885,
+            668
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hướng tiếp cận nhiều phương pháp với mục đích kết hợp các phương pháp tiếp cận khác nhau để thừa hưởng các ưu điểm của nhiều kỹ thuật và hướng tiếp cận khác nhau nhằm nâng cao hiệu quả. Hướng tiếp cận này thường kết hợp giữa hướng tiếp cận thống kê và dựa trên từ điển nhằm tận dụng những mặt mạnh của các phương pháp này. Tuy nhiên, hướng tiếp cận này lại mất nhiều thời gian xử lý, không gian đĩa và chi phí cao. ",
+        "bbox": [
+            163,
+            672,
+            885,
+            799
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hướng tiếp cận dựa trên ký tự từ: Hướng tiếp cận này đơn thuần là rút trích ra một số lượng nhất định các tiếng trong văn bản như rút trích 1 ký tự (unigram) hay nhiều ký tự (n-gram). Phương pháp này tuy đơn giản nhưng mang lại kết quả quan trọng được chứng minh qua một số công trình nghiên cứu đã được công bố, như của tác giả Lê An Hà [3]. ",
+        "bbox": [
+            163,
+            801,
+            884,
+            907
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/390024dd340d8d002cde0f2785776d2144ee6330d76b1427bc1e3a6d757fd8b8.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Trong bài báo gần đây của H.Nguyễn et al, đề xuất năm 2005. Đây là phương pháp tách từ dựa trên thống kê từ Internet và giải thuật di truyền thay vì sử dụng dữ liệu thô, để tìm ra những cách phân cách đoạn văn bản tối ưu nhất cùng một văn bản. Khi so sánh kết quả của tác giả Lê An Hà và H.Nguyễn thì thấy công trình nghiên cứu của H.Nguyễn cho được kết quả tốt hơn khi tiến hành tách từ, tuy nhiên thời gian xử lý lâu hơn. Ưu điểm của hướng tiếp cận dựa trên nhiều ký tự là tính đơn giản, dễ ứng dụng, chi phí thấp. Qua nhiều công trình nghiên cứu của các tác giả đã được công bố, hướng tiếp cận dựa trên ký tự từ được cho là sự lựa chọn thích hợp. ",
+        "bbox": [
+            163,
+            130,
+            885,
+            321
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4. MỘT SỐ PHƯƠNG PHÁP TÁCH TỪ ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            326,
+            605,
+            349
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.1 Phương pháp so khớp cực đại (Maximum Matching) ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            364,
+            744,
+            384
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp này đã được ChihHao Tsai [4] giới thiệu năm 1996. Ý tưởng chính của phương pháp này là duyệt một câu từ trái qua phải và chọn từ có nhiều tiếng nhất có mặt trong từ điển tiếng Việt, rồi cứ thế tiếp tục cho từ kế tiếp cho đến hết câu. ",
+        "bbox": [
+            163,
+            389,
+            885,
+            471
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp so khớp cực đại dạng đơn giản: Giả sử chúng ta có một câu $\\mathrm { S } =$ {c1, c2, c3,...,cn} với c1, c2, c3,... cn là các tiếng được tách bởi khoảng trắng trong câu. Chúng ta bắt đầu duyệt từ đầu chuỗi, xác định đâu là từ. Trước tiên, chúng ta sẽ kiểm tra xem c1 có phải là từ có trong từ điển hay không, sau đó kiểm tra c1c2 có trong từ điển hay không. Tiếp tục như vậy c1c2c3, c1c2c3c4,..., c1c2c3... cn, với n là số tiếng lớn nhất của một từ có thể có nghĩa (nghĩa là có trong từ điển tiếng Việt). Sau đó, chúng ta chọn từ có nhiều tiếng nhất có mặt trong từ điển và đánh dấu từ đó. Tiếp tục quá trình trên với tất cả các từ còn lại trong câu và trong toàn bộ văn bản. ",
+        "bbox": [
+            163,
+            477,
+            884,
+            665
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp so khớp cực đại dạng phức tạp: Phương pháp này về cơ bản cũng giống như so khơp cực đại dạng đơn giản. Tuy nhiên, dạng này có thể tránh được một số nhập nhằng gặp phải trong dạng đơn giản. Độ chính xác cao lên đến $9 9 . 6 9 \\%$ và 93.21 nhập nhằng được giải quyết. Đầu tiên, chúng ta sẽ kiểm tra xem c1 có phải từ có trong từ điển hay không, sau đó kiểm tra tiếp c1c2 có nằm trong từ điển hay không. Giả sử có 1 trường hợp xảy ra như sau: ta có c1 và c1c2 đều có trong từ điển thì thuật toán thực hiện chiến thực 3 từ tốt nhất được Chen & Liu (1992) đưa ra như sau: ",
+        "bbox": [
+            163,
+            669,
+            885,
+            837
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Độ dài trung bình của từ lớn nhất: ở cuối mỗi chuỗi thường gặp những bộ chỉ có một hoặc hai từ. Luật này chỉ có lợi khi thiếu một hoặc một vài vị trí trong bộ. Khi bộ là bộ ba thì luật này không được hiệu quả lắm. Vì bộ ba từ có cùng tổng độ dài, đương nhiên nó sẽ có cùng độ dài chung bình. Nên giải pháp này không đạt hiệu quả cao vì thế chúng ta cần một giải pháp khác. ",
+        "bbox": [
+            163,
+            839,
+            884,
+            903
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/e629b49fa0ab03b212e87b70de0142fa7722682d6cc2689c2006f73a420f2755.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            131,
+            885,
+            193
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sự chênh lệch độ dài của 3 từ là ít nhất: là độ biến đổi nhỏ nhất chiều dài từ. Luật này cho phép lấy bộ đầu tiên với độ biến đổi chiều dài từ nhỏ nhất. Trong ví dụ trên, ta lấy từ C1C2 từ bộ đầu tiên. Giả thiết của luật này là những từ có chiều dài đều bằng nhau. ",
+        "bbox": [
+            163,
+            198,
+            884,
+            282
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá phương pháp: Phương pháp so khớp cực đại là cách tách từ đơn giản, dễ hiểu và chạy nhanh. Hơn chúng ta chỉ cần một tập từ điển đầy đủ là có thể tiến hành tách các văn bản. Tuy nhiên, phương pháp này không giải quyết 2 vấn đề quan trọng của bài toán tách từ tiếng Việt là thuật toán gặp phải nhiều nhập nhằng; độ chính xác của phương pháp này phụ thuộc vào tính đầy đủ và tính chính xác của từ điển. ",
+        "bbox": [
+            163,
+            286,
+            885,
+            412
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2 Phương pháp chuyển dịch trạng thái hữu hạng có trọng số ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            419,
+            803,
+            440
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Chuyển dịch trạng thái hữu hạn có trọng số (Weighted Finite-State Transducer – WFST) [5]. Mô hình chuyển dịch trạng thái hữu hạn có trọng số WFST đã được đề xuất năm 1996. Ý tưởng chính của phương pháp này áp dụng cho tách từ tiếng Việt là các từ sẽ được gán trọng số bằng xác suất xuất hiện của từ đó trong dữ liệu. Sau đó duyệt qua các câu, cách duyệt có trọng số lớn nhất sẽ là cách dùng để tách từ. Trong phương pháp này, tầng tiền xử lý có nhiệm vụ xử lý định dạng văn bản: Tiêu đề, đoạn, câu; chuẩn hoá về chính tả tiếng Việt (cách bỏ dấu, cách viết các ký tự y, i,... trong tiếng Việt). Ví dụ: Vật lý $=$ vật lí, thời kỳ $=$ thời kì). ",
+        "bbox": [
+            163,
+            445,
+            885,
+            633
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sau đó câu được chuyển sang tầng WFST. Trong tầng này tác giả xử lý thêm các vấn đề liên quan đến đặc thù của tiếng Việt, như: Từ láy, tên riêng, ...và tầng mạng Neural dùng để khử nhập nhằng về ngữ nghĩa sau khi đã tách từ (nếu có). ",
+        "bbox": [
+            164,
+            636,
+            884,
+            720
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Sơ đồ các bước xử lý của WFST ",
+        "bbox": [
+            166,
+            724,
+            473,
+            745
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Xét tầng WFST: ",
+        "bbox": [
+            164,
+            773,
+            322,
+            794
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Hoạt động của WFST có thể chia thành ba bước sau: ",
+        "bbox": [
+            164,
+            799,
+            665,
+            819
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "- Bước 1: Xây dựng từ điển trọng số, trong mô hình WFST, thì việc phân đoạn từ có thể được xem như là một sự chuyển dịch trạng thái có xác xuất. Chúng ta miêu tả từ điển D là một đồ thị biến đổi trạng thái hữu hạn có trọng số. ",
+        "bbox": [
+            163,
+            823,
+            884,
+            907
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/54bf02c93768b3fb289f200f82b2492cfd78e22fd2afc3acaa00495b77f46ab1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "- Bước 2: Xây dựng khả năng tách từ, bước này thống kê tất cả các khả năng tách từ của một câu. Vấn đề ở đây là để giảm sự bùng nổ các cách tách từ, thuật toán sẽ loại bỏ ngay những nhánh tách từ nào đó không phù hợp mà chứa từ không xuất hiện trong từ điển, không phải là từ láy, không phải là danh từ riêng thì loại bỏ các nhánh xuất phát từ cách tách từ đó. Thật vậy, giả sử một câu gồm n âm tiết, mà trong tiếng Việt thì một từ có tối đa 4 âm tiết tức là ta sẽ có tối đa 2n-1 cách tách từ khác nhau. Một câu tiếng Việt trung bình có 24 âm tiết thì lúc đó ta phải giải quyết 8.000.000 trường hợp tách từ có thể trong một câu. ",
+        "bbox": [
+            163,
+            131,
+            885,
+            320
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "- Bước 3: Lựa chọn khả năng tối ưu: Sau khi liệt kê tất cả các khả năng tách từ, thuật toán sẽ chọn cách tách tốt nhất, đó là tách đoạn có trọng số bé nhất. ",
+        "bbox": [
+            163,
+            324,
+            885,
+            387
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Xét ví dụ sau: Đầu vào là câu: “Tốc độ truyền thông tin sẽ tăng cao”: ",
+        "bbox": [
+            161,
+            390,
+            818,
+            413
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Trọng số theo mỗi cách tách từ được tính là: ",
+        "bbox": [
+            163,
+            440,
+            586,
+            460
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Id(I).D\\* $=$ “Tốc độ # truyền thông # tin # sẽ # tăng # cao” (1) $= 8 . 6 8 + 1 2 . 3 1 + 7 . 3 3 + 6 . 0 9 + 7 . 4 3 + 6 . 9 5 = 4 8 . 7 9$ ",
+        "bbox": [
+            163,
+            464,
+            746,
+            509
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "ID(I).D\\* = “TỐC ĐỘ # TRUYỀN # THÔNG TIN # SẼ # TĂNG # CAO” (2) ",
+        "bbox": [
+            163,
+            513,
+            882,
+            557
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$= 8 . 6 8 + 1 2 . 3 1 + 7 . 2 4 + 6 . 0 9 + 7 . 4 3 + 6 . 9 5 = 4 8 . 7 0$ ",
+        "bbox": [
+            163,
+            561,
+            593,
+            579
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Khi đó ta có được cách tối ưu là tách đoạn (2) “Tốc độ # truyền # thông tin # sẽ # tăng # cao”. ",
+        "bbox": [
+            164,
+            584,
+            885,
+            627
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Xét tầng Neural: ",
+        "bbox": [
+            164,
+            630,
+            324,
+            652
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Sau khi cho câu được tách từ qua mô hình WFST. Để xác định kết quả tách từ trên có thực sự hợp lệ hay không, tác giả định nghĩa một ngưỡng giá trị t0 với ý nghĩa như sau: nếu sự chênh lệch về trọng số (giữa các cách tách từ khác nhau với cách tách từ có trọng số nhỏ nhất) lớn hơn t0 thì đó là kết quả tách từ có trọng số nhỏ nhất đó đúng của câu và được chấp nhận. Còn nếu sự chênh lệch đó không lớn hơn t0, thì cách tách từ có trọng số nhỏ nhất đó chưa được xem là kết quả tách từ đúng của câu. Lúc này, ta sẽ đưa những cách tách từ của câu này qua mô hình mạng Neural để xử lý tiếp. ",
+        "bbox": [
+            163,
+            655,
+            885,
+            823
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tầng nhập của mạng được kết nối hoàn toàn với một tầng ẩn $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m } \\ 1 0$ nút với một hàm truyền. Những nút ẩn này lại được kết nối hoàn toàn với một tầng xuất chỉ $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m } 1$ nút. Nút xuất là một giá trị thực nằm giữa 0..1. Biểu thị cho khả năng hợp lệ của một dãy các từ loại đứng liền nhau trong một cửa sổ trượt. Khi cửa sổ trượt từ đầu câu đến cuối câu, cộng dồn các kết quả lại với nhau và gán giá trị này vào thành trọng số của câu. Câu có trọng số lớn nhất sẽ được chọn. ",
+        "bbox": [
+            163,
+            826,
+            884,
+            910
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/4a28f98f4f96fbc2a89daba3687b987d02063d1b6089af063916f7c426d10dd2.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            130,
+            885,
+            194
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hàm truyền được chọn là hàm sigmoid: ",
+        "bbox": [
+            164,
+            199,
+            541,
+            219
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá phương pháp: phương pháp này là sẽ cho độ chính xác cao nếu ta xây dựng được một dữ liệu học đầy đủ và chính xác. Nó còn có thể kết hợp với các phương pháp khử nhập nhằng để cho kết quả tách rất cao (có thể chính xác đến $9 7 \\%$ , tỉ lệ này tuỳ thuộc vào loại văn bản). Tuy nhiên, việc đánh trọng số dựa trên tần số xuất hiện của từ, nên khi tiến hành tách thì không tránh khỏi các nhập nhằng trong tiếng Việt. Hơn nữa với những văn bản dài thì phương pháp này còn gặp phải sự bùng nổ các khả năng phân đoạn của từng câu. ",
+        "bbox": [
+            163,
+            248,
+            885,
+            416
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3 Phương pháp mô hình Markov ẩn ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            423,
+            559,
+            445
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Mô hình Markov (Hidden Markov Model - HMM) được giới thiệu vào cuối những năm 1960 [6]. Cho đến hiện nay phương pháp này có một ứng dụng khá rộng như trong nhận dạng giọng nói, tính toán sinh học và xử lý ngôn ngữ tự nhiên. Mô hình Markov là mô hình trạng thái hữu hạn với các tham số biểu diễn xác suất chuyển trạng thái và xác suất sinh dữ liệu quan sát tại mỗi trạng thái. ",
+        "bbox": [
+            163,
+            448,
+            885,
+            573
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Mô hình Markov ẩn là mô hình thống kê trong đó hệ thống được mô hình hóa được cho là một quá trình Markov với các tham số không biết trước và nhiệm vụ là xác định các tham số ẩn từ các tham số quan sát được, dựa trên sự thừa nhận này. Các tham số của mô hình được rút ra sau đó có thể sử dụng để thực hiện các phân tích kế tiếp. ",
+        "bbox": [
+            163,
+            577,
+            884,
+            682
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trong một mô hình Markov điển hình, trạng thái được quan sát trực tiếp bởi người quan sát, vì vậy các xác suất chuyển tiếp trạng thái là các tham số duy nhất. Mô hình Markov ẩn thêm vào các đầu ra, mỗi trạng thái có xác suất phân bổ trên các biểu hiện đầu ra có thể. Vì vậy, nhìn vào dãy của các biểu hiện được sinh ra bởi HMM không trực tiếp chỉ ra dãy các trạng thái. ",
+        "bbox": [
+            163,
+            686,
+            885,
+            792
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Các thông số trong mô hình: xi: các trạng thái trong mô hình Markov, aij: Các xác suất chuyển tiếp, bij: các xác suất đầu ra, yi: Các dữ liệu quan sát. Mô hình Markov ẩn thêm vào các đầu ra, mỗi trạng thái có xác suất phân bố trên các biểu hiện đầu ra có thể. Vì vậy, nhìn vào dãy của các biểu hiện được sinh ra bởi HMM không trực tiếp chỉ ra dãy các trạng thái. Ta có thể tìm ra được chuỗi các trạng thái mô tả tốt nhất cho mỗi dữ liệu quan sát đước bằng cách tính: $\\operatorname { P } ( \\mathrm { Y } \\mid \\mathrm { X } ) = \\operatorname { P } ( \\mathrm { Y } \\mid \\mathrm { X } ) / \\operatorname { P } ( \\mathrm { X } ) .$ . ",
+        "bbox": [
+            159,
+            795,
+            885,
+            904
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/36a3df9beb9a8a35718ed9ed049ba813c4132ef87a62d409e3ced7e6b259e467.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            130,
+            885,
+            174
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Trong khi đó Yn là trạng thái thời điểm thứ $\\mathbf { t } = \\mathbf { n }$ trong chuỗi trạng thái Y, Xn là dữ liệu quan sát được tại thời đ $\\dot { \\mathrm { { e m } } }$ thứ $\\mathbf { t } = \\mathbf { n }$ trong chuỗi X. Do trạng thái hiện tại chỉ phụ thuộc vào trạng thái ngay trước đó với giả thiết rằng dữ liệu quan sát được tại thời điểm t chỉ phụ thuộc vào trạng thái t. Ta có thể tính P(Y, X) theo công thức: ",
+        "bbox": [
+            163,
+            178,
+            885,
+            282
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá phương pháp: mô hình Markov để tính được xác suất P(Y,X) thông thường ta phải liệt kê hết các trường hợp có thể của chuỗi Y và chuỗi X. Thực tế thì chuỗi Y là hữu hạn có thể liệt kê được, còn X (các dữ liệu quan sát) là rất phong phú. Để giải quyết các vấn đề này HMM đưa ra giả thiết về sự độc lập giữa các dữ liệu quan sát. Dữ liệu quan sát được tại thời điểm t chỉ phụ thuộc vào trạng thái tại thời điểm đó. Hạn chế thứ hai gặp phải là việc sử dụng xác suất đồng thời P (Y, X) đôi khi không chính xác vì với một số bài toán thì việc sử dụng xác suất điều kiện P(Y|X) cho kết quả tốt hơn rất nhiều. ",
+        "bbox": [
+            163,
+            286,
+            885,
+            473
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.4 Phương pháp so khớp từ dài nhất (Longest Matching): ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            482,
+            764,
+            504
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp so khớp từ dài nhất [7] dựa trên tư tưởng tham lam. Với mỗi câu, duyệt từ trái qua phải các âm tiết trong câu, kiểm tra xem có nhóm các âm tiết có tồn tại trong từ điển hay không. Chuỗi dài nhất các âm tiết được xác định là từ sẽ được chọn ra. Tiếp tục thực hiện việc so khớp cho đến hết câu. Thuật toán chỉ đúng khi không có sự nhập nhằng những tiếng đầu của từ sau có thể ghép với từ trước tạo thành một từ có trong từ điển. ",
+        "bbox": [
+            163,
+            508,
+            884,
+            634
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Giải thuật ",
+        "bbox": [
+            164,
+            638,
+            262,
+            657
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Input: Chuỗi ký tự; ",
+        "bbox": [
+            164,
+            662,
+            349,
+            682
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Output: Chuỗi từ, cụm từ (từ có chiều dài dài nhất); ",
+        "bbox": [
+            163,
+            686,
+            653,
+            707
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "V là danh sách các tiếng chưa xét; ",
+        "bbox": [
+            164,
+            711,
+            489,
+            732
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "T là bộ từ điển. ",
+        "bbox": [
+            164,
+            736,
+            310,
+            755
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "While $\\mathrm { V } \\neq \\emptyset$ do ",
+        "bbox": [
+            164,
+            761,
+            319,
+            780
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Begin ",
+        "bbox": [
+            164,
+            787,
+            223,
+            806
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Wmax $\\underline { { \\underline { { \\mathbf { \\Pi } } } } }$ từ đầu danh sách V;   \nForeach (v thuộc từ $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m }$ các tiếng bắt đầu trong V)   \nIf(length(v) $>$ length(Wmax) and (v thuộc T)) Then $\\operatorname { W m a x } { = } \\mathbf { V }$ ; ",
+        "bbox": [
+            220,
+            809,
+            714,
+            904
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/b577a67ba2b137cd730db037c11c66e3bbd5a3cb59ba7e24b5d669985d08dbec.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Loại bỏ đi các từ Wmax ở đầu danh sách V; ",
+        "bbox": [
+            163,
+            131,
+            583,
+            152
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "End. ",
+        "bbox": [
+            164,
+            159,
+            210,
+            175
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Xét ví dụ: “Tôi là sinh viên trường Đại học Kiên Giang”: ",
+        "bbox": [
+            163,
+            182,
+            705,
+            203
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá phương pháp: phương pháp so khớp từ dài nhất là phương pháp tách từ đơn giản chỉ cần dựa vào từ điển với đội chính xác tương đối cao. Phương pháp này sẽ không tốt nếu có hiện tượng nhập nhằng xảy ra. Độ chính xác phụ thuộc hoàn toàn vào tính đầy đủ và chính xác của từ điển. ",
+        "bbox": [
+            164,
+            230,
+            885,
+            313
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5. THỰC NGHIỆM – KẾT QUẢ ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            320,
+            522,
+            343
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.1 Thực nghiệm ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            358,
+            349,
+            377
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Mục tiêu nghiên cứu là đánh giá tính khả thi của thuật toán tách từ dựa vào phương pháp so khớp cực đại (Maximum Matching) để tách toàn bộ văn bản, với dữ liệu sử dụng là bảng âm tiết tiếng Việt và từ điển từ vựng tiếng Việt. Phần mềm Vntokenizer là phần mềm tách từ biểu diễn cho phương pháp so khớp cực đại. ",
+        "bbox": [
+            163,
+            382,
+            885,
+            486
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Quy trình thực hiện tách từ theo phương pháp so khớp cực đại (Vntokenizer). ",
+        "bbox": [
+            164,
+            491,
+            882,
+            532
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Input: của phần mềm Vntokenizer là một câu, một văn bản được lưu dưới dạng tệp (.txt). ",
+        "bbox": [
+            164,
+            536,
+            884,
+            578
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Output: là một chuỗi các từ đã được tách ở dạng file (.txt). ",
+        "bbox": [
+            164,
+            581,
+            717,
+            602
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Thuật toán sẽ duyệt từ đầu chuỗi xác định đâu là từ. Đầu tiên, ta kiểm tra xem nó có trong từ điển hay không, sau đó kiểm tra tiếp chữ kế có trong từ điển hay không, nếu chữ đầu tiên và chữ kế tiếp có trong kho dữ liệu thì chương trình sẽ đọc chữ tiếp theo, quá trình đó sẽ lập lại cho đến khi đọc chữ tiếp theo mà dãy chữ đó không có trong từ điển thì sẽ dừng lại và lấy từ. Tức là chương trình sẽ duyệt một câu từ trái sang phải và chọn từ có nhiều âm tiết nhất có mặt trong từ điển và đánh dấu từ đó. Sau đó, tiếp tục quá trình trên với tất cả các từ kế tiếp cho đến hết câu. ",
+        "bbox": [
+            164,
+            605,
+            885,
+            774
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Các đơn vị từ bao gồm các từ trong từ điển cũng như các chuỗi số, chuỗi ký tự từ nước ngoài, các dấu câu và các chuỗi kí tự hỗn tạp khác trong văn bản. Các đơn vị từ không chỉ bao gồm các từ có trong từ điển mà còn có thể là các từ mới hoặc các từ được sinh tự do theo một quy tắc nào đó (như phương thức thêm hậu tố hay phương thức láy) hoặc các chuỗi kí hiệu không được liệt kê trong từ điển. ",
+        "bbox": [
+            163,
+            777,
+            884,
+            903
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/57c2990f2136c0e16a5c1700d48260404a1bba41c93091a2ec06c86407a8d6f0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU&#x27; TRONG XU&#x27; LY NGON NGUTU&#x27;NHIEN</td><td rowspan=1 colspan=1> Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5.2 Kết quả ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            130,
+            297,
+            153
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Kết quả phân tích sau khi áp dựng phương pháp so khớp cực đại, bằng cách chạy phần mềm Vntokenizer như sau: với file dữ liệu tên là 1.txt. ",
+        "bbox": [
+            163,
+            157,
+            885,
+            198
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Giao diện màn hình khi chạy chương trình ",
+        "bbox": [
+            164,
+            226,
+            568,
+            247
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Kết quả sau khi tách từ ",
+        "bbox": [
+            166,
+            275,
+            386,
+            295
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Tính số lần xuất hiện của các từ ",
+        "bbox": [
+            166,
+            324,
+            468,
+            345
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6. KẾT LUẬN ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            377,
+            336,
+            399
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Trong bài báo này chúng tôi giới thiệu các thuật toán tách từ trong xử lý ngôn ngữ tự nhiên dựa vào phương pháp so khớp cực đại, phương pháp mô hình MarKov ẩn, phương pháp chuyển dịch trạng thái hữu hạn có trọng số, phương pháp so khớp từ dài nhất. Kết quả mà chúng tôi thu được từ nghiên cứu này là hết sức khả quan và thiết nghĩ là hoàn toàn khả thi khi ứng dụng vào thực tế. ",
+        "bbox": [
+            164,
+            413,
+            884,
+            538
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Trên cơ sở các phương pháp tách từ đó, bài báo này sử dụng phương pháp so khớp cực đại để minh họa cho các phương pháp tách từ trên. Phần mềm vntokenizer là phần mềm tách từ để biểu diễn cho thuật toán trên. Sau khi tách từ xong, tính tầng số xuất hiện các từ được tách trong tệp dữ liệu ban đầu. Đề xuất mô hình phân loại văn bản ứng dụng vào phân loại văn bản ở phòng ban, và thư viện trường Đại học Kiên Giang. Mặc dù kết quả nghiên cứu bước đầu đã khẳng định thuật toán tách từ dựa vào phương pháp so khớp cực đại là hoàn toàn khả thi và hoàn toàn có thể áp dụng vào thực tế, tuy nhiên Bài báo chỉ mới tách được các từ trong văn bản và tính được số lần xuất hiện của từ trong đoạn văn nhằm xây dựng vector đặc trưng từ đó hình thành ma trận để so sánh với từ khóa cho trước như: công nghệ thông tin, nông nghiệp,... từ đó làm cơ sở cho bài toán phân loại văn bản. ",
+        "bbox": [
+            163,
+            543,
+            884,
+            794
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "TÀI LIỆU THAM KHẢO ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            799,
+            416,
+            819
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "[1] Hồ Tú Bảo, Lương Chi Mai (2008), Về xử lý tiếng Việt trong công nghệ thông tin, Viện Công nghệ Thông tin, Viện Khoa học và Công nghệ tiên tiến Nhật Bản. ",
+        "bbox": [
+            163,
+            823,
+            884,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/57fdd8c26f047c7d860150aa48323c359123ff0704c49cc37fec5839840023dd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public</td></tr><tr><td rowspan=1 colspan=1>NGHIEN CUU MOT SO KY THUATTACH TU TRONG xU&#x27; LY NGON NGUTU&#x27; NHIEN</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            116
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[2] Trần Thị Oanh, Mô hình tách từ, gán nhãn từ loại và hướng tiếp cận tích hợp cho tiếng Việt, Luận văn thạc sĩ trường Đại học Công nghệ, Đại học Quốc gia Hà Nội. ",
+        "bbox": [
+            163,
+            131,
+            885,
+            194
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[3] Le An Ha (2003), A method for word segmentation in Vietnamese.   \nIn Proceedings of Curpus Linguistics. Lancaster, UK. ",
+        "bbox": [
+            164,
+            199,
+            882,
+            241
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[4] Chih-Hao Tsai (2000). MMSEG: A word identification system for Mandarin Chinese text Based on two variants of the Maximum Matching Algorithm. ",
+        "bbox": [
+            164,
+            244,
+            884,
+            306
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[5] Dinh Dien, Hoang Kiem, Nguyen Van Toan (2001), Vietnamese Word Segmentation, the sexth 6th Natural Language Processing Pacific Rim Symposium Tokyo, Japan, pp.749 – 756. ",
+        "bbox": [
+            163,
+            312,
+            885,
+            375
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[6] Phil Blunsom (2004), Hidden Markov Medels, pp. 1-7 ",
+        "bbox": [
+            163,
+            378,
+            742,
+            399
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "[7] Chen,K.J.,&Liu, S. H. (1992), Word identification for Mandarin Chinese sentences. Proceedings of the fifteenth inrernational Conference on computational Linguistics, Nantes. ",
+        "bbox": [
+            163,
+            402,
+            887,
+            465
+        ],
+        "page_idx": 10
+    }
+]

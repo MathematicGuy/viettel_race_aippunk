@@ -1,7 +1,14 @@
-## Prequisites: Create Local Vector Database (Run command below 1 only, after this just activate Milvus container within Docker)
+## Hướng dẫn cài thư viện cho Preprocessing
+```sh
+pip install -r requirements.txt
+```
+
+
+## Hướng dẫn cài Docker cho Milvus (Chú Ý: Conflict nếu có 1 Milvusdb standalone đã khơi tạo khác, tránh sử dụng 1 MilvusDB khác trong Docker)
 0. Download [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/)
 
-**Windows:**
+Rồi Chạy trong Terminal:
+**Windows (Powershell):**
 1. Open Docker Desktop in administrator mode by right-clicking and selecting Run as administrator.
 2. Download the installation script and save it as standalone.bat.
 ```sh
@@ -13,7 +20,7 @@ standalone.bat start
 ```
 
 
-**Linux:**
+**Linux (Linux or Windows GitBash):**
 1. Download the installation script
 ```sh
 curl -sfL https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh -o standalone_embed.sh
@@ -22,6 +29,14 @@ curl -sfL https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/stan
 ```sh
 bash standalone_embed.sh start
 ```
+
+## Hướng dẫn cài thư viện cho dự đoán câu hỏi (tải cuda và flash hỗ trợ GPU kiến trúc Blackwell)
+```sh
+cd flash-installation
+pip install -r requirements.txt
+cd ..
+```
+
 
 ## Directory Structure
 ```

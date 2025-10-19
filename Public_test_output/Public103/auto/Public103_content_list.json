@@ -1,0 +1,880 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/6d590c50e43d508a15d32bbc88cffef7d24d9a832426154ef68056cb6f9f8397.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUÁN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Giải thích: ",
+        "text_level": 1,
+        "bbox": [
+            147,
+            167,
+            290,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tương tự CRFs, Linear-Chain CRFs phân loại chuỗi dựa trên xác suất $P ( Y \\vert X )$ . Với chuỗi x cho trước, CRFs sẽ tìm ra chuỗi y sao cho xác suất $P ( Y = y | X = x )$ là lớn nhất. ",
+        "bbox": [
+            117,
+            199,
+            882,
+            271
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/26abc6cb3f92334fc78c2b66f1b5b83f1bb7bde9c99f83cbc066cf5dd205a396.jpg",
+        "text": "$$\n\\hat { y } = a r g m a x _ { y } P ( y | x )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            282,
+            611,
+            306
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xác suất $P ( Y \\vert X )$ được xây dựng thông qua việc định nghĩa các hàm đặc trưng $f _ { k } { \\mathrm { v } } { \\dot { { \\mathrm { a } } } } g _ { k }$ và xác định giá trị $\\lambda _ { k } , \\mu _ { k }$ . Các trọng số được tối ưu trong quá trình huấn huyện với tập dữ liệu huấn luyện. Nói cách khác, quá trình huấn luyện CRFs là quá trình học phân phối xác suất $P ( Y \\vert X )$ của tập dữ liệu huấn luyện. ",
+        "bbox": [
+            115,
+            317,
+            885,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Việc tối ưu hóa các trọng $\\begin{array} { r } { \\mathrm { s } \\hat { \\hat { \\mathbf { o } } } \\theta = ( \\lambda _ { 1 } , \\dots , \\lambda _ { k } ; \\mu _ { 1 } , \\dots , \\mu _ { k } ) } \\end{array}$ tương đương với việc tìm kiếm hàm năng lượng tối ưu cho mô hình. Mô hình CRFs sẽ điều chỉnh các trọng số để hàm đặc trưng phản ánh chính xác mối quan hệ giữa chuỗi quan sát và chuỗi nhãn, từ đó đưa ra dự đoán chính xác nhất. Do đó, hàm đặc trưng đóng vai trò then chốt trong việc xác định $\\mathrm { m } \\acute { \\mathrm { o 1 } }$ quan hệ giữa chuỗi quan sát x và chuỗi nhãn y. Việc lựa chọn và thiết kế hàm đặc trưng phù hợp với bài toán cụ thể là rất quan trọng để đảm bảo mô hình có thể học được các mẫu quan trọng từ dữ liệu và đưa ra dự đoán chính xác. ",
+        "bbox": [
+            115,
+            424,
+            884,
+            620
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Huấn luyện ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            631,
+            262,
+            653
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Việc huấn luyện thường sử dụng phương pháp MLE (Maximum Likelihood Estimation) để tối ưu hóa các trọng số $\\theta = ( \\lambda _ { 1 } , \\ldots , \\lambda _ { k } ; \\mu _ { 1 } , \\ldots , \\mu _ { k } )$ từ tập huấn luyện $D = \\{ ( x ^ { ( i ) } , y ^ { ( i ) } ) \\} _ { i = 1 } ^ { N } . \\}$ Mục tiêu của quá trình huấn luyện là tìm ra bộ trọng số $\\theta$ để hàm mục tiêu log-likelihood $L ( \\theta )$ là lớn nhất. ",
+        "bbox": [
+            115,
+            663,
+            885,
+            771
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/178ac6eb04138cd782c05073c07d26c2619987cc950059556028001d9e317322.jpg",
+        "text": "$$\nL ( \\theta ) = \\sum _ { i = 1 } ^ { N } l o g \\left( P _ { \\theta } { \\bigl ( } y ^ { ( i ) } { \\bigl | } x ^ { ( i ) } { \\bigr ) } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            114,
+            776,
+            423,
+            841
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/115a2dbf014d14e1997afa261098b1c6ef80d0d630c82090b5b1c4ab28ebe79f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d15fd6a443331cf05b054763dff0d09900644e325d8938b3d06d15fd436b97b0.jpg",
+        "text": "$$\n\\begin{array} { c l } { { } } & { { = \\displaystyle \\sum _ { i = 1 } ^ { N } \\left( \\displaystyle \\sum _ { t = 1 } ^ { n } \\left( \\displaystyle \\sum _ { k } \\lambda _ { k } f _ { k } \\left( y _ { t - 1 } ^ { ( i ) } , y _ { t } ^ { ( i ) } , x ^ { ( i ) } , t \\right) + \\displaystyle \\sum _ { k } \\mu _ { k } g _ { k } \\left( y _ { t } ^ { ( i ) } , x ^ { ( i ) } , t \\right) \\right) \\right. } } \\\\ { { } } & { { } } \\\\ { { \\left. - \\ l o g \\left( { \\cal Z } _ { \\theta } \\left( x ^ { ( i ) } \\right) \\right) \\right) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            117,
+            161,
+            764,
+            298
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Việc tối ưu hóa hàm mục tiêu có thể sử dụng các phương pháp tối ưu dựa trên việc tính gradient như Gradient Descent, Stochastic Gradient Descent (SGD), LBFGS (Limited-memory BFGS). Do đó chúng ta cần tính gradient của $L ( \\theta )$ . ",
+        "bbox": [
+            117,
+            305,
+            882,
+            380
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/41eb0ba481587ff426a110c0237a828cccfd7df692290b20d815c72d9f019743.jpg",
+        "text": "$$\n\\frac { \\partial L } { \\partial \\lambda _ { k } } = \\sum _ { i = 1 } ^ { N } \\left( \\sum _ { t = 1 } ^ { n } f _ { k } \\left( y _ { t - 1 } ^ { ( i ) } , y _ { t } ^ { ( i ) } , x ^ { ( i ) } , t \\right) - \\frac { 1 } { Z _ { \\theta } ( x ^ { ( i ) } ) } \\frac { \\partial Z _ { \\theta } } { \\partial \\lambda _ { k } } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            215,
+            387,
+            781,
+            450
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3d4ba787f0a2e3c4e455fae44732c65d055bccabcfddd1d5ee2a818f953c807a.jpg",
+        "text": "$$\n{ \\frac { 1 } { Z _ { \\theta } ( x ^ { ( i ) } ) } } { \\frac { \\partial Z _ { \\theta } } { \\partial \\lambda _ { k } } } = { \\frac { 1 } { Z _ { \\theta } ( x ^ { ( i ) } ) } } \\sum _ { y ^ { \\prime } \\in \\varOmega _ { y } } \\left( \\sum _ { t = 1 } ^ { n } f _ { k } \\big ( y ^ { \\prime } _ { t - 1 } , y ^ { \\prime } _ { t } , x ^ { ( i ) } , t \\big ) e ^ { - E \\left( x ^ { ( i ) } , y ^ { \\prime } \\right) } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            159,
+            457,
+            842,
+            521
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c3cb3cf1665df00a55a15a2ffc6ba203dd6042c86b75c3e39e2aab8783cdd296.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { } & \\\\ & { } & { = \\displaystyle \\sum _ { y ^ { \\prime } \\in \\mathcal { X } _ { \\sigma } } \\left( \\sum _ { i = 1 } ^ { \\infty } \\hat { \\rho } _ { x ^ { \\prime } \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\right) } \\\\ & { } & { = \\displaystyle \\sum _ { y ^ { \\prime } \\in \\mathcal { Y } _ { \\sigma } } \\left( \\sum _ { i = 1 } ^ { \\infty } \\hat { \\rho } _ { x ^ { \\prime } \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\right) } \\\\ & { } & { = \\displaystyle \\sum _ { y ^ { \\prime } \\in \\mathcal { Y } _ { \\sigma } } \\sum _ { \\phi \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } \\hat { \\rho } _ { x ^ { \\prime } } } \\\\ & { } &  = \\displaystyle \\sum _ { \\phi \\in \\mathcal { X } _ { \\sigma } } \\sum _ { \\phi \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _ { x ^ { \\prime } } ( y ^ { \\prime } _ { \\sigma } - y ^ { \\prime } _ { \\phi \\in \\mathcal { X } _ { \\sigma } } \\hat { \\rho } _  x  \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            201,
+            513,
+            919,
+            916
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/207f9f53249cb04863c41aa28ea16cf911d75dac5365a27c9c0f4e46f6f5ab8c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUYEN VA SUY LUAN LINEaR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Gọi $E _ { x } ( f _ { k } )$ là kì vòng hàm đặc trưng $f _ { k }$ theo phân phối xác suất $P ( y | x )$ : ",
+        "bbox": [
+            141,
+            160,
+            836,
+            183
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e84116bf3bbd67ee1bfe1f6ce4537a02a1b03361d6f7c5d85046ff3d543a6bea.jpg",
+        "text": "$$\nE _ { x } ( f _ { k } ) = \\sum _ { t = 1 } ^ { n } \\sum _ { y ^ { \\prime } \\in \\varOmega _ { y } } f _ { k } \\big ( y ^ { \\prime } { } _ { t - 1 } , y ^ { \\prime } { } _ { t } , x ^ { ( i ) } , t \\big ) P \\big ( y ^ { \\prime } \\big | x ^ { ( i ) } \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            252,
+            191,
+            746,
+            255
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5945a6685b4afcaf30aa5441d89b8bbf06d6bc6e7db52f87bdba66b7838b8342.jpg",
+        "text": "$$\n\\Rightarrow \\frac { \\partial L } { \\partial \\lambda _ { k } } = \\sum _ { i = 1 } ^ { N } \\left( \\sum _ { t = 1 } ^ { n } f _ { k } \\left( y _ { t - 1 } ^ { ( i ) } , y _ { t } ^ { ( i ) } , x ^ { ( i ) } , t \\right) + ⨏ _ { x ^ { ( i ) } } ( f _ { k } ) \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            263,
+            771,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Tương tự ta cũng có gradient cho $\\mu _ { k }$ : ",
+        "bbox": [
+            147,
+            375,
+            504,
+            395
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ec49a9259cac1ebf91139b23211012c5a26eef92563aec910eaa777750a117f7.jpg",
+        "text": "$$\nE _ { x } ( g _ { k } ) = \\sum _ { t = 1 } ^ { n } \\sum _ { y ^ { \\prime } \\in \\varOmega _ { y } } g _ { k } \\big ( y ^ { \\prime } { } _ { t } , x ^ { ( i ) } , t \\big ) P \\big ( y ^ { \\prime } \\big | x ^ { ( i ) } \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            277,
+            404,
+            722,
+            469
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5b6c475b18786406837047b6e08f8b3411302d71eeb8b5dec7d52e7ed565bac4.jpg",
+        "text": "$$\n\\frac { \\partial L } { \\partial \\mu _ { k } } = \\sum _ { i = 1 } ^ { N } \\left( \\sum _ { t = 1 } ^ { n } g _ { k } \\left( y _ { t } ^ { ( i ) } , x ^ { ( i ) } , t \\right) + E _ { x ^ { ( i ) } } ( g _ { k } ) \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            478,
+            734,
+            546
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nếu tính trực tiếp kì vọng của các hàm đặc trưng từ công thức trên thì độ phức tạp tính toán sẽ là hàm mũ $\\left( O ( n \\times | \\mathcal { Y } | ^ { n } ) \\right)$ . Do đó không khả thi khi số lượng nhãn và bộ dữ liệu lớn. Để giảm độ phức tạp tính toán ta biến đổi công thức trên thành dạng sau: ",
+        "bbox": [
+            115,
+            556,
+            885,
+            656
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b9a8d393b380fb205ad0becbaad9cff8c6e46e0d8c2a79a48c9e9fdf67ff4333.jpg",
+        "text": "$$\n\\begin{array} { r } { E _ { x } ( f _ { k } ) = \\displaystyle \\sum _ { t = 1 } ^ { n } \\sum _ { y ^ { \\prime } \\in \\mathcal { Q } _ { y } } f _ { k } \\big ( y ^ { \\prime } _ { t - 1 } , y ^ { \\prime } _ { t } , x ^ { ( i ) } , t \\big ) P \\big ( y ^ { \\prime } \\big | x ^ { ( i ) } \\big ) } \\\\ { \\displaystyle \\sum _ { = 1 } ^ { n } \\sum _ { y ^ { \\prime } , y ^ { \\prime \\prime } \\in \\mathcal { Y } } f _ { k } \\big ( y ^ { \\prime } , y ^ { \\prime \\prime } , x ^ { ( i ) } , t \\big ) P \\big ( Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime } \\big | x ^ { ( i ) } \\big ) _ { ? \\ \\mathrm { 0 } 2 5 \\cdot \\mathrm { 0 } 9 \\cdot \\mathrm { 0 } ^ { - 2 8 } } . } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            152,
+            664,
+            868,
+            810
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Trong đó $P \\big ( Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime } \\big | x ^ { ( i ) } \\big )$ là xác xuất biên của $Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime }$ khi biết chuỗi quan sát $x ^ { ( i ) }$ , tức xác suất để cặp nhãn $( y ^ { \\prime } , y ^ { \\prime \\prime } )$ được gán tại vị trí ",
+        "bbox": [
+            115,
+            840,
+            884,
+            894
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/c8ba3c47cff595a933c437671a1e971872de2dc51656f5b581494e81c20c46b5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUÁN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "t-1 và t khi biết $\\boldsymbol { x } ^ { ( i ) }$ mà không quan tâm đến các nhãn còn lại. Xác suất biên này có th $\\dot { \\hat { \\mathbf { e } } }$ được tính trong thời gian đa thức bằng thuật toán Forward-Backward. ",
+        "bbox": [
+            117,
+            160,
+            880,
+            209
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tương tự cho $\\mu _ { k }$ : ",
+        "bbox": [
+            149,
+            221,
+            317,
+            241
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7579e543a21c39bcc1baf09e6b2576ee7bb40d6003e5b26030becf76805e47f1.jpg",
+        "text": "$$\nE _ { x } ( g _ { k } ) = \\sum _ { t = 1 } ^ { n } \\sum _ { y ^ { \\prime } \\in \\mathcal { Y } } g _ { k } \\big ( y ^ { \\prime } , x ^ { ( i ) } , t \\big ) P \\big ( Y _ { t } = y ^ { \\prime } \\big | x ^ { ( i ) } \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            260,
+            249,
+            737,
+            312
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3. Thuật toán Forward-Backward áp dụng trong tính gradient ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            354,
+            751,
+            376
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/a3a5c63a8d581421db81951c6b8b86d4c52a34280d87046508c85554a68aa50a.jpg",
+        "image_caption": [
+            "Hình 3.1. Minh họa thuật toán Forward-Backward trong việc xác suất biên tại 1 nút "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            117,
+            387,
+            932,
+            601
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ý tưởng của thuật toán Forward-Backward là tính xác suất biên dựa vào việc tính xác suất tiến $\\alpha _ { i } ( x )$ và xác suất lùi $\\beta _ { i } ( x )$ . Hình $8 \\mathrm { m } \\hat { \\mathrm { o } }$ tả ý tưởng tính xác suất biên $P ( Y _ { 2 } = v | x )$ và $\\operatorname { h i n h } \\ 9 \\cdot \\mathrm { m } \\widehat { \\mathrm { ~ } }$ tả ý tưởng cách tính xác suất biên $P ( Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime } | x )$ cho bài toán POS. Mỗi một đường đi từ ${ \\bf \\mathrm { < } } { \\bf { S } } >$ đến <T> là 1 trường hợp của chuỗi Y. Trọng số của của mỗi cạnh được tính theo công thức $M _ { i } ( C _ { j } , C _ { k } | x ) \\backslash$ đã trình bày $\\acute { \\mathbf { O } }$ phần trước thể hiện khả năng nhãn của từ liền kề khi biết trước nhãn, trọng số của 1 đường đi là tích các trọng số cạnh mà đường đi qua. ",
+        "bbox": [
+            117,
+            655,
+            885,
+            856
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0746f15e073d15d008b59cfbf2712d417ee72fa810b7631de3e530c6bf290d70.jpg",
+        "text": "$$\np _ { \\theta } ( Y = y | X = x ) = \\left. p _ { \\theta } \\big ( p a t h _ { y } \\big | X = x \\big ) = \\frac { T r _ { 0 } n g s \\tilde { \\mathcal { O } } ~ c \\tilde { \\mathsf { u } } a ~ p a t h _ { y } } { Z _ { \\theta } ( x ) } \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            179,
+            866,
+            820,
+            913
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/7c42876e12e73b58df6e0a4d1aac0eb75b08913174f9dbba2b975648c4aa0956.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUÁN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Xác suất biên $P ( Y _ { 2 } = v | x )$ sẽ là tổng xác suất của tất cả các đường đi đi qua v tại $Y _ { 2 }$ hay tổng trọng số các đường đi đó. Ta có thể phân tích tổng này thành tích của 2 tổng $\\alpha _ { 2 } ( v | x )$ và $\\beta _ { 2 } ( v | x )$ . ",
+        "bbox": [
+            117,
+            159,
+            882,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fb94a7164abc5df7aa48bdbc4427c295e6c239cad0e5c75ee8144450c75bd07c.jpg",
+        "text": "$$\nP ( Y _ { 2 } = v | x ) = \\alpha _ { 2 } ( v | x ) \\times \\beta _ { 2 } ( v | x )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            322,
+            243,
+            675,
+            266
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Trong đó $\\alpha _ { 2 } ( v | x )$ là tổng trọng số tất cả các đường đi từ ${ \\bf \\mathrm { < } } { \\bf { S } } >$ đến $\\mathbf { V }$ tại $Y _ { 2 }$ , $\\beta _ { 2 } ( v | x )$ là tổng trọng số tất cả các đường đi từ $\\mathbf { V }$ tại $Y _ { 2 }$ đến ${ < } \\mathrm { T } >$ . ",
+        "bbox": [
+            115,
+            274,
+            882,
+            323
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Để tính $\\alpha _ { 2 } ( v | x )$ ta sẽ tính $\\alpha _ { 1 }$ của tất cả các giá trị của Y1 rồi nhân với trọng số chuyển đổi thành nhãn v tương ứng với từng giá trị $\\mathbf { \\check { V } } = > \\mathbf { V } _ { : }$ , $\\mathbf { n } = > \\mathbf { V }$ , $\\mathfrak { p } \\Rightarrow \\mathfrak { v }$ , d $\\mathbf { \\Psi } = > \\mathbf { v } )$ ). Như vậy thì $\\alpha _ { i }$ sẽ được tính dựa theo $\\alpha _ { i - 1 }$ và quá trình này là quá trình tiến của thuật toán Forward-Backward. Tương tự $\\beta _ { i }$ cũng được tính toán dựa trên quy hoạch động và quá trình này là quá trình lùi. ",
+        "bbox": [
+            115,
+            332,
+            884,
+            457
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Tổng quát, ta có chuỗi $Y = \\left( Y _ { 0 } , \\ldots , Y _ { n } \\right)$ , gọi $Y _ { i : j } = \\left( Y _ { i } , \\ldots , Y _ { j } \\right)$ ??ớ?? $0 \\leq i <$ $j \\leq n .$ ",
+        "bbox": [
+            114,
+            467,
+            882,
+            518
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ta có: ",
+        "bbox": [
+            147,
+            530,
+            211,
+            548
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0951395a4584ac3cceedeb3de66394a660d055d28ab8af64758b9043d6631713.jpg",
+        "text": "$$\n\\begin{array}{c} \\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\left\\{ \\sum _ { y _ { 0 : t - 1 } ^ { \\prime } } \\prod _ { i = 1 } ^ { t } M _ { i } \\big ( y _ { \\ i - 1 } ^ { \\prime } , y _ { \\ i } ^ { \\prime } | x \\big ) , \\qquad v \\dot { o } i 1 < t \\leq n \\right.  \\\\ { M _ { 1 } \\big ( < S t a r t > , y _ { \\ i } ^ { \\prime } | x \\big ) , \\qquad v \\dot { o } i t = 1 } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            179,
+            558,
+            811,
+            655
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9a3cff99bb5828913f6a75cda65004eaea556afd66de5362749ff0be5397c3f0.jpg",
+        "text": "$$\n\\beta _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\left\\{ \\begin{array} { l l } { \\displaystyle \\sum _ { y _ { t + 1 : n } ^ { \\prime } } \\prod _ { i = t + 1 } ^ { n } M _ { i } \\big ( { y ^ { \\prime } } _ { i - 1 } , { y ^ { \\prime } } _ { i } \\big | x \\big ) , } & { v \\delta { i } 1 \\leq t < n - 1 } \\\\ { \\displaystyle \\sum _ { y _ { t } ^ { \\prime \\prime } \\in \\mathcal { Y } } M _ { t } ( y ^ { \\prime } , y ^ { \\prime \\prime } | x ) , } & { v \\delta { i } t = n - 1 } \\\\ { \\displaystyle 1 , } & { v \\delta { i } \\hat { t } = n } \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            661,
+            894,
+            794
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Ta chứng minh $\\begin{array} { r } { \\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\sum _ { { y ^ { \\prime } } _ { t - 1 } \\in \\mathcal { Y } } \\alpha _ { t - 1 } \\big ( Y _ { t - 1 } = { y ^ { \\prime } } _ { t - 1 } \\big | x \\big ) \\times } \\end{array}$ $M _ { t } \\big ( y ^ { \\prime } { } _ { t - 1 } , y ^ { \\prime } \\big | x \\big )$ với $1 < t \\leq n$ , thật vậy: ",
+        "bbox": [
+            117,
+            837,
+            752,
+            889
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/7ae63365c07cf67c80ed050a9b6505d5de8e0f84b4733657592d1ecf3e502386.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUYEN VA SUY LUAN LINEaR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f130ebb5f9d41a27f90cd8d04d57d819d01fcb28f13225993093d55349f9c9b3.jpg",
+        "text": "$$\n\\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\sum _ { y _ { 0 : t - 2 } ^ { \\prime } } \\sum _ { y ^ { \\prime } } \\prod _ { t = 1 } ^ { t - 1 } M _ { i } \\big ( { y ^ { \\prime } } _ { i - 1 } , { y ^ { \\prime } } _ { i } | x \\big ) \\times M _ { t } \\big ( { y ^ { \\prime } } _ { t - 1 } , { y ^ { \\prime } } _ { t } \\big | x \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            164,
+            159,
+            840,
+            225
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/96c19d367b417b689c5a88608f21ef3872d1b8630a1fa9d401df131604c9fd09.jpg",
+        "text": "$$\n\\begin{array} { r l } & { = \\displaystyle \\sum _ { y ^ { \\prime } _ { t - 1 } \\in \\mathcal { Y } } \\left( \\displaystyle \\sum _ { y _ { 0 : t - 2 } ^ { \\prime } } \\prod _ { i = 1 } ^ { t - 1 } M _ { i } \\big ( { y ^ { \\prime } } _ { i - 1 } , { y ^ { \\prime } } _ { i } \\big | x \\big ) \\right) \\times M _ { t } \\big ( { y ^ { \\prime } } _ { t - 1 } , { y ^ { \\prime } } _ { t } \\big | x \\big ) } \\\\ & { = \\displaystyle \\sum _ { y ^ { \\prime } _ { t - 1 } \\in \\mathcal { Y } } \\alpha _ { t - 1 } \\big ( Y _ { t - 1 } = { y ^ { \\prime } } _ { t - 1 } \\big | x \\big ) \\times M _ { t } \\big ( { y ^ { \\prime } } _ { t - 1 } , { y ^ { \\prime } } \\big | x \\big ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            304,
+            234,
+            875,
+            365
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Tương tự, với $1 \\leq t < n - 1$ ta cũng có: ",
+        "bbox": [
+            147,
+            374,
+            532,
+            394
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a800f765d9a873ccdc3c2dd32d9973bb1ee3c897c14658a699894b7480b43aca.jpg",
+        "text": "$$\n\\beta _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\sum _ { y ^ { \\prime } _ { t + 1 } \\in y } M _ { t + 1 } \\big ( y ^ { \\prime } , y ^ { \\prime } _ { t + 1 } \\big | x \\big ) \\beta _ { t + 1 } \\big ( Y _ { t + 1 } = y ^ { \\prime } _ { t + 1 } \\big | x \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            403,
+            828,
+            458
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Với cách biểu diễn dưới dạng ma trận công thức $\\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x )$ và $\\beta _ { t } ( Y _ { t } = y ^ { \\prime } | x )$ có thể biểu diễn dưới dạng tích ma trận và vector với $M _ { i } ( x ) _ { < s t a r t > }$ là vetor hàng ứng vói nhãn $< S t a r t > , 1 _ { | y \\prime | \\times 1 }$ là ma trận các giá trị 1 kích thước $\\vert \\mathcal { Y } ^ { \\prime } \\vert \\times 1$ : ",
+        "bbox": [
+            115,
+            467,
+            885,
+            568
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/96c6dfcabe22c843e84eb26de1d21a6218bc96cf68f238fdcba51d69bb3438eb.jpg",
+        "text": "$$\n\\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\left\\{ \\begin{array} { c c } { \\left( M _ { i } ( x ) _ { < s t a r t > } \\times \\displaystyle \\prod _ { i = 2 } ^ { t } M _ { i } ( x ) \\right) _ { 0 , y \\dot { \\sigma } i } } & { , v \\dot { \\sigma } i 1 < t \\leq n } \\\\ { M _ { i } ( x ) _ { < s t a r t > , y ^ { \\prime } } , } & { v \\dot { \\sigma } i t = 1 } \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            576,
+            835,
+            667
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d4c49590fdcdfda9bf1bb151bd3121948a5e445c5307256ac981aea5a14748be.jpg",
+        "text": "$$\n\\beta _ { t } ( Y _ { t } = y ^ { \\prime } | x ) = \\{ ( ( \\prod _ { i = 1 } ^ { t + 1 } M _ { i } ( x ) ) \\times 1 _ { | y r | \\times 1 } ) _ { y ^ { \\prime } , 0 } , v \\dot { \\sigma } i 1 \\leq t < n\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            674,
+            820,
+            770
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Công thức xác xuất biên biểu diễn bằng xác suất tiến và lùi có dạng: ",
+        "bbox": [
+            146,
+            777,
+            796,
+            801
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2bda275f688d1fe0357590549ba0e1ffee6ecd8c200d4b3be94e359474ca715f.jpg",
+        "text": "$$\nP ( Y _ { t } = y ^ { \\prime } | x ) = \\frac { \\alpha _ { t } ( Y _ { t } = y ^ { \\prime } | x ) \\times \\beta _ { t } ( Y _ { t } = y ^ { \\prime } | x ) } { Z _ { \\theta } ( x ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            809,
+            727,
+            857
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/3c8dc47e003c7251fcc377f215076f882211e8df59c083b2be75452e73a700fe.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/0824a9f505db790114122dab1f9c502b3255321639eb18580a7227c47d634ce2.jpg",
+        "image_caption": [
+            "Hình 3.2. Minh họa thuật toán Forward-Backward trong việc xác suất biên tại 1 cạnh "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            119,
+            161,
+            931,
+            344
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Tương tự với xác suất biên $P ( Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime } | x )$ , ta có: ",
+        "bbox": [
+            147,
+            404,
+            709,
+            428
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4ad26c59004afdd340ef1d621aac6a5c4fa193ef7e2f582628ac22ec14897956.jpg",
+        "text": "$$\n\\begin{array} { r l } & { P ( Y _ { t - 1 } = y ^ { \\prime } , Y _ { t } = y ^ { \\prime \\prime } | x ) } \\\\ & { \\qquad = \\frac { \\alpha _ { t - 1 } ( Y _ { t - 1 } = y ^ { \\prime } | x ) \\times M _ { t } ( y ^ { \\prime } , y ^ { \\prime \\prime } | x ) \\times \\beta _ { t } ( Y _ { t } = y ^ { \\prime \\prime } | x ) } { Z _ { \\theta } ( x ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            169,
+            436,
+            826,
+            510
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Bằng phương pháp quy hoạch động, ta có th $\\acute { \\hat { \\mathbf { e } } }$ tính các xác suất biên với độ phức tạp $O ( n \\times | \\mathcal { Y } | ^ { 2 } )$ và chính là độ phức tạp khi tính kì vọng của các hàm đặc trưng. ",
+        "bbox": [
+            115,
+            517,
+            882,
+            590
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4. Thuật toán Viterbi áp dụng trong suy luận Linear-Chain CRFs ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            601,
+            783,
+            623
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Xác định chuỗi $\\hat { y }$ có xác suất xảy ra cao nhất khi biết x: ",
+        "bbox": [
+            147,
+            632,
+            677,
+            653
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9b5822c22fa041ef75c1b85abf5272cb62568783eaed952ec58e37b48561b45b.jpg",
+        "text": "$$\n\\hat { y } = a r g m a x _ { y } \\ : P ( y | x ) = a r g m a x _ { y } \\frac { \\prod _ { i = 1 } ^ { n } M _ { i } ( y _ { i - 1 } , y _ { i } | x ) } { Z _ { \\theta } ( x ) } \n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            663,
+            778,
+            709
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Vì $Z _ { \\theta } ( x )$ là hằng số khi biết nên việc xác định chuỗi $\\hat { y }$ có xác suất xảy ra cao nhất khi biết x t: ",
+        "bbox": [
+            117,
+            719,
+            882,
+            769
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d0d850afde1b4a08a3f3e898aeeb41ad5deda7032335f3e275c437ec2367a801.jpg",
+        "text": "$$\n\\begin{array} { r l r } {  { \\operatorname { t r o n g } \\mathrm { d u o n g ~ v o i x a c ~ d i n h ~ c h u \\tilde { \\hat { o } } i } \\hat { y } \\mathrm { d } \\hat { \\hat { e } } \\prod _ { i = 1 } ^ { n } M _ { i } ( y _ { i - 1 } , y _ { i } | x ) \\mathrm { l o n } \\mathrm { n h } \\hat { \\hat { a } } } } \\\\ & { } & { \\hat { y } = a r g m a x _ { y } \\displaystyle \\prod _ { i = 1 } ^ { n } M _ { i } ( y _ { i - 1 } , y _ { i } | x ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            744,
+            862,
+            838
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Việc tìm $\\hat { y }$ có thể tính trong thời gian $O ( n \\times | \\mathcal { Y } | ^ { 2 } )$ với thuật toán quy hoạch động Viterbi. Thuật toán Viterbi được mô tả bằng $\\mathrm { m } \\tilde { \\mathbf { a } }$ giả trong hình 10. ",
+        "bbox": [
+            115,
+            846,
+            884,
+            894
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/e2b0b73e1c3e0f09aa8b724010eb8c6b8b5d0b6df7bef1528453b798a20f0bd3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUYEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/c36cfcc97627c80b71e70848c88ae1c3f717e8a426099c5da8fea8826d7069a5.jpg",
+        "image_caption": [
+            "Hình 4.1: Thuật toán Viterbi cho suy luận Linear-chain CRFs "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            248,
+            173,
+            715,
+            768
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$M _ { i } ( x )$ là ma trận đã được trình bày trong phần 3 với hàng 0 và cột 0 tương ứng với nhãn <Start>. ",
+        "bbox": [
+            117,
+            837,
+            880,
+            882
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/75680cf861161f9f7716eff1e23dcf7bbda9c15df3d8c5ea91661dca51074c25.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 103</td></tr><tr><td rowspan=1 colspan=1>HUAN LUyEN VA SUY LUAN LINEAR-CHAIN CRFS</td><td rowspan=1 colspan=1>Làn banhành: 1</td></tr></table>",
+        "bbox": [
+            119,
+            57,
+            855,
+            145
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/1848f0045753a0134514e43c0acc09b8fa8ef66552c02e0fa506ea9c2897fab9.jpg",
+        "image_caption": [
+            "Hình 4.2: Hình minh họa thuật toán Viterbi cho POS "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            127,
+            159,
+            915,
+            370
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Hình 4.2 là minh họa quá trình suy luận Viterbi cho POS. Giả sử sau khi huấn luyện ta đã có được trọng số của các đường đi $M _ { i }$ . Với đầu câu đầu vào có 4 từ, và cần gán nhãn cho 4 từ này một nhãn từ loại là 1 trong 4 giá trị: v, n, p, d. Ở đây, mỗi một miền tương đương với 1 từ cần được gán nhãn và số đỉnh trong miền là nhãn có thể có của từ, ví dụ, miền Y1 có 4 đỉnh là v, n, p, d tương đương với 4 giá trị có thể gán cho từ đầu tiên của câu. Một đường đi hợp lệ là đường đi đi qua duy nhất một đỉnh trong mỗi miền. Thuật toán Viterbi sẽ tìm đường sao cho trọng số là lớn nhất (tương đương với xác suất chuỗi nhãn là lớn nhất. ",
+        "bbox": [
+            115,
+            443,
+            885,
+            639
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Ý tưởng của Viterbi là đường đi lớn nhất đến một đỉnh sẽ bao gồm đường đi lớn nhất đến đỉnh trước nó. Xuất phát từ ý tưởng này, để tìm đường đi lớn nhất đến miền Y4, ta sẽ tính đường đi lớn nhất đến các đỉnh của miền Y3, sau đó từ các đỉnh của Y3 ta tính trọng số đến các đỉnh của Y4 và chọn ra đường đi có trọng số lớn nhât. Tương tự đường đi có trọng số lớn nhất đến các đỉnh trong Y3 có thểtính qua đường đi có trọng số lớn nhất đến các đỉnh trong Y2, …. ",
+        "bbox": [
+            115,
+            649,
+            884,
+            797
+        ],
+        "page_idx": 8
+    }
+]

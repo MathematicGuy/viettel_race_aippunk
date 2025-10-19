@@ -52,7 +52,7 @@ def clean_markdown(root_dir):
         cleaned_content = re.sub(r'^# +(\d+(?:\.\d+)*\.?)\s+(.+)$', convert_header, processed_text, flags=re.MULTILINE)
 
         # Write the cleaned content back to the file
-        with open(f'{public_dir}/clean_main.md', 'w', encoding='utf-8') as f:
+        with open(f'{public_dir}/main.md', 'w', encoding='utf-8') as f:
             f.write(cleaned_content)
 
         print(f"✓ Cleaned {public_dir}")
@@ -100,7 +100,8 @@ def process_markdown_comments(text):
 
 if __name__ == "__main__":
     # Get the directory where this script is located
-    PATH = 'private-test-output'
+    # PATH = 'private-test-output'
+    PATH = 'Public_test_input'
     out_dir = os.path.join(PATH)
     print(out_dir)
 

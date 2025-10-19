@@ -13,6 +13,7 @@ ujson
 tqdm
 python-dateutil
 pytz
+langchain_milvus
 
 # Web and Data Processing
 beautifulsoup4

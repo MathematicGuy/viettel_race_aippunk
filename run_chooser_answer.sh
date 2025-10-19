@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Run the main Python script
-python main.py
+python main2.py

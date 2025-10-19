@@ -1,3 +1,4 @@
+test
 config/*
 data/out/*
 volumes/*
@@ -13,3 +14,4 @@ test/pages
 test/mineru_lora_finetuned
 private-test-input
 private-test-output
+flash-installation

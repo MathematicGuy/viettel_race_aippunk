@@ -1,0 +1,379 @@
+2025-10-18 21:07:50,399 - src.agent - INFO - Logging to file: logs/agent.log
+2025-10-18 21:08:17,472 - src.agent - INFO - AgenticRAG initialized with model: qwen3:1.7b and 1 vector store(s)
+2025-10-18 21:10:26,988 - src.agent - INFO - Thread ID updated to: 1760796626988_a88850dbf9914c3cad5fcf5151a0da50
+2025-10-18 21:10:26,989 - src.agent - INFO - [trace] run_mcq called with question: Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?...
+2025-10-18 21:10:26,990 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:10:26,990 - src.agent - INFO - [trace] run_mcq content: Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?
+A: Lưu trữ dữ liệu trên máy chủ
+B: Kết nối Internet và quản lý thiết bị từ xa
+C: Cung cấp dịch vụ phân tích dữ liệu lớn
+D: Thay thế hoàn toàn...
+2025-10-18 21:10:26,991 - src.agent - INFO - Thread ID updated to: 1760796626991_70c51deb94144f558feb0aa176b13b34
+2025-10-18 21:10:26,991 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:10:26,998 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:10:26,999 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:10:26,999 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:10:27,000 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:10:27,001 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:10:27,002 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:10:27,002 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:10:27,003 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:10:27,004 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:10:27,006 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:10:27,006 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?
+A: Lưu trữ dữ liệu trên máy chủ
+B: Kết nố...
+2025-10-18 21:10:27,008 - src.agent - INFO - [trace] original_question=Trong mô hình nhà thông minh, IoT chủ yếu đóng vai trò gì?
+A: Lưu trữ dữ liệu trên máy chủ
+B: Kết nố...
+2025-10-18 21:10:40,435 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:10:40,435 - src.agent - INFO - [trace] retriever.expr=None
+2025-10-18 21:10:40,437 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12}
+2025-10-18 21:10:40,437 - src.agent - INFO - [trace] source_hint_norm=None
+2025-10-18 21:10:40,439 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:10:40,440 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:10:40,442 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:10:53,892 - src.agent - INFO - Thread ID updated to: 1760796653892_6fc4c27fa55b40a884f5d6a61b0a1b18
+2025-10-18 21:10:53,893 - src.agent - INFO - [trace] run_mcq called with question: Năm 2010, công nghệ nào thường được sử dụng trong kiểm soát ra vào ngôi nhà thông minh?...
+2025-10-18 21:10:53,894 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:10:53,894 - src.agent - INFO - [trace] run_mcq content: Năm 2010, công nghệ nào thường được sử dụng trong kiểm soát ra vào ngôi nhà thông minh?
+A: Bluetooth Low Energy
+B: RFID và nhận dạng khuôn mặt/vân tay
+C: Zigbee
+D: Blockchain...
+2025-10-18 21:10:53,895 - src.agent - INFO - Thread ID updated to: 1760796653895_f44a9a441d0c484d925f9cffa5cba655
+2025-10-18 21:10:53,896 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:10:53,899 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:10:53,899 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:10:53,899 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:10:53,902 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:10:53,903 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:10:53,903 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:10:53,903 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:10:53,905 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:10:53,906 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:10:53,906 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:10:53,907 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Năm 2010, công nghệ nào thường được sử dụng trong kiểm soát ra vào ngôi nhà thông minh?
+A: Bluetooth...
+2025-10-18 21:10:53,908 - src.agent - INFO - [trace] original_question=Năm 2010, công nghệ nào thường được sử dụng trong kiểm soát ra vào ngôi nhà thông minh?
+A: Bluetooth...
+2025-10-18 21:11:07,401 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:11:07,401 - src.agent - INFO - [trace] retriever.expr=None
+2025-10-18 21:11:07,401 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12}
+2025-10-18 21:11:07,401 - src.agent - INFO - [trace] source_hint_norm=None
+2025-10-18 21:11:07,401 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:11:07,405 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:11:07,405 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:11:20,869 - src.agent - INFO - Thread ID updated to: 1760796680869_6d7b3432405f46dc973df9f4ba6b7b2d
+2025-10-18 21:11:20,871 - src.agent - INFO - [trace] run_mcq called with question: Bộ cảm biến trong nhà thông minh thực hiện chức năng gì và bộ truyền động có vai trò gì?...
+2025-10-18 21:11:20,871 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:11:20,871 - src.agent - INFO - [trace] run_mcq content: Bộ cảm biến trong nhà thông minh thực hiện chức năng gì và bộ truyền động có vai trò gì?
+A: Bộ cảm biến hiển thị dữ liệu, bộ truyền động thu thập dữ liệu
+B: Bộ cảm biến lưu trữ dữ liệu, bộ truyền động...
+2025-10-18 21:11:20,871 - src.agent - INFO - Thread ID updated to: 1760796680871_dd3e401e8aa741fa89608454719b6d44
+2025-10-18 21:11:20,871 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:11:20,878 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:11:20,880 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:11:20,880 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:11:20,880 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:11:20,880 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:11:20,883 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:11:20,885 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:11:20,885 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:11:20,885 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:11:20,888 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:11:20,889 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Bộ cảm biến trong nhà thông minh thực hiện chức năng gì và bộ truyền động có vai trò gì?
+A: Bộ cảm b...
+2025-10-18 21:11:20,890 - src.agent - INFO - [trace] original_question=Bộ cảm biến trong nhà thông minh thực hiện chức năng gì và bộ truyền động có vai trò gì?
+A: Bộ cảm b...
+2025-10-18 21:11:34,237 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:11:34,239 - src.agent - INFO - [trace] retriever.expr=None
+2025-10-18 21:11:34,239 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12}
+2025-10-18 21:11:34,239 - src.agent - INFO - [trace] source_hint_norm=None
+2025-10-18 21:11:34,241 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:11:34,241 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:11:34,241 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:11:47,796 - src.agent - INFO - Thread ID updated to: 1760796707796_950b16bd4e864ae7b66b13c557aabf27
+2025-10-18 21:11:47,798 - src.agent - INFO - [trace] run_mcq called with question: Nội dung chính của bài báo nghiên cứu Public_001 về IoT trong xây dựng nhà thông minh là gì?...
+2025-10-18 21:11:47,799 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:11:47,800 - src.agent - INFO - [trace] run_mcq content: Nội dung chính của bài báo nghiên cứu Public_001 về IoT trong xây dựng nhà thông minh là gì?
+A: Giới thiệu các ứng dụng cụ thể của điện toán đám mây
+B: Phân tích lợi ích và chi phí triển khai hệ thống...
+2025-10-18 21:11:47,801 - src.agent - INFO - Thread ID updated to: 1760796707801_2f73a710d29b49d89e97964f1843636c
+2025-10-18 21:11:47,802 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:11:47,806 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:11:47,806 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:11:47,807 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:11:47,808 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:11:47,808 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:11:47,809 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:11:47,810 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:11:47,811 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:11:47,812 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:11:47,812 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:11:47,814 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Nội dung chính của bài báo nghiên cứu Public_001 về IoT trong xây dựng nhà thông minh là gì?
+A: Giới...
+2025-10-18 21:11:47,814 - src.agent - INFO - [trace] original_question=Nội dung chính của bài báo nghiên cứu Public_001 về IoT trong xây dựng nhà thông minh là gì?
+A: Giới...
+2025-10-18 21:12:01,372 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:12:01,374 - src.agent - INFO - [trace] source_hint(by-regex)=nghiên cứu Public_001 về IoT trong xây dựng nhà thông minh là gì
+2025-10-18 21:12:01,375 - src.agent - INFO - [trace] source_hint_norm=nghincupublic001viottrongxydngnhthngminhlg
+2025-10-18 21:12:01,376 - src.agent - INFO - [trace] retriever.expr=source_normalized == "nghincupublic001viottrongxydngnhthngminhlg"
+2025-10-18 21:12:01,377 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "nghincupublic001viottrongxydngnhthngminhlg"'}
+2025-10-18 21:12:01,377 - src.agent - INFO - [trace] source_hint_norm=nghincupublic001viottrongxydngnhthngminhlg
+2025-10-18 21:12:01,378 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:12:01,379 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:12:01,380 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:12:14,940 - src.agent - INFO - Thread ID updated to: 1760796734940_cfba2390715e45788c838c93763d706f
+2025-10-18 21:12:14,940 - src.agent - INFO - [trace] run_mcq called with question: Dựa vào thông tin trong tài liệu Public_001, hãy tính số bài báo trung bình mỗi lớp trong nghiên cứu...
+2025-10-18 21:12:14,941 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:12:14,942 - src.agent - INFO - [trace] run_mcq content: Dựa vào thông tin trong tài liệu Public_001, hãy tính số bài báo trung bình mỗi lớp trong nghiên cứu được đề cập.
+A: 45-50
+B: 55-60
+C: 70-80
+D: 90-100...
+2025-10-18 21:12:14,942 - src.agent - INFO - Thread ID updated to: 1760796734942_2246d81b1d71472fa74bdd1ff5f0484e
+2025-10-18 21:12:14,943 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:12:14,947 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:12:14,948 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:12:14,948 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:12:14,949 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:12:14,950 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:12:14,951 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:12:14,951 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:12:14,952 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:12:14,953 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:12:14,953 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:12:14,954 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Dựa vào thông tin trong tài liệu Public_001, hãy tính số bài báo trung bình mỗi lớp trong nghiên cứu...
+2025-10-18 21:12:14,954 - src.agent - INFO - [trace] original_question=Dựa vào thông tin trong tài liệu Public_001, hãy tính số bài báo trung bình mỗi lớp trong nghiên cứu...
+2025-10-18 21:12:28,385 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:12:28,387 - src.agent - INFO - [trace] source_hint(by-regex)=Public_001
+2025-10-18 21:12:28,387 - src.agent - INFO - [trace] source_hint_norm=public001
+2025-10-18 21:12:28,388 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public001"
+2025-10-18 21:12:28,389 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public001"'}
+2025-10-18 21:12:28,389 - src.agent - INFO - [trace] source_hint_norm=public001
+2025-10-18 21:12:28,390 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:12:28,391 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:12:28,393 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:12:41,968 - src.agent - INFO - Thread ID updated to: 1760796761968_982774bcfbc34be8adf74613b25cf33f
+2025-10-18 21:12:41,969 - src.agent - INFO - [trace] run_mcq called with question: Theo tài liệu Public_002, học phần Bảo mật Web trang bị kiến thức về bộ rủi ro phổ biến nào?...
+2025-10-18 21:12:41,970 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:12:41,971 - src.agent - INFO - [trace] run_mcq content: Theo tài liệu Public_002, học phần Bảo mật Web trang bị kiến thức về bộ rủi ro phổ biến nào?
+A: OWASP Top 10
+B: IEEE 802.11
+C: ISO/IEC 27001
+D: NIST Cybersecurity Framework...
+2025-10-18 21:12:41,972 - src.agent - INFO - Thread ID updated to: 1760796761972_818dca80ac2e428faf0b2f249375d22c
+2025-10-18 21:12:41,972 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:12:41,975 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:12:41,976 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:12:41,977 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:12:41,978 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:12:41,979 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:12:41,981 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:12:41,982 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:12:41,982 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:12:41,983 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:12:41,985 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:12:41,985 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Theo tài liệu Public_002, học phần Bảo mật Web trang bị kiến thức về bộ rủi ro phổ biến nào?
+A: OWAS...
+2025-10-18 21:12:41,987 - src.agent - INFO - [trace] original_question=Theo tài liệu Public_002, học phần Bảo mật Web trang bị kiến thức về bộ rủi ro phổ biến nào?
+A: OWAS...
+2025-10-18 21:12:55,367 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:12:55,369 - src.agent - INFO - [trace] source_hint(by-regex)=Public_002
+2025-10-18 21:12:55,370 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:12:55,371 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public002"
+2025-10-18 21:12:55,371 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public002"'}
+2025-10-18 21:12:55,372 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:12:55,372 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:12:55,374 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:12:55,375 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:13:09,025 - src.agent - INFO - Thread ID updated to: 1760796789025_a6185f4ad12f40e4959ea11e0c8696c2
+2025-10-18 21:13:09,026 - src.agent - INFO - [trace] run_mcq called with question: Dựa trên tài liệu Public_002, mô tả học phần Cơ sở dữ liệu nâng cao, hãy liệt kê các loại CSDL không...
+2025-10-18 21:13:09,027 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:13:09,028 - src.agent - INFO - [trace] run_mcq content: Dựa trên tài liệu Public_002, mô tả học phần Cơ sở dữ liệu nâng cao, hãy liệt kê các loại CSDL không được đề cập trong nội dung học phần này.
+A: CSDL NoSQL
+B: CSDL hướng đối tượng
+C: CSDL bán cấu trúc...
+2025-10-18 21:13:09,029 - src.agent - INFO - Thread ID updated to: 1760796789029_ee43b73718654535bb114120e1b07063
+2025-10-18 21:13:09,030 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:13:09,034 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:13:09,035 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:13:09,035 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:13:09,036 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:13:09,037 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:13:09,038 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:13:09,038 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:13:09,039 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:13:09,040 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:13:09,041 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:13:09,042 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Dựa trên tài liệu Public_002, mô tả học phần Cơ sở dữ liệu nâng cao, hãy liệt kê các loại CSDL không...
+2025-10-18 21:13:09,044 - src.agent - INFO - [trace] original_question=Dựa trên tài liệu Public_002, mô tả học phần Cơ sở dữ liệu nâng cao, hãy liệt kê các loại CSDL không...
+2025-10-18 21:13:22,573 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:13:22,575 - src.agent - INFO - [trace] source_hint(by-regex)=Public_002
+2025-10-18 21:13:22,575 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:13:22,575 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public002"
+2025-10-18 21:13:22,576 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public002"'}
+2025-10-18 21:13:22,577 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:13:22,577 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:13:22,579 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:13:22,579 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:13:35,982 - src.agent - INFO - Thread ID updated to: 1760796815982_86196420802b49149ae2f72da1cbc82d
+2025-10-18 21:13:35,984 - src.agent - INFO - [trace] run_mcq called with question: Nêu chi tiết nội dung đào tạo về bảo mật web và bảo mật cơ sở dữ liệu trong tài liệu Public_002....
+2025-10-18 21:13:35,985 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:13:35,985 - src.agent - INFO - [trace] run_mcq content: Nêu chi tiết nội dung đào tạo về bảo mật web và bảo mật cơ sở dữ liệu trong tài liệu Public_002.
+A: OWASP Top 10 / CSDL NoSQL
+B: IEEE 802.11 / CSDL hướng đối tượng
+C: DSA / CSDL bán cấu trúc XML
+D: To...
+2025-10-18 21:13:35,986 - src.agent - INFO - Thread ID updated to: 1760796815986_45219067829649ac8e0a3933d913d93e
+2025-10-18 21:13:35,987 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:13:35,990 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:13:35,991 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:13:35,992 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:13:35,993 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Nêu chi tiết nội dung đào tạo về bảo mật web và bảo mật cơ sở dữ liệu trong tài liệu Public_002.
+A: ...
+2025-10-18 21:13:35,994 - src.agent - INFO - [trace] original_question=Nêu chi tiết nội dung đào tạo về bảo mật web và bảo mật cơ sở dữ liệu trong tài liệu Public_002.
+A: ...
+2025-10-18 21:13:49,477 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:13:49,477 - src.agent - INFO - [trace] source_hint(by-regex)=Public_002.
+2025-10-18 21:13:49,477 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:13:49,477 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public002"
+2025-10-18 21:13:49,477 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public002"'}
+2025-10-18 21:13:49,477 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:13:49,482 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:13:49,483 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:13:49,484 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:14:02,872 - src.agent - INFO - Thread ID updated to: 1760796842872_5de6df5fcbb64ce9bc32518644d0b573
+2025-10-18 21:14:02,873 - src.agent - INFO - [trace] run_mcq called with question: Nhóm môn học trong tài liệu Public_002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh ...
+2025-10-18 21:14:02,875 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:14:02,875 - src.agent - INFO - [trace] run_mcq content: Nhóm môn học trong tài liệu Public_002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh vực nào?
+A: Cơ khí – Điện tử
+B: Công nghệ thông tin (CSDL, mạng, bảo mật, dữ liệu lớn, IoT, học máy)...
+2025-10-18 21:14:02,876 - src.agent - INFO - Thread ID updated to: 1760796842876_870a47c1f9024681ade8f4f78bccbb06
+2025-10-18 21:14:02,876 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:14:02,880 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:14:02,882 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:14:02,882 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:14:02,883 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Nhóm môn học trong tài liệu Public_002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh ...
+2025-10-18 21:14:02,888 - src.agent - INFO - [trace] original_question=Nhóm môn học trong tài liệu Public_002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh ...
+2025-10-18 21:14:16,433 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:14:16,433 - src.agent - INFO - [trace] source_hint(by-regex)=Public_002 tập trung cung cấp cho sinh viên kiến thức tổng quan về lĩnh vực nào
+2025-10-18 21:14:16,433 - src.agent - INFO - [trace] source_hint_norm=public002tptrungcungcpchosinhvinkinthctngquanvlnhvcno
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public002tptrungcungcpchosinhvinkinthctngquanvlnhvcno"
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public002tptrungcungcpchosinhvinkinthctngquanvlnhvcno"'}
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] source_hint_norm=public002tptrungcungcpchosinhvinkinthctngquanvlnhvcno
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:14:16,435 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:14:29,918 - src.agent - INFO - Thread ID updated to: 1760796869918_f8205ff324b74514b0259043794e811d
+2025-10-18 21:14:29,918 - src.agent - INFO - [trace] run_mcq called with question: Trong tài liệu Public_002, đối với đoạn liệt kê các học phần từ số 47 đến 81, nếu các học phần này đ...
+2025-10-18 21:14:29,919 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:14:29,919 - src.agent - INFO - [trace] run_mcq content: Trong tài liệu Public_002, đối với đoạn liệt kê các học phần từ số 47 đến 81, nếu các học phần này được trải đều trên 7 trang, trung bình mỗi trang mô tả bao nhiêu học phần?
+A: 5
+B: 6
+C: 7
+D: 8...
+2025-10-18 21:14:29,921 - src.agent - INFO - Thread ID updated to: 1760796869921_f0c74e1afa544e5ea2ab5e0e02cbd312
+2025-10-18 21:14:29,922 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:14:29,925 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:14:29,926 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:14:29,926 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:14:29,927 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:29,928 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:14:29,928 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:14:29,928 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:14:29,931 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:29,931 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:14:29,931 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:14:29,933 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Trong tài liệu Public_002, đối với đoạn liệt kê các học phần từ số 47 đến 81, nếu các học phần này đ...
+2025-10-18 21:14:29,933 - src.agent - INFO - [trace] original_question=Trong tài liệu Public_002, đối với đoạn liệt kê các học phần từ số 47 đến 81, nếu các học phần này đ...
+2025-10-18 21:14:43,328 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:14:43,330 - src.agent - INFO - [trace] source_hint(by-regex)=Public_002
+2025-10-18 21:14:43,330 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:14:43,331 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public002"
+2025-10-18 21:14:43,331 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public002"'}
+2025-10-18 21:14:43,331 - src.agent - INFO - [trace] source_hint_norm=public002
+2025-10-18 21:14:43,334 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:14:43,334 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:14:43,334 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:14:56,888 - src.agent - INFO - Thread ID updated to: 1760796896888_95d0dce7215f4fa2876a2f7972496096
+2025-10-18 21:14:56,890 - src.agent - INFO - [trace] run_mcq called with question: Điểm BLEU được dùng để đánh giá chất lượng bản dịch trong tài liệu Public_003 là gì?...
+2025-10-18 21:14:56,890 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:14:56,891 - src.agent - INFO - [trace] run_mcq content: Điểm BLEU được dùng để đánh giá chất lượng bản dịch trong tài liệu Public_003 là gì?
+A: Một thuật toán dịch máy
+B: Một loại dữ liệu song ngữ
+C: Một phương pháp đánh giá tự động chất lượng dịch máy
+D: ...
+2025-10-18 21:14:56,891 - src.agent - INFO - Thread ID updated to: 1760796896891_c5a23d319bf24005820438b00cafde30
+2025-10-18 21:14:56,891 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:14:56,896 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:14:56,897 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:14:56,897 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:14:56,898 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:56,898 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:14:56,898 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:14:56,900 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:14:56,900 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:14:56,901 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:14:56,901 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:14:56,901 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Điểm BLEU được dùng để đánh giá chất lượng bản dịch trong tài liệu Public_003 là gì?
+A: Một thuật to...
+2025-10-18 21:14:56,901 - src.agent - INFO - [trace] original_question=Điểm BLEU được dùng để đánh giá chất lượng bản dịch trong tài liệu Public_003 là gì?
+A: Một thuật to...
+2025-10-18 21:15:10,272 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:15:10,273 - src.agent - INFO - [trace] source_hint(by-regex)=Public_003 là gì
+2025-10-18 21:15:10,273 - src.agent - INFO - [trace] source_hint_norm=public003lg
+2025-10-18 21:15:10,275 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public003lg"
+2025-10-18 21:15:10,275 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public003lg"'}
+2025-10-18 21:15:10,275 - src.agent - INFO - [trace] source_hint_norm=public003lg
+2025-10-18 21:15:10,275 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:15:10,275 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:15:10,279 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']
+2025-10-18 21:15:23,807 - src.agent - INFO - Thread ID updated to: 1760796923807_c40b947c1fad49518143695124ffd7dd
+2025-10-18 21:15:23,807 - src.agent - INFO - [trace] run_mcq called with question: Công cụ nào được nhóm tác giả của tài liệu Public_003 sử dụng để huấn luyện các hệ dịch nơ ron?...
+2025-10-18 21:15:23,807 - src.agent - INFO - [trace] run_mcq options: ['A', 'B', 'C', 'D']
+2025-10-18 21:15:23,809 - src.agent - INFO - [trace] run_mcq content: Công cụ nào được nhóm tác giả của tài liệu Public_003 sử dụng để huấn luyện các hệ dịch nơ ron?
+A: Moses
+B: OpenNMT
+C: TensorFlow
+D: Fairseq...
+2025-10-18 21:15:23,809 - src.agent - INFO - Thread ID updated to: 1760796923809_df7eb609074d47409f0c52373b3d34f7
+2025-10-18 21:15:23,811 - src.agent - INFO - [trace] run_mcq invoking graph...
+2025-10-18 21:15:23,814 - src.agent - INFO - [trace] _generate_query_or_respond called
+2025-10-18 21:15:23,815 - src.agent - INFO - [trace] state.messages count: 1
+2025-10-18 21:15:23,816 - src.agent - INFO - [trace] DEBUG: Starting source hint extraction...
+2025-10-18 21:15:23,817 - src.agent - INFO - [trace] message[0] type=<class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:15:23,818 - src.agent - INFO - [trace] message[0] dir=['additional_kwargs', 'construct', 'content', 'content_blocks', 'copy', 'dict', 'from_orm', 'get_lc_namespace', 'id', 'is_lc_serializable', 'json', 'lc_attributes', 'lc_id', 'lc_secrets', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'name', 'parse_file', 'parse_obj', 'parse_raw', 'pretty_print', 'pretty_repr', 'response_metadata', 'schema', 'schema_json', 'text', 'to_json', 'to_json_not_implemented', 'type', 'update_forward_refs', 'validate']
+2025-10-18 21:15:23,818 - src.agent - INFO - [trace] message[0] role=human
+2025-10-18 21:15:23,819 - src.agent - INFO - [trace] DEBUG: Found user message at index 0 with role=human
+2025-10-18 21:15:23,820 - src.agent - INFO - [trace] DEBUG: first_user_msg type: <class 'langchain_core.messages.human.HumanMessage'>
+2025-10-18 21:15:23,820 - src.agent - INFO - [trace] DEBUG: first_user_msg has content: True
+2025-10-18 21:15:23,821 - src.agent - INFO - [trace] DEBUG: first_user_msg.content type: <class 'str'>
+2025-10-18 21:15:23,822 - src.agent - INFO - [trace] DEBUG: first_user_msg.content preview: Công cụ nào được nhóm tác giả của tài liệu Public_003 sử dụng để huấn luyện các hệ dịch nơ ron?
+A: M...
+2025-10-18 21:15:23,822 - src.agent - INFO - [trace] original_question=Công cụ nào được nhóm tác giả của tài liệu Public_003 sử dụng để huấn luyện các hệ dịch nơ ron?
+A: M...
+2025-10-18 21:15:37,381 - src.agent - WARNING - [trace] LLM failed to extract source hint: Connection error.
+2025-10-18 21:15:37,383 - src.agent - INFO - [trace] source_hint(by-regex)=Public_003 sử dụng để huấn luyện các hệ dịch nơ ron
+2025-10-18 21:15:37,383 - src.agent - INFO - [trace] source_hint_norm=public003sdnghunluyncchdchnron
+2025-10-18 21:15:37,384 - src.agent - INFO - [trace] retriever.expr=source_normalized == "public003sdnghunluyncchdchnron"
+2025-10-18 21:15:37,384 - src.agent - INFO - [trace] search_kwargs={'k': 3, 'mmr': True, 'fetch_k': 12, 'expr': 'source_normalized == "public003sdnghunluyncchdchnron"'}
+2025-10-18 21:15:37,385 - src.agent - INFO - [trace] source_hint_norm=public003sdnghunluyncchdchnron
+2025-10-18 21:15:37,387 - src.agent - INFO - [trace] using_namespace=False
+2025-10-18 21:15:37,388 - src.agent - INFO - [trace] retriever_fallback_enabled=False
+2025-10-18 21:15:37,389 - src.agent - INFO - [trace] mcq_options_detected=['A', 'B', 'C', 'D']

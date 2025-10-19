@@ -1,0 +1,447 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/7616dea0a67f74d03be20ccc0e8fe546b9781bdebe72e4c3c24e90686cfb5689.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 119</td></tr><tr><td rowspan=1 colspan=1>LINEAR DISCRIMINANT ANALYSIS(LDA) -—GIOI THIEU &amp;GHI CHU</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Giới thiệu ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            123,
+            317,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Trong hai bài viết trước, PCA (unsupervised) giữ lại tổng phương sai lớn nhất nhưng không dùng nhãn. Trong phân lớp (supervised), tận dụng nhãn thường cho kết quả tốt hơn. Ví dụ chiếu lên các hướng d1 (gần PC1) và d2 (gần thành phần phụ): d1 có thể làm hai lớp chồng lấn, trong khi d2 tách tốt hơn cho classification. Điều này cho thấy giữ lại nhiều phương sai nhất không phải lúc nào cũng tốt cho phân lớp. LDA ra đời để tìm phép chiếu tuyến tính (projection matrix) tối đa hóa khả năng phân biệt (discriminant). Với C lớp, số chiều mới không vượt quá C−1. ",
+        "bbox": [
+            163,
+            156,
+            885,
+            324
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. LDA cho bài toán với 2 classes ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            333,
+            522,
+            352
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.1 Ý tưởng cơ bản ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            368,
+            371,
+            388
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Discriminant tốt khi: (i) mỗi lớp tập trung (within-class variance nhỏ), (ii) các lớp cách xa nhau (between-class variance lớn). ",
+        "bbox": [
+            164,
+            391,
+            880,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.2 Xây dựng hàm mục tiêu ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            442,
+            458,
+            461
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ký hiệu: dữ liệu $x \\_ n$ , phép chiếu $y \\_ n = w { \\wedge } T x \\_ n .$ ",
+        "bbox": [
+            163,
+            466,
+            625,
+            488
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Kỳ vọng mỗi lớp: m $\\underline { { \\mathbf { \\Pi } } } _ { - } \\mathbf { k } = ( 1 / \\mathbf { N } \\underline { { \\mathbf { \\Pi } } } _ { - } \\mathbf { k } ) \\sum _ { - } \\{ \\mathfrak { n } { \\in } \\mathbf { C } \\underline { { \\mathbf { \\Pi } } } _ { - } \\mathbf { k } \\} \\mathbf { x } \\underline { { \\textbf { \\Pi } } } _ { - } \\mathbf { n }$ , k=1,2. (1) ",
+        "bbox": [
+            164,
+            491,
+            769,
+            513
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hiệu kỳ vọng sau chiếu: $\\mathrm { m } \\_ 1 - \\mathrm { m } \\_ 2 \\Rightarrow \\mathrm { w } ^ { \\wedge } \\mathrm { T } ( \\mathrm { m } \\_ 1 - \\mathrm { m } \\_ 2 ) .$ (2) ",
+        "bbox": [
+            163,
+            516,
+            752,
+            538
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Within-class variances (không lấy trung bình): $\\scriptstyle \\mathtt { s \\_ k } \\wedge 2 = \\sum _ { - } \\{ \\mathtt { n } \\in \\mathbb { C } \\_ \\mathrm { k } \\} ( \\mathtt { y \\_ n } -$ $\\mathrm { ~ m ~ } \\mathbf { k } ) \\mathord { \\uparrow } 2$ . (3) ",
+        "bbox": [
+            164,
+            541,
+            878,
+            584
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ma trận between-class: $\\mathrm { S \\_ B } = ( \\mathrm { m \\_ l } - \\mathrm { m \\_ } 2 ) ( \\mathrm { m \\_ l } - \\mathrm { m \\_ } 2 ) ^ { \\wedge } \\mathrm { T } .$ (5) ",
+        "bbox": [
+            168,
+            587,
+            766,
+            609
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ma trận within-class: $\\begin{array} { r l r } { \\mathrm { S } _ { - } \\mathrm { W } } & { { } = } & { \\sum _ { - } \\{ \\mathrm { k } { = } 1 \\} { \\wedge } 2 } \\end{array}$ ∑_{n∈C_k} $( \\mathrm { x \\_ n - m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ n - m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } m \\mathrm { \\underline { { ~ \\cdot ~ } } } m \\mathrm { \\underline { { ~ \\cdot ~ } } } } } } } } } } } } } } } $ (6) ",
+        "bbox": [
+            166,
+            611,
+            877,
+            654
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hàm mục tiêu Fisher $( 2 \\ : \\mathbf { l i } \\delta \\mathbf { p } )$ : ",
+        "bbox": [
+            166,
+            659,
+            458,
+            678
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8d7bd6aa6861d54cda9c2bae6d5ba4c365f93e8b033bd5160efecac0fc914846.jpg",
+        "text": "$$\n\\mathrm { J ( w ) } = ( \\mathrm { w } ^ { \\wedge } \\mathrm { T } \\mathrm { S } \\_ { \\mathbf { B } } \\mathrm { w } ) / ( \\mathrm { w } ^ { \\wedge } \\mathrm { T } \\mathrm { S } \\_ { \\mathbf { W } } \\mathrm { w } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            310,
+            682,
+            668,
+            705
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.3 Nghiệm tối ưu (Fisher’s linear discriminant) ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            710,
+            662,
+            731
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Đạo hàm và sắp xếp lại: ",
+        "bbox": [
+            166,
+            735,
+            398,
+            755
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bbac77fc6038a5d93ee9aed48074261fec8acdd27cd70e151345199f98dc1108.jpg",
+        "text": "$$\n\\mathrm { S \\_ W \\wedge \\{ - 1 \\} \\setminus S \\_ B \\ w = J ( w ) \\ w . }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            758,
+            628,
+            783
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chọn nghiệm tỷ lệ: ",
+        "bbox": [
+            164,
+            786,
+            359,
+            805
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dd75617f38607ff67ac3ad4ff8897082599ab1352051ac79d6e8b302fece8b60.jpg",
+        "text": "$$\n{ \\bf w } = { \\bf { \\alpha } } { \\bf S \\_ W } { \\bf \\wedge } \\{ - 1 \\} ( { \\bf m \\_ 1 } - { \\bf m \\_ 2 } ) , { \\bf \\alpha } { \\bf { \\alpha } } { \\bf { \\alpha } } { \\bf { 0 } } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            808,
+            670,
+            833
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. LDA cho multi-class classification ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            838,
+            556,
+            857
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Phép chiếu tuyến tính: $\\mathbf { y } = \\mathbf { W } \\mathbf { \\land } \\mathbf { T } \\mathbf { \\land }$ , $\\mathrm { W } \\in \\mathrm { R } ^ { \\wedge } \\{ \\mathrm { D } { \\times } \\mathrm { D } ^ { \\prime } \\}$ . Không dùng bias. Within-class tổng quát: ",
+        "bbox": [
+            163,
+            871,
+            833,
+            919
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/0c0205cafb7c708ef9f52bc440b51cc1074de9e337a61293bb5ff8fa99a9d86c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 119</td></tr><tr><td rowspan=1 colspan=1>LINEAR DISCRIMINANT ANALYSIS(LDA) — GIÓI THIEU &amp; GHI CHú</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { s } \\_ { \\mathbf { W } } =$ trace(W^T S_W W), với S_W = ∑_{k=1}^C ∑_{n∈C_k} (x_n − $\\underline { { { \\mathrm { ~ m ~ k ~ } } } } ) ( \\underline { { { \\mathrm { ~ x ~ } } } } \\underline { { { \\mathrm { ~ n ~ } } } } - \\underline { { { \\mathrm { ~ m ~ } } } } \\underline { { { \\mathrm { ~ k ~ } } } } ) { \\mathrm { { ~ \\hat { T } } } } .$ (17–19) ",
+        "bbox": [
+            163,
+            115,
+            884,
+            157
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Between-class tổng quát: ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            161,
+            418,
+            181
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { s } \\_ { \\mathbf { B } } =$ trace(W^T S_B W), với S_B = ∑_{k=1}^C N_k (m_k − m)(m_k − $\\mathrm { m } ) { } ^ { \\wedge } \\mathrm { T }$ . (21–22) ",
+        "bbox": [
+            163,
+            186,
+            882,
+            228
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hàm mục tiêu multi-class: ",
+        "bbox": [
+            164,
+            232,
+            433,
+            251
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/10be4eb0d0b32eed0f615f117bd4d69c01eb8d00f3daf7d3e3824551b2809519.jpg",
+        "text": "$$\n\\operatorname { J } ( \\mathbb { W } ) = \\operatorname { t r a c e } ( \\mathbb { W } \\wedge \\operatorname { T } \\operatorname { S } _ { - } \\operatorname { B } \\mathbb { W } ) / \\operatorname { t r a c e } ( \\mathbb { W } ^ { \\wedge } \\operatorname { T } \\operatorname { S } _ { - } \\mathbb { W } \\mathbb { W } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            256,
+            759,
+            277
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Điều kiện tối ưu bậc nhất: ",
+        "bbox": [
+            166,
+            279,
+            415,
+            300
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/22db4e33a4af9c8868c60f0216f66b73e675d43f4a30269bce9c80ed4d7afccb.jpg",
+        "text": "$$\n\\mathrm { S \\_ W } { \\setminus } \\{ - 1 \\} \\mathrm { S \\_ B } \\mathrm { W } = \\mathrm { J } \\mathrm { W } .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            305,
+            618,
+            330
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Các cột của $W$ là các eigenvectors ứng với các trị riêng lớn nhất của $S \\_ W \\wedge \\{ - I \\} \\ S \\_ B$ . ",
+        "bbox": [
+            161,
+            331,
+            884,
+            371
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Bổ đề: rank $\\langle ( S \\_ B ) \\leq C - I \\Rightarrow s \\acute { \\partial }$ chiều tối đa sau $L D A \\leq C - I$ . ",
+        "bbox": [
+            164,
+            374,
+            756,
+            396
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4. Ví dụ nhanh (Python, phác thảo) ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            404,
+            547,
+            425
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Tạo dữ liệu 2 lớp: $X 0 , X I \\in R \\land \\{ N \\land D \\}$ ; tính m0, m1. ",
+        "bbox": [
+            163,
+            439,
+            670,
+            459
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5d35d88541d76711f1cfd4af04760384073052d9979c837e64d5681174725fd6.jpg",
+        "text": "$$\n\\bullet S _ { \\_ B } = ( m O - m I ) ( m O - m I ) ^ { \\wedge } T ; S _ { \\_ B } = \\sum ( x - m _ { \\_ } k ) ( x - m _ { \\_ } k ) ^ { \\wedge } T .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            168,
+            464,
+            800,
+            488
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• W từ eigenvectors của $i n \\nu ( S \\_ W ) \\textcircled { a } S \\_ B ,$ so sánh sklearn.discriminant_analysis.LDA. ",
+        "bbox": [
+            161,
+            489,
+            889,
+            532
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5. Thảo luận ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            538,
+            319,
+            558
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "LDA là phương pháp supervised giảm chiều và/hoặc phân lớp: tối ưu small within-class & large between-class. Số chiều tối đa sau LDA $\\mathrm { l } \\dot { \\mathrm { a } } \\le \\mathrm { C } ^ { - 1 }$ . Giả định thường gặp: phân phối gần Gaussian, các ma trận hiệp phương sai giữa các lớp gần nhau. LDA tốt khi các lớp gần linearly separable; kém hiệu quả nếu không tách tuyến tính. ",
+        "bbox": [
+            163,
+            572,
+            885,
+            679
+        ],
+        "page_idx": 1
+    }
+]

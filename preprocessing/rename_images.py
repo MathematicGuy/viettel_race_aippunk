@@ -119,8 +119,10 @@ if __name__ == "__main__":
     # except NameError:
     #     script_dir = os.getcwd() #~
 
-    PATH = 'private-test-output'
-    out_dir = os.path.join(PATH)
+    PATH = 'Public_test_input'
+    OUTPUT_PATH = 'Public_test_output'
+
+    out_dir = os.path.join(OUTPUT_PATH)
 
     if os.path.exists(out_dir):
         print(f"Bắt đầu xử lý ảnh trong {out_dir}")

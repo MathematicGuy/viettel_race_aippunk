@@ -1,0 +1,925 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/ca22cb27d4a9b33bd8d0ed6254ef6bdd8cd20d08ee1160c80a9d889514870019.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V -</td><td>TD128</td></tr><tr><td>Chuyěn dong trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hiểu biết về các cơ sở của chuyển động trong không gian 2 chiều (từ đây gọi tắt là chuyển động hai chiều) sẽ cho chúng ta (trong các chương sau) khảo sát các tình huống khác nhau, từ chuyển động của các vệ tinh trên quỹ đạo đến chuyển động của các electron trong điện trường đều. Chúng ta sẽ bắt đầu nghiên cứu chi tiết hơn về ",
+        "bbox": [
+            84,
+            170,
+            906,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "bản chất vec-tơ của vị trí, vận tốc và gia tốc. Sau đó sẽ xử lý chuyển động ném nghiêng và chuyển động tròn đều như là các trường hợp đặc biệt của chuyển động hai chiều. Chúng ta cũng sẽ thảo luận về khái niệm chuyển đông tương đối. ",
+        "bbox": [
+            89,
+            248,
+            906,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Các vec-tơ vị trí, vận tốc và gia tốc ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            319,
+            490,
+            340
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4.1.1 Vec-tơ độ dời ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            348,
+            287,
+            367
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Trong chương 2, ta đã thấy rằng chuyển động của một chất điểm theo một đường thẳng sẽ được xác định hoàn toàn nếu vị trí của nó được biết đến như là một hàm của thời gian. Bây giờ ta sẽ mở rộng ý tưởng này sang chuyển động 2 chiều của một chất điểm trong mặt phẳng xy. Ta bắt đầu bằng việc mô tả vị trí của một chất điểm bằng vec-tơ vị trí r , vẽ từ gốc của một hệ tọa độ đến vị trí của hạt trong mặt phẳng xy (hình 4.1). ",
+        "bbox": [
+            114,
+            372,
+            903,
+            411
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            116,
+            412,
+            668,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/47a3e2b7cb66948815a091fcda21ce60c44b6b9e6ead328fd3f89789316febf5.jpg",
+        "image_caption": [
+            "Hình 4.1 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            669,
+            416,
+            905,
+            585
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tại thời điểm ti, vị trí của chất điểm là ở A, được mô tả bởi vec-tơ $\\vec { \\bf r } _ { \\mathrm { i } }$ , tại thời điểm tf, vị trí của chất điểm là B, được mô tả bởi vec-tơ $\\vec { \\bf r } _ { \\mathrm { f } }$ . Quỹ đạo của chất điểm là đoạn cong AB. ",
+        "bbox": [
+            114,
+            494,
+            658,
+            563
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Vec-tơ độ dời của chất điểm được định nghĩa là hiệu của vec-tơ vị trí $\\tilde { \\mathbf { 0 } }$ thời điểm cuối và vec-tơ vị trí ở thời điểm đầu của chất điểm. ",
+        "bbox": [
+            114,
+            571,
+            661,
+            631
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/af8c0ec1ba8578e723d6b709686acc58991f2dc50a4c4b5896c608ebae40b72d.jpg",
+        "text": "$$\n\\Delta \\vec { \\mathbf { r } } \\equiv \\vec { \\mathbf { r } } _ { t } - \\vec { \\mathbf { r } } _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            318,
+            637,
+            410,
+            657
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Như vậy động học chuyển động hai chiều (2 chiều hoặc 3 ",
+        "bbox": [
+            137,
+            665,
+            655,
+            688
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "chiều), mọi thứ đều tương tự như trong chuyển động một chiều ngoại trừ việc ta phải sử dụng trọn vẹn cách biểu diễn vec-tơ. ",
+        "bbox": [
+            114,
+            700,
+            903,
+            739
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/2e257a91a278d2967396e60e6c24df65124607483414c12744daf6746419e7bc.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V •</td><td>TD128</td></tr><tr><td>Chuyěn dong trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1.2 Vận tốc trung bình: ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            145,
+            343,
+            166
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vận tốc trung bình bằng vec-tơ độ dời chia cho khoảng thời gian thực hiện độ dời đó. Hướng của vận tốc trung bình là hướng của vec-tơ độ dời. ",
+        "bbox": [
+            114,
+            171,
+            591,
+            229
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ea27ca0731b32e0ea3431b2c99f3c358380b4935838c80a234c36afa90e79d03.jpg",
+        "text": "$$\n\\vec { \\bf v } _ { a v g } \\equiv \\frac { \\Delta \\vec { \\bf r } } { \\Delta t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            236,
+            248,
+            276
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1.3 Vận tốc tức thời: ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            284,
+            316,
+            304
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vận tốc tức thời là giới hạn của vận tốc trung bình khi $\\Delta t$ tiến tới không (tức là bằng đạo hàm của vec-tơ độ dời theo thời gian). ",
+        "bbox": [
+            112,
+            309,
+            591,
+            368
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aafad826dacb5008f4a3982089b6a096477fdc43f56e74880e8078623c9e6ac9.jpg",
+        "text": "$$\n\\vec { \\pmb { v } } \\equiv | \\mathbf { \\operatorname* { i m } } _ { \\Delta t  0 } \\frac { \\Delta \\vec { \\mathbf { r } } } { \\Delta t } = \\frac { d \\vec { \\mathbf { r } } } { d t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            150,
+            375,
+            294,
+            415
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vận tốc tức thời tại mỗi điểm trên quỹ đạo của chất ",
+        "bbox": [
+            143,
+            421,
+            588,
+            444
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/ce2cd513d1611de06e355b41cfa6e75fbee3135a35e3aa55cd55a7ee8ce48f56.jpg",
+        "image_caption": [
+            "Hình 4.2 Vận tốc tức thời tại điểm A có phương là đường tiếp tuyến với quỹ đạo tại điểm A. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            604,
+            145,
+            903,
+            356
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "điểm có phương là phương tiếp tuyến với quỹ đạo và có chiều là chiều chuyển động. ",
+        "bbox": [
+            119,
+            457,
+            838,
+            479
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Độ lớn của vận tốc tức thời được gọi là tốc độ. Tốc độ là một đại lượng vô hướng. ",
+        "bbox": [
+            122,
+            483,
+            843,
+            505
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1.4 Gia tốc trung bình ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            511,
+            331,
+            531
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Gia tốc trung bình của một chất điểm chuyển động được định nghĩa bằng độ biến thiên của vận tốc tức thời chia cho khoảng thời gian diễn ra sự biến thiên đó. ",
+        "bbox": [
+            116,
+            536,
+            890,
+            577
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c05f5678238615a0dbb6db9e2e125b2bf84b86bbd30a4c4acb5ccc1466e77a25.jpg",
+        "text": "$$\n\\vec { \\textbf { a } } _ { a v g } \\equiv \\frac { \\Delta \\vec { \\textbf { v } } } { \\Delta t } = \\frac { \\vec { \\textbf { v _ { \\mathrm { f } } } } - \\vec { \\textbf { v _ { i } } } } { t _ { \\mathrm { f } } - t _ { \\mathrm { ~ , ~ } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            281,
+            589,
+            450,
+            636
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Gia tốc trung bình là một đại lượng vec-tơ cùng hướng với $\\Delta \\vec { \\mathbf { v } }$ ",
+        "bbox": [
+            147,
+            645,
+            687,
+            666
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1.5 Gia tốc tức thời: ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            671,
+            312,
+            693
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Gia tốc tức thời là giới hạn khi $\\Delta t$ tiến đến không của ∆??ሬԦ ∆?? ",
+        "bbox": [
+            150,
+            700,
+            640,
+            731
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Gia tốc tức thời bằng đạo hàm theo thời gian của vec-tơ vận tốc. ",
+        "bbox": [
+            148,
+            825,
+            694,
+            845
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 4.1: Xét các vật điều khiển trong 1 ô tô gồm: bàn đạp ga, phanh, tay lái. Trong 3 vật này, vật nào gây ra gia tốc cho xe? (a) Cả 3 vật, (b) bàn đạp ga và phanh, (c) phanh, (d) bàn đạp ga, và (e) tay lái. ",
+        "bbox": [
+            112,
+            853,
+            906,
+            912
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/78ecfaa9f3a246c8de595f06896cdea3968400ab4cbdd1af2e05f724d477a991.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>1 VIETTEL AI RACE</td><td>TD128</td></tr><tr><td>Chuyén dong trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            946,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động hai chiều với gia tốc không đổi ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            145,
+            591,
+            169
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4.2.1 Các phương trình động học trong chuyển động hai chiều: ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            174,
+            679,
+            195
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nếu một chuyển động hai chiều có gia tốc không đổi, ta có thể tìm được một hệ phương trình để mô tả chuyển động đó. Các phương trình này tương tự như các phương trình động học trong chuyển động thẳng. ",
+        "bbox": [
+            114,
+            199,
+            908,
+            258
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Có thể mô hình hóa chuyển động trong không gian 2 chiều như là hai chuyển động độc lập trong từng hướng gắn với các trục x và y. Lưu $\\acute { y }$ : tác động lên chuyển động theo trục y không ảnh hưởng đến chuyển động theo trục x. ",
+        "bbox": [
+            114,
+            263,
+            905,
+            321
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Các phương trình động học: ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            330,
+            406,
+            349
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vec-tơ vị trí của một chất điểm chuyển động trong mặt phẳng xy là ",
+        "bbox": [
+            148,
+            354,
+            722,
+            376
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/930bccd880b200763c8d6a4bcabdf9ac26ee08b0bb404534de37f816a920abf9.jpg",
+        "text": "$$\n\\hat { \\mathbf { r } } { = } x \\mathbf { \\hat { i } } { + } y \\mathbf { \\hat { j } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            316,
+            388,
+            421,
+            414
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vec-tơ vận tốc của chất điểm được xác định bởi: ",
+        "bbox": [
+            148,
+            424,
+            563,
+            445
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5f9028de554bc4199847174a7f042435b9f465d6c8e5b4860b6da5dd6a4801e2.jpg",
+        "text": "$$\n\\overset { \\triangledown } { \\boldsymbol { \\nu } } = \\frac { d \\mathfrak { r } } { d t } = \\frac { d x \\cdot \\mathrm {  ~ \\hat { \\mu } ~ } } { d t } \\overset { \\triangledown } { \\mathbf { i } } + \\frac { d y \\cdot \\mathrm {  ~ \\hat { \\mu } ~ } } { d t } \\bf \\hat { j } = \\nabla \\hat { \\mu } _ { x } ^ { \\mathrm {  ~ \\hat { \\mu } ~ } } + V _ { y } \\cdot \\mathrm {  ~ \\hat { j } ~ }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            235,
+            450,
+            501,
+            492
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vì gia tốc của chất điểm là hằng số nên ta tìm được biểu thức của vận tốc như là hàm của thời gian: ",
+        "bbox": [
+            114,
+            500,
+            905,
+            540
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c25b50f18af36b49e8897a04d7cd6eaf875be5cc16391ac389b21de12e093847.jpg",
+        "text": "$$\n\\vec { \\bf v } _ { t } = \\vec { \\bf v } _ { i } + \\vec { \\bf a } t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            547,
+            416,
+            569
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vị trí của chất điểm cũng được biểu diễn như là hàm của thời gian: ",
+        "bbox": [
+            148,
+            575,
+            718,
+            598
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7d31f0dfe7254af427de36cbea2b91ddda4765a85a02cadc73fdd242316792c4.jpg",
+        "text": "$$\n\\mathbf { \\Delta } \\mathbf { r } _ { } = \\mathbf { r } _ { } + \\mathbf { v } _ { } t + \\mathbf { \\Delta } \\mathbf { \\frac { 1 } { 2 } } \\mathbf { a } t ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            601,
+            449,
+            637
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/04f196b4b960a2e0add261fb900685a616bed7b53bb63d282617f0bf9617f0f2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            276,
+            650,
+            794,
+            844
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hình 4.3 Biểu diễn các thành phần của vec-tơ (a) vị trí, (b) vận tốc trong chuyển động hai chiều có gia tốc không đổi ",
+        "bbox": [
+            122,
+            853,
+            893,
+            895
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động ném nghiêng ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            906,
+            416,
+            931
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/a522302809c9334c3109068b0aa5fda80542d9d208f4f6655f957b1c4265728d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE    V</td><td rowspan=1 colspan=1>TD128</td></tr><tr><td rowspan=1 colspan=1>Chuyěn dong trong khòng gian hai chièu</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            944,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Một vật có thể đồng thời chuyển động theo hai trục x và y. Trong phần này, ta xem xét chuyển động ném nghiêng. Phân tích chuyển động ném nghiêng của một vật sẽ đơn giản nếu chấp nhận 2 giả định: ",
+        "bbox": [
+            114,
+            138,
+            906,
+            198
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Gia tốc rơi tự do là hằng số trong phạm vi chuyển động và hướng xuống dưới (giống như là quả đất là phẳng trong phạm vi khảo sát, điều này là hợp lý nếu phạm vi này là bé so với bán kính của Quả đất).   \n• Bỏ qua sức cản của không khí. ",
+        "bbox": [
+            142,
+            204,
+            906,
+            284
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phân tích chuyển động ném nghiêng: Xét một chất điểm được ném nghiêng từ gốc tọa độ với vận tốc ban đầu ??ሬ $\\mathrm { h } _ { \\iota } \\mathrm { c } \\acute { 0 }$ phương hợp với phương ngang một góc $\\theta _ { \\mathrm { i } }$ . Với 2 giả định nêu trên, quỹ đạo của chất điểm luôn là một parabol như trong hình 4.4. Ở điểm cao nhất của quỹ đạo, vận tốc theo phương thẳng đứng bằng 0. Gia tốc luôn bằng g tại mọi điểm trên quỹ đạo. ",
+        "bbox": [
+            114,
+            290,
+            465,
+            481
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cụ thể, chúng ta sẽ đi thiết lập phương trình chuyển động của chất điểm trên theo 2 phương x và y. Chuyển ",
+        "bbox": [
+            114,
+            487,
+            464,
+            546
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/1c633d27f87f0dd128b2a2f72e6f4feff5c2ce49f3b293e8ce586d2268f92f21.jpg",
+        "image_caption": [
+            "Hình 4.4 Quỹ đạo parabol của chất điểm được ném nghiêng $I$ góc $\\theta _ { i }$ từ gốc tọa độ với vận tốc ban đầu $\\nu _ { i }$ "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            477,
+            290,
+            887,
+            467
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "động của chất điểm là tổng hợp của các chuyển động theo phương $x$ và y. Vị trí của chất điểm tại thời điểm bất kỳ cho bởi: ",
+        "bbox": [
+            114,
+            559,
+            901,
+            599
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8e86a693d79dac65ace8e5f0bc1d5ed7c971e50b3ffa01c1fdd19beee27dbe0b.jpg",
+        "text": "$$\n{ \\vec { \\mathbf { r } } } _ { t } = { \\vec { \\mathbf { r } } } _ { i } + { \\vec { \\mathbf { v } } } _ { i } t + \\big / _ { 2 } { \\vec { \\mathbf { g } } } t ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            606,
+            568,
+            637
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Từ những phân tích trên ta viết được: ",
+        "bbox": [
+            150,
+            645,
+            467,
+            665
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Theo phương x: $\\mathtt { a _ { X } } = 0$ và $\\mathbf { V } _ { \\mathbf { X i } } =$ const nên chất điểm chuyển động thẳng đều với vận tốc $v _ { x i } = v _ { i } c o s \\theta _ { i }$ . Từ biểu thức (4.10), ta viết được phương trình chuyển động của chất điểm theo phương $\\mathbf { X }$ ứng với hệ tọa độ đã chọn như hình 4.4 như sau: ",
+        "bbox": [
+            150,
+            671,
+            900,
+            731
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/22daff7c65f9df2ac8d8ef3f1393280d3274adad2b78c07b929b44cf34722de0.jpg",
+        "text": "$$\n\\begin{array} { r } { x _ { f } = x _ { i } + \\stackrel {  } { v _ { x i } } . t + \\stackrel {  } { { } _ 2 } a _ { x } t ^ { 2 } = 0 + v _ { i } c o s \\theta _ { i } . t + 0 = v _ { i } c o s \\theta _ { i } . t } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            173,
+            727,
+            686,
+            760
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Theo phương $y \\colon a _ { y } = - g = c o n s t$ nên theo phương y chất điểm chuyển động thẳng biến đổi đều với vận tốc ban đầu $v _ { y i } = + v _ { i } s i n \\theta _ { i }$ . Từ biểu thức (4.10), ta viết được phương trình chuyển động của chất điểm theo phương y ứng với hệ tọa độ đã chọn như hình 4.4 như sau: ",
+        "bbox": [
+            150,
+            777,
+            903,
+            856
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e3e12bc3dd8b7cec5c4df80d198bd9472b260aafa12cd9fa03cb10e2d8f309e5.jpg",
+        "text": "$$\n\\begin{array} { r } { y _ { f } = y _ { i } + v _ { y i } , t + \\frac { 1 } { 2 } a _ { y } t ^ { 2 } = 0 + v _ { i } s i n \\theta _ { i } , t + \\frac { 1 } { 2 } ( - g ) t ^ { 2 } = v _ { i } s i n \\theta _ { i } , t - \\frac { 1 } { 2 } g t ^ { 2 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            160,
+            857,
+            800,
+            893
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/9ddabe42404277afb3ea7de8c37c1ae8f5e9e5d6fdf355f2e529c9eb05e4cbfd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V -</td><td>TD128</td></tr><tr><td>Chuyén dòng trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            942,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "của những chất điểm chuyển động ném nghiêng vẫn là phương trình bậc 2 của y phụ thuộc x theo quỹ đạo parabol. ",
+        "bbox": [
+            114,
+            145,
+            906,
+            185
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 4.2: (i) Giả sử một vật chuyển động ném nghiêng với quỹ đạo parabol như hình 4.4, tại điểm nào trên quỹ đạo của vật vec-tơ vận tốc và vec-tơ gia tốc vuông góc với nhau? (a) không có điểm nào, (b) điểm cao nhất, (c) điểm xuất phát. (ii) Với cùng lựa chọn như trên, hỏi điểm nào trên quỹ đạo của vật vec-tơ vận tốc và vec-tơ gia tốc song song với nhau? ",
+        "bbox": [
+            114,
+            193,
+            906,
+            271
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Tầm xa và độ cao cực đại của vật ném nghiêng: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            299,
+            570,
+            319
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Khi phân tích chuyển động ném nghiêng ta thường quan tâm đến hai đặc trưng: tầm xa R (là khoảng cách xa nhất theo phương ngang so với vị trí ban đầu) và độ cao cực đại $\\pmb { h }$ (là khoảng cách xa nhất theo phương đứng so với vị trí ban đầu) mà vật đạt được (hình 4.5). ",
+        "bbox": [
+            116,
+            324,
+            665,
+            420
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/8fec533fc0c398518e04b7c02fd5464b00f596cca56746bebf83f51013e386cc.jpg",
+        "image_caption": [
+            "Hình 4.5 Tại điểm A, chất điểm đạt độ cao cực đại. Tại "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            676,
+            301,
+            906,
+            448
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• Độ cao cực đại h: Khi chất điểm đi đến điểm A – vị trí đạt độ cao cực đại, vận tốc theo phương y của nó bằng 0. Từ phương trình (4.11), cho $\\mathbf { v } _ { \\mathrm { y } } = 0$ , ta suy ra thời gian mà chất điểm đi từ O đến A là: $t _ { A } = \\begin{array} { c } { { v _ { i } s i n \\theta _ { \\underline { { i } } } } } \\\\ { { g } } \\end{array}$ . Thay tA vào phương trình chuyển động (4.13), ta thu được biểu thức độ cao cực đại của chất điểm: ",
+        "bbox": [
+            150,
+            426,
+            663,
+            580
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "điểm $B _ { : }$ , chất điểm đạt vị trí xa nhất theo phương ngang. ",
+        "bbox": [
+            676,
+            500,
+            900,
+            537
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/859dfbebc0b5f922fae8cbfa02e61a99cbeba92413c4429c7670ec4d044c03a3.jpg",
+        "text": "$$\nh = \\frac { \\stackrel { v ^ { 2 } s i n ^ { 2 } \\theta _ { i } } { } } { 2 g }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            383,
+            580,
+            513,
+            632
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• Tầm xa $\\pmb { R }$ : Khi chất điểm đến điểm B – vị trí đạt khoảng cách xa nhất theo phương ngang, tọa độ y của chất điểm bằng 0. Từ phương trình (4.14), cho $\\mathbf { y } = 0$ ta suy ra biểu thức tính thời gian chất điểm đi từ O đến B. Cách khác, đối với bài toán ta đang xét, ta thấy t $_ 3 = 2 \\mathrm { { t _ { A } } }$ . Thay tB vào phương trình (4.12) ta thu được biểu thức tính tầm xa: ",
+        "bbox": [
+            150,
+            654,
+            908,
+            733
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý: Các kết quả này (4.15) và (4.16) chỉ đúng trong trường hợp chuyển động là đối xứng. Trong trường hợp độ cao ban đầu và độ cao cuối cùng của vật khác nhau thì phải tính từ $\\mathrm { g } \\acute { \\mathrm { o c } }$ tọa độ với cùng tốc độ ban đầu ",
+        "bbox": [
+            109,
+            848,
+            509,
+            926
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/4f36f9b2472f1f7432dcace1be47679bb7d772e7548b7f473686b7af41b6e43e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            519,
+            770,
+            944,
+            950
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/fe5e24a100e44b0ffc2cc22e674044fd01853d874c74d7e1ca73a35a20efc283.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD128</td></tr><tr><td>Chuyén dong trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            947,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            138,
+            468,
+            161
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/b263a3ee0153b71858d14f4fb02c266f76c35761ad8b7fff3eb6a605b5612124.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>V VIETTEL AI RACE</td><td>TD128</td></tr><tr><td>Chuyén dòng trong khòng gian hai chièu</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            947,
+            125
+        ],
+        "page_idx": 6
+    }
+]

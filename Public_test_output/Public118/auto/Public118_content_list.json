@@ -1,0 +1,264 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/58ba2e05add725958726bc339e3dff3da51e8ae50c53771f965625be8429bf5b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 118</td></tr><tr><td rowspan=1 colspan=1>DIMENSIONALITY REDUCTION &amp;PCA</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Giới thiệu ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            123,
+            317,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dimensionality Reduction (giảm chiều dữ liệu) là một kỹ thuật quan trọng trong Machine Learning. Dữ liệu thực tế có thể có số chiều rất lớn (hàng nghìn). Việc giảm chiều giúp tiết kiệm lưu trữ, tăng tốc tính toán và có thể coi như nén dữ liệu. Một phương pháp tuyến tính cơ bản là Principal Component Analysis (PCA). ",
+        "bbox": [
+            163,
+            156,
+            885,
+            283
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Một chút toán ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            290,
+            357,
+            311
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.1 Norm 2 của ma trận ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            326,
+            420,
+            345
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/365fb3d76b81bbefdd2895037d8914409be8ae4d7ce0115a0547c35f6c687da4.jpg",
+        "text": "$$\n\\left\\| \\mathbf { A } \\right\\| _ { - } 2 = \\operatorname* { m a x } _ { - } \\mathbf { x } \\left\\| \\mathbf { A x } \\right\\| _ { - } 2 / \\left\\| \\mathbf { x } \\right\\| _ { - } 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            346,
+            350,
+            653,
+            372
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a4189d8cc820ae0261bfc7ef6cef46bba74fa13ed9db90d951793bc652f2f718.jpg",
+        "text": "$$\n\\| \\mathbf { A } \\| _ { - } 2 = \\operatorname* { m a x } _ { - } \\{ | \\mathbf { x } | | _ { - } 2 { = } 1 \\} \\| \\mathbf { A x } \\| _ { - } 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            376,
+            660,
+            397
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Giải bằng nhân tử Lagrange cho thấy norm 2 của ma trận chính là singular value lớn nhất của A. Vector tương ứng là right-singular vector của A. ",
+        "bbox": [
+            163,
+            399,
+            889,
+            463
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.2 Biểu diễn vector trong các hệ cơ sở khác nhau ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            470,
+            677,
+            490
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/283b4663c9531413962c3d6b8f50fbd95abdbc504d88667b5aaa025a3ad8c46b.jpg",
+        "text": "$$\n\\mathbf { x } = \\mathbf { U } \\mathbf { y } , \\mathbf { y } = \\mathbf { U } ^ { \\wedge } \\{ - 1 \\} \\mathbf { x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            495,
+            608,
+            516
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nếu U trực giao: $\\mathrm { U } ^ { \\wedge } \\{ - 1 \\} { = } \\mathrm { U } ^ { \\wedge } \\mathrm { T }$ , do đó $\\mathbf { y } = \\mathbf { U } \\mathbf { \\land } \\mathbf { T } \\mathbf { x }$ ",
+        "bbox": [
+            164,
+            520,
+            631,
+            540
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.3 Trace ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            548,
+            275,
+            566
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một số tính chất: - trace(A) $=$ trace(A^T) - trace $( \\mathrm { k A } ) = \\mathrm { k }$ trace(A) - trace $( \\mathrm { A B } ) =$ trace(BA) - $\\cdot \\| \\mathbf { A } \\| \\_ { \\Gamma ^ { \\wedge } 2 } =$ trace(A^T A) - trace $( \\mathbf { A } ) =$ tổng các trị riêng của A ",
+        "bbox": [
+            163,
+            571,
+            505,
+            698
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.4 Kỳ vọng và ma trận hiệp phương sai ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            706,
+            584,
+            726
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một chiều: $\\bar { \\mathbf { x } } = \\left( 1 / \\mathrm { N } \\right) \\boldsymbol { \\Sigma } \\mathbf { x } \\mathrm { ~ \\underline { { ~ n ~ } } ~ }$ , $\\sigma ^ { \\wedge } 2 = ( 1 / \\mathrm { N } ) \\Sigma ( \\mathrm { x } \\underset { - } { \\mathrm { ~ n } } - \\bar { \\mathrm { x } } ) { \\overset { \\wedge } { \\wedge } } 2$ Đa chiều: $\\bar { \\mathbf { x } } = ( 1 / \\mathrm { N } ) \\Sigma \\mathbf { x } \\underline { { \\mathrm { ~ n ~ } } }$ , $\\mathbf { S } = ( 1 / \\mathrm { N } )$ (X − x̄ 1^T)(X − x̄ 1^T)^T ",
+        "bbox": [
+            163,
+            730,
+            778,
+            776
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. Principal Component Analysis (PCA) ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            783,
+            593,
+            804
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mục tiêu: Tìm hệ cơ sở trực chuẩn sao cho phương sai dữ liệu tập trung ở K thành phần đầu. ",
+        "bbox": [
+            164,
+            818,
+            863,
+            858
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dữ liệu chuẩn hoá: ${ \\dot { \\mathbf { X } } } = { \\mathbf { X } } - { \\bar { \\mathbf { x } } } { \\mathbf { l } } \\cdot { \\mathbf { \\Omega } } { \\mathbf { T } }$ Ma trận hiệp phương sai: $\\mathbf { S } = ( 1 / \\mathrm { N } ) \\dot { \\mathrm { X } } \\dot { \\mathrm { X } } \\mathrm { \\hat { T } }$ ",
+        "bbox": [
+            163,
+            861,
+            564,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/e3c50e369200eb19174c52796c49e670af1dbbbc214dd8cf9f16420ff2c372fd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 118</td></tr><tr><td rowspan=1 colspan=1>DIMENSIONALITY REDUCTION &amp;PCA</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Hàm mất mát: $\\mathbf { J } = \\Sigma \\ \\{ \\mathrm { i } \\mathrm { = K } { + } 1 \\} \\wedge \\mathrm { D } \\ \\mathrm { u } \\ \\underline { { \\mathrm { i } } } { \\wedge } \\mathrm { T } \\ \\mathrm { S } \\ \\mathrm { u } \\ \\underline { { \\mathrm { i } } }$ Tối ưu tương đương chọn $\\mathrm { K }$ vector riêng ứng với K trị riêng lớn nhất của S. ",
+        "bbox": [
+            163,
+            115,
+            884,
+            156
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4. Các bước PCA ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            165,
+            366,
+            184
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Tính kỳ vọng x̄ - Chuẩn hoá dữ liệu: ${ \\dot { \\mathbf { X } } } = { \\mathbf { X } } - { \\bar { \\mathbf { x } } } { \\mathbf { l } } \\cdot { \\mathbf { \\Omega } } { \\mathbf { T } }$ Tính ma trận hiệp phương sai S Tính trị riêng & vector riêng, sắp xếp $\\lambda$ giảm dần Chọn K vector riêng lớn nhất $ \\mathrm { ~ U ~ } \\underline { { \\mathrm { ~ K ~ } } }$ Tính toạ độ mới: $Z = \\mathrm { U } \\_ { \\mathrm { R } } \\mathrm { \\tiny { \\wedge } } \\mathrm { T } \\dot { X }$ Xấp xỉ khôi phục: $\\mathbf { x } \\approx \\mathbf { U } \\subset \\mathbf { K } \\subset + { \\bar { \\mathbf { x } } }$ ",
+        "bbox": [
+            193,
+            200,
+            692,
+            347
+        ],
+        "page_idx": 1
+    }
+]

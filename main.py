@@ -35,12 +35,12 @@ llm = load_llm()
 
 def main():
     # Configuration
-    INPUT_PATH = "private-test-input"
-    OUTPUT_PATH = "private-test-output"
-    # MILVUS_URI = "http://localhost:19530"
-    # MILVUS_TOKEN = "root:Milvus"
-    MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
-    MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
+    INPUT_PATH = "Public_test_input"
+    OUTPUT_PATH = "Public_test_output"
+    MILVUS_URI = "http://localhost:19530"
+    MILVUS_TOKEN = "root:Milvus"
+    # MILVUS_URI = "https://in03-7b3b56e59d62e9d.serverless.aws-eu-central-1.cloud.zilliz.com"
+    # MILVUS_TOKEN = "30cff684b802d87f26e0c7ea80e43c759237808981ac1563ae400b00316ff84be4261492ee91b9f55ec6ad8a25b7be9b483fc957"
 
     logging.getLogger("pymilvus").setLevel(logging.DEBUG)
     store = MilvusHybridStore(MILVUS_URI, MILVUS_TOKEN)

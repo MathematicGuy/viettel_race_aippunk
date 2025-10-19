@@ -1,0 +1,760 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/44fbab02f3228a9d59d1aa43d639f4f4bd16587b5dab15439557a36bf09e70ef.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Binary relevance (BR) ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            123,
+            442,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp chuyển đổi đơn giản nhất là phương pháp chuyển đổi nhị phân (BR), tức là với mỗi nhãn khác nhau sẽ xây dựng một bộ phân lớp khác nhau. Phương pháp này xây dựng |L| bộ phân lớp nhị phân: Hl: $\\mathrm { X \\to \\{ l ; - l \\} }$ cho mỗi nhãn l khác nhau trong L. Thuật toán chuyển đổi dữ liệu ban đầu trong tập L nhãn. Nhãn là l nếu các nhãn của ví dụ ban đầu $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m } 1$ , nhãn là $^ { - 1 }$ trong trường hợp ngược lại. Theo [12], phương pháp này đã được sử dụng bởi Boutell (2004), Goncalves và Quaresma (2003), Lauser và Hotho (2003), Li và Ogihara (2003). Sau đây là ví dụ biểu diễn dữ liệu theo phương pháp này: ",
+        "bbox": [
+            163,
+            156,
+            862,
+            377
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/ab37fb63d013be5e2c7ff35ee3d4c4255701cbcc4e62cde3d484ceaea067a6b3.jpg",
+        "table_caption": [
+            "Biểu diễn dữ liệu theo phương pháp nhị phân "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Example</td><td rowspan=1 colspan=1>Label0</td><td rowspan=1 colspan=1>Label 1 (− abel 0)</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Label 99 (− 1abel 0)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            164,
+            433,
+            902,
+            516
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/0cb0f6416a3f97cb67359b2ff52c306f69644a87cd4744d913e713402330f4d6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Example</td><td rowspan=1 colspan=1>Label 0(-label1)</td><td rowspan=1 colspan=1>Label 1</td><td rowspan=1 colspan=1> …… (-label 1) Label 99 (− label 1)</td><td rowspan=1 colspan=1> …… (-label 1) Label 99 (− label 1)</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>X</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
+        "bbox": [
+            163,
+            552,
+            902,
+            660
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Multi - label k-Nearest Neighbors (MLkNN) ",
+        "text_level": 1,
+        "bbox": [
+            163,
+            667,
+            667,
+            687
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Thuật toán kNN [14] (k-Nearest Neighbors) là phương pháp học máy được sử dụng rộng rãi, thuật toán tìm hàng xóm gần nhất của một đối tượng thử nghiệm trong không gian đặc trưng. ",
+        "bbox": [
+            163,
+            701,
+            862,
+            773
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Bộ phân lớp dựa trên thuật toán K người láng giềng gần nhất là một bộ phân lớp dựa trên bộ nhớ, đơn giản vì nó được xây dựng bằng cách lưu trữ tất cả các đối tượng trong tập huấn luyện. Để phân lớp cho một điểm dữ liệu mới x’, trước hết bộ phân lớp sẽ tính khoảng cách từ điểm dữ liệu mới tới các điểm dữ liệu trong tập huấn luyện. Qua đó tìm được tập $\\mathrm { ~ N ~ } ( \\mathbf { x } ^ { \\prime } , \\mathbf { D } , \\mathbf { k } )$ gồm k điểm dữ liệu mẫu có khoảng cách đến x’ gần nhất. Ví dụ nếu các dữ liệu mẫu được biểu diễn bởi không gian vector thì chúng ta có thể sử dụng khoảng cách Euclidean để tính khoảng cách giữa các điểm dữ liệu với nhau. Sau khi xác định được tập N (x’, D, k), bộ phân lớp sẽ gán nhãn cho điểm dữ liệu x’ bằng lớp chiếm đại đa số trong tập $\\mathrm { ~ N ~ } ( \\mathbf { x } ^ { \\prime } , \\mathbf { D } , \\mathbf { k } )$ . ",
+        "bbox": [
+            163,
+            782,
+            860,
+            904
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/5c2d69b0333ae71b7863efe0884db87014ae2615c86a7a5ad525cf80c46e6250.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            163,
+            112,
+            860,
+            260
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Công thức tính Euclidean để tính khoảng cách giữa các điểm dữ liệu: Giả sử có hai phần tử dữ liệu ${ \\mathrm { X 1 } } { = } ( \\mathrm { x 1 } 1 , \\mathrm { x 1 } 2 \\ \\ldots \\ \\mathrm { x } 1 { \\mathrm { n } } )$ và ${ \\bf X } 2 { = } ( { \\bf x } 2 1$ , $\\mathbf { x } 2 2 \\ldots \\mathbf { x } 2 \\mathbf { n } )$ , độ đo khoảng cách Euclide được tính bằng công thức: ",
+        "bbox": [
+            163,
+            269,
+            862,
+            342
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bf4a579d38ee3656b34f368e585d18c4ceba382a0fd89b48439cb3982d5ffe13.jpg",
+        "text": "$$\nD i s t ( X _ { 1 } , X _ { 2 } ) = \\sqrt { \\sum _ { i = 1 } ^ { n } ( x _ { 1 i } - x _ { 2 i } ) } ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            353,
+            680,
+            425
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mô tả thuật toán: ",
+        "bbox": [
+            211,
+            448,
+            376,
+            467
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Đầu vào: tập dữ liệu học D đã có nhãn và đối tượng kiểm tra z. ",
+        "bbox": [
+            211,
+            482,
+            821,
+            504
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Tiến trình: ",
+        "bbox": [
+            211,
+            517,
+            327,
+            538
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Tính d (x, x’) khoảng cách giữa đối tượng kiểm tra và mọi đối tượng $( \\mathbf { x } , \\mathbf { y } ) \\in \\mathbf { D }$ . ",
+        "bbox": [
+            233,
+            546,
+            880,
+            590
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Lựa chọn tập Dz gồm k đối tượng ϵ - Đầu ra: nhãn của đối tượng kiểm tra được xác định là ",
+        "bbox": [
+            210,
+            598,
+            734,
+            650
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f410562552f124c4138cf00291ffe430ffc79e3b295c73f10b18e253a0d5580.jpg",
+        "text": "$$\ny ^ { ' } = \\arg \\operatorname* { m a x } \\sum I ( v = y i )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            665,
+            695,
+            687
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trong đó: ",
+        "bbox": [
+            211,
+            719,
+            307,
+            739
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- v là một nhãn trong tập nhãn ",
+        "bbox": [
+            211,
+            750,
+            500,
+            770
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- I () là một hàm số trả lại giá trị 1 khi v có nhãn yi, 0 nếu trong trường hợp ngược lại. ",
+        "bbox": [
+            213,
+            777,
+            860,
+            826
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- X là đối tượng xét, y là nhãn của nó. ",
+        "bbox": [
+            211,
+            833,
+            571,
+            856
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nhược điểm của thuật toán k-NN: Đòi hỏi không gian lưu trữ lớn. ",
+        "bbox": [
+            210,
+            869,
+            836,
+            891
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/6698ce67507f4fa7d36e75ee63f5787c9f3a7fdd30f76a5cf3e2f3fdab1bddde.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            890,
+            99
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Thuật toán MLkNN [13] là thuật toán k-NN áp dụng cho bài toán gán đa nhãn. ",
+        "bbox": [
+            161,
+            115,
+            865,
+            163
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Phat bièu bài toán: cho 1 thè hièn x và tàp nhan két hop $\\mathrm { Y } \\subseteq \\mathrm { Y }$ , k láng gièng duroc → nhac tói trong phurong pháp ML-KNN. Cho là $y _ { \\textrm { x } }$ vector phàn loai cho x, vói l-th la thành phàn $\\stackrel {  } { y } _ { \\bf x } ( \\mathrm { l } ) ( \\mathrm { l } _ { \\in \\mathrm { ~ Y } } )$ mang giá tri 1 néu ε Y va 0 trong trròng hop nguoc lai. Them vào dó, cho N (x) tàp cua k láng gièng cua x trong tàp di lièu huán luyèn. Theo dó, nèn tang trèn tàp nhan cia nhing nguòi hàng xóm láng gièng, mòt vector thành vièn duroc dinh nghia nhur sau: ",
+        "bbox": [
+            174,
+            205,
+            917,
+            358
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/55a90a9da155b459159a496ce0ce598314d52ede49b2cf592cd329d98bde60a6.jpg",
+        "text": "$$\n\\overrightarrow { C _ { x } } ( l ) = \\sum _ { a \\in N ( x ) } \\overrightarrow { y _ { a } } ( l ) , l \\in y\n$$",
+        "text_format": "latex",
+        "bbox": [
+            431,
+            387,
+            662,
+            435
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Vói $\\vec { C } _ { \\mathrm { x } } \\mathrm { t } \\dot { \\hat { \\mathrm { o } } } \\mathrm { n g } \\ s \\dot { \\hat { \\mathrm { o } } }$ trong láng gièng x tói lóp thur 1. ",
+        "bbox": [
+            225,
+            448,
+            626,
+            471
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Trong mỗi trường hợp kiểm tra t, ML-KNN có k hàng xóm N (t) trong mỗi tập huấn luyện. Kí hiệu $\\mathrm { H } ^ { 1 } \\boldsymbol { 1 }$ là trường hợp t có nhãn l, $\\mathrm { H } 0$ là trường hợp t không có nhãn l, Elj (jÎ{0, 1 … K}) biểu thị cho các trường hợp đó, giữa K láng giềng của t, chính xác j thể hiện có l nhãn. Do đó, nền tảng trên vector $C _ { \\mathrm { t } } ,$ phân loại vector $y _ { \\mathrm { t } }$ sử dụng theo nguyên tắc: ",
+        "bbox": [
+            174,
+            492,
+            862,
+            634
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a30406d18d4ea55d4d92dd2694d25c47ea0e0f1255d70ed91182474cbc7ff7e6.jpg",
+        "text": "$$\n\\overrightarrow { y _ { t } } ( l ) = a r g m a x _ { b \\in \\{ 0 , 1 \\} } P ( H ) _ { b } ^ { l } \\ \\Big | \\ E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } \\Big ) , l \\in y\n$$",
+        "text_format": "latex",
+        "bbox": [
+            327,
+            663,
+            727,
+            694
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Sử dụng luận Bayesian, có thể viết lại: ",
+        "bbox": [
+            210,
+            723,
+            578,
+            745
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/58b6db01bd8f1bbb8ff086025a60ee6fb0f3d999bdfec5c29e94f0ed273bf74e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mã giả thuật toán MLkNN được trình bày như sau: ",
+        "bbox": [
+            210,
+            116,
+            699,
+            135
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "// Tinh toán xác suát trróc P $\\mathrm { ( H ^ { l } \\mathfrak { b } ) }$ ",
+        "bbox": [
+            268,
+            160,
+            549,
+            181
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1c81d86bd8726ff24642f939001ef9c38a091361e109012afbd583450c26ae6e.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mid \\mathrm { P } \\left( \\mathrm { H } _ { 1 } ^ { 1 } \\right) = \\left( \\mathsf { s } + \\sum _ { i = 1 } ^ { m } y _ { x i } ( l ) \\right) / \\left( \\mathsf { s } \\thinspace \\mathbf { x } \\thinspace 2 + \\mathrm { m } \\right) ; \\mathrm { P } ( \\mathrm { H } _ { 0 } ^ { 1 } ) = 1 - \\mathrm { P } ( \\mathrm { H } _ { 1 } ^ { 1 } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            214,
+            786,
+            235
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f6c8f1644e5ae943145e372a78f8174447881e5cf80203d4b5f756f0f32a941b.jpg",
+        "text": "$$\n\\begin{array} { r } { \\operatorname { N h a n } \\ \\mathrm { d a n g ~ N ~ ( x i ) , i \\in ~ \\{ 1 , 2 \\dots m \\} ; } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            275,
+            584,
+            295
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3c3118e0ecd741bf5a938fe355ccd96bfe96de207bec86c9fa163e5fef71d6d5.jpg",
+        "text": "$$\n\\mathbf { f o r j } \\in \\{ 0 , 1 \\dots \\mathrm { K } \\} \\ \\mathbf { d o }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            326,
+            515,
+            345
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4661f391d5650ec8ca67c67550fc9c7955d3a72136134924b7d7f0bb5c49f9e1.jpg",
+        "text": "$$\n\\mathsf { c } [ \\mathrm { j } ] = 0 ; \\mathsf { c } ^ { \\ast } [ \\mathrm { j } ] = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            363,
+            351,
+            507,
+            370
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "for i∈ { 1, .. m} do ",
+        "bbox": [
+            327,
+            376,
+            507,
+            395
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c9b97acfafec2dc8d82d926c759dc46f5bdb54bd2a3611b74753a39fedc80ea3.jpg",
+        "text": "$$\n\\begin{array} { r } { \\mathcal { S } = \\mathbf { C x i } ( \\mathbf { l } ) = \\sum _ { a \\in \\mathbf { N } ( \\mathrm { x i } ) } y a ( l ) ; } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            371,
+            401,
+            606,
+            422
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/225e825ff9a50504a6ee77878f50c8888bed684756942b3804dfb20232b59ae6.jpg",
+        "text": "$$\n{ \\mathrm { i f ~ } } \\ { \\stackrel {  } { ( \\gamma _ { \\mathrm { x i } } ( \\mathrm { l } ) } } = = 1 ) { \\mathrm { ~ t h e n ~ c } } [ \\delta ] = \\mathbf { c } [ \\delta ] + 1 ;\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            431,
+            685,
+            456
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "for j ∈ {0, 1 . K} do ",
+        "bbox": [
+            337,
+            489,
+            526,
+            507
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a4083e715b1b21a0fb880cbd8158ece58583da862f5fdcd0f0c0dcd172f1a160.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { } & { { \\mathrm { P } } ( \\mathrm { E } _ { \\mathrm { j } } ^ { 1 } \\vert \\mathrm {  ~ H ~ } ^ { 1 } _ { 1 } ) = ( \\mathbf { s } + \\mathbf { c } [ \\mathbf { j } ] ) / \\left( \\mathbf { s } \\mathbf { x } \\left( \\mathrm { K } + 1 \\right) + \\sum _ { p = 0 } ^ { k } c [ p ] \\right) } \\\\ & { } & { { \\mathrm { P } } ( \\mathrm { E } _ { \\mathrm { j } } ^ { 1 } \\vert \\mathrm {  ~ H ~ } ^ { 1 } _ { 0 } ) = ( \\mathbf { s } + \\mathbf { c } ^ { \\prime } [ \\mathbf { j } ] ) / \\left( \\mathbf { s } \\mathbf { x } \\left( \\mathrm { K } + 1 \\right) + \\sum _ { p = 0 } ^ { k } c [ p ] \\right) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            511,
+            788,
+            574
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "/tinh toáan $\\vec { \\bf \\Phi } _ { y _ { \\mathrm { t } } } ^ { \\prime }$ và $\\vec { N }$ ",
+        "bbox": [
+            295,
+            585,
+            473,
+            608
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(14) ",
+        "bbox": [
+            270,
+            617,
+            473,
+            635
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(15) ",
+        "bbox": [
+            272,
+            642,
+            440,
+            661
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/63e7edb1824b13be8060a48546b35571861b1de5b84805d215c58e084b3a3c15.jpg",
+        "text": "$$\n\\begin{array} { r l } & { \\mathrm { N h } \\acute { \\underset { \\mathbf { \\xi } } { \\mathrm { A n } } } \\mathrm { ~ d a n g ~ N ~ ( t ) } } \\\\ & { \\mathrm { ~ } } \\\\ & { \\widehat { C _ { t } } ( l ) = \\sum _ { a \\in N ( t ) } \\overrightarrow { y _ { a } } ( l ) ; } \\\\ & { \\qquad } \\\\ & { \\qquad \\quad \\widehat { y _ { \\mathrm { t } } } ( { \\sf l } ) = \\arg \\operatorname* { m a x } _ { \\mathbf { \\lambda } \\in \\{ 0 , 1 \\} } \\mathrm { ~ P ~ } ( { \\sf H } _ { \\mathrm { b } } ^ { l } ) \\mathrm { ~ P ~ } ( { \\cal E } _ { \\mathbf { \\Lambda } \\_ { C ( I ) } } ^ { l } \\mid H _ { b } ^ { l } ) ; } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            615,
+            771,
+            733
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ddfb25af9d5c7846dea340e7e8907f67fc53b720e46155e6d2077a6381d3b02a.jpg",
+        "text": "$$\n\\overrightarrow { r _ { t } } ( l ) = P \\left( H _ { b } ^ { l } \\Big | E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } \\right) = ( P ( H _ { 1 } ^ { l } ) P \\left( E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } \\Big | H _ { 1 } ^ { l } ) / P E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            742,
+            793,
+            770
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/46f43c2c85f4508606f3338109c6d724c22e3dc239fb36c8dbe11a2b75e433ef.jpg",
+        "text": "$$\n= ( P ( H _ { 1 } ^ { l } ) P ( E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } | H _ { 1 } ^ { l } ) ) / ( \\sum _ { b \\in \\{ 0 , 1 \\} } P ( H _ { b } ^ { l } ) P ( E _ { \\overrightarrow { C _ { t } } ( l ) } ^ { l } | H _ { b } ^ { l } ) )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            775,
+            801,
+            820
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/f1ec75b91ffb0a33e970f094b1c022eae75bc2df2d9f0840bebcbfbeccf096b5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            154,
+            40,
+            892,
+            98
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3. Random k-labelsets (RAKEL) ",
+        "text_level": 1,
+        "bbox": [
+            164,
+            167,
+            526,
+            188
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp Label Powerset (LP) là một phương pháp chuyển đổi của phân lớp dữ liệu đa nhãn mà có xem xét đến sự phụ thuộc của các nhãn lớp. Ý tưởng của phương pháp này là coi một tập con các nhãn như là một nhãn và tiến hành phân lớp như việc phân lớp dữ liệu đơn nhãn. Theo phương pháp này thì số lượng các tập con nhãn được tạo ra là rất lớn, Grigorios và đồng nghiệp [11] đã đề xuất phương pháp RAKEL với mục đích tính đến độ tương quan giữa các nhãn, đồng thời tránh những vấn đề nói trên của LP. ",
+        "bbox": [
+            174,
+            203,
+            862,
+            397
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Định nghĩa tập $\\mathrm { K }$ nhãn, cho tập nhãn L của phân lớp đa nhãn, L= $\\{ \\lambda \\mathrm { i } \\}$ , với $\\mathrm { i } = 1 \\ldots$ |L|. Một tập $\\mathrm { \\Delta Y \\subseteq L }$ với $\\mathrm { K } = | \\mathrm { L } |$ gọi là tập K nhãn. Ta sử dụng giới hạn $\\mathrm { L } ^ { \\mathrm { K } }$ là tập của tất cả tập nhãn $\\mathrm { K }$ khác nhau trên L. Kích thước $\\mathrm { L } ^ { \\mathrm { K } }$ cho bởi công thức: $\\vert \\mathrm { L } ^ { \\mathrm { K } } \\vert = ( ^ { \\vert \\mathrm { L } \\vert } \\kappa )$ . ",
+        "bbox": [
+            176,
+            409,
+            862,
+            496
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Thuật toán RAKEL là cấu trúc toàn bộ của m phân loại LP, với $\\dot { 1 } =$ 1 …m, chọn ngẫu nhiên một tập $\\mathrm { K }$ nhãn, Yi, từ $\\mathrm { L } ^ { \\mathrm { k . } }$ Sau đó, học phân loại LP $h _ { i }$ : $X  P ( Y _ { i } )$ . Thủ tục của RAKEL: ",
+        "bbox": [
+            176,
+            508,
+            862,
+            578
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Dàu vào: só cùa các mò hinh m, kích thróc cua tàp K nhān, tàp cua các nhan L, tàp huán luyen D. Dàu ra: toàn bo cuia phàn lóp LP $\\mathrm { h } _ { \\mathrm { i } }$ và trong 'ng tàp K nhan $\\mathrm { Y _ { i } }$ : $_ { \\mathrm { R }  \\mathrm { L } ^ { \\mathrm { K } } }$ for i ←— 1 dén min (m, LK) do $\\mathrm { Y _ { i }  }$ mòt tàp nhan k ngǎu nhièn chon tir R; Huán luyèn mot phàn lóp LP hi: $\\mathrm { X } \\longrightarrow \\mathrm { P }$ (Yi) tren D R ←R \\ {Yi} ; ",
+        "bbox": [
+            253,
+            598,
+            922,
+            779
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Hình 2.2 Mã giả thuật toán RAKEL ",
+        "text_level": 1,
+        "bbox": [
+            351,
+            804,
+            694,
+            824
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Số của sự lặp lại (m) là một tham số cụ thể cùng dãy giá trị có thể chấp nhận được từ 1 tới $| \\mathrm { L } ^ { \\mathrm { K } } |$ . Kích cỡ của tập $\\mathrm { K }$ nhãn là một tham số cụ thể cùng dãy giá trị từ 2 tới |L| - 1. Cho $\\mathrm { K } = 1$ và $\\mathbf { m } = | \\mathrm { L } |$ ta phân loại ",
+        "bbox": [
+            174,
+            834,
+            862,
+            907
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/5176ffb230bcf3592c7eb2fbaddf3b59cac613fda18442ee27e1006fcca2cb43.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>Public 120</td></tr><tr><td rowspan=1 colspan=1>CAC PHUONG PHAP MULTI-LABELLEARNING (MLL)</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            156,
+            40,
+            892,
+            99
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "toàn bộ nhị phân của phương pháp Binary Relevance, khi $\\mathrm { K } = | \\mathrm { L } |$ (cid:) $\\mathbf { \\langle m = }$ 1). Giả thiết việc sử dụng tập nhãn có kích thước nhỏ, số lặp vừa đủ, khi đó RAKEL sẽ quản lý để mô hình nhãn tương quan hiệu quả. ",
+        "bbox": [
+            173,
+            115,
+            862,
+            186
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4. ClassifierChain (CC) ",
+        "text_level": 1,
+        "bbox": [
+            166,
+            270,
+            428,
+            290
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Thuật toán này bao $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m }$ chuyển đổi nhị phân L như BR. Thuật toán này khác với thuật toán BR trong không gian thuộc tính cho mỗi mô hình nhị phân, nó được mở rộng cùng nhãn 0/1 cho tất cả phân lớp trước đó [8]. Ví dụ, chuyển đổi giữa BR và CC cho (x, y) với $\\mathrm { { y } = [ 1 , 0 , }$ 0, 1, 0] và $\\mathbf { x } = [ 0 , 1 , 0 , 1 , 0 , 0 , 1 , 1 , 0 ]$ (giả sử, cho đơn giản, không gian nhị phân). Mỗi phân loại hj được huấn luyện dự đoán yj $= \\{ 0 , 1 \\}$ . ",
+        "bbox": [
+            174,
+            304,
+            863,
+            451
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/63854d87fed6e13f2b76b151939af83ddd190049fced1d9d28e1a8cf854a6080.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Chuyén</td><td></td><td></td><td>dói nhi phàn gia BR và CC [8]</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            210,
+            460,
+            884,
+            484
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/fb4093a4f088ad75f35093592851447854d07bb89f28658546e1e356b5f43969.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=1 colspan=1>Chuyěn dói cüa BR</td><td rowspan=1 colspan=1>Chuyěn dói cüa CC</td></tr><tr><td rowspan=1 colspan=1>h:     x→                     y</td><td rowspan=1 colspan=1>h： x^→                                y</td></tr><tr><td rowspan=1 colspan=1>h1: [0, 1, 0, 1, 0, 0, 1, 1, 0]    1Raceh2: [0, 1, 0, 1, 0, 0, 1, 1, 0] 0h3: [0, 1, 0, 1, 0, 0, 1, 1, 0] 0h4: [0, 1, 0, 1, 0, 0, 1, 1, 0]h5: [0, 1, 0, 1, 0, 0, 1, 1, 0]   0</td><td rowspan=1 colspan=1>h1: [0, 1, 0, 1, 0, 0, 1, 1, 0]             1h2: [0, 1, 0, 1, 0, 0, 1, 1, 0, 1]         0h3: [0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0]  0h4: [0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0]h5: [0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1] 0</td></tr></table>",
+        "bbox": [
+            163,
+            503,
+            964,
+            744
+        ],
+        "page_idx": 5
+    }
+]

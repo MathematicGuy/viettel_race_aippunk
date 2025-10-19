@@ -8,8 +8,13 @@ import torch
 print("BEGIN PDF PREPROCESSING: CONVERT PDF to MARKDOWN using NOUGAT")
 
 # ==== Paths ====
-PATH = "private-test-input/"
-OUTPUT_PATH = "private-test-output/"
+# PATH = "private-test-input/"
+# OUTPUT_PATH = "private-test-output/"
+
+PATH = 'Public_test_input'
+OUTPUT_PATH = 'Public_test_output'
+
+
 os.makedirs(OUTPUT_PATH, exist_ok=True)
 
 MAX_WORKERS = 8  # Adjust based on GPU memory and PDF size

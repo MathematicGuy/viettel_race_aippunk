@@ -1,0 +1,1260 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/8a9f9a8eeaccb14ede7f7c39a6d52c766a043310119ff494de67f4e1cbf6347c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE       1-</td><td rowspan=1 colspan=1>TD136</td></tr><tr><td rowspan=1 colspan=1>Trang thái càn bàng tinh và sur dàn hòi</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng tĩnh là trạng thái chuyển động đặc biệt của vật rắn. Khi đó, vật rắn có vận tốc chuyển động tịnh tiến và vận tốc chuyển động quay đều bằng 0 trong một hệ quy chiếu quán tính. Trạng thái cân bằng tĩnh này được ứng dụng rất nhiều trong kỹ thuật dân dụng, kiến trúc và cơ khí. ",
+        "bbox": [
+            114,
+            146,
+            906,
+            223
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Vật rắn ở trạng thái cân bằng ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            238,
+            653,
+            261
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng có nghĩa là một vật chuyển động với vận tốc dài và vận tốc góc không đổi so với một quan sát viên trong một hệ quy chiếu quán tính. ",
+        "bbox": [
+            111,
+            265,
+            895,
+            306
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ở đây ta quan tâm đến trường hợp đặc biệt mà cả hai loại vận tốc này bằng không ",
+        "bbox": [
+            142,
+            310,
+            844,
+            332
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Trường hợp này được gọi là cân bằng tĩnh. ",
+        "bbox": [
+            150,
+            338,
+            539,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng tĩnh là một tình huống thường gặp trong kỹ thuật, đặc biệt là trong xây dựng, kiến trúc và cơ khí. ",
+        "bbox": [
+            107,
+            364,
+            895,
+            404
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sự đàn hồi: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            411,
+            254,
+            431
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chúng ta có thể thảo luận về việc các vật bị biến dạng như thế nào trong điều kiện chịu tải. ",
+        "bbox": [
+            114,
+            436,
+            898,
+            476
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một vật đàn hồi sẽ trở lại hình dạng ban đầu khi không còn lực làm nó biến dạng. ",
+        "bbox": [
+            142,
+            481,
+            846,
+            503
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Người ta định nghĩa nhiều hằng số đàn hồi khác nhau, tương ứng với mỗi kiểu biến dạng khác nhau. ",
+        "bbox": [
+            114,
+            507,
+            901,
+            547
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Trong mô hình hạt ở trạng thái cân bằng thì một hạt chuyển động với vận tốc không đổi do hợp lực tác dụng lên nó bằng không. ",
+        "bbox": [
+            111,
+            553,
+            897,
+            594
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Với các vật thật (dạng mở rộng) thì tình huống sẽ phức tạp hơn nhiều. ",
+        "bbox": [
+            148,
+            599,
+            741,
+            621
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Thường thì không thể xem các vật là các hạt. ",
+        "bbox": [
+            150,
+            627,
+            555,
+            648
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Với một vật thật ở trạng thái cân bằng thì cần thỏa mãn một điều kiện thứ hai: ",
+        "bbox": [
+            147,
+            652,
+            807,
+            674
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Điều kiện này liên quan đến chuyển động quay của vật. ",
+        "bbox": [
+            151,
+            681,
+            643,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Một vật khi ở trạng thái cân bằng tĩnh thì: tổng ngoại lực và tổng mômen ngoại lực tác dụng lên vật bằng 0. ",
+        "bbox": [
+            117,
+            707,
+            888,
+            747
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Các điều kiện này mô tả mô hình vật rắn ở trạng thái cân bằng. ",
+        "bbox": [
+            148,
+            752,
+            709,
+            773
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/d5e1b51b1d1672af4d2f76aa22a7cab830849ec85faaff09dac3775522ba7e5a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V-</td><td rowspan=1 colspan=1>TD136</td></tr><tr><td rowspan=1 colspan=1>Trang thái càn bàng tinh và sy dàn hòi</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Các lưu ý về cân bằng: ",
+        "bbox": [
+            150,
+            175,
+            346,
+            196
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng tịnh tiến ",
+        "bbox": [
+            150,
+            202,
+            308,
+            223
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Điều kiện thứ nhất về cân bằng là phát biểu về cân bằng tịnh tiến. ",
+        "bbox": [
+            151,
+            227,
+            704,
+            250
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Gia tốc tịnh tiến của khối tâm của vật phải bằng không.   \n• Điều này được áp dụng trong một hệ quy chiếu quán tính. ",
+        "bbox": [
+            151,
+            256,
+            658,
+            297
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng quay ",
+        "bbox": [
+            150,
+            303,
+            281,
+            324
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Điều kiện thứ hai về cân bằng là một phát biểu về cân bằng quay.   \n• Gia tốc góc của vật bằng không.   \n• Điều này phải đúng với mọi trục quay. ",
+        "bbox": [
+            151,
+            329,
+            727,
+            390
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng động và cân bằng tĩnh ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            397,
+            444,
+            417
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Trong chương này, ta tập trung vào cân bằng tĩnh. ",
+        "bbox": [
+            150,
+            422,
+            575,
+            444
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Vật không chuyển động. • $\\mathbf { v } _ { \\mathrm { C M } } = 0$ và $\\omega = 0$ ",
+        "bbox": [
+            151,
+            450,
+            383,
+            488
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mômen hợp lực bằng không không có nghĩa là vật không chuyển động quay. ",
+        "bbox": [
+            150,
+            497,
+            802,
+            518
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Cân bằng động cũng có thể xảy ra. ",
+        "bbox": [
+            151,
+            523,
+            447,
+            545
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Vật có thể quay với vận tốc góc không đổi.   \n• Vật có thể chuyển động với vận tốc khối tâm không đổi. ",
+        "bbox": [
+            151,
+            550,
+            647,
+            590
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Các phương trình trong cân bằng ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            598,
+            455,
+            619
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ta sẽ giới hạn các ứng dụng cho các tình huống mà các lực nằm trong mặt phẳng xy ",
+        "bbox": [
+            148,
+            625,
+            862,
+            645
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Các lực này được gọi là đồng phẳng vì chúng cùng nằm trong một mặt phẳng • Giới hạn này dẫn đến 3 phương trình theo các trục. ",
+        "bbox": [
+            150,
+            651,
+            848,
+            693
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Các phương trình này là: ",
+        "bbox": [
+            150,
+            699,
+            366,
+            718
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\begin{array} { c } { { \\Sigma \\mathrm { F _ { x } } = 0 } } \\\\ { { \\ } } \\\\ { { \\mathrm { : } \\Sigma \\mathrm { F _ { y } } = 0 } } \\\\ { { \\ } } \\\\ { { \\Sigma \\mathrm { { \\tau _ { z } } = 0 } } } \\end{array}$ (12.3) ",
+        "bbox": [
+            150,
+            724,
+            321,
+            785
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vị trí của trục của phương trình mômen quay được chọn bất kỳ. ",
+        "bbox": [
+            148,
+            792,
+            691,
+            814
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/281faa127d1bf45aef67fa558e71e315300da8bf539d89dbe3767449232e9bdd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD136</td></tr><tr><td>Trang thái càn bàng tinh và sur dàn hòi</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            913,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ về vật rắn ở trạng thái cân bằng ",
+        "bbox": [
+            116,
+            138,
+            540,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Chiến lược giải toán về cân bằng ",
+        "bbox": [
+            173,
+            167,
+            472,
+            189
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa ",
+        "bbox": [
+            173,
+            195,
+            312,
+            215
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Tìm tất cả các lực tác dụng lên vật. ",
+        "bbox": [
+            176,
+            220,
+            470,
+            241
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hình dung ảnh hưởng của mỗi lực đến sự quay của vật như là chỉ có lực này tác dụng lên vật. ",
+        "bbox": [
+            173,
+            247,
+            903,
+            285
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Phân loại ",
+        "bbox": [
+            173,
+            294,
+            261,
+            313
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/6b488d7e0766563ea756e79ad3ea7ba25ef0f8141269cc46981be152cbc9359e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD136</td></tr><tr><td rowspan=1 colspan=1>Trang thai càn bàng tīnh và sur dàn hòi</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Khẳng định rằng vật là một vật rắn cân bằng. ",
+        "bbox": [
+            173,
+            143,
+            558,
+            165
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Vật phải có gia tốc tịnh tiến và gia tốc góc bằng không. ",
+        "bbox": [
+            174,
+            170,
+            642,
+            193
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phân tích ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            199,
+            263,
+            218
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Vẽ một sơ đồ. ",
+        "bbox": [
+            174,
+            224,
+            294,
+            244
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Vẽ và đặt tên tất cả các ngoại lực tác dụng lên vật. ",
+        "bbox": [
+            173,
+            251,
+            517,
+            290
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mô hình hạt chịu tác dụng của hợp lực: có thể biểu diễn vật như là một điểm trong sơ đồ lực vì ta không quan tâm đến điểm tác động của lực lên vật. ",
+        "bbox": [
+            173,
+            297,
+            521,
+            372
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mô hình vật rắn cân bằng: Không thể biểu diễn vật bằng một điểm vì điểm tác động của các lực là quan trọng. ",
+        "bbox": [
+            173,
+            378,
+            522,
+            438
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Lập một hệ tọa độ thuận tiện. ",
+        "bbox": [
+            174,
+            444,
+            423,
+            463
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tìm thành phần của các lực theo hai trục tọa độ. ",
+        "bbox": [
+            173,
+            469,
+            517,
+            508
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Trọng tâm của hệ gồm chai rượu và giá đỡ rơi đúng vào điểm đặt của giá đỡ ",
+        "bbox": [
+            583,
+            237,
+            926,
+            277
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/ad70f08a7f4e0d24e93b56510563465c1f949b081651480d4e08bbd7f2d42958.jpg",
+        "image_caption": [
+            "Hình 12.1: Hệ chai rượu và giá đỡ cân bằng "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            598,
+            281,
+            936,
+            446
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng điều kiện thứ nhất về cân bằng $( \\mathrm { { \\Sigma F { = } 0 } } )$ . ",
+        "bbox": [
+            174,
+            515,
+            584,
+            537
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Cẩn thận với các dấu cộng, trừ. ",
+        "bbox": [
+            176,
+            542,
+            442,
+            563
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Chọn một trục thuận tiện cho việc tính mômen quay tổng hợp đối với vật rắn: Nhớ rằng việc chọn trục là tùy ý. ",
+        "bbox": [
+            173,
+            585,
+            883,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Chọn một trục sao cho các phép tính là đơn giản nhất: Lực tác dụng dọc theo đường thẳng đi qua gốc có mômen quay bằng không ",
+        "bbox": [
+            171,
+            631,
+            893,
+            671
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng điều kiện thứ 2 của cân bằng. ",
+        "bbox": [
+            173,
+            675,
+            501,
+            696
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Hai điều kiện cân bằng sẽ cho ta một hệ phương trình. ",
+        "bbox": [
+            174,
+            703,
+            635,
+            723
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình. ",
+        "bbox": [
+            174,
+            729,
+            359,
+            750
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Hoàn tất ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            756,
+            256,
+            775
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Bảo đảm rằng các kết quả là phù hợp với sơ đồ ban đầu. ",
+        "bbox": [
+            174,
+            781,
+            648,
+            803
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Nếu lời giải cho thấy một lực âm thì lực đó ngược với chiều mà ta đã vẽ trong sơ đồ. ",
+        "bbox": [
+            178,
+            808,
+            888,
+            829
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Kiểm tra các kết quả để bảo đảm rằng: $\\sum F _ { x } = 0 , \\sum F _ { y } = 0 , \\sum F _ { z } = 0 \\ : .$ ",
+        "bbox": [
+            171,
+            834,
+            746,
+            859
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sự cân bằng của hệ chai rượu và giá đỡ trong hình 12.1 là một ví dụ thú vị về trạng thái cân bằng tĩnh của vật rắn. Để chai rượu có thể đứng cân bằng trên giá đỡ thì cần hai điều kiện: ",
+        "bbox": [
+            114,
+            897,
+            906,
+            938
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/61ebcda7cf2a61a8d071bdfc1e7fd38d820ebaa7bf773bc3a9cfe9590b719608.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V-</td><td rowspan=1 colspan=1>TD136</td></tr><tr><td rowspan=1 colspan=1>Trang thái càn bàng tinh và sur dàn hòi</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "tổng hợp lực và tổng mômen lực tác dụng lên hệ phải bằng không. Để điều kiện thứ hai được thỏa mãn thì trọng tâm của hệ $\\mathrm { g } \\dot { \\hat { \\mathrm { o } } } \\mathrm { m }$ chai rượu và giá đỡ phải ở trên đường thẳng đứng đi qua điểm đặt của giá đỡ trên bàn. ",
+        "bbox": [
+            114,
+            140,
+            906,
+            199
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/12873ad32b9ffe3c19d8e6fcda7b680a1271c062e971edef009226da66b0f0c0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE   - V-</td><td rowspan=1 colspan=1>TD136</td></tr><tr><td rowspan=1 colspan=1>Trang thái càn bàng tīnh và sur dàn hòi</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 12.1: Người đứng trên xà ngang: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            145,
+            584,
+            166
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Một thanh xà đồng chất nằm ngang có chiều dài $l { = } 8 . 0 0 \\mathrm { m }$ và trọng lượng $W _ { b } { = } 2 0 0 \\ \\mathrm { N }$ được gắn vào tường bởi một trục quay. Đầu còn lại của xà được móc vào cáp treo lập một góc $\\Phi { = } 5 3 ^ { \\circ }$ so với xà (hình 12.8a). Một người có trọng lượng $\\mathrm { W p { = } 5 6 0 0 \\mathrm { N } }$ đứng trên xà và cách tường một khoảng $\\mathrm { d } { = } 2 . 0 0$ N. Tìm lực căng của cáp treo cũng như độ lớn và hướng của lực mà tường tác dụng lên xà. ",
+        "bbox": [
+            173,
+            170,
+            692,
+            308
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "bbox": [
+            174,
+            314,
+            222,
+            332
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            340,
+            308,
+            359
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Thanh xà là đồng chất. ",
+        "bbox": [
+            174,
+            364,
+            367,
+            386
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/cf4b402f3ceeca19f0d3ab2c84451e9153874b51cbca03e5386c11c4ff8738dc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            702,
+            142,
+            908,
+            420
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Trọng tâm của xà là ở tâm hình học của xà (trung điểm của xà). \\$\\rac\\$ ",
+        "bbox": [
+            173,
+            392,
+            681,
+            431
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Người đứng trên xà. ",
+        "bbox": [
+            173,
+            438,
+            346,
+            458
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lực căng của cáp và lực mà tường tác dụng lên xà là gì? ",
+        "bbox": [
+            173,
+            464,
+            580,
+            503
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Phân loại ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            510,
+            261,
+            529
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Hệ đứng yên, phân loại bài toán như là một vật rắn nằm cân bằng. ",
+        "bbox": [
+            173,
+            536,
+            576,
+            574
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Phân tích ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            582,
+            263,
+            601
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Vẽ một sơ đồ lực (hình 12.8b). ",
+        "bbox": [
+            176,
+            607,
+            436,
+            628
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Dùng trục quay cho trong bài toán (nằm trên tường) làm trục quay: Cách này là đơn giản nhất ",
+        "bbox": [
+            173,
+            635,
+            578,
+            674
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý là ở đây có 3 ẩn số (đại lượng cần tìm) là T, R, . ",
+        "bbox": [
+            173,
+            678,
+            578,
+            719
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Có thể phân tích các lực thành các thành phần. ",
+        "bbox": [
+            173,
+            724,
+            570,
+            747
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng 2 điều kiện cân bằng, ta thu được 3 phương trình. ",
+        "bbox": [
+            173,
+            752,
+            563,
+            792
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Giải hệ phương trình để tìm các ẩn số. ",
+        "bbox": [
+            173,
+            796,
+            500,
+            819
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Hoàn tất ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            824,
+            254,
+            843
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Giá trị của $\\theta$ cho thấy hướng của $R$ trong đồ thị là đúng. ",
+        "bbox": [
+            171,
+            849,
+            578,
+            890
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/2f71108f88b2e5c1934fbe33d05165ff8102c693df967807d1748ae79e66b7c0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            593,
+            422,
+            905,
+            583
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Rsin θ ",
+        "bbox": [
+            594,
+            628,
+            653,
+            643
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/4d80224d0114e4e5aa4d0af18d77328641b58f798bea36d02e002f0f97c45e63.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            591,
+            643,
+            926,
+            844
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/2768e8349d667cbbfe3f8fb2ea4f5cc0cf30a322a312d0f64f7050faafc61622.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V -</td><td>TD136</td></tr><tr><td>Trang thái càn bàng tinh và sur dàn hòi</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            918,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 12.2: Thang dựng nghiêng ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            145,
+            529,
+            166
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Một cái thang đồng chất có chiều dài l tựa vào một cái tường nhẵn, thẳng đứng (hình 12.9a). Khối lượng của thang là m và hệ số ma sát giữa thang và sàn nhà là $\\scriptstyle \\mu = 0 , 4 0$ . Tìm góc nghiêng nhỏ nhất $\\theta _ { \\mathrm { m i n } }$ để thang không bị trượt. ",
+        "bbox": [
+            173,
+            170,
+            705,
+            251
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm hóa ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            257,
+            310,
+            276
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Thang là đồng chất. ",
+        "bbox": [
+            174,
+            282,
+            343,
+            304
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trọng lượng của thang đặt $\\dot { \\mathbf { O } }$ tâm hình học của nó (cũng là trọng tâm). ",
+        "bbox": [
+            173,
+            310,
+            700,
+            348
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Giữa thang và sàn nhà có ma sát nghỉ (ma sát tĩnh). ",
+        "bbox": [
+            174,
+            356,
+            609,
+            376
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Phân loại ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            383,
+            263,
+            401
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/e72c5e8e263fc712dc4c3690f21e2991ab5019b8aa9f898a63ee5fe2b15086b9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            712,
+            170,
+            903,
+            386
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Mô hình hóa vật như là một vật rắn nằm cân bằng: do ta không muốn thang trượt ",
+        "bbox": [
+            169,
+            406,
+            859,
+            429
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Phân tích ",
+        "text_level": 1,
+        "bbox": [
+            174,
+            435,
+            263,
+            454
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { V } \\tilde { \\mathrm { e } } \\mathrm { m } \\hat { \\mathrm { o } } \\mathrm { t }$ sơ đồ chỉ ra tất cả các lực tác động lên thang. ",
+        "bbox": [
+            173,
+            460,
+            624,
+            481
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Lực ma sát là $f _ { \\mathrm { s } } = \\mu _ { \\mathrm { s } } \\textrm { n }$ . ",
+        "bbox": [
+            173,
+            488,
+            377,
+            507
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Chọn O làm trục quay. ",
+        "bbox": [
+            174,
+            515,
+            367,
+            534
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng các phương trình của 2 điều kiện cân bằng. ",
+        "bbox": [
+            173,
+            540,
+            617,
+            561
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Giải các phương trình. ",
+        "bbox": [
+            173,
+            568,
+            367,
+            587
+        ],
+        "page_idx": 6
+    }
+]

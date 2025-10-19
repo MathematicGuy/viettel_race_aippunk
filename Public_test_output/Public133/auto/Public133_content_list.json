@@ -1,0 +1,1692 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/910b10a59c60ea834f6820ae3c71fdc1e3eb79b9e177d31852691916f94a7ec6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Khi giải quyết một bài toán cơ học ta có thể sử dụng nhiều phương pháp khác nhau. Đối với một số bài toán nếu ta dùng phương pháp này thì sẽ phức tạp nhưng nếu ta dùng phương pháp khác thì lại trở nên dễ dàng hơn. Ví dụ trường hợp người đàn ông đứng trên băng bắn cung tên hoặc tình huống các viên bi-da va chạm với nhau. ",
+        "bbox": [
+            109,
+            170,
+            905,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Giả sử xét một tình huống đơn giản là cho biết vận tốc của mũi tên ngay sau khi được bắn ra và yêu cầu tính vận tốc của người bắn cung ngay khi đó. Ta không thể giải bài toán này với các mô hình động học (chương 2), động lực học (chương 5), hoặc năng lượng (chương 7). Tuy nhiên, ta có thể giải quyết bài toán này một cách dễ dàng dùng cách tiếp cận liên quan đến động lượng. ",
+        "bbox": [
+            114,
+            247,
+            905,
+            343
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chương này sẽ trình bày các khái niệm động lượng, xung lượng, các định lý liên quan đến động lượng, xung lượng, từ đó đưa ra phương pháp giải các bài toán cơ học liên quan đến động lượng, đặc biệt là các bài toán va chạm. ",
+        "bbox": [
+            114,
+            349,
+            905,
+            407
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Động lượng ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            422,
+            267,
+            444
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xét hệ cô lập $\\mathrm { g } \\dot { \\mathrm { o } } \\mathrm { m } 2 $ chất điểm có khối lượng m1, m2, chuyển động với các vận tốc $\\vec { v _ { \\mathrm { ~ 1 ~ } } }$ và $\\vec { v _ { \\mathrm { ~ 2 ~ } } }$ (hình 9.1). Vì hệ cô lập nên lực tác dụng lên chất điểm này là do chất điểm kia gây ra. Nếu chất điểm 1 tác dụng lên chất điểm 2 một lực $F _ { 1 2 } ^ {  }$ thì chất điểm 2 cũng tác dụng lên chất điểm 1 một lực $F ^ {  } { } _ { 2 1 }$ bằng về độ lớn nhưng ngược chiều. Các lực này tạo thành một cặp lực-phản lực theo định luật 3 Newton, $\\boldsymbol { F } _ { 1 2 } = - \\boldsymbol { F } _ { 2 1 }$ , nên ta có: $\\boldsymbol { F } ^ {  } { } _ { 1 2 } + \\boldsymbol { F } ^ {  } { } _ { 2 1 } = 0$ . ",
+        "bbox": [
+            116,
+            448,
+            696,
+            593
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Theo định luật 2 Newton: lực tác dụng lên mỗi chất điểm bằng ????⃗ nên: ",
+        "bbox": [
+            116,
+            598,
+            687,
+            635
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/674c7dd4ff0dc66806d37c09f80759bd64e581e944327633e53a58a4a99e288b.jpg",
+        "image_caption": [
+            "Hình 9.1 Hai chất điểm tương tác với nhau "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            709,
+            428,
+            872,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f87725cc37c5e412472f5ab716469af7ed0aa3b78bfdc23e4be1dcd32ec6ec12.jpg",
+        "text": "$$\nm _ { 1 } \\vec { a ^ { \\mathrm { \\normalsize ~ 1 } } } + m _ { 2 } \\vec { a ^ { \\mathrm { \\normalsize ~ 2 } } } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            313,
+            643,
+            495,
+            665
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Thay các gia tốc bằng biểu thức định nghĩa của nó theo phương trình 4.5, ta có: ",
+        "bbox": [
+            116,
+            669,
+            687,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/6338fde00995511591d7b859f952b2f2489e8bc5f422cfaefcbfbd3b6b92101e.jpg",
+        "text": "$$\nm _ { 1 } \\frac { d \\vec { v _ { 1 } } } { d t } + m _ { 2 } \\frac { d \\vec { v _ { 2 } } } { d t } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            728,
+            609,
+            776
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nếu các khối lượng $\\mathbf { m } _ { 1 }$ , $\\mathbf { m } _ { 2 }$ không đổi, ta có thể đưa chúng vào trong dấu đạo hàm: ",
+        "bbox": [
+            148,
+            791,
+            849,
+            814
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7860015c74d304749c6e794764b136ddb41c6508f110f0627a5ed1c37fa8ecab.jpg",
+        "text": "$$\n\\frac { d ( m _ { 1 } \\vec { v _ { \\ 1 } } ) } { d t } + \\frac { d ( m _ { 2 } \\vec { v _ { \\ 2 } } ) } { d t } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            392,
+            816,
+            624,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/abcaa8724d0c50f136cf731693e53193b09743696bac1d6202a0d3e3e623aba9.jpg",
+        "text": "$$\n\\frac { d \\big ( m _ { 1 } \\vec { \\nu } _ { 1 } + m _ { 2 } \\vec { \\nu } _ { 2 } \\big ) } { d t } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            429,
+            882,
+            584,
+            924
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/0980eeb9c0fa413ff4b631ef6cfc3d80c4253e628a3ee7c5a1e3a64af3393f59.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            126
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Vì đạo hàm của tổng $m _ { 1 } \\vec { v _ { \\ 1 } } + m _ { 2 } \\vec { v _ { \\ 2 } }$ theo thời gian bằng không, nên tổng này là không đổi. Đại lượng mv được gọi là động lượng của một chất điểm, và đối với hệ các chất điểm cô lập, tổng các đại lượng này được bảo toàn. ",
+        "bbox": [
+            114,
+            148,
+            906,
+            208
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Định nghĩa động lượng của chất điểm: ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            214,
+            496,
+            234
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Động lượng của một chất điểm có khối lượng m chuyển động với vận tốc ??⃗ được xác định bằng tích của khối lượng và vận tốc của nó: ",
+        "bbox": [
+            114,
+            239,
+            906,
+            279
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e6b180777e6885701f72a76b05b33c7034c7a0be5c096fd6a7006a43380074d9.jpg",
+        "text": "$$\n{ \\vec { p } } \\equiv m { \\vec { \\nu } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            449,
+            289,
+            508,
+            306
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Động lượng là một đại lượng vectơ, hướng dọc theo $v ^ {  } .$ , thứ nguyên là ML/T, đơn vị trong hệ SI là kg.m/s. ",
+        "bbox": [
+            114,
+            315,
+            901,
+            354
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Nếu chất điểm chuyển động theo hướng bất kỳ thì động lượng $p ^ {  } \\thinspace { \\mathrm { c o } } \\ 3$ thành phần, và phương trình (9.2) viết cho các thành phần là: ",
+        "bbox": [
+            114,
+            361,
+            905,
+            400
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0f5cd81b4b727ce4c55212709ec3a433b80f0a4f01cd4c22a18f4eba22a9a9da.jpg",
+        "text": "$$\np _ { x } = m v _ { x } \\qquad p _ { y } = m v _ { y } \\qquad p _ { z } = m v _ { z }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            343,
+            410,
+            676,
+            429
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm động lượng giúp ta phân biệt một cách định lượng giữa các vật nặng và vật nhẹ chuyển động với cùng vận tốc. Ví dụ động lượng của một quả bóng bowling thì lớn hơn nhiều so với động lượng của một quả bóng tennis chuyển động với cùng vận tốc. Newton đã gọi ????⃗ là khối lượng chuyển động; thuật ngữ này có lẽ sinh động hơn thuật ngữ động lượng ta dùng hiện nay. ",
+        "bbox": [
+            114,
+            434,
+            905,
+            531
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Phân biệt động năng và động lượng: ",
+        "text_level": 1,
+        "bbox": [
+            148,
+            537,
+            478,
+            559
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Thứ nhất, động năng là đại lượng vô hướng còn động lượng là đại lượng vectơ. Ví dụ xét hai chất điểm có khối lượng bằng nhau chuyển động về phía nhau theo một đường thẳng với cùng tốc độ. Động năng của hệ này khác không, động lượng của hệ này bằng không. ",
+        "bbox": [
+            114,
+            564,
+            905,
+            622
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Thứ hai là động năng có thể chuyển hóa thành các dạng năng lượng khác chẳng hạn như thế năng hoặc nội năng, còn động lượng không chuyển đổi được thành năng lượng. Các khác biệt này đủ để tạo ra các mô hình phân tích dựa vào động lượng, tách biệt với các mô hình dựa vào năng lượng, cung cấp một công cụ độc lập để sử dụng trong việc giải quyết các bài toán. ",
+        "bbox": [
+            114,
+            626,
+            905,
+            723
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Theo định luật 2 Newton, ta có: ",
+        "bbox": [
+            151,
+            731,
+            419,
+            750
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5adffed97d52646bf6aeb664a42589421fabe7af5791788d808da630d0336c40.jpg",
+        "text": "$$\n\\Sigma F ^ {  } = m a ^ {  } = m \\frac { d v ^ {  } } { d t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            752,
+            606,
+            797
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Giả sử khối lượng m là không đổi, ta có thể đưa khối lượng m vào trong dấu đạo hàm, nên: ",
+        "bbox": [
+            114,
+            801,
+            905,
+            840
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "img_path": "images/db27ae2cfc9af14fc7eab9c9203ccd4def3186eee4a38c6d0a669878f6ff73b9.jpg",
+        "text": "$$\n\\sum { \\vec { F } } = { \\frac { d \\left( m { \\vec { \\nu } } \\right) } { d t } } = { \\frac { d { \\vec { p } } } { d t } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            426,
+            848,
+            588,
+            890
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Phương trình (9.3) là dạng khác của định luật 2 Newton đối với chất điểm. Phương trình này chỉ ra rằng tốc độ biến thiên theo thời gian của động lượng của chất điểm thì bằng hợp lực tác dụng lên chất điểm. Dạng này tổng quát hơn dạng đã giới thiệu ở chương 5, và có thể sử dụng để khảo sát các hiện tượng trong đó khối lượng thay đổi, ngoài các trường hợp trong đó vận tốc thay đổi. Ví dụ trường hợp khối lượng của tên lửa thay đổi do nhiên liệu bị đốt và bị phóng ra khỏi tên lửa, ta không thể sử dụng phương trình $\\sum { F } ^ {  } = m \\vec { a ^ { \\mathrm { ~ } } } ($ để phân tích mà phải dùng cách tiếp cận động lượng như sẽ trình bày trong mục 9.9. ",
+        "bbox": [
+            148,
+            911,
+            906,
+            934
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/b5e6ced86853510c1a082556d64a9e6b5c7a4cc9d6cb97797f48e4b3d4bb9d25.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            138,
+            906,
+            200
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/51a485fa2606e66b8313eb394d83699e9327f523161c17bb221187b2ede21a7a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            147,
+            906,
+            212
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 9.1: Hai vật có động năng bằng nhau. Độ lớn động lượng của chúng so với nhau thế nào? (a) p1 < p2 (b) ${ \\sf p } _ { 1 } = { \\sf p } _ { 2 }$ (c) p1 > p2 (d) không đủ thông tin để phát biểu. ",
+        "bbox": [
+            114,
+            218,
+            906,
+            260
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 9.2: Giáo viên thể dục ném một quả bóng chày về phía bạn với một tốc độ nào đó và bạn bắt lấy nó. Tiếp theo giáo viên sẽ ném một quả bóng tập nặng gấp 10 lần quả bóng chày. Bạn có các lựa chọn sau: Bạn có thể bắt được quả bóng tập được ném với (a) cùng tốc độ với quả bóng chày, (b) cùng động lượng với quả bóng chày, hoặc (c) cùng động năng với quả bóng chày. Hãy sắp xếp các lựa chọn này từ dễ đến khó để bắt. ",
+        "bbox": [
+            114,
+            280,
+            905,
+            377
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Hệ cô lập (động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            393,
+            573,
+            416
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sử dụng định nghĩa động lượng, biểu thức 9.1 có thể viết là: ",
+        "bbox": [
+            150,
+            421,
+            660,
+            441
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e3acfa2e120298fe49ce366bd16e867ba250a1d6b353c4c1a5c654f2b1c20f7c.jpg",
+        "text": "$$\n\\frac { d } { d t } ( \\vec { p _ { \\ 1 } } + \\vec { p _ { \\ 2 } } ) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            429,
+            444,
+            599,
+            489
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Vì đạo hàm của động lượng toàn phần $\\vec { p _ { \\ t o t } } = \\vec { p _ { \\ t } } + \\vec { p _ { \\ t } }$ bằng không, nên động lượng toàn phần của hệ hai chất điểm cô lập trong hình 9.1 là không đổi: ",
+        "bbox": [
+            116,
+            492,
+            903,
+            530
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aaac8a490b441586d5ade0caf1af9cb96c26ebc66954b54d619000fedb9cf1ab.jpg",
+        "text": "$$\n\\vec { p } _ { t o t } = c o n s t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            459,
+            539,
+            550,
+            559
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Hay: ",
+        "bbox": [
+            114,
+            569,
+            158,
+            588
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/652516eafcc500660013e3d934b4178e1807e5c08fa74218ff6035a6f062448c.jpg",
+        "text": "$$\n\\Delta \\stackrel {  } { p } _ { t o t } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            464,
+            594,
+            540,
+            618
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "hoặc viết theo dạng khác là: ",
+        "bbox": [
+            116,
+            627,
+            354,
+            647
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b344a4da188d282e1c23e012d7dcd52260be2423ecdaac7c65e164ccf4476068.jpg",
+        "text": "$$\n\\vec { p _ { \\ 1 i } } + \\vec { p _ { \\ 2 i } } = \\vec { p _ { \\ 1 f } } + \\vec { p _ { f } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            654,
+            617,
+            678
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "với $\\vec { p _ { \\mathrm { ~ 1 } i } } , \\vec { p _ { \\mathrm { ~ 2 } i } }$ là các giá trị đầu và $\\vec { p _ { \\begin{array} { l } { 1 } / } , \\vec { p _ { \\begin{array} { l } { 2 } f } \\end{array} } } \\end{array}$ là các giá trị cuối của động lượng của hai chất điểm. ",
+        "bbox": [
+            114,
+            700,
+            905,
+            742
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương trình (9.5) chứng tỏ động lượng toàn phần theo các hướng x, y, z đều được bảo toàn một cách độc lập: ",
+        "bbox": [
+            114,
+            748,
+            900,
+            787
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7725764ce512306e1183428af9732b2eb7e22e5934e0ea19e29c867a632a35c2.jpg",
+        "text": "$$\np _ { 1 i x } + p _ { 2 i x } = p _ { 1 \\beta x } + p _ { 2 \\beta } \\quad p _ { 1 i y } + p _ { 2 i y } = p _ { 1 \\beta y } + p _ { 2 \\beta } \\quad p _ { 1 i z } + p _ { 2 i z } = p _ { 1 \\beta z } + p _ { 2 \\beta }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            797,
+            785,
+            818
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương trình (9.5) là dạng toán học của một mô hình phân tích mới, gọi là mô hình hệ cô lập (động lượng). Mô hình này có thể mở rộng cho hệ cô lập nhiều chất điểm bất kỳ như sẽ trình bày trong mục 9.7. ",
+        "bbox": [
+            114,
+            844,
+            906,
+            902
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Từ phương trình (9.5) ta có thể phát biểu như sau: Khi hai hay nhiều chất điểm của một hệ cô lập tương tác với nhau, động lượng toàn phần của hệ luôn không đổi. Như vậy động lượng toàn phần của hệ cô lập tại các thời điểm bất kì đều bằng động lượng ban đầu của nó. ",
+        "bbox": [
+            148,
+            906,
+            903,
+            929
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/6a5ac777fb7298e447350b37ad3acee77d7db71ff09e1d17386388d0037837be.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            126
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            140,
+            910,
+            180
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/a6e74307d042eb7d9e685f0c9189d3bcabd334daafaf925fedeb9a8591755efe.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong lrong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích hệ cô lập không cần xét đến ngoại lực tác dụng lên hệ, cũng như lực đó là lực bảo toàn hay không bảo toàn, lực biến thiên hay không biến thiên theo thời gian. Yêu cầu duy nhất là các lực phải là nội lực của hệ. Điều này cho thấy tầm quan trọng của mô hình mới này. ",
+        "bbox": [
+            114,
+            148,
+            906,
+            227
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Hệ cô lập (động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            150,
+            233,
+            539,
+            253
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Giả sử ta đã xác định được hệ cần phân tích và biên của nó. Nếu không có ngoại lực nào tác dụng lên hệ thì hệ là cô lập. Khi đó động lượng toàn phần của hệ được bảo toàn: ",
+        "bbox": [
+            116,
+            258,
+            903,
+            299
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "img_path": "images/86a92c4109e296789023e350b33ec84633a277dc751d18c65915bd06e40c6c90.jpg",
+        "text": "$$\n\\Delta \\stackrel { \\longrightarrow } { p } _ { t o t } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            151,
+            304,
+            228,
+            328
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ: ",
+        "bbox": [
+            151,
+            338,
+            205,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "• Viên bi da cái đánh vào các viên bi da khác trên bàn • Tàu vũ trụ bắn tên lửa ra và chuyển động nhanh hơn trong không gian Các phân tử chất khí ở một nhiệt độ xác định chuyển động và va chạm với nhau ",
+        "bbox": [
+            151,
+            381,
+            560,
+            497
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/3b275960e3c69713b13d0fd46768c36ef99630a719f06b0964481bbd3c6b4f77.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            578,
+            310,
+            898,
+            478
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 9.1: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            503,
+            323,
+            523
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Một người bắn cung đứng trên mặt băng không ma sát bắn một mũi tên nặng $0 . 0 3 \\mathrm { k g }$ theo phương ngang với vận tốc đầu $8 5 \\mathrm { m / s }$ . (A) Hỏi vận tốc của người sau khi mũi tên được bắn ra. (B) Điều gì xảy ra nếu mũi tên được bắn theo hướng hợp với phương nằm ngang một góc θ? Điều này sẽ làm thay đổi vận tốc giật lùi của người bắn cung như thế nào? ",
+        "bbox": [
+            173,
+            530,
+            905,
+            623
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            633,
+            222,
+            651
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Phân tích bài toán: Hãy tưởng tượng mũi tên bị bắn đi trên một đường thẳng và người bắn cung thủ chuyển động giật lùi theo hướng ngược lại. Ta không thể giải bài toán này với các mô hình dựa trên chuyển động, lực, hoặc năng lượng. Tuy nhiên, ta có thể giải quyết vấn đề này một cách dễ dàng với cách tiếp cận liên quan đến động lượng. Ta xét hệ gồm có người bắn cung (bao gồm cả cung) và mũi tên. Hệ không cô lập vì có lực hấp dẫn và phản lực pháp tuyến từ băng tác dụng lên hệ. Tuy nhiên, các lực này theo phương thẳng đứng và vuông góc với chiều chuyển động của hệ. Không có ngoại lực tác dụng lên hệ theo phương ngang, và ta có thể áp dụng mô hình hệ cô lập (động lượng) đối với các thành phần động lượng theo hướng này. ",
+        "bbox": [
+            173,
+            659,
+            717,
+            886
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/2f9ed7f5c8804d097bde710e98ae06debef27fe7fc0059904bb1b38406f04847.jpg",
+        "image_caption": [
+            "Hình 9.2 Bài tập mẫu 9.1 – Người bắn cung "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            751,
+            659,
+            897,
+            823
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(A) Áp dụng mô hình hệ cô lập (động lượng) theo phương ngang, động lượng theo phương ngang của hệ trước và sau khi bắn đều bằng 0. Ta chọn hướng bắn mũi tên là hướng dương của trục x. Xem người bắn cung là chất điểm 1 và mũi tên là chất điểm 2, theo phương trình 9.5 ta được: ",
+        "bbox": [
+            171,
+            901,
+            908,
+            922
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/38e8dc65a23f5102abdea98b5cb7c7faa4589d71baefbd39f776f4e5a7558623.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong lrong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            171,
+            138,
+            908,
+            198
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/edf91a93f371ed357021b22367a9c2faf3d183ed3380e420872f7200af98f1a0.jpg",
+        "text": "$$\n\\Delta \\overrightarrow { p } _ { t o t } = 0  \\overrightarrow { p } _ { f } - \\overrightarrow { p } _ { i } = 0  \\overrightarrow { p _ { f } } = \\overrightarrow { p _ { i } }  m _ { 1 } \\overrightarrow { \\nu _ { 1 f } } + m _ { 2 } \\overrightarrow { \\nu _ { 2 f } } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            204,
+            609,
+            229
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/705ac7c037f65c5049ab2e4f9feecf93674019eec6a1aec2ab99d89a6293b66c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            918,
+            125
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "= 85i Theo đề bài ta có $\\mathrm { \\Delta \\ m _ { 1 } = 6 0 k g }$ , m2 = 0,030 kg và v2 f m/s. ",
+        "bbox": [
+            174,
+            142,
+            704,
+            180
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Giải phương trình này và thay số ta được: ",
+        "bbox": [
+            173,
+            186,
+            527,
+            207
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/df694702a97e7d470f23d67a0fcc102413152986332ad5ca73af1dfe3f984827.jpg",
+        "text": "$$\n\\vec { \\nu } _ { { 1 f } } = - \\frac { m _ { 2 } } { m _ { 1 } } \\vec { \\nu } _ { { 2 f } } = - 0 , 0 4 2 \\vec { i } m / s\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            233,
+            416,
+            270
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Dấu trừ chỉ ra rằng người bắn cung chuyển động về phía bên trái trên hình 9.2 sau khi bắn mũi tên, phù hợp với định luật 3 Newton. Gia tốc và vận tốc của người bắn cung nhỏ hơn nhiều so với gia tốc và vận tốc của mũi tên vì khối lượng của người bắn cung rất lớn so với mũi tên. ",
+        "bbox": [
+            171,
+            280,
+            905,
+            359
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(B) Độ lớn của vận tốc giật lùi sẽ giảm vì chỉ một thành phần của vận tốc mũi tên là theo hướng x. Sự bảo toàn động lượng theo hướng x cho ta: ",
+        "bbox": [
+            165,
+            364,
+            901,
+            405
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c4c857e93598dd6db36eb016b98c0504263907574913bdcd7ce2ce06252cb93e.jpg",
+        "text": "$$\n\\begin{array} { r } { \\begin{array} { l l l } { \\displaystyle m \\nu } & { \\displaystyle + m \\nu \\quad \\mathrm { c o s } \\theta = 0 \\tilde { \\hat { \\mathrm { a n } } } \\mathrm { t } \\tilde { \\mathrm { o i } } \\nu } & { \\displaystyle _ { _ { 1 f } } = - \\frac { m _ { _ 2 } } { m _ { _ 1 } } \\nu } & { \\displaystyle \\mathrm { c o s } \\theta \\ . } \\end{array} } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            173,
+            407,
+            581,
+            453
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Với các giá trị $\\theta \\neq 0$ thì $\\nu _ { 1 f }$ nhỏ hơn $\\nu _ { { 1 } f } \\mathrm { k h i } \\ 6 = 0$ vì $\\mathrm { c o s } \\theta < 1$ . ",
+        "bbox": [
+            173,
+            462,
+            691,
+            483
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: $\\mathbf { H } \\hat { \\mathbf { e } }$ không cô lập (động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            500,
+            640,
+            522
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Đối với các khảo sát động lượng, hệ không cô lập nếu có lực tác dụng lên hệ. Ta có thể hình dung động lượng được chuyển từ môi trường đến hệ thông qua lực. Việc hiểu được lực là nguyên nhân gây ra sự biến thiên động lượng rất quan trọng khi giải quyết một số loại bài toán. ",
+        "bbox": [
+            114,
+            527,
+            905,
+            604
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Giả sử có một hợp lực $\\sum F ^ {  }$ tác dụng lên chất điểm và hợp lực này có thể biến thiên theo thời gian. Theo định luật 2 Newton: ",
+        "bbox": [
+            114,
+            613,
+            905,
+            652
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7336fd786eafa6b30f4ddd787006da0168c5d80c44ef2b2495d7d27375de1d63.jpg",
+        "text": "$$\n\\Sigma { \\cal F } ^ {  } = \\frac { d p  } { d t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            450,
+            655,
+            566,
+            702
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            708,
+            148,
+            726
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2fab1527c435432d543fd29921981baad7671fa6336ea28e0f0f96f48755a8c2.jpg",
+        "text": "$$\n\\begin{array} { r } { d \\boldsymbol { p } ^ {  } = \\sum \\boldsymbol { F } ^ {  } d t } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            731,
+            599,
+            755
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ta có thể lấy tích phân biểu thức (9.7) để tìm độ biến thiên động lượng của chất điểm khi có lực tác dụng lên nó trong một khoảng thời gian nào đó. Nếu động lượng của chất điểm thay đổi từ $\\vec { p _ { \\ i } }$ tại thời điểm $t _ { i }$ tới $\\vec { p _ { \\ f } }$ tại thời điểm $t _ { f }$ , lấy tích phân phương trình 9.7 ta được: ",
+        "bbox": [
+            112,
+            763,
+            901,
+            825
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b7356948b859fa4293684e50482ca270cab224122c758ca4ec722688a1f95308.jpg",
+        "text": "$$\n\\begin{array} { r } { \\Delta \\vec { p ^ { * } } = \\vec { p ^ { * } } _ { f } - \\vec { p ^ { * } } _ { i } = \\int \\sum F ^ { \\ } } \\\\ { \\vec { d } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            853,
+            642,
+            896
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/075086dc02c8e92c8342d950246ec80bbdae617df9d7712101296d1fa6d056ab.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD133</td></tr><tr><td rowspan=1 colspan=1>Dong luong và va cham</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            126
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Để tính tích phân này, ta cần biết hợp lực tác dụng lên chất điểm biến thiên theo thời gian như thế nào. Đại lượng ở vế phải của phương trình (9.8) được gọi là xung của hợp lực $\\sum F ^ {  }$ tác dụng lên chất điểm trong khoảng thời gian $\\Delta t = t _ { f } - t _ { i }$ , kí hiệu là $I ^ {  }$ : ",
+        "bbox": [
+            114,
+            143,
+            906,
+            212
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/98f6c1bc8f8124aa9ebe6cf8620f1dba7b991cb98e81bf1c84cdb6e983f1f57b.jpg",
+        "text": "$$\n\\boldsymbol { I } ^ {  } = \\int _ { t _ { i } } ^ { t _ { f } } \\sum \\boldsymbol { F } ^ {  } d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            214,
+            74,
+            356,
+            112
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Giả sử lực biến thiên theo thời gian như trên hình 9.3a và khác không trong khoảng thời gian $\\Delta t = t _ { f } - t _ { i }$ . Vectơ xung lực $I ^ {  }$ cùng hướng với vectơ độ biến thiên động lượng $\\Delta p ^ {  }$ . Xung lực có thứ nguyên của động lượng là ML/T. Xung lực không phải là một thuộc tính của chất điểm, mà là số đo mức độ ngoại lực làm thay đổi động lượng của chất điểm. ",
+        "bbox": [
+            114,
+            137,
+            457,
+            315
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Do hợp lực truyền xung lực cho chất điểm thường thay đổi theo thời gian, nên để thuận tiện, người ta định nghĩa hợp lực trung bình theo thời gian: ",
+        "bbox": [
+            114,
+            320,
+            457,
+            398
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Xung luc do luc truyèn cho chát dièm là dièn tich drói duòng cong ",
+        "bbox": [
+            477,
+            117,
+            665,
+            147
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/2bd1136e776c5e9095b299b160481c431765ca902dac2edd75580e314468bc96.jpg",
+        "image_caption": [
+            "Lyc trung binh theo thòi gian cho ta cùng giá tri xung lrc dói vói chát dièm gióng nhu lrc bién thièn theo thòi gian ō hình a) "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            692,
+            171,
+            915,
+            325
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/3a6f510afc18ab3f7a66851a64c0d42ab237e38494b03609916d85dacdbc3549.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            473,
+            161,
+            683,
+            325
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Hình 9.3 (a) Lực tác dụng lên chất điểm biến thiên theo thời gian. (b) Giá trị của lực không đổi (đường nét đứt nằm ngang) được lấy sao cho diện tích của hình chữ nhật bằng diện tích dưới đường cong ở ",
+        "bbox": [
+            472,
+            349,
+            918,
+            426
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9e5422cfe7ce7a48374d0021ee61f2536957b2997939c7e5ffda63ce1327ccce.jpg",
+        "text": "$$\n\\left( \\sum \\ F ^ { \\prime } \\right) _ { a v g } = \\frac { 1 } { \\Delta t } \\int \\sum F ^ { \\prime } d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            430,
+            619,
+            501
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "trong đó $\\Delta t = t _ { f } - t _ { i }$ . (Phương trình 9.11 là một áp dụng của định lý giá trị trung bình trong giải tích.) Do đó có thể biểu diễn phương trình 9.9 như là: ",
+        "bbox": [
+            114,
+            523,
+            901,
+            564
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0c2f60f989daa4f26a0ff76633174ab5b2886ae8f0abe279f153f93a23d28c10.jpg",
+        "text": "$$\n\\vec { I ^ { * } } = ( \\sum F _ { \\ a v g } ^ {  } \\Delta t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            575,
+            575,
+            611
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Lực trung bình này, như chỉ ra trên hình 9.3b, có thể xem là lực không đổi tác dụng lên chất điểm trong khoảng thời gian $\\Delta t$ , có cùng xung lực với xung lực của lực biến thiên theo thời gian tác dụng lên chất điểm trong khoảng thời gian đó. ",
+        "bbox": [
+            114,
+            616,
+            906,
+            675
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1de7805920233881c0297559a145f0e0fb41d8257bf748ee41065ef358ced2ed.jpg",
+        "text": "$$\n\\begin{array} { r l r } & { \\mathrm { 1 \\sum \\it F ^ { * } l \\dot { a } m \\hat { o } t h a m \\ c i a n \\ t h \\dot { o } i \\ g i a n , c \\dot { o } t h \\dot { c } t i n h \\ d u m \\ c u m \\ x u m g \\ l u c t \\ v i a n g \\ l u m \\ t r i n g \\ f r i n h \\ g . } }  & \\\\ & { \\mathrm { n \\ t r \\ddot { o } n \\hat { e } n \\ r \\hat { a } t d o n \\ g i a n \\ n \\hat { e } u n h u \\ l u c \\ t \\dot { a } c d u m g \\ l \\hat { e } n \\ c h \\dot { a } t \\ d i \\hat { \\tilde { e } } m \\ l \\hat { a } \\ k h \\hat { o } n g \\ d \\hat { \\tilde { o } i } \\cdot \\mathrm { T r o n g } } } & \\\\ & { \\mathrm { 7 , \\beta ( \\sum \\it F ) _ { \\alpha \\it F } = \\sum \\it F \\cdot \\ t r o n g \\ d \\hat { o } \\sum \\it F ^ { * } l \\dot { a } \\ h o p \\ l v c \\ k h \\hat { o } n g \\ d \\hat { \\tilde { o } i } \\ t \\ t \\hat { a } c d u m g \\ l \\hat { e } u \\ c h \\hat { a } t \\ } } & \\\\ & { \\mathrm { t r i n h \\ ( 9 . 1 1 ) t r \\tilde { o } t h a n h \\hat { . } } } & \\\\ & { \\mathrm { ~ } } &  \\Gamma = \\sum \\mathrm  \\it F ^ { * } \\hat { \\Delta } t ^  2 5 \\cdot \\hat { \\Sigma } ^  0 . 5 \\times \\hat { \\Sigma } ^  0 . 5 \\times \\hat { \\Sigma } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\hat { \\ S } ^  0 . 5 \\times \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            114,
+            679,
+            913,
+            809
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Kết hợp các phương trình (9.8) và (9.9) ta được định lý xung lượng-động lượng: ",
+        "bbox": [
+            140,
+            818,
+            843,
+            839
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Độ biến thiên động lượng của một chất điểm thì bằng xung lượng của hợp lực tác dụng lên chất điểm đó: ",
+        "bbox": [
+            111,
+            843,
+            903,
+            883
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e9d3640762770078b59e58c6a9f9b6a2d08ba4387575bb3b5fb766aa7af1d5a1.jpg",
+        "text": "$$\n\\Delta p ^ {  } = I ^ {  }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            457,
+            892,
+            540,
+            914
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Phát biểu này tương đương với định luật 2 Newton. Khi nói một xung lực được truyền cho chất điểm, ta muốn nói rằng động lượng được truyền từ một tác nhân bên ngoài tới chất điểm đó. Phương trình (9.13) có dạng tương tự với các phương trình bảo toàn năng lượng (8.1) và (8.2). ",
+        "bbox": [
+            112,
+            79,
+            897,
+            117
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            116,
+            88,
+            905,
+            127
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Phương trình 9.13 là phát biểu tổng quát nhất của nguyên lý bảo toàn động lượng và được gọi là phương trình bảo toàn động lượng. Trong cách tiếp cận động lượng, hệ cô lập xuất hiện thường xuyên hơn hệ không cô lập, nên phương trình (9.13) có thể xem như trường hợp đặc biệt của phương trình (9.5). Vế trái của phương trình (9.13) là độ biến thiên động lượng của hệ. Vế phải là số đo động lượng đi qua biên của hệ khi có lực tác dụng lên hệ. Phương trình (9.13) là phát biểu toán học của một mô hình phân tích mới, gọi là mô hình hệ không cô lập (động lượng). Phương trình này có dạng tương tự phương trình (8.1) nhưng có một số khác biệt khi áp dụng cho các bài toán. Trước tiên, phương trình (9.13) là phương trình vectơ, trong khi phương trình (8.1) là phương trình vô hướng. Do đó hướng là quan trọng đối với phương trình (9.13). Thứ hai, chỉ có một loại động lượng nên chỉ có một cách duy nhất để tích trữ động lượng trong hệ. Ngược lại, như thấy từ phương trình (8.2), có 3 cách để tích năng lượng cho hệ là động năng, thế năng và nội năng. Thứ ba, chỉ có một cách để truyền động lượng cho hệ là tác dụng lực lên hệ trong một khoảng thời gian. Phương trình (8.2) chỉ ra 6 cách mà ta đã biết để truyền năng lượng cho một hệ. Do đó, không có sự mở rộng phương trình (9.13) tương tự như phương trình (8.2). ",
+        "bbox": [
+            114,
+            132,
+            905,
+            417
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Trong nhiều tình huống người ta dùng “xấp xỉ xung lực”, bằng cách giả sử một trong các lực tác dụng lên chất điểm tác dụng trong một khoảng thời gian ngắn nhưng lớn hơn nhiều so với các lực khác cùng có mặt. Khi đó, hợp lực $\\sum F ^ {  }$ trong phương trình (9.9) được thay thế bằng một lực đơn $F ^ {  }$ để tính xung lực tác dụng lên chất điểm. Sự xấp xỉ này rất hữu ích khi xét các bài toán va chạm trong đó khoảng thời gian va chạm rất ngắn. Khi sử dụng xấp xỉ này, lực đơn được xem là một xung lực. Ví dụ khi quả bóng chày bị đánh bằng cái gậy, thời gian va chạm khoảng 0,01s và lực trung bình mà gậy tác dụng lên quả bóng là vài ngàn Newton. Vì lực này lớn hơn nhiều so với trọng lực tác dụng lên quả bóng và cái gậy, nên sự xấp xỉ xung lực cho thấy việc bỏ qua trọng lực là đúng đắn. Khi dùng xấp xỉ này, cần nhớ rằng $\\vec { p _ { \\ i } }$ và $\\vec { p _ { \\ f } }$ là các động lượng tức thời trước và sau khi va chạm. Do đó trường hợp phù hợp để dùng xấp xỉ xung là khi va chạm chất điểm di chuyển một đoạn rất ngắn. ",
+        "bbox": [
+            114,
+            422,
+            906,
+            642
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 9.3: Hai vật nằm yên trên một bề mặt không có ma sát. Vật 1 có khối lượng lớn hơn vật 2. (i) Khi một lực không đổi tác dụng lên vật 1, nó gia tốc vật trên quãng đường d theo một đường thẳng. Ngừng cho lực tác dụng lên vật $1 \\ \\mathrm { m } \\dot { \\mathrm { a } }$ cho nó tác dụng lên vật 2. Tại thời điểm vật 2 được gia tốc qua cùng quãng đường d, phát biểu nào đúng? (a) $\\mathsf { p } _ { \\mathsf { , } } < \\mathsf { p } _ { 2 }$ , (b) ${ \\mathsf { p } } 1 = { \\mathsf { p } } 2$ , (c) $\\mathsf { p } _ { 1 } > \\mathsf { p } _ { 2 } , ( \\mathsf { d } ) \\mathsf { K } _ { 1 } < \\mathsf { K } _ { 2 }$ , (e) $\\mathrm { K } _ { 1 } = \\mathrm { K } _ { 2 }$ , (f) $\\mathrm { K } _ { 1 } > \\mathrm { K } _ { 2 }$ . (ii) Khi một lực không đổi tác dụng lên vật 1, nó gia tốc vật trong một khoảng thời gian $\\Delta$ t. Ngừng cho lực tác dụng lên vật $1 \\ \\mathrm { m } \\dot { \\mathrm { a } }$ cho nó tác dụng lên vật 2. Từ danh sách các lựa chọn như trên, phát biểu nào là đúng sau khi vật 2 được gia tốc trong cùng khoảng thời gian $\\Delta { \\sf t ? }$ ",
+        "bbox": [
+            114,
+            648,
+            906,
+            805
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 9.4: Hãy xếp hạng từ lớn nhất đến nhỏ nhất một bảng điều khiển ô tô, một dây an toàn và một túi khí, mỗi cái được sử dụng một mình trong các va chạm có cùng tốc độ, về (a) xung lực và (b) lực trung bình mà mỗi cái mang lại cho một hành khách ngồi phía trước. ",
+        "bbox": [
+            114,
+            825,
+            905,
+            887
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: Hệ không cô lập (động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            89,
+            568,
+            128
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Giả sử ta đã xác định được hệ cần phân tích và biên của nó. Nếu có ngoại lực tác dụng lên hệ thì hệ là không cô lập. Khi đó độ biến thiên động lượng toàn phần của hệ bằng xung lực tác dụng lên hệ (định lý xung lực - động lượng): $\\Delta \\stackrel { \\longrightarrow } { p } _ { t o t } = \\vec { I }$ (9.13) ",
+        "bbox": [
+            114,
+            132,
+            570,
+            231
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Ví dụ: ",
+        "bbox": [
+            151,
+            242,
+            205,
+            261
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Cái gậy đánh vào quả bóng chày • Dùng sợi dây kéo một ống chỉ đặt trên bàn ",
+        "bbox": [
+            151,
+            286,
+            537,
+            325
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba433f9e4c359b1183d3d3f7584bf9d4317b85f187174e875795a8c832e1e87f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            581,
+            94,
+            905,
+            294
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Bài tập mẫu 9.3: Cái đỡ va tốt như thế nào? ",
+        "text_level": 1,
+        "bbox": [
+            173,
+            357,
+            570,
+            378
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Trong một thử nghiệm va chạm, một xe hơi có khối lượng $1 5 0 0 \\mathrm { k g }$ va chạm với một bức tường như trên hình 9.4. Vận tốc của xe trước và sau khi va chạm lần lượt là ${ \\vec { \\nu } } _ { i } = - 1 5 { \\vec { i } } \\mathrm { m } / \\mathrm { s }$ và $\\vec { \\nu } _ { f } = 2 , 6 \\vec { i } \\mathrm { m } / \\mathrm { s }$ . (A) Va chạm kéo dài trong 0.15 s, hãy tìm xung lực c ủa vụ va chạm và lực trung bình tác dụng lên xe. (B) Điều gì xảy ra nếu chiếc xe không bật ra khỏi bức tường? Giả sử tốc độ cuối cùng của xe bằng không và khoảng thời gian của va chạm vẫn ở mức 0.15 s. Điều đó có thể hiện là lực lớn hơn hoặc nhỏ hơn tác dụng lên xe không? ",
+        "bbox": [
+            173,
+            386,
+            558,
+            462
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            173,
+            479,
+            558,
+            599
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/8e8836b19bb7a579c1eec766249fd819ea1052e4377d1bf6152dbb0d96478151.jpg",
+        "image_caption": [
+            "Hình 9.4 Bài tập mẫu 9.3 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            570,
+            395,
+            900,
+            545
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            169,
+            613,
+            901,
+            633
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Giải: ",
+        "bbox": [
+            173,
+            641,
+            222,
+            659
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(A) Sử dụng công thức 9.13 để tính xung lực tác dụng lên xe hơi: ",
+        "bbox": [
+            174,
+            666,
+            727,
+            688
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f32ab8b7f9066d9e4bc512c5fff560152067f4418e26059ed85c38e9af30c30.jpg",
+        "text": "$$\n\\vec { I } = \\Delta \\vec { p } = \\vec { \\mathrm { p _ { f } } } - \\vec { \\mathrm { p _ { i } } } = m \\vec { \\nu _ { f } } - m \\vec { \\nu _ { i } } ^ { - } = m \\left( \\vec { \\nu _ { f } } - \\vec { \\nu _ { i } } \\right) = 2 6 4 0 0 \\vec { i } \\mathrm { k g . m / s }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            174,
+            693,
+            640,
+            719
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Dùng công thức (9.11) để tính lực trung bình tác dụng lên xe: (F )avg = I =176000 it ",
+        "bbox": [
+            169,
+            733,
+            900,
+            768
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "N ",
+        "bbox": [
+            173,
+            772,
+            192,
+            789
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Lực tính được ở trên là tổng hợp của phản lực vuông góc do tường tác dụng lên xe và lực ma sát giữa các lốp xe và mặt đất khi đầu xe bị biến dạng. Nếu các bánh xe quay tự do, lực ma sát này là tương đối nhỏ. ",
+        "bbox": [
+            173,
+            813,
+            905,
+            871
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(B) Trong tình huống trên, khi mà chiếc xe bật ra khỏi tường, lực tác dụng lên xe thực hiện hai việc trong khoảng thời gian 0.15s: (1) nó dừng xe, và (2) nó làm cho xe chuyển động ra khỏi tường với tốc độ 2.60 m/s sau khi va chạm. Nếu chiếc xe không bật ra, ",
+        "bbox": [
+            173,
+            876,
+            905,
+            934
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "lực chỉ thực hiện bước đầu tiên đó là dừng xe - đòi hỏi một lực nhỏ hơn. Trong trường hợp này, xung lực là: ",
+        "bbox": [
+            169,
+            78,
+            903,
+            117
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "I = p = p f − pi = 0 − mvi = m(vf − vi ) = 22500i kg.m/s và lực trung bình tác dụng lên xe   \nlà:   \n$\\left( \\sum \\vec { F } \\right) _ { a v g } = \\frac { T } { \\Delta t } = 1 5 0 0 0 0 \\Ddot { \\mathrm { \\uparrow } } \\ \\mathrm { N } .$ ",
+        "bbox": [
+            163,
+            89,
+            901,
+            195
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Va chạm một chiều ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            218,
+            343,
+            241
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Thuật ngữ va chạm biểu thị sự kiện hai chất điểm đi lại gần nhau và tương tác với nhau bằng các lực. Các lực tương tác được giả sử rất lớn so với các ngoại lực có mặt, nên có thể sử dụng xấp xỉ xung lực. ",
+        "bbox": [
+            114,
+            246,
+            658,
+            323
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Va chạm không chỉ xảy ra khi có sự tiếp xúc trực tiếp giữa hai vật thể vĩ mô, như mô tả trên hình 9.5a, mà phải được hiểu tổng quát hơn. Ví dụ xét một va chạm $\\dot { \\mathbf { O } }$ tỉ $\\mathsf { l e }$ nguyên tử giữa proton và hạt alpha (hình 9.5b). Vì cả hai hạt đều mang điện dương, chúng đẩy nhau, va chạm với nhau thông qua trường điện từ. ",
+        "bbox": [
+            116,
+            329,
+            658,
+            443
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/eaf7ed8536d92e4f86d90cc6c968b96a59be55f2a0e80a42e2054e91596e481f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            678,
+            232,
+            908,
+            439
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Khi hai vật có khối lượng m1 và m2 va chạm như trên hình 9.5, các xung lực có thể thay đổi rất phức tạp, chẳng hạn như trên hình 9.3. Tuy nhiên, bất $\\mathrm { k } \\mathring { \\mathrm { e } }$ sự phức tạp của xung lực, lực luôn là nội lực của hệ hai vật. Do đó, hai vật tạo thành một hệ cô lập và động lượng của hệ được bảo toàn trong va chạm bất kỳ. Tuy nhiên, tổng động năng của hệ có thể bảo toàn hoặc không, tùy thuộc vào loại va chạm. ",
+        "bbox": [
+            116,
+            449,
+            658,
+            583
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "image_caption": [
+            "Hình 9.5 (a) Va chạm giữa hai vật như kết quả của sự tiếp xúc trực tiếp, (b) \"Va chạm\" giữa hai hạt tích điện. "
+        ],
+        "image_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Phân loại va chạm: Va chạm được chia thành va chạm đàn hồi hoặc va chạm không đàn hồi tùy thuộc vào việc động năng của hệ có bảo toàn hay không. ",
+        "bbox": [
+            112,
+            603,
+            903,
+            642
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Va chạm đàn hồi gữa hai vật là va chạm mà tổng động năng và tổng động lượng của hệ trước và sau khi va chạm là như nhau. Va chạm giữa các vật trong thế giới vĩ mô, chẳng hạn giữa các quả bóng bi a, chỉ là xấp xỉ đàn hồi vì có xảy ra sự biến dạng và mất động năng. Ví dụ ta có thể nghe thấy tiếng các quả bi a va chạm nhau, như vậy có một số năng lượng từ hệ đã bị truyền đi xa bởi âm thanh. Va chạm đàn hồi phải hoàn toàn yên lặng ",
+        "bbox": [
+            114,
+            648,
+            906,
+            744
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Va chạm không đàn hồi là va chạm mà tổng động năng của hệ trước và sau khi va chạm khác nhau (mặc dù động lượng của hệ được bảo toàn). Các va chạm không đàn hồi có hai loại. Khi các vật dính vào nhau sau khi va chạm được gọi là va chạm hoàn toàn không đàn hồi, ví dụ khi một thiên thạch va chạm với Trái đất. Khi các vật va chạm nhưng không dính vào nhau, nhưng một phần năng lượng bị chuyển sang dạng năng lượng khác hoặc bị truyền ra xa, như trường hợp quả bóng cao su va chạm với một bề mặt cứng, thì va chạm được gọi là không đàn hồi. Khi quả bóng cao su va chạm với nền cứng, một phần động năng của quả bóng bị chuyển đổi (sang nhiệt) khi quả bóng bị biến dạng trong khi nó tiếp xúc với bề mặt cứng. Các va chạm không đàn hồi được mô tả bằng cách diễn giải động lượng của mô hình ",
+        "bbox": [
+            114,
+            750,
+            905,
+            921
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Va chạm hoàn toàn không đàn hồi ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            88,
+            428,
+            108
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Xét 2 vật khối lượng $\\mathbf { m } _ { 1 }$ và $\\mathbf { m } _ { 2 }$ , chuyển động với các vận tốc ban đầu $\\vec { v _ { \\ 1 i } } , \\vec { v _ { \\ 2 i } }$ dọc theo một đường thẳng như trên hình 9.6. Hai vật va chạm trực diện với nhau, dính vào nhau và sau va chạm chúng chuyển động với vận tốc chung $\\vec { v _ { \\ f } }$ . Do động lượng của một hệ cô lập được bảo toàn trong va chạm bất kì, ta có tổng động lượng trước khi va chạm bằng với động lượng của hệ hợp lại sau khi va chạm: ",
+        "bbox": [
+            116,
+            114,
+            488,
+            304
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/dbd5290ad3f9add13b009ae13a0e0869ef41df765b1f12a19a80e53d6ffa5adf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            500,
+            117,
+            897,
+            248
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Hình 9.6 Giản đồ biểu diễn va chạm xuyên tâm hoàn toàn không đàn hồi giữa hai chất điểm ",
+        "bbox": [
+            496,
+            252,
+            898,
+            295
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ba1d16713b964f2a5641d9c42de7337e3ad1c995ba1cf9acf39c954407dc4d7e.jpg",
+        "text": "$$\nm _ { 1 } \\vec { v _ { 1 i } } + m _ { 2 } \\vec { v _ { 2 i } } = ( m _ { 1 } + m _ { 2 } ) \\vec { v ^ { , } } _ { f }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            328,
+            671,
+            351
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Giải phương trình này đối với ẩn số là vận tốc sau va chạm, ta được: $m _ { 1 } \\vec { v ^ { } } _ { 1 i } + m _ { 2 } \\vec { v ^ { } } _ { 2 i }$ ",
+        "bbox": [
+            150,
+            354,
+            735,
+            400
+        ],
+        "page_idx": 16
+    }
+]

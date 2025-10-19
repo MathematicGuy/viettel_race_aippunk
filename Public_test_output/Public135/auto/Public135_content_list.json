@@ -1,0 +1,1658 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/2a331d11e0203e3a21810eaae3a78b70dce58498f29cc9786a643670d1430370.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chủ đề trung tâm của chương này là mômen động lượng, là đại lượng đóng vai trò quan trọng trong động lực học chuyển động quay. Tương tự như nguyên lý bảo toàn động lượng, ta cũng có nguyên lý bảo toàn mômen động lượng. Mômen động lượng của một hệ cô lập là không đổi. Đối với mômen động lượng, một hệ cô lập là một   \nhệ không có các mômen ngoại lực tác dụng lên hệ. Nếu có mômen ngoại lực tác dụng lên hệ thì hệ đó không cô lập. Giống như định luật bảo toàn động lượng, định luật bảo toàn mômen động lượng là một định luật cơ bản của vật lý, nó cũng có giá trị đối với các hệ tương đối và lượng tử. ",
+        "bbox": [
+            111,
+            171,
+            911,
+            324
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tích vectơ và mômen lực ",
+        "text_level": 1,
+        "bbox": [
+            117,
+            339,
+            411,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Điều quan trọng khi xác định mômen động lượng là nhân 2 vectơ bằng toán tử tích có hướng. ",
+        "bbox": [
+            114,
+            366,
+            627,
+            405
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xét lực $F ^ {  }$ tác dụng lên chất điểm tại vị trí vectơ $r ^ {  }$ (hình 11.1). Như đã biết trong mục 10.6, độ lớn của mômen lực của lực này đối với một trục quay đi qua $\\mathrm { g } \\acute { \\mathrm { o c } }$ là $r F$ sin $\\varphi$ , trong đó $\\varphi$ là góc giữa các vectơ $r ^ {  }$ và $F ^ {  }$ . Trục mà lực $F ^ {  } \\acute { \\mathbf { o } }$ xu hướng tạo ra chuyển động quay quanh nó là trục vuông góc với mặt phẳng tạo bởi các vectơ $r ^ {  }$ và $F ^ {  }$ . ",
+        "bbox": [
+            114,
+            412,
+            632,
+            536
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Vectơ mômen lực $\\tau ^ {  }$ được liên kết với các vectơ $r ^ {  }$ và $\\vec { F }$ Ta có thể thiết lập một mối liên hệ toán học giữa $\\tau ^ {  }$ , $r ^ {  }$ và $\\vec { F }$ bởi một toán tử được gọi là tích vectơ: ",
+        "bbox": [
+            114,
+            545,
+            637,
+            606
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8f06e8fac8fc8111389b90ff356e97386ef3ecb3e95ffc93030537fb81e39b36.jpg",
+        "text": "$$\n\\vec { \\tau ^ { \\mathrm { ~ } } } = \\vec { r ^ { \\mathrm { ~ ~ } } } \\times \\vec { F ^ { \\mathrm { ~ ~ } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            612,
+            418,
+            632
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Bây giờ ta đưa ra một định nghĩa chính thức của tích vectơ. Cho trước hai vectơ $A ^ {  }$ và $B ^ {   }$ bất kì, tích vectơ $A ^ {  } \\times \\vec { B }$ được định nghĩa như là vectơ thứ ba $C ^ {  }$ có độ lớn bằng ??⃗??⃗⃗ sin $\\theta$ , trong đó $\\theta$ là góc giữa hai vectơ $A ^ {  }$ và $B ^ {   }$ . Tức $C ^ {  }$ $\\boldsymbol { C } ^ {  } = \\boldsymbol { A } ^ {  } \\times \\boldsymbol { B } ^ {  }$ là $C =$ $A B$ sin $\\theta$ . ",
+        "bbox": [
+            114,
+            640,
+            632,
+            790
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/b5daa8e719f8530e3ccab7c748b6377652970f270a37526a9050ebcda869e376.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            643,
+            364,
+            903,
+            661
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hình 11.1: Vectơ mômen lực $\\vec { \\tau }$ hướng vuông góc với mặt phẳng tạo bởi vectơ vị trí ??⃗ và vectơ lực tác dụng $F ^ {  }$ . Trên hình vẽ này, ??⃗ và $F ^ {  }$ nằm trong mặt phẳng xy, nên mômen lực dọc theo trục z. ",
+        "bbox": [
+            638,
+            671,
+            906,
+            810
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích : $\\mathbf { H } \\hat { \\mathbf { e } }$ không cô lập (mômen động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            109,
+            867,
+            735,
+            890
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hình dung một cái cột được dựng lên trên một hồ nước đóng băng (hình 11.3). Một người trượt băng trượt nhanh $\\mathbf { v } \\dot { \\hat { \\mathbf { e } } }$ phía cái cột, theo hướng hơi lệch sang bên để không va vào cái cột. ",
+        "bbox": [
+            114,
+            896,
+            905,
+            935
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/cd0b02c8cee8bc6bf61ca3df469bad06ea286ac0e210b8fd201fc72a9732de8b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lurong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Khi cô ta trượt ngang qua cái cột, cô ta chìa tay ra bên hông và túm lấy cái cột. Hành động này làm cho cô ta chuyển động tròn xung quanh cái cột. Giống như ý tưởng về động lượng giúp ta phân tích chuyển động tịnh tiến, một sự tương tự trong chuyển động quay, mômen ",
+        "bbox": [
+            114,
+            140,
+            906,
+            199
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Bây giờ ta có thể viết (11.9) như sau: ",
+        "bbox": [
+            147,
+            231,
+            467,
+            253
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Mo men dōng luong $\\vec { L }$ cia chát dièm dói vói truc quay là mòt vecto vuòng góc vói cà vecto vi trí $\\vec { r }$ và dōng luong $\\dot { P }$ cúa nó. ",
+        "bbox": [
+            679,
+            219,
+            879,
+            276
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/39504681c6212b7cc8caa45025c034139799df5842c185f4046ec59066c003dc.jpg",
+        "image_caption": [
+            "Hình 11.4: Mômen động lượng $\\vec { L }$ của chất điểm là một véctơ cho bởi $\\scriptstyle { \\vec { L } } = { \\vec { r } } \\times { \\vec { p } }$ "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            655,
+            294,
+            906,
+            455
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/2aa1403cb8cdf7a2440d3f983bddb267c96cf46608ddc69dc19490d6c02d47b0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V•</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Mômen động lượng của hệ chất điểm ",
+        "text_level": 1,
+        "bbox": [
+            148,
+            202,
+            486,
+            223
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Dùng các kỹ thuật như trong mục 9.7, ta có thể chỉ ra rằng định luật 2 Newton đối với hệ chất điểm là: ",
+        "bbox": [
+            114,
+            228,
+            906,
+            266
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b8fa6b95f8f543dc2fb01d00bd00ced0cbcd9d57ce6c30af79e7dc43fab58bb5.jpg",
+        "text": "$$\n\\sum \\stackrel {  } { F } _ { e x t } = \\frac { d \\stackrel {  } { P } _ { t o t } } { d t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            468,
+            272,
+            599,
+            316
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Phương trình này cho thấy tổng ngoại lực tác dụng lên hệ chất điểm thì bằng tốc độ biến thiên theo thời gian của động lượng toàn phần của hệ. ",
+        "bbox": [
+            114,
+            327,
+            905,
+            366
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ta hãy xem một phát biểu tương tự như vậy có thể được thực hiện đối với chuyển động quay hay không. Mômen động lượng toàn phần của hệ chất điểm đối với một trục quay nào đó được xác định bằng tổng véctơ mômen động lượng của từng chất điểm riêng biệt: ",
+        "bbox": [
+            114,
+            371,
+            906,
+            430
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b32b6f7dd1540f5c23619fff4a97b03d1ff8bdb3605bf5491cdaf35c3d1601c0.jpg",
+        "text": "$$\nL _ { t o t } = L _ { 1 } + L _ { 2 } + L _ { 3 } + . . . + L _ { n } = \\sum L _ { i }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            397,
+            436,
+            668,
+            463
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "trong đó tổng vectơ được lấy trên toàn bộ n chất điểm của hệ. ",
+        "bbox": [
+            114,
+            472,
+            633,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Lấy đạo hàm biểu thức này theo thời gian ta có: ",
+        "bbox": [
+            147,
+            498,
+            557,
+            520
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/7de54b78efeeb31c7fdf7c14ca7c4602949e7789a70e396debe015537dc1bdc6.jpg",
+        "text": "$$\n\\frac { d L _ { t o t } } { d t } = \\sum \\frac { d L _ { i } } { d t } = \\sum \\vec { \\tau _ { i } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            444,
+            525,
+            619,
+            564
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ở đây ta đã dùng phương trình (11.11) để thay thế tốc độ biến thiên theo thời gian của mômen động lượng của mỗi chất điểm với mômen lực tác dụng lên mỗi chất điểm. ",
+        "bbox": [
+            111,
+            603,
+            892,
+            645
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/8c038e8c8b5bfaaa210a17dbeb1ff05b14ee6a81df0c9dad504158bcff5b0bfd.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương trình này trong chuyển động quay tương tự với phương trình $\\sum { \\vec { F _ { e x t } } } = \\frac { d P _ { t o t } } { d t }$ đối ",
+        "bbox": [
+            143,
+            172,
+            908,
+            202
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "với hệ chất điểm. Phương trình 11.13 là biểu diễn toán học của sự diễn tả $\\mathrm { m } \\hat { \\mathrm { o } }$ hình hệ không cô lập mômen động lượng. Nếu hệ không cô lập theo nghĩa có mômen lực tác dụng lên nó, thì mômen lực bằng tốc độ biến thiên theo thời gian của mômen động lượng. ",
+        "bbox": [
+            114,
+            220,
+            906,
+            281
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mặc dù ta không chứng minh ở đây, nhưng phát biểu này là đúng bất kể chuyển động của khối tâm. Nó có thể áp dụng ngay cả khi khối tâm đang gia tốc, miễn là mômen lực và mômen động lượng được đánh giá so với một trục quay đi qua khối tâm. ",
+        "bbox": [
+            114,
+            286,
+            906,
+            344
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Sắp xếp lại phương trình 11.13 và lấy tích phân ta được ",
+        "bbox": [
+            148,
+            349,
+            622,
+            371
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/018753b6f966ba2860fec74707f123829a153d5701fd4d2df8adae32c7f98744.jpg",
+        "text": "$$\n\\int ( \\sum _ { \\tau } \\vec { \\tau } _ { \\ e x t } ) d t = \\Delta L _ { _ { t o t } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            457,
+            376,
+            606,
+            404
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Phương trình này trong chuyển động quay tương tự với phương trình của định lí xung lực-động lượng của hệ chất điểm (9.40). Phương trình này biểu diễn định lí xung lượng của mômen lực- mômen động lượng. ",
+        "bbox": [
+            114,
+            415,
+            633,
+            492
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mômen động lượng của vật rắn quay ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            506,
+            526,
+            529
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Trong ví dụ 11.4, ta đã khảo sát mômen động lượng của một hệ có thể biến dạng. Bây giờ ta sẽ tập trung sự chú ý vào hệ không biến dạng, gọi là vật rắn. Xét vật rắn quay quanh một trục cố định trùng với trục z của hệ tọa độ như chỉ ra trên hình 11.7. ",
+        "bbox": [
+            114,
+            534,
+            632,
+            628
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Ta hãy xác định mômen động lượng của vật này. Mỗi chất điểm của vật này quay trong một mặt phẳng xy quanh trục z với tần số góc  . Độ lớn của mômen động lượng của ",
+        "bbox": [
+            114,
+            636,
+            632,
+            694
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/206732c2761681d0e798da4056666d55efef29074421a578ee508a568eacb6f3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            643,
+            417,
+            905,
+            595
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Hình 11.7: Khi vật rắn quay quanh trục, mômen động lượng $\\vec { L }$ cùng hướng với vectơ vận tốc góc $\\vec { \\omega }$ , theo mối liên hệ $\\vec { L } = I \\vec { \\omega }$ ",
+        "bbox": [
+            651,
+            598,
+            897,
+            703
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/679439e9ba480858b41dfec017e1e0fcd850dd4624d4e9a251ff58ba6919f7c4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích: hệ cô lập (mômen động lượng) ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            147,
+            656,
+            170
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Trong chương 9 ta đã thấy rằng động lượng toàn phần của một hệ chất điểm là không đổi nếu hệ cô lập, tức là khi ngoại lực tác dụng lên hệ bằng không. Trong chuyển động quay, ta cũng có một định luật bảo toàn tương tự: ",
+        "bbox": [
+            114,
+            175,
+            906,
+            233
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "“Mômen động lượng toàn phần của một hệ không đổi cả độ lớn và hướng (bảo toàn) nếu tổng mômen ngoại lực tác dụng lên hệ bằng không, hoặc hệ cô lập“. ",
+        "bbox": [
+            114,
+            239,
+            905,
+            279
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Phát biểu này thường được gọi là nguyên lý bảo toàn mômen động lượng và là cơ sở cho cách diễn tả mômen động lượng của mô hình hệ cô lập. ",
+        "bbox": [
+            114,
+            285,
+            905,
+            325
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động hồi chuyển và các con cù ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            337,
+            544,
+            359
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Một kiểu chuyển động khác lạ và hấp dẫn có thể bạn đã biết là con cù quay quanh trục đối xứng của nó như trên hình 11.13a. Nếu con cù quay nhanh, trục đối xứng của nó quay quanh trục z, vẽ ra một hình nón, (Hình 11.13b). Chuyển động của trục đối xứng xung quanh trục thẳng đứng, được biết tới như là chuyển động tiến động, thường là chậm so với chuyển động quay của con cù. ",
+        "bbox": [
+            114,
+            364,
+            905,
+            460
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c1b5209b552abbd75fae2444597f4e6f89690230e5cc6fc040b2e6f4370173e.jpg",
+        "image_caption": [
+            "Hình 11.13. Chuyển động tiến động của con cù quay quanh trục đối xứng của nó. a) Các ngoại lực tác dụng lên con cù chỉ là phản lực pháp tuyến n và trọng lực $M \\vec { g }$ . Hướng của mômen động lượng L dọc theo trục đối xứng. b) Vì $\\vec { L } _ { f } = \\Delta \\vec { L } + \\vec { L } _ { i }$ nên con cù tiến động quanh "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            194,
+            459,
+            785,
+            750
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi nảy sinh một cách tự nhiên ở đây là tại sao con cù không bị đổ xuống. Vì khối tâm của nó không ở ngay trên điểm trụ O, nên có một mômen lực tác dụng lên con cù đối với trục quay đi qua O, mômen lực này gây bởi trọng lực Mg . Con cù sẽ đổ xuống nếu như nó không quay. Tuy nhiên vì nó quay, nên nó có một mômen động lượng $L$ hướng dọc theo trục đối xứng của nó. Ta sẽ chỉ ra rằng trục đối xứng này chuyển động xung quanh trục z (xảy ra chuyển động tiến động) vì mômen lực làm cho hướng của trục đối xứng thay đổi. Sự minh họa này là một ví dụ tuyệt vời về tầm quan trọng của bản chất véctơ của mômen động lượng. ",
+        "bbox": [
+            114,
+            895,
+            905,
+            934
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/5758768d3f8ac7d62bfacc3c7c9cb4ec3f92ce7d3d7f8c141d9d538b899a5e45.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V-</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            140,
+            906,
+            243
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/f7fc98beb4b75ed15bf507924433277216f09fd9d43f086530bc1e35e20a7875.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Biểu thức này chỉ ra rằng trong khoảng thời gian vô cùng nhỏ dt, mômen lực gây ra một độ biến thiên mômen động lượng $d \\vec { L }$ , cùng hướng với  . Do đó, giống như véctơ mômen lực, dL cũng phải vuông góc với $\\vec { L }$ . Hình 11.14c minh họa chuyển động tiến động của trục đối xứng của con quay. Trong khoảng thời gian dt, độ biến thiên mômen động lượng là $d \\vec { L } = \\vec { L _ { f } } - \\vec { L _ { i } } = \\tau \\vec { d t }$ . Vì dL vuông góc với $\\vec { L } ^ { \\vec { \\mathbf { \\Phi } } }$ , nên độ lớn của $\\bar { L }$ không thay đổi, $\\left| \\vec { L } _ { f } \\right| = \\left| \\vec { L } _ { i } \\right|$ . Hơn nữa, sự thay đổi chỉ là hướng của $\\vec { L }$ . Vì sự thay đổi mômen động lượng dL là theo hướng của  , nằm trong mặt phẳng xy, nên con quay hồi chuyển chịu chuyển động tiến động. ",
+        "bbox": [
+            112,
+            207,
+            903,
+            330
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            340,
+            900,
+            383
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/5db18a7e2f35a1535f1f011a18820efe11d47533630f58e332ecf19394d11c93.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            645,
+            465,
+            836,
+            588
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trong hrc Mg theo chièu am cia truc z, gày ra mò men hrc len con quay theo chièu durong cia truc y dóivói dièm try. ",
+        "bbox": [
+            364,
+            597,
+            558,
+            655
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Mò men lrc gày ra dò bièn thièn mò men dòng lrong di cia con quay theo huóng song song vói mò men luc. Truc cùa con quay quét durgc góc $d \\phi$ trong khoàng thòi gian dt. ",
+        "bbox": [
+            624,
+            593,
+            888,
+            660
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Hình 11.14. a) Một con quay hồi chuyển được đặt trên một cái trụ ở đầu mút bên phải. b) Giản đồ đối với con quay chỉ ra các lực, mômen lực và mômen động lượng. c) Nhìn từ trên xuống (dọc theo trục z) các vectơ mômen động lượng của con quay tại thời điểm đầu và cuối của khoảng thời gian rất ngắn dt. ",
+        "bbox": [
+            120,
+            689,
+            887,
+            768
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Để đơn giản hóa sự mô tả hệ, giả sử mômen động lượng toàn phần của bánh xe tiến động là tổng của mômen động lượng I do quay và mômen động lượng do chuyển động của khối tâm so với trục đứng. Trong cách xử lý này, ta bỏ qua phần đóng góp của chuyển động của khối tâm và lấy mômen động lượng toàn phần chỉ là I . Trong thực hành, sự xấp xỉ này là tốt khi  lớn. ",
+        "bbox": [
+            112,
+            779,
+            905,
+            875
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Giản đồ véctơ trên hình 11.14c cho thấy rằng trong khoảng thời gian dt, véctơ mômen động lượng quay được một góc $d \\phi$ , cũng là góc mà con quay hồi chuyển quay được. Từ tam ",
+        "bbox": [
+            116,
+            881,
+            905,
+            922
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/4ce9e8e5e71ecb4675fec70e66b1787b7970b48d6d9e1e225e0123e98c7e61e7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE       V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            915,
+            126
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Chia cả 2 vế cho dt và dùng công thức L = I ta thấy rằng tốc độ trục xe quay đối với trục thẳng đứng là: ",
+        "bbox": [
+            114,
+            141,
+            906,
+            188
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f0ebeaeef4f038729eeb548bf56b36055c6db69f55bfbfa3d3c45fa704c5d849.jpg",
+        "text": "$$\n\\mathfrak { O } _ { P } = \\frac { d \\Phi } { d t } = \\frac { \\mathbf { M } \\mathbf { g r } _ { \\mathrm { C M } } } { \\mathrm { I } \\odot }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            239,
+            566,
+            279
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Tần số góc ${ \\mathfrak { O } } _ { P }$ gọi là tần số tiến động. Kết quả này chỉ đúng khi ${ \\mathfrak { O } } _ { P } < < { \\mathfrak { O } }$ . Nếu không, sẽ liên quan đến một chuyển động phức tạp hơn nhiều. Như bạn có thể thấy từ phương trình (11.20), điều kiện ${ \\mathfrak { O } } P < < { \\mathfrak { O } }$ thỏa mãn khi  rất lớn, tức là khi bánh xe quay rất nhanh. Hơn nữa, chú ý rằng tần số tiến động suy giảm khi  tăng, tức là khi bánh xe quay càng nhanh quanh trục đối xứng của nó. ",
+        "bbox": [
+            114,
+            289,
+            903,
+            392
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Một ví dụ về con quay hồi chuyển, giả sử bạn đang ở trên một con tàu vũ trụ trong không gian xa xôi, và bạn cần thay đổi quỹ đạo của tàu. Để lái động cơ chạy đúng hướng, bạn cần phải xoay tàu vũ trụ. Tuy nhiên, làm thế nào để bạn xoay con tàu vũ trụ trong không gian trống rỗng? Cách thứ nhất là phải có các động cơ tên lửa nhỏ bắn ra vuông góc với tàu, cung cấp một mômen lực đối với khối tâm của tàu. Một cơ cấu như vậy là đáng mong muốn, và nhiều tàu vũ trụ có các tên lửa như vậy. ",
+        "bbox": [
+            114,
+            397,
+            906,
+            513
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/42527bd36aed65acbeae2e36117a30d8b39b811de3e85a423428c92c166e64f8.jpg",
+        "image_caption": [
+            "Hình 11.15. a) Tàu vũ trụ mang theo một con quay đang đứng yên chưa quay. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            230,
+            577,
+            356,
+            843
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/f81ec4a3866e30edda9a6c52576ee8f83d9b6af1c05e9cafb46ed2c76824bc74.jpg",
+        "image_caption": [
+            "b) Con quay được điều khiển cho quay. "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            614,
+            573,
+            870,
+            842
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/efd8f9fa50cd87a7bd2ec553b515e1fae14ae0135c3b3253949716e0b21d5950.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V-</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            126
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Tuy nhiên, ta hãy khảo sát phương pháp khác liên quan tới mômen động lượng, và không đòi hỏi tiêu thụ nhiên liệu tên lửa. Giả sử tàu vũ trụ mang một con quay hồi chuyển không quay như trên hình 11.15a. Trong trường hợp này, mômen động lượng của tàu vũ trụ đối với khối tâm của nó bằng không. Giả sử con quay được làm cho quay, cung cấp cho nó một mômen động lượng khác không. Không có mômen ngoại lực tác dụng lên hệ cô lập (tàu vũ trụ-con quay), cho nên mômen động lượng của hệ này phải bằng không theo mô hình hệ cô lập (mômen động lượng). Mômen động lượng của hệ bằng không nếu tàu vũ trụ quay theo chiều ngược với chiều quay của con quay sao cho véc tơ mômen động lượng của tàu và của con quay khử lẫn nhau. Kết quả của việc làm cho con quay quay như trên hình 11.15b là tàu quay vòng. Bằng cách bố trí ba con quay theo ba trục vuông góc với nhau, có thể thu được sự quay mong muốn trong không gian. ",
+        "bbox": [
+            114,
+            160,
+            903,
+            199
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/69e91084a3f86711b9074a10a2b319174ce5e0ce06ec5803761212a8b8b29a76.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            114,
+            147,
+            908,
+            319
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Hiệu ứng này tạo ra một tình huống không mong muốn đối với tàu Voyager 2 trong chuyến bay của nó. Tàu này đã mang một máy ghi âm (dùng băng) mà phần guồng (ống) của nó quay ở tốc độ rất cao. Mỗi lần máy thu băng được bật lên, guồng tác dụng như một con quay hồi chuyển và tàu bị quay theo hướng ngược lại. Sự quay này đã được Trung tâm điều khiển tàu (Mission Control) dùng các vòi phun bắn về một phía để dừng sự quay. ",
+        "bbox": [
+            114,
+            324,
+            906,
+            421
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 11.1: Cho hai quả cầu đặc và rỗng cùng khối lượng và bán kính. Chúng chuyển động quay cùng tốc độ góc. Hỏi quả cầu nào có mômen động lượng lớn hơn: ",
+        "bbox": [
+            114,
+            462,
+            901,
+            502
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(a) Quả cầu đặc.   \n(b) Quả cầu rỗng.   \n(c) Bằng nhau.   \n(d) Không thể xác định. ",
+        "bbox": [
+            114,
+            502,
+            316,
+            577
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 11.2: Một người thợ lặn lao ra từ tàu xuống nước với cơ thể duỗi thẳng và quay chậm. Hỏi động năng quay của cô ấy sẽ như thế nào: ",
+        "bbox": [
+            114,
+            599,
+            903,
+            638
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(a) Tăng lên.   \n(b) Giảm đi.   \n(c) Không đổi.   \n(d) Không thể xác định.   \nMômen động lượng $\\vec { L }$ đối với một trục quay đi qua gốc O của chất điểm có động lượng   \n${ \\vec { p } } = m { \\vec { \\nu } }$ là $L \\equiv { \\stackrel {  } { \\mathbf { r } } } \\times { \\stackrel {  } { \\mathbf { p } } } ( 1 1 . 1 0 )$   \ntrong đó $\\vec { r }$ là véc tơ vị trí của chất điểm so với gốc O. ",
+        "bbox": [
+            114,
+            640,
+            316,
+            714
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/9a566ed9ed39a0ed9fcba78b90c88f74bc97d7656287bed7b27402391e6932c5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V</td><td>TD135</td></tr><tr><td>Momen dong lrong</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/8a19aaa57dd1136c0ef1e33f4b0eb8c94821117ec0fb13116d337eafe6833941.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>τ = r^ × F^(11.1)</td></tr></table>",
+        "bbox": [
+            106,
+            148,
+            915,
+            179
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            112,
+            208,
+            905,
+            295
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Khái niệm và nguyên lý ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            328,
+            331,
+            348
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Thành phần z của mômen động lượng của một vật rắn đang quay đối với một trục z cố định   \nlà $L _ { z } = { \\cal I } \\omega$ (11.14)   \ntrong đó I là mômen quán tính của vật rắn đối với trục quay và  là tốc độ góc của nó. ",
+        "bbox": [
+            112,
+            358,
+            898,
+            439
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Mô hình phân tích để giải bài toán ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            470,
+            428,
+            492
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/5131db9ed20974f99ee35c55fd8c108450b875b66a8f4be306b9da4b68501139.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            137,
+            529,
+            401,
+            707
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "He khòng cò làp (mò men dòng luong). Néu hè tuong tuong tác vói mòi trròng theo nghia có mò men ngoai luc tác dung lèn he, thi mò men ngoai lyc tác dung lèn hè bàng tōc do bién thièn theo thòi gian cua mò men dòng lrong cia he: ",
+        "bbox": [
+            179,
+            714,
+            457,
+            776
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3825aa45eb6675d37a553c203152dcd6abbcd0150dd1b05873f35be7c2c1304d.jpg",
+        "text": "$$\n\\sum { \\vec { \\tau } } _ { \\mathrm { e x t } } = { \\frac { d { \\vec { \\mathbf { L } } } _ { \\mathrm { t o t } } } { d t } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            266,
+            781,
+            357,
+            814
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/336c6a816de91b39c1915847eee50a5d20d4814bec704f4aa9e6c8b26f8955f1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            552,
+            544,
+            774,
+            710
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { H } \\hat { \\mathbf { e } }$ cò làp (mò men dòng luong). Néu hè khòng chiu tác dung cùa $\\mathrm { m } \\hat { \\mathrm { o } }$ men ngoai lrc tiì mòi trrong, thi mò men dòng luong cia he duoc bao toàn: ",
+        "bbox": [
+            534,
+            713,
+            828,
+            752
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e057517988af568b54c34becd9450dad46ec90cdd75f6854d358fdf7c90584c6.jpg",
+        "text": "$$\n\\vec { \\bf L } _ { i } = \\vec { \\bf L } _ { f }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            637,
+            752,
+            691,
+            772
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Ap dung dinh luàt bào toàn $\\mathrm { m } \\hat { \\mathrm { o } }$ men dòng luong này cho $\\mathtt { h e }$ mà có men quán tính thay dòi ta có: ",
+        "bbox": [
+            535,
+            775,
+            812,
+            800
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2636f721a70f7ec9de458b26c98e0de0e998680a41409f85cdc9f5abce9d35c8.jpg",
+        "text": "$$\nI _ { i } \\omega _ { i } = I _ { f } \\omega _ { f } = \\mathrm { c o n s t a n t }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            596,
+            804,
+            736,
+            821
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/7cd23a8c4c67d1791dcbe65e1b944cea30a317bcac0c612c37537a38add136be.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"1\" rowspan=\"2\">Ai</td><td colspan=\"1\" rowspan=\"1\">VIETTEL AI RACE      V•</td><td colspan=\"1\" rowspan=\"1\">TD135</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Momen dong lrong</td><td colspan=\"1\" rowspan=\"1\">Làn ban hành: 1</td></tr><tr><td colspan=\"1\" rowspan=\"2\">Ai</td><td colspan=\"1\" rowspan=\"1\">VIETTEL AI RACE      V</td><td colspan=\"1\" rowspan=\"1\">TD135</td></tr><tr><td colspan=\"1\" rowspan=\"1\">Momen dong lrong</td><td colspan=\"1\" rowspan=\"1\">Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "",
+        "table_caption": [],
+        "table_footnote": [],
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "1. Cho hệ gồm: một thanh nhẹ, mảnh có chiều dài $1 { = } 1 \\mathrm { m }$ , hai vật (xem như chất điểm) được gắn hai đầu thanh. Hạt một khối lượng $m _ { 1 } = 4 k g$ và vật hai khối lượng $m _ { 2 } = 3 k g$ . $\\mathrm { H } \\hat { \\mathrm { e } }$ quay quanh tâm, trong mặt phẳng xy (như hình). Tính momen động lượng của hệ so với gốc biết tốc độ của mỗi hạt là ${ 5 , 0 0 } \\mathrm { m } / \\mathrm { s }$ . ",
+        "bbox": [
+            116,
+            146,
+            908,
+            224
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/948cd530a12485d81ade9845bdb16f10e5bab1c30269cb8a512f4f215afe3044.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            431,
+            229,
+            599,
+            385
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2. Một vật nặng có ${ \\bf m } = 2 { \\bf k g }$ được gắn vào đầu của một sợi dây quấn quanh ròng rọc như hình vẽ. Ròng rọc là một vành tròn bán kính R $\\ l = 8 \\mathrm { { c m } }$ và khối lượng $\\mathbf { M } = 2 \\mathrm { k g }$ . Các nan hoa có khối lượng không đáng $\\mathrm { k } \\mathring { \\mathrm { e } }$ . ",
+        "bbox": [
+            116,
+            388,
+            725,
+            467
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/2d6e6aa8e5ed517e369147068c10708fdfbfb03e974f7205f85eae545b79b05d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            750,
+            388,
+            910,
+            551
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(a) Tính tổng mômen lực đối với trục ròng rọc.   \n(b) Khi vật chuyển động với tốc độ v thì ròng rọc quay với tốc độ $\\begin{array} { r } { \\mathrm { g } \\dot { \\mathrm { o c } } = \\frac { \\mathtt { v } } { \\mathtt { R } } } \\end{array}$ Xác định tổng mômen động lượng của hệ đối với trục ròng rọc theo v.   \n(c) Sử dụng kết quả câu a và τ = d L để tính gia tốc của ròng rọ dt ",
+        "bbox": [
+            150,
+            473,
+            732,
+            590
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3. Một hạt $5 . 0 0 \\mathrm { k g }$ bắt đầu chuyển động từ $\\mathrm { g } \\acute { \\mathrm { o c } }$ tại $\\mathbf { t } = 0 . \\mathrm { V } \\hat { \\mathbf { a } } \\mathbf { n }$ tốc cho bởi phương trình: ",
+        "bbox": [
+            112,
+            593,
+            856,
+            616
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fb80af1de819a16304ee86c18be1f91061fc4244fbfa27d9528ae2c870077469.jpg",
+        "text": "$$\nv ^ {  } = ( 6 t ^ { 2 } l ^ {  } + 2 t \\vec { \\jmath ^ {  } } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            431,
+            622,
+            607,
+            643
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Với $v ^ {  }$ tính bằng m/s và t tính bằng s. ",
+        "bbox": [
+            150,
+            651,
+            468,
+            672
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(a) Tìm vị trí của nó theo thời gian.   \n(b) Mô tả chuyển động của nó.   \n(c) Tính gia tốc theo thời gian   \n(d) Tính tổng ngoại lực tác động lên hạt theo thời gian,   \n(e) Tính tổng momen ngoại lực so với $\\mathrm { g } \\acute { \\mathrm { o c } }$ tác động lên hạt theo thời gian, (f) Tính mômen động lượng so với $\\mathrm { g } \\acute { \\mathrm { o c } }$ theo thời gian   \n(g) Tính động năng của hạt theo thời gian,   \n(h) Tính công suất truyền cho hạt theo thời gian. ",
+        "bbox": [
+            150,
+            679,
+            779,
+            832
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "4. Một đĩa khối lượng đồng nhất $\\mathrm { m } = 3 { , } 0 0 \\mathrm { k g }$ và bán kính $\\mathrm { \\Delta r } = 0 { , } 2 0 0 \\mathrm { \\ m }$ quay quanh một trục cố định vuông góc với đĩa với tần số góc 6,00 rad / s. Tính độ lớn mômen động lượng của đĩa khi trục quay ",
+        "bbox": [
+            114,
+            837,
+            905,
+            895
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "(a) Đi qua khối tâm của đĩa (b) Đi qua một điểm giữa khối tâm và vành đĩa. ",
+        "bbox": [
+            151,
+            901,
+            387,
+            922
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "images/77f326c81f5ac2e8db2f7c0b4d53856397e701e6cf766ef13090fab74663b3f0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V•</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lurong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            918,
+            125
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            150,
+            140,
+            557,
+            161
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "images/08a34d441c67cda0b9cac29688c4c1409e9c815753f32fa4685754e8ca2bec1f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "5. Khoảng cách giữa tâm của hai bánh xe của một xe máy là 155 cm. Khối tâm của xe máy, $\\mathrm { k } \\mathring { \\mathrm { e } }$ cả người lái nằm trên mặt đất 88 cm và $\\dot { \\mathbf { O } }$ giữa 2 bánh xe. Giả sử khối lượng của mỗi bánh xe không đáng $\\mathrm { k } \\mathring { \\mathrm { e } }$ so với người lái và xe. Động cơ chỉ lái bánh sau. Hỏi giá trị gia tốc theo phương ngang nào của xe máy sẽ làm bánh xe trước văng lên khỏi mặt đất. ",
+        "bbox": [
+            114,
+            147,
+            906,
+            224
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6. Một bàn xoay bán kính $\\mathtt { R } = 2 , 0 0 \\mathrm { m } \\mathrm { c } \\mathrm { \\dot { c } }$ mômen quán tính $\\mathrm { I } = 2 5 0 \\ k g m ^ { 2 }$ và quay không có ma sát ở tốc độ 10,0 vòng / phút theo một trục vuông góc với nó. Một đứa trẻ nặng 25,0 kg nhảy lên vòng xoay và ngồi xuống cạnh vòng xoay. Tìm tốc độ góc mới của vòng xoay? ",
+        "bbox": [
+            112,
+            231,
+            905,
+            308
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "7. Một học sinh ngồi trên một chiếc ghế xoay tự do cầm hai quả tạ, mỗi chiếc có khối lượng ${ 3 , 0 0 } \\mathrm { k g }$ (như hình). Khi dang tay ra theo chiều ngang (hình a), tạ cách trục quay là $1 . 0 0 \\mathrm { m }$ và học sinh quay với tốc độ góc là 0,750 rad / s. Tổng momen quán tính của ghế xoay và học sinh đối với trục quay là 3,00 $\\mathrm { k g . m } ^ { 2 }$ và được xem như không đổi. Học sinh co tay lại theo chiều ngang tới vị trí quả tạ cách trục xoay $0 { , } 3 0 0 \\mathrm { m }$ (hình b). ",
+        "bbox": [
+            116,
+            313,
+            668,
+            448
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(a) Tìm tốc độ góc mới của học sinh.   \n(b) Tìm động năng quay của hệ trước và sau khi học sinh co tay. ",
+        "bbox": [
+            150,
+            454,
+            666,
+            511
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "8. Một khối gỗ có khối lượng M đăt trên bề mặt bàn nằm ngang không ma sát được gắn vào một thanh cứng có chiều dài l và khối lượng không đáng $\\mathrm { k } \\mathring { \\mathrm { e } }$ (hình), thanh cứng này được gắn một đầu cố định vào bàn và có thể xoay quanh đầu này. Một viên đạn chuyển động trên bề mặt mặt bàn với vận tốc v có phương vuông góc với thanh cứng đến va chạm và cắm vào khối gỗ. ",
+        "bbox": [
+            114,
+            517,
+            671,
+            651
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/7566d0278c39ce015ce4de689775288f9771b2344a99e73705a5f27854bf75f2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            681,
+            314,
+            906,
+            655
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(a) Tính mômen động lượng của hệ viên đạn – khối $\\mathbf { g } \\tilde { \\hat { 0 } }$ đối với trục quay thẳng đứng đi qua điểm cố định của thanh cứng.   \n(b) Tính tỷ số phần năng lượng của viên đạn đươc chuyển hóa thành nội năng của hệ sau va chạm. ",
+        "bbox": [
+            137,
+            656,
+            906,
+            734
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "9. Một viên đạn nặng 0,005kg được bắn vào cánh cửa nặng $1 8 \\mathrm { k g }$ theo phương ngang với tốc độ $1 0 3 ~ \\mathrm { m / s }$ , viên đạn cắm vào cửa ở vị trí các mép dưới một đoạn $1 0 \\mathrm { \\ c m }$ (như hình). Cánh cửa rộng 1 m và có thể xoay quanh bản lề, bỏ qua ma sát. ",
+        "bbox": [
+            116,
+            741,
+            700,
+            818
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/a925b193639aff3b8284d3d3b51676ab12768c5b039ef83c8f9c07477bab054e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            714,
+            742,
+            897,
+            888
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "(a) Trước khi viên đạn chạm vào cánh cửa nó có mômen động lượng so với trục quay của cánh cửa hay không?   \n(b) Nếu có hãy tính giá trị của mômen động lượng này, nếu không hãy giải thích.   \n(c) Cơ năng của hệ viên đạn – cánh cửa có bảo toàn trong suốt quá trình va chạm không? ",
+        "bbox": [
+            150,
+            824,
+            699,
+            917
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            148,
+            900,
+            898,
+            920
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "table",
+        "img_path": "images/9ccbf32c5d37dd1e374d58123565092ce5b6198b4a3cd10b5f808539305192c5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V•</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "(d) Tốc độ góc của cánh cửa ngay sau khi va chạm là bao nhiêu?   \n(e) Tính tổng năng lượng của hệ viên đạn – cánh cửa sau va chạm và xác định xem nó ít hơn hay bằng với động năng của viên đạn trước khi va chạm. ",
+        "bbox": [
+            150,
+            140,
+            905,
+            199
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/9b06f812912247594f73d8f1f75d5a2b2c45f7c94b95938a592a6fbef8c056f5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V•</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lrong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "10. Ba vật có khối lượng bằng nhau được gắn với một thanh cứng không có khối lượng như hình. Thanh cứng đang nằm ngang, đứng yên thì bắt đầu xoay tự do trong mặt phẳng ",
+        "bbox": [
+            117,
+            146,
+            418,
+            262
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/a7b8eabda60192f112fce0e51c50a6718b4c14cbfee351d6cfaa637cee81e493.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            424,
+            152,
+            901,
+            247
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "thẳng đứng với trục quay đi qua điểm P. Giả sử m và d đã biết, hãy tìm ",
+        "bbox": [
+            147,
+            260,
+            754,
+            281
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(a) Mômen quán tính của 3 vật này đối với trục quay qua P, (b) Mômen xoắn tác động lên hệ tại $\\mathrm { t } = 0$ ,   \n(c) Gia tốc góc của hệ tại $\\mathrm { t } = 0$ ,   \n(d) Gia tốc tiếp tuyến của vật 3 tại $\\mathrm { t } = 0$ ,   \n(e) Động năng cực đại của hệ,   \n(f) Tốc độ góc tối đa thanh đạt được,   \n(g) Mômen động lượng cực đại của hệ và   \n(h) Tốc độ cực đại của vật hai. ",
+        "bbox": [
+            150,
+            286,
+            658,
+            439
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11. Bắn một viên đạn có khối lượng m với tốc độ $v _ { i }$ về phía phải (như hình a) và đâm vào đầu thanh sắt cố định có khối lượng M, chiều dài d, xoay quanh trục không ma sát vuông góc với mặt phẳng hình vẽ qua O (như hình). Chúng ta muốn xác định được tỷ số động năng thay đổi trong hệ do va chạm. ",
+        "bbox": [
+            117,
+            445,
+            629,
+            560
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(a) Mô hình phân tích nào thích hợp để mô tả chuyển động của viên đạn và thanh sắt? ",
+        "bbox": [
+            151,
+            565,
+            609,
+            604
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/316f7b11f314f0bd56f48bc57c7b6f16599084c536cc69f154eaaf9401029f4b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            638,
+            446,
+            898,
+            592
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(b) Xác định mômen động lượng của hệ trước va chạm đối với trục quay qua O? (c) Mômen quán tính của hệ đối với trục qua O sau khi m cắm vào thanh.   \n(d) Nếu tốc độ góc của hệ thống sau va chạm là ω, xác định mômen động lượng của hệ sau va chạm.   \n(e) Tính tốc độ góc ω sau va chạm,   \n(f) Tính động năng của cơ hệ trước khi va chạm và   \n(g) Tính động năng của cơ hệ sau va chạm.   \n(h) Tính tỷ số động năng trước và sau va chạm.   \n12. Hai phi hành gia (như hình), mỗi người có khối lượng 75kg, được nối với nhau bằng một sợi dây dài 10 m và có khối lượng không đáng kể. Xem như họ cô lập trong không gian   \nvà quay quanh khối tâm của họ với tốc độ 5 m/s. Xem như các phi hành gia là các chất điểm ",
+        "bbox": [
+            147,
+            604,
+            893,
+            756
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            116,
+            762,
+            535,
+            895
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(a) Tính độ lớn của mômen động lượng của ",
+        "bbox": [
+            150,
+            904,
+            534,
+            924
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/33d8b244c006f65b570f607a46b61c7bab67c46cd9b3ff2c3ec4f7ebcbf7f532.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            553,
+            766,
+            900,
+            921
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/174e93a50e93f85a8242d07fab9a4f29cd700b5ebe6bff483f762d1a93d60eef.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE V •</td><td>TD135</td></tr><tr><td></td><td></td></tr><tr><td>Momen dong lrong</td><td>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            916,
+            125
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "hệ hai phi hành gia và (b) Tính động năng quay của hệ. ",
+        "bbox": [
+            181,
+            141,
+            372,
+            160
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            151,
+            161,
+            428,
+            179
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "images/6ca8ebc0d01ee2dc74200a0ca07718188a6a3225a9624c371d5b045331c122f1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE      V</td><td rowspan=1 colspan=1>TD135</td></tr><tr><td rowspan=1 colspan=1>Momen dong lurong</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            117,
+            59,
+            915,
+            125
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Một phi hành gia kéo sợi dây thừng để rút ngắn khoảng cách giữa hai người còn $5 \\textrm { m }$ . Hãy tính ",
+        "bbox": [
+            148,
+            146,
+            901,
+            186
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(c) Mômen động lượng mới của hệ,   \n(d) Tốc độ mới của phi hành gia và   \n(e) Động năng quay mới của hệ thống.   \n(f) Hóa năng dự trữ trong cơ thể của phi hành gia đã được chuyển đổi thành cơ năng của hệ khi anh ta rút ngắn sợi dây là bao nhiêu? ",
+        "bbox": [
+            150,
+            194,
+            903,
+            289
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "13. Hiện tượng nóng lên của Trái đất đang rất được quan tâm bởi vì ngay cả những thay đổi nhỏ trong nhiệt độ Trái đất có thể có những hậu quả đáng $\\mathrm { k } \\mathring { \\mathbf { e } }$ . Ví dụ, nếu những tảng băng ở hai cực của Trái đất tan chảy hoàn toàn, thì nước trong các đại dương nhiều lên và làm tràn ngập nhiều vùng duyên hải. ",
+        "bbox": [
+            116,
+            294,
+            905,
+            371
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Mô hình tảng băng ở 2 cực có khối lượng $2 . 3 \\times 1 0 ^ { 1 9 } \\mathrm { k g }$ và có dạng đĩa phẳng bán kính 6 $\\times 1 0 ^ { 5 } \\mathrm { m }$ . Giả sử các tảng băng sau khi tan chảy sẽ tạo thành lớp vỏ hình cầu là nước bao quanh Trái đất. Hỏi độ dài một ngày đêm thay đổi một lượng bao nhiêu so với hiện tại là 24 giờ/ngày? (tính theo giây và $\\%$ ). Cho khối lượng Trái đất là 5,972 × 1024kg và bán kính Trái đất là $6 3 7 1 \\ \\mathrm { k m }$ . ",
+        "bbox": [
+            150,
+            377,
+            906,
+            474
+        ],
+        "page_idx": 18
+    }
+]

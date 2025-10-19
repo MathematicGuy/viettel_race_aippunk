@@ -1,0 +1,1076 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/c37874b7e0516a4f6a165fdbc62ebfc0799e7726673d209c77c1d72e09689a43.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động tuần hoàn là một chuyển động lặp đi lặp lại của một vật theo thời gian. Sau một khoảng thời gian nhất định, vật trở về một vị trí cho trước. Một loại chuyển động tuần hoàn đặc biệt xảy ra trong các hệ cơ học được gọi là dao động. Đặc điểm của các hệ thống này là: ",
+        "bbox": [
+            84,
+            208,
+            905,
+            266
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "• Hệ có một vị trí cân bằng bền và chuyển động qua lại hai bên vị trí đó.   \n• Lực tác dụng lên hệ luôn hướng về vị trí cân bằng (thường gọi là lực hồi phục). ",
+        "bbox": [
+            147,
+            272,
+            849,
+            314
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chúng ta có thể gặp các dao động trong thực tế như: dây đàn ghi ta, mặt trống khi rung động, dao động của cây cầu, của nhà cao tầng. ",
+        "bbox": [
+            117,
+            320,
+            901,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nếu trong hệ dao động, lực tác dụng lên vật tỉ lệ thuận với độ dời của vật (so với vị trí cân bằng) thì dao động này được gọi là dao động điều hòa.Đây là loại dao động sẽ được nghiên cứu kỹ trong chương này.Tầm quan trọng của việc nghiên cứu này là ở chỗ: các dao động trong tự nhiên và trong kỹ thuật thường có tính chất rất gần với dao động điều hòa và mọi dao động tuần hoàn có thể được biểu diễn như sự tổng hợp của các dao động điều hòa. ",
+        "bbox": [
+            114,
+            366,
+            905,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lý thuyết về dao động là cơ sở quan trọng để nghiên cứu một hiện tượng vật lý khác là hiện tượng sóng. ",
+        "bbox": [
+            111,
+            467,
+            905,
+            507
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động của vật gắn với lò xo ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            520,
+            503,
+            544
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Xét một vật nhỏ có khối lượng m(xem như chất điểm) được gắn với một lò xo có một đầu cố định. Vật mcó thể chuyển động không ma sát trên mặt phẳng ngang như Hình 15.1.Khi lò xo không co giãn, vật sẽ ở đứng yên ở vị trí gọi là vị trí cân bằng.Khi truyền cho vật một vận tốc từ vị trí cân bằng, vật sẽ dao động xung quanh vị trí này. ",
+        "bbox": [
+            114,
+            547,
+            619,
+            664
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chọn trục x dọc theo phương của lò xo, gốc O tại vị trí cân bằng. Khi vật ở vị trí có tọa $\\hat { \\mathrm { d } } \\hat { \\mathrm { o } } x$ thì lực đàn hồi do lò xo tác dụng lên vật được xác định theo định luật Hooke: ",
+        "bbox": [
+            142,
+            669,
+            614,
+            690
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/bd728c50a0db7c6d9df0a32193a043f5ca93d1a7594a9caa9be83aec217cabf2.jpg",
+        "image_caption": [
+            "Hình 15.1 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            643,
+            559,
+            892,
+            652
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            109,
+            703,
+            893,
+            742
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8cfb77bff68899df2937bf4e76d0e3616f90a685cbf9528bbdcb504cb3fac97e.jpg",
+        "text": "$$\nF _ { s } = - k . x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            449,
+            751,
+            552,
+            770
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lực $F _ { s }$ luôn hướng về vị trí cân bằng và luôn ngược dấu với tọa $\\mathtt { d } \\hat { \\boldsymbol { \\mathrm { o } } } \\boldsymbol { x } . \\boldsymbol { x }$ được gọi là độ dời của vật (tính từ vị trí cân bằng, dưới đây gọi là li độ). ",
+        "bbox": [
+            114,
+            772,
+            888,
+            813
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Áp dụng định luật Newton thứ hai cho vật, ta tìm được gia tốc của vật như sau: ",
+        "bbox": [
+            148,
+            818,
+            820,
+            838
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2e4e807c1dc588b7c9de16e87336e2f7314724d566c7c2d0dbebe5a470a95f3a.jpg",
+        "text": "$$\n\\begin{array} { c } { { F _ { x } = m a _ { x } \\qquad { \\displaystyle  ~ } - k x = m a _ { x } } } \\\\ { { a _ { x } = { } - { \\displaystyle \\frac { k } { m } } x } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            844,
+            651,
+            909
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Từ 15.2 ta thấy gia tốc của vật tỉ lệ thuận với độ dời và ngược dấu với độ dời của vật. ",
+        "bbox": [
+            151,
+            907,
+            898,
+            928
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/7a8cf59f13840928b87f39bfd26c9b0e460bd25489c4819a53ea382f06f3392a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Ai</td><td>VIETTEL AI RACE</td><td>TD139</td></tr><tr><td>Dao dong 25-09</td><td>Làn ban hành: 1</td></tr><tr><td></td><td></td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Những hệ thống hoạt động theo quy luật này sẽ thực hiện một dao động điều hòa. ",
+        "bbox": [
+            116,
+            178,
+            805,
+            198
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/ee84cb8be77fdb25fd084da57f064614000dbe077f7062631ee6031f4977892d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE       V</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Một vật thực hiện dao động điều hòa khi gia tốc của vật tỉ lệ thuận với độ dời và ngược dấu với độ dời của vật. ",
+        "bbox": [
+            111,
+            180,
+            898,
+            220
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Khảo sát dao động cơ điều hòa ",
+        "text_level": 1,
+        "bbox": [
+            116,
+            234,
+            465,
+            257
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Thay $a _ { x } = d v / d t = d ^ { 2 } x / d t ^ { 2 }$ vào 15.2 ta được phương trình: ",
+        "bbox": [
+            150,
+            262,
+            676,
+            284
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e56d6ac3c99036205466dab81d0ed0211e9bf742a505bf6bd8fdc4ae5926c8ba.jpg",
+        "text": "$$\n{ \\frac { d ^ { 2 } x } { d t ^ { 2 } } } = - { \\frac { k } { m } } x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            444,
+            285,
+            566,
+            333
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Đặt ",
+        "bbox": [
+            114,
+            333,
+            148,
+            352
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b697b3f23119e9345257479f57c9fc657c252530fb4d19b27814d9ba30ef83c6.jpg",
+        "text": "$$\n\\omega ^ { 2 } = { \\frac { k } { m } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            454,
+            366,
+            534,
+            415
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "thì phương trình 15.3 trở thành: ",
+        "bbox": [
+            114,
+            415,
+            383,
+            435
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d4ed82aa046d1eb94e511c3fb85ad059b4d9c04d26996a50c931f562cde225c3.jpg",
+        "text": "$$\n\\frac { d ^ { 2 } x } { d t ^ { 2 } } = - \\omega ^ { 2 } x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            444,
+            469,
+            563,
+            511
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Nghiệm của phương trình 15.5 là: ",
+        "bbox": [
+            150,
+            512,
+            437,
+            532
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ecc1da09dcceba2ed8bb5713a21338578bd63de929e1c9e782729d3e0accf495.jpg",
+        "text": "$$\nx ( t ) = A \\cos ( \\omega t + \\phi )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            558,
+            614,
+            579
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Trong đó $A$ là biên độ dao động, $\\omega$ là tần số góc và $\\phi$ là pha ban đầu. $A , \\omega$ và $\\phi$ đều là các hằng số. Biên độ $A$ và pha ban đầu $\\phi$ được xác định từ các điều kiện ban đầu (độ dời và vận tốc lúc $t = 0$ ). ",
+        "bbox": [
+            114,
+            580,
+            903,
+            638
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Đại lượng $( \\omega t + \\phi )$ gọi là pha của dao động. ",
+        "bbox": [
+            148,
+            646,
+            535,
+            666
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Từ 15.4 ta có biểu thức xác địnhtần số góc dao động: ",
+        "bbox": [
+            150,
+            671,
+            601,
+            693
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/74dad0225e94d0d28c6a0ac6e11cd42fb048fb1de2d28f7213f0c4451b86d757.jpg",
+        "text": "$$\n\\omega = \\mathrm { \\sqrt { \\frac { \\it k } { m } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            696,
+            545,
+            752
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Hai đại lượng quan trọng đặc trưng cho dao động là chu kỳ và tần số dao động. Chu kỳ T của dao động là khoảng thời gian vật hoàn thành một dao động. Dựa vào tính chất tuần hoàn của hàm số x(t) cho bởi phương trình 15.6, ta tìm được: ",
+        "bbox": [
+            114,
+            779,
+            906,
+            837
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "img_path": "images/eeef6e7e3d634a413a053acf1733fd07ee7385aa908f3761ef085a1763bbf680.jpg",
+        "text": "$$\nT = \\frac { 2 \\pi } { \\omega } = ~ 2 \\pi \\sqrt { \\frac { m } { k } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            434,
+            843,
+            601,
+            886
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Tần số f của dao động là số dao động diễn ra trong một đơn vị thời gian: ",
+        "bbox": [
+            143,
+            901,
+            764,
+            924
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/a598c06b30228eff900fdae0f971f2445895185e31ecca460b9dfbca0fa9d40b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/ce1c2ed1791fd9c1369a826f8393df1678d543954e12530f01ec23878a0ba447.jpg",
+        "text": "$$\nf = { \\cfrac { 1 } { T } } = { \\cfrac { 1 } { 2 \\pi } } \\sqrt { \\cfrac { k } { m } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            178,
+            589,
+            241
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Từ 15.6 chúng ta suy ra biểu thức của vận tốc và gia tốc như sau: ",
+        "bbox": [
+            148,
+            246,
+            700,
+            268
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b8c3cd828c4905a758b05a03d1f2fe99569af26086a178ea598652363fdb518.jpg",
+        "text": "$$\n\\begin{array} { l } { { v ( t ) = - A \\omega \\sin ( \\omega t + \\phi ) } } \\\\ { { a ( t ) = - A \\omega ^ { 2 } \\cos ( \\omega t + \\phi ) } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            411,
+            273,
+            656,
+            319
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/03da07ecfd32a84e653dbe541111358f936b46634deada4355f85f7eb0b9daad.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Các phương trình 15.6, 15,10 và 15.11 cho thấy: li độ $x$ và vận tốc $\\nu$ lệch pha một góc $\\pi / 2$ còn li $\\widehat { \\mathrm { d } } \\widehat { \\mathrm { o } } \\ x$ và gia tốc $a$ lệch pha một góc bằng $\\pi$ . Ngoài ra các giá trị cực đại của vận tốc và gia tốc được suy ra từ các phương trình 15.10 và 15.11 là ",
+        "bbox": [
+            114,
+            181,
+            622,
+            276
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fac9e21bf2546f31e7b9768c4018e35f4f48dc43bc9b5dab2cf3fd1fd15e4035.jpg",
+        "text": "$$\nv _ { m a x } = \\omega A = \\sqrt { \\frac { k } { m } } \\ A\n$$",
+        "text_format": "latex",
+        "bbox": [
+            274,
+            282,
+            465,
+            337
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "img_path": "images/cb5238b5af02beaea9bd86564e55888a88e540f07d1d3b66e85f3432926cc247.jpg",
+        "text": "$$\n\\begin{array} { r } { a _ { m a x } = \\omega ^ { 2 } A = \\frac { k } { m } A } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            276,
+            361,
+            449,
+            395
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/78fc04a7153c76aa5db4e00f523f57a79cce6db5a16998750683c8dc89a8282b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            633,
+            184,
+            898,
+            477
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 15.1: Một vật gắn với lò xo được kéo đến vị trí $x = A$ và được thả ra từ trạng thái nghỉ. Trong một dao động hoàn chỉnh, chiều dài quãng đường vật đi được bằng: ",
+        "bbox": [
+            112,
+            491,
+            622,
+            549
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(a) A/2 (b) A (c) 2A (d) 4A ",
+        "bbox": [
+            116,
+            549,
+            344,
+            568
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Hình 15.2 Đồ thị biểu diễn sự phụ thuộc theo thời gian của: a.Li độ b. Vận tốc c. Gia tốc ",
+        "bbox": [
+            635,
+            507,
+            926,
+            565
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 15.2: Một hạt dao động điều hòa có đồ thị li độ theo thời gian được cho như hình vẽ. Khi hạt ở điểm A trên đồ thị, Chúng ta có thể nói gì về li độ và vận tốc của hạt ? ",
+        "bbox": [
+            114,
+            611,
+            622,
+            666
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(a) Li độ và vận tốc của hạt đều dương.   \n(b) Li độ của hạt âm, vận tốc của hạt bằng không.   \n(c) Li độ và vận tốc của hạt đều âm.   \n(d) Li độ của hạt âm, vận tốc của hạt dương. ",
+        "bbox": [
+            116,
+            667,
+            537,
+            743
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/2bd5f677c7df9d6babdd1f0f0cb01586e79f8e1978e2cc37155743271ac90b60.jpg",
+        "image_caption": [
+            "Hình vẽ cho câu hỏi 15.2 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            640,
+            619,
+            898,
+            712
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 15.3: Hình bên là đồ thị của li độtheo thời gian của hai hạt A và B dao động điều hòa. Dao động điều hòa của B ",
+        "bbox": [
+            114,
+            781,
+            622,
+            820
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(a) có tần số góc lớn hơn và biên độ lớn hơn của A.   \n(b) có tần số góc lớn hơn và biên độ nhỏ hơn của A.   \n(c) có tần số góc nhỏ hơn và biên độ lớn hơn của A.   \n(d) có tần số góc nhỏ hơn và biên độ nhỏ hơn của A. ",
+        "bbox": [
+            114,
+            820,
+            560,
+            896
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Câu hỏi 15.4: Một vật khối lượng mtreo vào một lò xo rồi cho dao động. Chu kỳ của dao động này là T. Thay vậtm bằng vật có khối lượng 2m. Cho vật 2m dao động thì chu kỳ của dao động bằng: ",
+        "bbox": [
+            661,
+            781,
+            939,
+            916
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/406372b25ff54a3f00c89cba89cf45f5396c9808bcd4868d90626fb08085211d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dòng         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            114,
+            59,
+            915,
+            161
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(a) 2T (b) √2?? (c) T (d) ??/√2e.T/2 ",
+        "bbox": [
+            112,
+            176,
+            416,
+            198
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/7b075b8c89afc41dc1128632f64c143515ad7b247df39da57621515038509f24.jpg",
+        "image_caption": [
+            "Hình vẽ cho câu hỏi 15.3 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            665,
+            224,
+            906,
+            390
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/2c962efea63262cae0885c0e4c78c1e18238cfc0626d1ac1e2de35d39221e0d7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong          25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Năng lượng của vật dao động điều hòa ",
+        "text_level": 1,
+        "bbox": [
+            114,
+            181,
+            540,
+            204
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Trong nội dung này chúng ta sẽ xem xét cơ năng của hệ dao động. Vì bỏ qua tác dụng của lực ma sát nên cơ năng của hệ được bảo toàn. Chúng ta sẽ sử dụng hệ dao động con lắc lò xo để thực hiện việc khảo sát này. ",
+        "bbox": [
+            114,
+            210,
+            906,
+            267
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Động năng của hệ dao động chỉ là động năng của vật và bằng: ",
+        "bbox": [
+            147,
+            273,
+            678,
+            295
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/5e6cae23778ab6de5e29bb144f14eb901e52aae2ecdb6e821ae2d333cb221b39.jpg",
+        "text": "$$\nK = { \\frac { 1 } { 2 } } ~ m v ^ { 2 } = { \\frac { 1 } { 2 } } ~ m \\omega ^ { 2 } A ^ { 2 } \\sin ^ { 2 } ( \\omega t + \\phi )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            294,
+            686,
+            342
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Thế năng đàn hồi dự trữ $\\acute { \\mathbf { O } }$ lò xo và bằng (Lưu ý rằng $k = m \\omega ^ { 2 }$ ): ",
+        "bbox": [
+            151,
+            367,
+            696,
+            390
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1278594f911f228ff6be0e70d61685f287a84ac98b3905dc1f480db0f7d7a986.jpg",
+        "text": "$$\nU = { \\frac { 1 } { 2 } } \\ k x ^ { 2 } = { \\frac { 1 } { 2 } } \\ m \\omega ^ { 2 } A ^ { 2 } \\cos ^ { 2 } ( \\omega t + \\phi )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            388,
+            681,
+            436
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Cơ năng của hệ dao động điều hòa bằng: ",
+        "bbox": [
+            150,
+            463,
+            498,
+            484
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3032c7b61e8b3bdadf6552d8adece34cc6a02f1713df5ac8f343c7ce3798dff6.jpg",
+        "text": "$$\nE = K + U = \\frac { 1 } { 2 } \\ : m \\omega ^ { 2 } A ^ { 2 } [ \\sin ^ { 2 } ( \\omega t + \\phi ) + \\ : \\cos ^ { 2 } ( \\omega t + \\phi ) ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            258,
+            487,
+            758,
+            531
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "img_path": "images/41026c14f618e3e035f1ce7afbcebddc2dd340b911d2a1444480e26d091ca136.jpg",
+        "text": "$$\nE = { \\frac { 1 } { 2 } } \\ m \\omega ^ { 2 } A ^ { 2 } = { \\frac { 1 } { 2 } } \\ k A ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            338,
+            542,
+            553,
+            592
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Kết quả thu được cho chúng ta thấy cơ năng của hệ dao động điều hòa là một hằng số và tỉ lệ thuận với bình phương biên độ dao động. Đồ thị ở hình 15.3 minh họa sự bảo toàn năng lượng của hệ. ",
+        "bbox": [
+            114,
+            616,
+            905,
+            674
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/e294443a4cb6ddb6bb9fe4b2a9a8b077c942b8232100fc20106f02663e835bf2.jpg",
+        "image_caption": [
+            "Hình 15.3: a. Đồ thị biểu diễn biểu diễn sự phụ thuộc của động năng và thế năng ",
+            "theo thời gian với $\\phi$ $= 0$ . "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            274,
+            678,
+            732,
+            890
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/d345d9d67fe50b77620c08f39243a8ffb5baaf8add283dc6cf8ab97b335ec872.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "b. Đồ thị biểu diễn biểu diễn sự phụ thuộc của động năng và thế năng ",
+        "bbox": [
+            89,
+            175,
+            486,
+            217
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "theo li độ. ",
+        "bbox": [
+            669,
+            178,
+            756,
+            196
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Ngoài ra, từ $\\mathrm { k } \\acute { \\mathrm { e t } }$ quả thu được cho năng lượng, ta có thể suy ra vận tốc của vật: ",
+        "bbox": [
+            153,
+            227,
+            813,
+            250
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/dcd766b0efdac62ec8407d000def741616378c9bf54105ac67a90718fa33d74d.jpg",
+        "text": "$$\nE = K + U = { \\frac { 1 } { 2 } } \\ m v ^ { 2 } + { \\frac { 1 } { 2 } } \\ k x ^ { 2 } = { \\frac { 1 } { 2 } } \\ k A ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            248,
+            686,
+            296
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b2d7854a3f6eaf170d9b089bfba27c2d668ced83f1c75f61785095334b807364.jpg",
+        "text": "$$\nv = \\pm { \\sqrt { { \\frac { k } { m } } ( A ^ { 2 } - x ^ { 2 } ) } } = \\pm \\omega { \\sqrt { ( A ^ { 2 } - x ^ { 2 } ) } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            323,
+            323,
+            692,
+            376
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/0a92c737e96e5e41e96642d8a5c28fa0e49e51ccde260f31846d448719842530.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=2 colspan=1>Ai</td><td rowspan=1 colspan=1>VIETTEL AI RACE</td><td rowspan=1 colspan=1>TD139</td></tr><tr><td rowspan=1 colspan=1>Dao dong         25-09</td><td rowspan=1 colspan=1>Làn ban hành: 1</td></tr></table>",
+        "bbox": [
+            116,
+            59,
+            916,
+            161
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Liên hệ giữa dao động điều hòa và chuyển động tròn đều ",
+        "text_level": 1,
+        "bbox": [
+            112,
+            180,
+            718,
+            204
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Trong thực tế cuộc sống, có nhiều thiết bị thể hiện mối liên hệ giữa dao độngđiều hòa và chuyển động tròn đều. Ví dụ, bộ phận truyền động của máy may cơ như hình 15.4 dưới đây. Khi chân của thợ may đạp tới lui vào bàn đạp tạo ra những dao động lên xuống chogờ bàn đạp và kéo theo chuyển động tròn của bánh xe truyền động. Chuyển động tròn này được truyền vào máy may nhờ sợi dây truyền động và dẫn đến kết quả là kim khâu dao động thẳng đứng. Trong phần này chúng ta sẽ tìm hiểu mối quan hệ giữa hai loại chuyển động này. ",
+        "bbox": [
+            114,
+            209,
+            552,
+            419
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Hình 15.5 là một bố trí thực nghiệm để chỉ ra mối liên hệ giữa chuyển động tròn đều và dao động cơ điều hòa. Một quả cầu nhỏ(được xem như một chất điểm) gắn vào vành của đĩa tròn bán kính $A$ để chuyển động cùng với đĩa khi đĩa quay. Cho đĩa tròn quay đều. Chiếu đèn vào quả cầu, ta sẽ thấy cái bóng của quả cầuthực hiện một dao động trên màn. ",
+        "bbox": [
+            114,
+            424,
+            681,
+            540
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/be86591a429e89b74f19a32b0691590818f8fbc1f0bdab6165d74f91e22426a0.jpg",
+        "image_caption": [
+            "Hình 15.4 "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            571,
+            214,
+            895,
+            400
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Cụ thể hơn, hãy quan sát hình 15.6 trong đó chất điểm chuyển động tròn đềuvới tốc độ góc ωtrên đường tròn tâm O bán kính $\\dot { \\boldsymbol { A } } . \\dot { \\boldsymbol { \\mathrm { O } } }$ thời điểm $t = 0$ chất điểm $\\dot { \\mathbf { O } }$ vị trí P trên đường tròn có bán kính OP tạo với trục $x$ một góc $\\phi$ (Hình 15.6a). Ởthời điểm $t .$ , vị trí $\\mathrm { P }$ của chất điểm trên đường tròn có bán kính OP tạo với trục x một góc?? $\\mathbf { \\omega } = ( \\omega t + \\mathbf { \\beta } \\phi )$ (Hình 15.6b). Gọi Q là hình chiếu của P lên trục $x .$ , thì tọa độ của $\\mathrm { Q }$ được xác định như sau: ",
+        "bbox": [
+            116,
+            545,
+            681,
+            680
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/9ae516e09836cccf5ff14c3d837e4484459f22175f984e88ca6ea90ce6e67264.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            702,
+            452,
+            880,
+            661
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "img_path": "images/1c43bedc9bada0fec02428435a0ce812d07b06789c368621935129896c85a939.jpg",
+        "text": "$$\nx ( t ) = A { \\cos } ( \\omega t { \\mathrm { ~ + ~ } } \\phi )\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            686,
+            488,
+            708
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Chuyển động của bóng của quả cầu. ",
+        "bbox": [
+            720,
+            662,
+            885,
+            700
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Hình 15.5 ",
+        "bbox": [
+            759,
+            710,
+            848,
+            728
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "bbox": [
+            459,
+            768,
+            547,
+            786
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Kết quả này chứng tỏ chứng tỏ Q dao động điều hòa trên trục x quanh vị trí cân bằng O với biên độ là A(A là bán kính quỹ đạo tròn của P). Chúng ta cũng thấy rằng ",
+        "bbox": [
+            111,
+            790,
+            328,
+            925
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "tốc độ góc ω củaP bằng với tần số góc của Q, chu kỳ chuyển động tròn của P Q và pha ban đầu $\\phi$ của Q bằng góc mà OP hợp với trục x ở thời điểm $t = 0$ . ",
+        "bbox": [
+            392,
+            787,
+            913,
+            882
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$+ ~ \\phi )$ tương ứng bằng với vận tốc và gia tốc trong ",
+        "bbox": [
+            393,
+            888,
+            642,
+            929
+        ],
+        "page_idx": 8
+    }
+]
